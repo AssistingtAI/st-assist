@@ -1,12 +1,12 @@
 {
  "meta": {
-  "verified_at": "2026-08-28 19:32:09",
+  "verified_at": "2026-09-04 11:02:12",
   "verdict": "FAIL",
-  "sse_scanned": 2515,
-  "szse_scanned": 2935,
-  "official_hs_total": 5291,
-  "official_hs_st": 206,
-  "eastmoney_hs": 206,
+  "sse_scanned": 2516,
+  "szse_scanned": 2937,
+  "official_hs_total": 5294,
+  "official_hs_st": 204,
+  "eastmoney_hs": 204,
   "bj_count": 3
  },
  "missing_in_eastmoney": {
@@ -14,15 +14,15 @@
   "301117": "ST佳缘"
  },
  "eastmoney_lag_unst": {
-  "600525": {
-   "ours": "ST长园",
-   "official": "长园集团",
-   "tencent": "长园集团"
+  "000711": {
+   "ours": "ST京蓝",
+   "official": "京蓝科技",
+   "tencent": "京蓝科技"
   },
-  "600165": {
-   "ours": "ST宁科",
-   "official": "宁科生物",
-   "tencent": "宁科生物"
+  "002586": {
+   "ours": "ST围海",
+   "official": "围海股份",
+   "tencent": "围海股份"
   }
  },
  "official_name_lag": {},
@@ -31,6 +31,10 @@
   "300295": {
    "ours": "*ST三六",
    "official": "*ST三六五"
+  },
+  "300472": {
+   "ours": "*ST新元",
+   "official": "ST新元"
   }
  },
  "bj_stocks": {

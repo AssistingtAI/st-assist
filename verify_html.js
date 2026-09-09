@@ -1,6 +1,6 @@
 // 铁律一验证：V2（唯一口径）RAW求和+通道封顶须与total一致
 // RAW 结构(11字段,纯数据): [code,name,type,board,reason, delisted(5), note(6), mkt_cap(7), mkt_str(8), prev_close(9), flags(10)]
-// V2RAW 结构: [code,name,type,board, C1..H1(13维, idx4-16), delisted(17), note(18), controller(19), controller_cat(20), total(21)]
+// V2RAW 结构: [code,name,type,board, C1..H1(12维, idx4-15), delisted(16), note(17), controller(18), controller_cat(19), total(20)]
 const fs = require('fs');
 const html = fs.readFileSync('baokeng-rank.html', 'utf8');
 
@@ -20,11 +20,11 @@ RAW.forEach(r => {
   if (typeof r[5] !== 'boolean') { bad1++; console.log('RAW delisted not bool', r[0]); }
 });
 V2RAW.forEach(r => {
-  let s = r.slice(4, 17).reduce((a, b) => a + b, 0);
+  let s = r.slice(4, 16).reduce((a, b) => a + b, 0);
   if (r[4] === 0) s = Math.min(s, 50);
   if (r[13] === 0) s = Math.min(s, 50);
   if (r[12] === 0) s = Math.min(s, 30);
-  const t = r[21];
+  const t = r[20];
   if (s !== t) { bad2++; console.log('V2 sum!=total', r[0], 'sum=', s, 'total=', t); }
 });
 const c1 = new Set(RAW.map(r => r[0])), c2 = new Set(V2RAW.map(r => r[0]));
@@ -35,8 +35,8 @@ console.log('RAW bad rows:', bad1, '| V2 sum!=total:', bad2, '| V2 missing codes
 // 统计卡等级分布（V2口径、非退市）
 const lv = { A: 0, B: 0, C: 0, D: 0 };
 V2RAW.forEach(r => {
-  if (r[17]) return;
-  let s = r.slice(4, 17).reduce((a, b) => a + b, 0);
+  if (r[16]) return;
+  let s = r.slice(4, 16).reduce((a, b) => a + b, 0);
   if (r[4] === 0) s = Math.min(s, 50);
   if (r[13] === 0) s = Math.min(s, 50);
   if (r[12] === 0) s = Math.min(s, 30);
@@ -46,8 +46,8 @@ console.log('V2 active level dist:', JSON.stringify(lv));
 
 // 莫高原样核对
 const mg = V2RAW.find(r => r[0] === '600543');
-const mgs = mg.slice(4, 17).reduce((a, b) => a + b, 0);
-console.log('莫高V2 sum=' + mgs, '| total=' + mg[21], '| level=' + (mgs > 70 ? 'A' : mgs > 50 ? 'B' : mgs > 30 ? 'C' : 'D'), '| 实控人=' + mg[19], '| 分类=' + mg[20]);
+const mgs = mg.slice(4, 16).reduce((a, b) => a + b, 0);
+console.log('莫高V2 sum=' + mgs, '| total=' + mg[20], '| level=' + (mgs > 70 ? 'A' : mgs > 50 ? 'B' : mgs > 30 ? 'C' : 'D'), '| 实控人=' + mg[18], '| 分类=' + mg[19]);
 
 // JS 语法检查
 const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];

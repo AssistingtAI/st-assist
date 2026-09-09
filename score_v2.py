@@ -8,10 +8,10 @@
 接口：
     from score_v2 import load_context, score_v2
     ctx = load_context()                # 组装数据上下文（读全部JSON，一次即可）
-    r = score_v2('600543', ctx)          # 单股评分：返回13维分值/total/level/notes
+    r = score_v2('600543', ctx)          # 单股评分：返回12维分值/total/level/notes
 
 回归约定：
-    1) 单股调用结果必须与 st_scores_v2.json 中该股记录的13维+total+level 完全一致
+    1) 单股调用结果必须与 st_scores_v2.json 中该股记录的12维+total+level 完全一致
        （数据快照未更新的前提下）
     2) 权重/档位/闸门/评级改动只改 score_config_v2.json，本文件不含任何评分常数
 """
@@ -62,10 +62,11 @@ def load_context(base=BASE, today=None, mkt_override=None, fin_override=None):
         print(f'[WARN] {fname} 不存在，{warn}')
         return {}
 
-    ctx['risk_flags'] = _opt('st_risk_flags.json', 'flags', 'B1/B2/F2/H1 走保守降级')
+    ctx['risk_flags'] = _opt('st_risk_flags.json', 'flags', 'B1/B2/F1/H1 走保守降级')
     ctx['controllers'] = _opt('st_controllers.json', 'data', 'S1 走中性降级')
+    ctx['top_holders'] = _opt('st_top_holders.json', 'data', 'S1 实控人持股/前3大走中性(无则默认不折减)')
     ctx['pledges'] = _opt('st_pledges.json', 'data', 'S2 走旧质押字段')
-    ctx['trends'] = _opt('st_trends.json', 'data', 'F1 走复合代理')
+    ctx['trends'] = _opt('st_trends.json', 'data', 'F1(旧趋势维度已取消)不再消费，保留读取兼容旧JSON')
     ctx['deduct_inc'] = _opt('st_deduct_income.json', 'data', 'A2 用营业总收入口径')
 
     v1 = {}
@@ -143,7 +144,7 @@ def fraud_involved(ctx, code):
 
 
 def score_v2(code, ctx=None):
-    """V2十三维单股评分（唯一实现源）。返回与榜单st_scores_v2.json同构的记录dict。"""
+    """V2十二维单股评分（唯一实现源，v2.3 13→12重构）。返回与榜单st_scores_v2.json同构的记录dict。"""
     if ctx is None:
         ctx = load_context()
     DIMS = ctx['dims']
@@ -199,19 +200,59 @@ def score_v2(code, ctx=None):
                 c2 = min(c2, cap)
                 notes.append('面值危机压制壳价值分')
 
-    # ════ S1 实控人性质与保壳能力 ════
+    # ════ S1 实控人性质与保壳能力（2026-09-02新版：性质满分×持股×质押×诉讼连乘） ════
+    S1 = DIMS['S1']
     ctrl = ctx['controllers'].get(code, {})
-    s1 = ctrl.get('s1_base', DIMS['S1']['default'])
     ctrl_cat = ctrl.get('category', '未获取')
-    if ctrl_cat in ('央企', '省级国资'):
-        notes.append(f"实控人：{ctrl.get('controller','')}（{ctrl_cat}）")
-    # 联动规则：涉造假立案 → 封顶（国资"应退则退"切割避责）
+    controller = ctrl.get('controller', '')
+    top = ctx['top_holders'].get(code, {})
+    # 1) 性质基础分
+    s1 = float(S1['base_by_cat'].get(ctrl_cat, S1['default']))
+    if ctrl_cat in ('央企', '省级国资', '市县国资', '高校院所', '国资(未分层)'):
+        notes.append(f"实控人：{controller or '未获取'}（{ctrl_cat}）")
+    # 2) 持股前置：第一大股东持股>hold_ok_pct% 即视为控制集中（实控人多经持股公司间接持有，
+    #    不要求股东名=实控人名，避免误判87家法人/国资间接持股；否则 ×hold_under_coef
+    top1_ratio = top.get('top1_ratio')
+    if top1_ratio is None or float(top1_ratio) <= S1['hold_ok_pct']:
+        s1 *= S1['hold_under_coef']
+        notes.append(f"第一大股东持股≤{S1['hold_ok_pct']}%→×{S1['hold_under_coef']}")
+    # 3) 民企前3大合计>X% → 上探（覆盖民企8上限）
+    if ctrl_cat in ('民企(个人)', '民企(法人)'):
+        top3 = top.get('top3_sum')
+        if top3 is not None and float(top3) > S1['private_top3_up']['top3_pct']:
+            s1 = max(s1, S1['private_top3_up']['raise_to'])
+            notes.append(f"民企前3大合计{top3}%>{S1['private_top3_up']['top3_pct']}%→上探{S1['private_top3_up']['raise_to']}")
+    # 4) 实控人主体规模>500亿→满12（scope限国资；主体规模库未建→enabled:false，待建库后启用）
+    if S1['mega_shareholder12']['enabled'] and ctrl_cat in S1['mega_shareholder12']['scope_cats']:
+        s1 = max(s1, float(S1['mega_shareholder12'].get('mega_to', S1['max'])))
+        notes.append('实控人主体规模>500亿→满档')
+    # 4b) 质押>reduce_pct% → 减半（老Z裁决：质押>60%分数减半）
+    _pl = ctx['pledges'].get(code)
+    if _pl is not None and _pl.get('pledge_ratio') is not None and float(_pl['pledge_ratio']) > S1['pledge_reduce_pct']:
+        s1 *= S1['pledge_reduce_coef']
+        notes.append(f"质押{_pl['pledge_ratio']:.0f}%>{S1['pledge_reduce_pct']}%→×{S1['pledge_reduce_coef']}")
+    # 5) 涉造假立案 → 封顶（国资"应退则退"切割避责；老规则保留）
     fraud = fraud_involved(ctx, code) if not is_bj else False
     if fraud:
-        s1 = min(s1, DIMS['S1']['fraud_cap'])
-        notes.append(f"涉造假立案→S1封顶{DIMS['S1']['fraud_cap']}")
-    # 注：12分制中基础档封顶10，预留2分为"国资保壳资源佐证"（增持/注资公告），
-    # 当前数据管道未覆盖，暂按基础档执行
+        s1 = min(s1, S1['fraud_cap'])
+        notes.append(f"涉造假立案→S1封顶{S1['fraud_cap']}")
+    # 6) 诉讼折减（数据=实控人/控股股东 冻结或限高；复用 st_risk_flags 桶）
+    _frz = flag_bucket(ctx, code, 'freeze')
+    _csm = flag_bucket(ctx, code, 'consume_limit')
+    _person_tit = lambda xs: any(('实际控制人' in (x.get('title') or '')) or ('控股股东' in (x.get('title') or ''))
+                                 or PERSON_CASE.search(x.get('title') or '') for x in xs)
+    _convict = any(('刑事' in (x.get('title') or '')) or ('拘留' in (x.get('title') or ''))
+                   or ('逮捕' in (x.get('title') or '')) or ('强制措施' in (x.get('title') or '')) for x in _frz + _csm)
+    if not is_bj and _convict:
+        s1 = S1['conviction_flat']
+        notes.append(f"实控人刑事诉讼→固定{S1['conviction_flat']}")
+    elif not is_bj and (_person_tit(_frz) or _person_tit(_csm)):
+        _coef = S1['litigation_coef'].get('freeze' if _person_tit(_frz) else 'consume_limit', 0.6)
+        s1 *= _coef
+        notes.append('实控人冻结/限高→诉讼折减')
+    # 7) 下界保护
+    s1 = max(s1, S1['s1_floor'])
+    s1 = round(s1, 1)
 
     # ════ S2 股权质押与控制权 数据源：中登周报 RPT_CSDC_LIST ════
     freeze = flag_bucket(ctx, code, 'freeze')
@@ -353,46 +394,22 @@ def score_v2(code, ctx=None):
     else:
         b2 = DIMS['B2']['clean']  # 巨潮无命中=最近年报无重非标
 
-    # ════ F2 重组/纾困进度 ════
-    f2 = DIMS['F2']['none']
+    # ════ F1 重组/纾困进度（v2.3起：原F2更名为F1，原F1经营改善趋势已取消并入A1/C2） ════
+    f1 = DIMS['F1']['none']
     restructuring = flag_bucket(ctx, code, 'restructuring')
     asset_sale = flag_bucket(ctx, code, 'asset_sale')
     debt_waiver = flag_bucket(ctx, code, 'debt_waiver')
     donation = flag_bucket(ctx, code, 'donation')
     if not is_bj:
         if any(x.get('stage') == 'exec' for x in restructuring):
-            f2 = DIMS['F2']['exec']
+            f1 = DIMS['F1']['exec']
             notes.append('重整执行中')
         elif restructuring:
-            f2 = DIMS['F2']['applied']
+            f1 = DIMS['F1']['applied']
             notes.append('申请/预重整')
         elif asset_sale or debt_waiver or donation:
-            f2 = DIMS['F2']['asset_ops']
+            f1 = DIMS['F1']['asset_ops']
             notes.append('出售资产/债务豁免')
-
-    # ════ F1 经营改善趋势 数据源：F10最新期vs上年同期 ════
-    tr = ctx['trends'].get(code) or {}
-    rev_yoy, kc_yoy = tr.get('rev_yoy'), tr.get('kc_yoy')
-    if rev_yoy is not None and kc_yoy is not None:
-        rev_up, kc_up = rev_yoy > 0, kc_yoy > 0
-        if rev_up and kc_up:
-            f1 = DIMS['F1']['both_up']
-        elif rev_up or kc_up:
-            f1 = DIMS['F1']['one_up']
-        else:
-            f1 = DIMS['F1']['none_up']
-    elif deducted is not None and revenue is not None:
-        # 降级：复合代理（扣非为正+营收达标）
-        d_pos = deducted > 0
-        r_ok = (revenue / 1e8) >= rev_threshold
-        if d_pos and r_ok:
-            f1 = DIMS['F1']['proxy_both']
-        elif d_pos or r_ok:
-            f1 = DIMS['F1']['proxy_one']
-        else:
-            f1 = DIMS['F1']['proxy_none']
-    else:
-        f1 = DIMS['F1']['missing']
 
     # ════ H1 实控人司法风险 ════
     consume = flag_bucket(ctx, code, 'consume_limit')
@@ -410,7 +427,7 @@ def score_v2(code, ctx=None):
     else:
         h1 = DIMS['H1']['clean']
 
-    total = c1 + c2 + s1 + s2 + a1 + a2 + a3 + d1 + b1 + b2 + f2 + f1 + h1
+    total = c1 + c2 + s1 + s2 + a1 + a2 + a3 + d1 + b1 + b2 + f1 + h1
     # ── 通道封顶（一票否决，闸门列表config驱动） ──
     dim_vals = {'C1': c1, 'B2': b2, 'B1': b1}
     for g in GATES:
@@ -430,7 +447,7 @@ def score_v2(code, ctx=None):
         'code': code, 'name': name, 'type': '*ST' if is_star else 'ST', 'board': board,
         'C1': c1, 'C2': c2, 'S1': s1, 'S2': s2,
         'A1': a1, 'A2': a2, 'A3': a3, 'D1': d1,
-        'B1': b1, 'B2': b2, 'F2': f2, 'F1': f1, 'H1': h1,
+        'B1': b1, 'B2': b2, 'F1': f1, 'H1': h1,
         'total': total, 'level': level,
         'controller': ctrl.get('controller'),
         'controller_cat': ctrl_cat,
@@ -446,7 +463,7 @@ if __name__ == '__main__':
     ctx = load_context()
     with open(os.path.join(BASE, 'st_scores_v2.json'), encoding='utf-8') as f:
         board_scores = {r['code']: r for r in json.load(f)['data']}
-    dims = ['C1', 'C2', 'S1', 'S2', 'A1', 'A2', 'A3', 'D1', 'B1', 'B2', 'F2', 'F1', 'H1']
+    dims = ['C1', 'C2', 'S1', 'S2', 'A1', 'A2', 'A3', 'D1', 'B1', 'B2', 'F1', 'H1']
     import sys
     test_codes = sys.argv[1:] or ['600543', '301139', '000698', '002883', '600079', '603517']
     all_ok = True

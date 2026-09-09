@@ -1,0 +1,9560 @@
+{
+ "meta": {
+  "source": "datacenter.eastmoney.com RPT_F10_EH_HOLDERS(最新报告期前十大)",
+  "fetched_at": "2026-09-02 15:47:50",
+  "total": 207,
+  "ok": 207,
+  "fail": 0,
+  "rule": "S1前置:第一大股东=实控+持股>20%满分;民企前3大>50%上探10;质押>60%减半;实控冻结限高折减;涉造假封顶4"
+ },
+ "data": {
+  "300831": {
+   "secucode": "300831.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "西安电力电子技术研究所有限公司",
+     "ratio": 39.55
+    },
+    {
+     "rank": 2,
+     "name": "陕西科技控股集团有限责任公司",
+     "ratio": 2.79
+    },
+    {
+     "rank": 3,
+     "name": "杜景玉",
+     "ratio": 2.27
+    },
+    {
+     "rank": 4,
+     "name": "於奇",
+     "ratio": 0.7
+    },
+    {
+     "rank": 5,
+     "name": "天津泰一川投资管理有限公司",
+     "ratio": 0.67
+    },
+    {
+     "rank": 6,
+     "name": "李琛",
+     "ratio": 0.49
+    },
+    {
+     "rank": 7,
+     "name": "刘勇",
+     "ratio": 0.48
+    },
+    {
+     "rank": 8,
+     "name": "罗旭东",
+     "ratio": 0.47
+    },
+    {
+     "rank": 9,
+     "name": "赵守芳",
+     "ratio": 0.47
+    },
+    {
+     "rank": 10,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 0.45
+    }
+   ],
+   "top1_name": "西安电力电子技术研究所有限公司",
+   "top1_ratio": 39.55,
+   "top3_sum": 44.61
+  },
+  "688121": {
+   "secucode": "688121.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "张锦红",
+     "ratio": 32.31
+    },
+    {
+     "rank": 2,
+     "name": "张新宇",
+     "ratio": 7.09
+    },
+    {
+     "rank": 3,
+     "name": "马利平",
+     "ratio": 4.96
+    },
+    {
+     "rank": 4,
+     "name": "中国建设银行股份有限公司-国寿安保智慧生活股票型证券投资基金",
+     "ratio": 1.28
+    },
+    {
+     "rank": 5,
+     "name": "冯伟权",
+     "ratio": 0.88
+    },
+    {
+     "rank": 6,
+     "name": "侯霞",
+     "ratio": 0.86
+    },
+    {
+     "rank": 7,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.7
+    },
+    {
+     "rank": 8,
+     "name": "刘晓峰",
+     "ratio": 0.66
+    },
+    {
+     "rank": 9,
+     "name": "高国亮",
+     "ratio": 0.58
+    },
+    {
+     "rank": 10,
+     "name": "苏州衍盈投资管理有限公司-太仓衍盈壹号投资管理中心(有限合伙)",
+     "ratio": 0.54
+    }
+   ],
+   "top1_name": "张锦红",
+   "top1_ratio": 32.31,
+   "top3_sum": 44.36
+  },
+  "300087": {
+   "secucode": "300087.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中国种子集团有限公司",
+     "ratio": 40.51
+    },
+    {
+     "rank": 2,
+     "name": "张琴",
+     "ratio": 4.81
+    },
+    {
+     "rank": 3,
+     "name": "贾桂兰",
+     "ratio": 2.52
+    }
+   ],
+   "top1_name": "中国种子集团有限公司",
+   "top1_ratio": 40.51,
+   "top3_sum": 47.84
+  },
+  "688089": {
+   "secucode": "688089.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "武汉烯王生物工程有限公司",
+     "ratio": 44.17
+    },
+    {
+     "rank": 2,
+     "name": "魏春木",
+     "ratio": 2.95
+    },
+    {
+     "rank": 3,
+     "name": "易德伟",
+     "ratio": 1.39
+    },
+    {
+     "rank": 4,
+     "name": "陈海杰",
+     "ratio": 0.89
+    },
+    {
+     "rank": 5,
+     "name": "张德成",
+     "ratio": 0.73
+    },
+    {
+     "rank": 6,
+     "name": "招商银行股份有限公司-金信深圳成长灵活配置混合型发起式证券投资基金",
+     "ratio": 0.69
+    },
+    {
+     "rank": 7,
+     "name": "王华标",
+     "ratio": 0.66
+    },
+    {
+     "rank": 8,
+     "name": "MORGAN STANLEY & CO.INTERNATIONAL PLC.",
+     "ratio": 0.65
+    },
+    {
+     "rank": 9,
+     "name": "杜斌",
+     "ratio": 0.58
+    },
+    {
+     "rank": 10,
+     "name": "林高宇",
+     "ratio": 0.48
+    }
+   ],
+   "top1_name": "武汉烯王生物工程有限公司",
+   "top1_ratio": 44.17,
+   "top3_sum": 48.51
+  },
+  "688189": {
+   "secucode": "688189.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖南医药发展投资集团有限公司",
+     "ratio": 28.57
+    },
+    {
+     "rank": 2,
+     "name": "广州乾元投资咨询合伙企业(有限合伙)",
+     "ratio": 15.71
+    },
+    {
+     "rank": 3,
+     "name": "沈峰",
+     "ratio": 2.46
+    },
+    {
+     "rank": 4,
+     "name": "杨保国",
+     "ratio": 1.55
+    },
+    {
+     "rank": 5,
+     "name": "陈保华",
+     "ratio": 0.93
+    },
+    {
+     "rank": 6,
+     "name": "李惠香",
+     "ratio": 0.7
+    },
+    {
+     "rank": 7,
+     "name": "BARCLAYS BANK PLC",
+     "ratio": 0.67
+    },
+    {
+     "rank": 8,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.62
+    },
+    {
+     "rank": 9,
+     "name": "中国工商银行股份有限公司-广发创新医疗两年持有期混合型证券投资基金",
+     "ratio": 0.6
+    },
+    {
+     "rank": 10,
+     "name": "秦建英",
+     "ratio": 0.59
+    }
+   ],
+   "top1_name": "湖南医药发展投资集团有限公司",
+   "top1_ratio": 28.57,
+   "top3_sum": 46.74
+  },
+  "002759": {
+   "secucode": "002759.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "汕头市天际有限公司",
+     "ratio": 8.72
+    },
+    {
+     "rank": 2,
+     "name": "常熟市新华化工有限公司",
+     "ratio": 6.02
+    },
+    {
+     "rank": 3,
+     "name": "江苏瑞泰新能源材料股份有限公司",
+     "ratio": 3
+    },
+    {
+     "rank": 4,
+     "name": "星嘉国际有限公司",
+     "ratio": 2.66
+    }
+   ],
+   "top1_name": "汕头市天际有限公司",
+   "top1_ratio": 8.72,
+   "top3_sum": 17.74
+  },
+  "600439": {
+   "secucode": "600439.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "河南瑞贝卡控股有限责任公司",
+     "ratio": 22.22
+    },
+    {
+     "rank": 2,
+     "name": "许昌市昌逹商贸有限公司",
+     "ratio": 6.18
+    },
+    {
+     "rank": 3,
+     "name": "许玉梅",
+     "ratio": 5.3
+    },
+    {
+     "rank": 4,
+     "name": "王文娟",
+     "ratio": 0.68
+    }
+   ],
+   "top1_name": "河南瑞贝卡控股有限责任公司",
+   "top1_ratio": 22.22,
+   "top3_sum": 33.7
+  },
+  "300290": {
+   "secucode": "300290.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "河南信产数创私募股权投资基金合伙企业(有限合伙)",
+     "ratio": 20.01
+    },
+    {
+     "rank": 2,
+     "name": "香港中央结算有限公司",
+     "ratio": 1.67
+    }
+   ],
+   "top1_name": "河南信产数创私募股权投资基金合伙企业(有限合伙)",
+   "top1_ratio": 20.01,
+   "top3_sum": 21.68
+  },
+  "301139": {
+   "secucode": "301139.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "李晋",
+     "ratio": 26.85
+    },
+    {
+     "rank": 2,
+     "name": "燕鸿",
+     "ratio": 6.58
+    },
+    {
+     "rank": 3,
+     "name": "吴志锋",
+     "ratio": 5.18
+    },
+    {
+     "rank": 4,
+     "name": "石家庄凡宁网络技术咨询中心(有限合伙)",
+     "ratio": 4.93
+    },
+    {
+     "rank": 5,
+     "name": "夏颖涛",
+     "ratio": 0.48
+    },
+    {
+     "rank": 6,
+     "name": "洪贤贵",
+     "ratio": 0.4
+    },
+    {
+     "rank": 7,
+     "name": "梅光辉",
+     "ratio": 0.4
+    },
+    {
+     "rank": 8,
+     "name": "宋倩玮",
+     "ratio": 0.39
+    },
+    {
+     "rank": 9,
+     "name": "杨琴",
+     "ratio": 0.36
+    },
+    {
+     "rank": 10,
+     "name": "周海燕",
+     "ratio": 0.35
+    }
+   ],
+   "top1_name": "李晋",
+   "top1_ratio": 26.85,
+   "top3_sum": 38.61
+  },
+  "002883": {
+   "secucode": "002883.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "陈凤军",
+     "ratio": 11.35
+    },
+    {
+     "rank": 2,
+     "name": "无锡炬航投资合伙企业(有限合伙)",
+     "ratio": 10
+    },
+    {
+     "rank": 3,
+     "name": "无锡市交通产业集团有限公司",
+     "ratio": 8.61
+    },
+    {
+     "rank": 4,
+     "name": "无锡中设创投管理中心(有限合伙)",
+     "ratio": 5.6
+    },
+    {
+     "rank": 5,
+     "name": "周宇光",
+     "ratio": 3.4
+    },
+    {
+     "rank": 6,
+     "name": "周明标",
+     "ratio": 1.76
+    }
+   ],
+   "top1_name": "陈凤军",
+   "top1_ratio": 11.35,
+   "top3_sum": 29.96
+  },
+  "300430": {
+   "secucode": "300430.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "北京立威特投资有限责任公司",
+     "ratio": 18.75
+    },
+    {
+     "rank": 2,
+     "name": "梁学贤",
+     "ratio": 6.76
+    },
+    {
+     "rank": 3,
+     "name": "梁凯",
+     "ratio": 3.71
+    },
+    {
+     "rank": 4,
+     "name": "侯霞",
+     "ratio": 2.99
+    },
+    {
+     "rank": 5,
+     "name": "罗院龙",
+     "ratio": 2.68
+    },
+    {
+     "rank": 6,
+     "name": "王海波",
+     "ratio": 1.46
+    },
+    {
+     "rank": 7,
+     "name": "李博之",
+     "ratio": 1.03
+    },
+    {
+     "rank": 8,
+     "name": "何炜",
+     "ratio": 0.65
+    },
+    {
+     "rank": 9,
+     "name": "陈丽娟",
+     "ratio": 0.57
+    }
+   ],
+   "top1_name": "北京立威特投资有限责任公司",
+   "top1_ratio": 18.75,
+   "top3_sum": 29.22
+  },
+  "300396": {
+   "secucode": "300396.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳市华德欣润股权投资企业(有限合伙)",
+     "ratio": 28.34
+    },
+    {
+     "rank": 2,
+     "name": "广东恒健国际投资有限公司",
+     "ratio": 12.15
+    },
+    {
+     "rank": 3,
+     "name": "宋洁",
+     "ratio": 5.4
+    },
+    {
+     "rank": 4,
+     "name": "易湘苹",
+     "ratio": 3.21
+    },
+    {
+     "rank": 5,
+     "name": "宋勇",
+     "ratio": 2.94
+    },
+    {
+     "rank": 6,
+     "name": "UBS AG",
+     "ratio": 0.83
+    },
+    {
+     "rank": 7,
+     "name": "李建军",
+     "ratio": 0.68
+    },
+    {
+     "rank": 8,
+     "name": "黄力志",
+     "ratio": 0.62
+    }
+   ],
+   "top1_name": "深圳市华德欣润股权投资企业(有限合伙)",
+   "top1_ratio": 28.34,
+   "top3_sum": 45.89
+  },
+  "300352": {
+   "secucode": "300352.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "林皓",
+     "ratio": 15.17
+    },
+    {
+     "rank": 2,
+     "name": "南京高科新创投资有限公司",
+     "ratio": 1.08
+    },
+    {
+     "rank": 3,
+     "name": "梁明辉",
+     "ratio": 0.5
+    },
+    {
+     "rank": 4,
+     "name": "付修华",
+     "ratio": 0.42
+    },
+    {
+     "rank": 5,
+     "name": "李德伟",
+     "ratio": 0.31
+    },
+    {
+     "rank": 6,
+     "name": "张高明",
+     "ratio": 0.3
+    },
+    {
+     "rank": 7,
+     "name": "吴荆",
+     "ratio": 0.27
+    },
+    {
+     "rank": 8,
+     "name": "王兴德",
+     "ratio": 0.25
+    }
+   ],
+   "top1_name": "林皓",
+   "top1_ratio": 15.17,
+   "top3_sum": 16.75
+  },
+  "301030": {
+   "secucode": "301030.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "朱叶",
+     "ratio": 15.64
+    },
+    {
+     "rank": 2,
+     "name": "山东江诣创业投资有限公司",
+     "ratio": 9.69
+    },
+    {
+     "rank": 3,
+     "name": "叶小红",
+     "ratio": 4.27
+    },
+    {
+     "rank": 4,
+     "name": "陈国诗",
+     "ratio": 1.12
+    },
+    {
+     "rank": 5,
+     "name": "陆丽红",
+     "ratio": 0.9
+    },
+    {
+     "rank": 6,
+     "name": "赵浙军",
+     "ratio": 0.8
+    },
+    {
+     "rank": 7,
+     "name": "郭永山",
+     "ratio": 0.75
+    },
+    {
+     "rank": 8,
+     "name": "杨占伟",
+     "ratio": 0.57
+    },
+    {
+     "rank": 9,
+     "name": "王德波",
+     "ratio": 0.56
+    },
+    {
+     "rank": 10,
+     "name": "王三矛",
+     "ratio": 0.55
+    }
+   ],
+   "top1_name": "朱叶",
+   "top1_ratio": 15.64,
+   "top3_sum": 29.6
+  },
+  "002667": {
+   "secucode": "002667.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海领亿新材料有限公司",
+     "ratio": 12.1
+    },
+    {
+     "rank": 2,
+     "name": "杨永柱",
+     "ratio": 6.08
+    },
+    {
+     "rank": 3,
+     "name": "MORGAN STANLEY & CO.INTERNATIONAL PLC.",
+     "ratio": 2.15
+    },
+    {
+     "rank": 4,
+     "name": "上海姚泾河私募基金管理有限公司-姚泾河瑞麟私募证券投资基金",
+     "ratio": 1.24
+    },
+    {
+     "rank": 5,
+     "name": "温萍",
+     "ratio": 1.08
+    },
+    {
+     "rank": 6,
+     "name": "杨颖然",
+     "ratio": 0.93
+    },
+    {
+     "rank": 7,
+     "name": "何春平",
+     "ratio": 0.92
+    },
+    {
+     "rank": 7,
+     "name": "韦杭",
+     "ratio": 0.92
+    },
+    {
+     "rank": 7,
+     "name": "简维",
+     "ratio": 0.92
+    },
+    {
+     "rank": 10,
+     "name": "尹晓霞",
+     "ratio": 0.91
+    }
+   ],
+   "top1_name": "上海领亿新材料有限公司",
+   "top1_ratio": 12.1,
+   "top3_sum": 20.33
+  },
+  "688022": {
+   "secucode": "688022.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "苏州瀚川投资管理有限公司",
+     "ratio": 19.72
+    },
+    {
+     "rank": 2,
+     "name": "苏州瀚川德和投资管理合伙企业(有限合伙)",
+     "ratio": 5.32
+    },
+    {
+     "rank": 3,
+     "name": "张庆庆",
+     "ratio": 4.34
+    },
+    {
+     "rank": 4,
+     "name": "徐秀龙",
+     "ratio": 2.51
+    },
+    {
+     "rank": 5,
+     "name": "苏州瀚智远合投资管理合伙企业(有限合伙)",
+     "ratio": 1.2
+    },
+    {
+     "rank": 6,
+     "name": "黄金玲",
+     "ratio": 1.14
+    },
+    {
+     "rank": 7,
+     "name": "上海耕瑞资产管理有限公司-耕瑞安瑞一期私募证券投资基金",
+     "ratio": 1.09
+    },
+    {
+     "rank": 8,
+     "name": "陆仁杰",
+     "ratio": 1.05
+    },
+    {
+     "rank": 9,
+     "name": "卢俊杰",
+     "ratio": 1.02
+    },
+    {
+     "rank": 10,
+     "name": "叶栋华",
+     "ratio": 0.81
+    }
+   ],
+   "top1_name": "苏州瀚川投资管理有限公司",
+   "top1_ratio": 19.72,
+   "top3_sum": 29.38
+  },
+  "688066": {
+   "secucode": "688066.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "张燕",
+     "ratio": 18.47
+    },
+    {
+     "rank": 2,
+     "name": "百瑞坤投资管理(北京)有限公司-百瑞金钩私募证券投资基金",
+     "ratio": 5.06
+    },
+    {
+     "rank": 3,
+     "name": "王宇翔",
+     "ratio": 2.87
+    },
+    {
+     "rank": 4,
+     "name": "三亚市启赋创业投资基金合伙企业(有限合伙)",
+     "ratio": 2.7
+    },
+    {
+     "rank": 5,
+     "name": "北京航星盈创科技中心(有限合伙)",
+     "ratio": 2.32
+    },
+    {
+     "rank": 6,
+     "name": "孙倩",
+     "ratio": 1.1
+    },
+    {
+     "rank": 7,
+     "name": "徐梦丹",
+     "ratio": 1.1
+    },
+    {
+     "rank": 8,
+     "name": "隋永亮",
+     "ratio": 0.78
+    },
+    {
+     "rank": 9,
+     "name": "孙天辉",
+     "ratio": 0.73
+    },
+    {
+     "rank": 10,
+     "name": "姜勇",
+     "ratio": 0.46
+    }
+   ],
+   "top1_name": "张燕",
+   "top1_ratio": 18.47,
+   "top3_sum": 26.4
+  },
+  "002109": {
+   "secucode": "002109.SZ",
+   "report_date": "2026-08-12",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "陕西延长石油(集团)有限责任公司",
+     "ratio": 39.8
+    },
+    {
+     "rank": 2,
+     "name": "陕西兴化集团有限责任公司",
+     "ratio": 18.53
+    }
+   ],
+   "top1_name": "陕西延长石油(集团)有限责任公司",
+   "top1_ratio": 39.8,
+   "top3_sum": 58.33
+  },
+  "002514": {
+   "secucode": "002514.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "江苏立青集成电路科技有限公司",
+     "ratio": 25.71
+    },
+    {
+     "rank": 2,
+     "name": "广讯有限公司",
+     "ratio": 11.67
+    },
+    {
+     "rank": 3,
+     "name": "吴云升",
+     "ratio": 0.42
+    },
+    {
+     "rank": 3,
+     "name": "赵雪雨",
+     "ratio": 0.42
+    },
+    {
+     "rank": 5,
+     "name": "俞月凤",
+     "ratio": 0.39
+    },
+    {
+     "rank": 6,
+     "name": "南京宇宏股权投资有限公司",
+     "ratio": 0.36
+    }
+   ],
+   "top1_name": "江苏立青集成电路科技有限公司",
+   "top1_ratio": 25.71,
+   "top3_sum": 37.8
+  },
+  "600337": {
+   "secucode": "600337.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "美克投资集团有限公司",
+     "ratio": 33.99
+    },
+    {
+     "rank": 2,
+     "name": "赣州发展美家家居产业基金合伙企业(有限合伙)",
+     "ratio": 12.29
+    },
+    {
+     "rank": 3,
+     "name": "国泰元鑫资管-赣州金融控股集团有限责任公司-国泰元鑫睿鑫一号单一资产管理计划",
+     "ratio": 2.29
+    }
+   ],
+   "top1_name": "美克投资集团有限公司",
+   "top1_ratio": 33.99,
+   "top3_sum": 48.57
+  },
+  "002198": {
+   "secucode": "002198.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "东方证券股份有限公司",
+     "ratio": 10.28
+    },
+    {
+     "rank": 2,
+     "name": "养天和大药房股份有限公司",
+     "ratio": 7
+    },
+    {
+     "rank": 3,
+     "name": "黄俊杰",
+     "ratio": 5.03
+    },
+    {
+     "rank": 4,
+     "name": "广东嘉应创业投资基金管理有限公司",
+     "ratio": 3.15
+    },
+    {
+     "rank": 5,
+     "name": "陈少彬",
+     "ratio": 3.01
+    },
+    {
+     "rank": 6,
+     "name": "林少贤",
+     "ratio": 2.27
+    },
+    {
+     "rank": 7,
+     "name": "广东嘉应制药股份有限公司-2024年员工持股计划",
+     "ratio": 1.39
+    },
+    {
+     "rank": 8,
+     "name": "赵博通",
+     "ratio": 1.13
+    }
+   ],
+   "top1_name": "东方证券股份有限公司",
+   "top1_ratio": 10.28,
+   "top3_sum": 22.31
+  },
+  "000677": {
+   "secucode": "000677.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "温州康南科技有限公司",
+     "ratio": 15.97
+    },
+    {
+     "rank": 2,
+     "name": "玖融普信(北京)企业管理有限公司",
+     "ratio": 7.41
+    },
+    {
+     "rank": 3,
+     "name": "中国恒天集团有限公司",
+     "ratio": 4.19
+    },
+    {
+     "rank": 4,
+     "name": "高盛国际-自有资金",
+     "ratio": 0.62
+    }
+   ],
+   "top1_name": "温州康南科技有限公司",
+   "top1_ratio": 15.97,
+   "top3_sum": 27.57
+  },
+  "600340": {
+   "secucode": "600340.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "华夏幸福基业控股股份公司",
+     "ratio": 11.56
+    },
+    {
+     "rank": 2,
+     "name": "中国平安人寿保险股份有限公司-自有资金",
+     "ratio": 10.62
+    },
+    {
+     "rank": 3,
+     "name": "中国平安人寿保险股份有限公司-分红-个险分红",
+     "ratio": 8.4
+    },
+    {
+     "rank": 4,
+     "name": "中国平安人寿保险股份有限公司-万能-个险万能",
+     "ratio": 6.1
+    },
+    {
+     "rank": 5,
+     "name": "华夏控股-光大证券-20华夏EB担保及信托财产专户",
+     "ratio": 1.16
+    }
+   ],
+   "top1_name": "华夏幸福基业控股股份公司",
+   "top1_ratio": 11.56,
+   "top3_sum": 30.58
+  },
+  "600302": {
+   "secucode": "600302.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中国标准工业集团有限公司",
+     "ratio": 42.77
+    },
+    {
+     "rank": 2,
+     "name": "李江",
+     "ratio": 0.63
+    },
+    {
+     "rank": 3,
+     "name": "范祖康",
+     "ratio": 0.58
+    },
+    {
+     "rank": 4,
+     "name": "沈雨梦",
+     "ratio": 0.54
+    },
+    {
+     "rank": 5,
+     "name": "陈正洪",
+     "ratio": 0.5
+    },
+    {
+     "rank": 6,
+     "name": "叶福庆",
+     "ratio": 0.48
+    },
+    {
+     "rank": 7,
+     "name": "陈晓云",
+     "ratio": 0.47
+    },
+    {
+     "rank": 8,
+     "name": "钱德芝",
+     "ratio": 0.46
+    }
+   ],
+   "top1_name": "中国标准工业集团有限公司",
+   "top1_ratio": 42.77,
+   "top3_sum": 43.98
+  },
+  "002082": {
+   "secucode": "002082.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "万邦德集团有限公司",
+     "ratio": 28.84
+    },
+    {
+     "rank": 2,
+     "name": "温岭市万龙医药科技合伙企业(有限合伙)",
+     "ratio": 9.81
+    },
+    {
+     "rank": 3,
+     "name": "赵守明",
+     "ratio": 6.09
+    },
+    {
+     "rank": 4,
+     "name": "庄惠",
+     "ratio": 3.46
+    },
+    {
+     "rank": 5,
+     "name": "青岛同印信投资有限公司",
+     "ratio": 1.86
+    },
+    {
+     "rank": 6,
+     "name": "上海永拓投资管理有限公司-永拓投资久盈1号私募证券投资基金",
+     "ratio": 1.84
+    },
+    {
+     "rank": 7,
+     "name": "温岭惠邦投资咨询有限公司",
+     "ratio": 1.32
+    },
+    {
+     "rank": 8,
+     "name": "浙江中昊投资有限公司",
+     "ratio": 1.17
+    }
+   ],
+   "top1_name": "万邦德集团有限公司",
+   "top1_ratio": 28.84,
+   "top3_sum": 44.74
+  },
+  "000078": {
+   "secucode": "000078.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳海王集团股份有限公司",
+     "ratio": 46.23
+    },
+    {
+     "rank": 2,
+     "name": "胡刚",
+     "ratio": 0.28
+    },
+    {
+     "rank": 3,
+     "name": "孙银锁",
+     "ratio": 0.22
+    }
+   ],
+   "top1_name": "深圳海王集团股份有限公司",
+   "top1_ratio": 46.23,
+   "top3_sum": 46.73
+  },
+  "600187": {
+   "secucode": "600187.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海鹏欣(集团)有限公司",
+     "ratio": 7.89
+    },
+    {
+     "rank": 2,
+     "name": "西藏厚康企业管理有限公司",
+     "ratio": 7
+    },
+    {
+     "rank": 3,
+     "name": "姜照柏",
+     "ratio": 6.2
+    },
+    {
+     "rank": 4,
+     "name": "西藏永冠投资有限公司",
+     "ratio": 2.19
+    },
+    {
+     "rank": 5,
+     "name": "黑龙江国中水务股份有限公司回购专用证券账户",
+     "ratio": 0.87
+    },
+    {
+     "rank": 6,
+     "name": "珠海立本私募基金管理合伙企业(有限合伙)-立本成长2号私募证券投资基金",
+     "ratio": 0.83
+    },
+    {
+     "rank": 7,
+     "name": "伍超星",
+     "ratio": 0.74
+    },
+    {
+     "rank": 8,
+     "name": "陈慧",
+     "ratio": 0.55
+    }
+   ],
+   "top1_name": "上海鹏欣(集团)有限公司",
+   "top1_ratio": 7.89,
+   "top3_sum": 21.09
+  },
+  "600745": {
+   "secucode": "600745.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "闻天下科技集团有限公司",
+     "ratio": 12.08
+    },
+    {
+     "rank": 2,
+     "name": "天津融泽通远私募基金管理合伙企业(有限合伙)-珠海融林股权投资合伙企业(有限合伙)",
+     "ratio": 6.11
+    },
+    {
+     "rank": 3,
+     "name": "昆明市产业发展股权投资基金合伙企业(有限合伙)",
+     "ratio": 4.4
+    },
+    {
+     "rank": 4,
+     "name": "合肥芯屏产业投资基金(有限合伙)",
+     "ratio": 3.74
+    },
+    {
+     "rank": 5,
+     "name": "无锡国联产业投资私募基金管理有限公司-无锡国联集成电路投资中心(有限合伙)",
+     "ratio": 3.25
+    },
+    {
+     "rank": 6,
+     "name": "张学政",
+     "ratio": 2.94
+    }
+   ],
+   "top1_name": "闻天下科技集团有限公司",
+   "top1_ratio": 12.08,
+   "top3_sum": 22.59
+  },
+  "600965": {
+   "secucode": "600965.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "福成投资集团有限公司",
+     "ratio": 34.51
+    },
+    {
+     "rank": 2,
+     "name": "李福成",
+     "ratio": 15.87
+    },
+    {
+     "rank": 3,
+     "name": "三河福生投资有限公司",
+     "ratio": 9.01
+    },
+    {
+     "rank": 4,
+     "name": "李高生",
+     "ratio": 2.16
+    },
+    {
+     "rank": 5,
+     "name": "张雪春",
+     "ratio": 1.65
+    },
+    {
+     "rank": 6,
+     "name": "田桂军",
+     "ratio": 1.47
+    },
+    {
+     "rank": 7,
+     "name": "滕再生",
+     "ratio": 1.46
+    },
+    {
+     "rank": 8,
+     "name": "王金良",
+     "ratio": 1.13
+    }
+   ],
+   "top1_name": "福成投资集团有限公司",
+   "top1_ratio": 34.51,
+   "top3_sum": 59.39
+  },
+  "603718": {
+   "secucode": "603718.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海豪园创业投资发展有限公司",
+     "ratio": 34.7
+    },
+    {
+     "rank": 2,
+     "name": "张海明",
+     "ratio": 1.92
+    },
+    {
+     "rank": 3,
+     "name": "张悦",
+     "ratio": 1.3
+    },
+    {
+     "rank": 4,
+     "name": "王民",
+     "ratio": 0.81
+    },
+    {
+     "rank": 5,
+     "name": "UBS AG",
+     "ratio": 0.72
+    },
+    {
+     "rank": 6,
+     "name": "MERRILL LYNCH INTERNATIONAL",
+     "ratio": 0.71
+    },
+    {
+     "rank": 7,
+     "name": "陈念",
+     "ratio": 0.6
+    },
+    {
+     "rank": 8,
+     "name": "MORGAN STANLEY & CO.INTERNATIONAL PLC.",
+     "ratio": 0.6
+    },
+    {
+     "rank": 9,
+     "name": "上海千宜投资管理中心(有限合伙)-千宜北量3号私募证券投资基金",
+     "ratio": 0.54
+    },
+    {
+     "rank": 10,
+     "name": "郝洛",
+     "ratio": 0.46
+    }
+   ],
+   "top1_name": "上海豪园创业投资发展有限公司",
+   "top1_ratio": 34.7,
+   "top3_sum": 37.92
+  },
+  "603359": {
+   "secucode": "603359.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "席惠明",
+     "ratio": 34.04
+    },
+    {
+     "rank": 2,
+     "name": "浦建芬",
+     "ratio": 8.54
+    },
+    {
+     "rank": 3,
+     "name": "席晨超",
+     "ratio": 3.47
+    },
+    {
+     "rank": 4,
+     "name": "张祥林",
+     "ratio": 2.01
+    },
+    {
+     "rank": 5,
+     "name": "王齐玉",
+     "ratio": 1.14
+    },
+    {
+     "rank": 6,
+     "name": "MORGAN STANLEY & CO.INTERNATIONAL PLC.",
+     "ratio": 0.97
+    },
+    {
+     "rank": 7,
+     "name": "上海千宜投资管理中心(有限合伙)-千宜北量3号私募证券投资基金",
+     "ratio": 0.86
+    },
+    {
+     "rank": 8,
+     "name": "深圳金湾私募证券基金管理有限公司-金湾长安一号私募证券投资基金",
+     "ratio": 0.85
+    },
+    {
+     "rank": 9,
+     "name": "陈丽娟",
+     "ratio": 0.61
+    },
+    {
+     "rank": 10,
+     "name": "UBS AG",
+     "ratio": 0.61
+    }
+   ],
+   "top1_name": "席惠明",
+   "top1_ratio": 34.04,
+   "top3_sum": 46.05
+  },
+  "603922": {
+   "secucode": "603922.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "海南众德科技有限公司",
+     "ratio": 29.99
+    },
+    {
+     "rank": 2,
+     "name": "高德投資有限公司",
+     "ratio": 15
+    },
+    {
+     "rank": 3,
+     "name": "孙锡林",
+     "ratio": 3.29
+    },
+    {
+     "rank": 4,
+     "name": "沈臻宇",
+     "ratio": 1.32
+    },
+    {
+     "rank": 5,
+     "name": "江西莹光化工有限公司",
+     "ratio": 1.02
+    },
+    {
+     "rank": 6,
+     "name": "邱卓雄",
+     "ratio": 0.79
+    },
+    {
+     "rank": 7,
+     "name": "李舒",
+     "ratio": 0.63
+    },
+    {
+     "rank": 8,
+     "name": "刘立",
+     "ratio": 0.63
+    },
+    {
+     "rank": 9,
+     "name": "陈剑光",
+     "ratio": 0.57
+    },
+    {
+     "rank": 10,
+     "name": "江苏富华财务咨询服务有限公司",
+     "ratio": 0.55
+    }
+   ],
+   "top1_name": "海南众德科技有限公司",
+   "top1_ratio": 29.99,
+   "top3_sum": 48.28
+  },
+  "601010": {
+   "secucode": "601010.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "江苏文峰集团有限公司",
+     "ratio": 24.07
+    },
+    {
+     "rank": 2,
+     "name": "上海嘉鸿私募基金管理有限公司-嘉鸿天福1号私募证券投资基金",
+     "ratio": 5.41
+    },
+    {
+     "rank": 3,
+     "name": "吴淑会",
+     "ratio": 0.46
+    },
+    {
+     "rank": 4,
+     "name": "杜瑞萍",
+     "ratio": 0.33
+    },
+    {
+     "rank": 5,
+     "name": "田地",
+     "ratio": 0.32
+    },
+    {
+     "rank": 6,
+     "name": "周兰云",
+     "ratio": 0.31
+    },
+    {
+     "rank": 7,
+     "name": "杨国华",
+     "ratio": 0.3
+    },
+    {
+     "rank": 8,
+     "name": "周民",
+     "ratio": 0.29
+    },
+    {
+     "rank": 9,
+     "name": "陈国东",
+     "ratio": 0.26
+    },
+    {
+     "rank": 10,
+     "name": "戚志超",
+     "ratio": 0.25
+    }
+   ],
+   "top1_name": "江苏文峰集团有限公司",
+   "top1_ratio": 24.07,
+   "top3_sum": 29.94
+  },
+  "601718": {
+   "secucode": "601718.SH",
+   "report_date": "2026-08-21",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "新兴际华集团有限公司",
+     "ratio": 46.79
+    }
+   ],
+   "top1_name": "新兴际华集团有限公司",
+   "top1_ratio": 46.79,
+   "top3_sum": 46.79
+  },
+  "603378": {
+   "secucode": "603378.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海创能明投资有限公司",
+     "ratio": 14.85
+    },
+    {
+     "rank": 2,
+     "name": "上海润合同生投资有限公司",
+     "ratio": 9.71
+    },
+    {
+     "rank": 3,
+     "name": "上海润合同泽投资有限公司",
+     "ratio": 6.85
+    },
+    {
+     "rank": 4,
+     "name": "赵孝芳",
+     "ratio": 5.25
+    },
+    {
+     "rank": 5,
+     "name": "李金钟",
+     "ratio": 4.74
+    },
+    {
+     "rank": 6,
+     "name": "上海润合同彩资产管理有限公司",
+     "ratio": 4.37
+    },
+    {
+     "rank": 7,
+     "name": "珠海市横琴财东基金管理有限公司-财东汇鑫4号私募证券投资基金",
+     "ratio": 4.14
+    },
+    {
+     "rank": 8,
+     "name": "丁春红",
+     "ratio": 3.58
+    },
+    {
+     "rank": 9,
+     "name": "李虹昇",
+     "ratio": 3.5
+    },
+    {
+     "rank": 10,
+     "name": "亚士创能科技(上海)股份有限公司回购专用证券账户",
+     "ratio": 1.75
+    }
+   ],
+   "top1_name": "上海创能明投资有限公司",
+   "top1_ratio": 14.85,
+   "top3_sum": 31.41
+  },
+  "600180": {
+   "secucode": "600180.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "郑州瑞茂通供应链有限公司",
+     "ratio": 51.02
+    },
+    {
+     "rank": 2,
+     "name": "上海豫辉投资管理中心(有限合伙)",
+     "ratio": 8.22
+    },
+    {
+     "rank": 3,
+     "name": "万永兴",
+     "ratio": 2.88
+    },
+    {
+     "rank": 4,
+     "name": "刘轶",
+     "ratio": 1.23
+    },
+    {
+     "rank": 5,
+     "name": "刘育滨",
+     "ratio": 1.2
+    }
+   ],
+   "top1_name": "郑州瑞茂通供应链有限公司",
+   "top1_ratio": 51.02,
+   "top3_sum": 62.12
+  },
+  "603189": {
+   "secucode": "603189.SH",
+   "report_date": "2026-07-20",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "蒋宏业",
+     "ratio": 35.39
+    },
+    {
+     "rank": 2,
+     "name": "冯达",
+     "ratio": 4.05
+    },
+    {
+     "rank": 3,
+     "name": "崔晓路",
+     "ratio": 1.34
+    },
+    {
+     "rank": 4,
+     "name": "相夕波",
+     "ratio": 1.26
+    },
+    {
+     "rank": 5,
+     "name": "上海网达软件股份有限公司回购专用证券账户",
+     "ratio": 0.94
+    },
+    {
+     "rank": 6,
+     "name": "安徽华茂产业投资有限公司",
+     "ratio": 0.89
+    },
+    {
+     "rank": 7,
+     "name": "MERRILL LYNCH INTERNATIONAL",
+     "ratio": 0.74
+    },
+    {
+     "rank": 8,
+     "name": "MORGAN STANLEY & CO. INTERNATIONAL PLC.",
+     "ratio": 0.7
+    },
+    {
+     "rank": 9,
+     "name": "顾寅东",
+     "ratio": 0.63
+    },
+    {
+     "rank": 10,
+     "name": "孙玥",
+     "ratio": 0.54
+    }
+   ],
+   "top1_name": "蒋宏业",
+   "top1_ratio": 35.39,
+   "top3_sum": 40.78
+  },
+  "600678": {
+   "secucode": "600678.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳朴素至纯投资企业(有限合伙)",
+     "ratio": 20.5
+    },
+    {
+     "rank": 2,
+     "name": "江苏宜美照明科技股份有限公司",
+     "ratio": 0.67
+    },
+    {
+     "rank": 3,
+     "name": "郭鲁敏",
+     "ratio": 0.56
+    },
+    {
+     "rank": 4,
+     "name": "毛韦明",
+     "ratio": 0.46
+    }
+   ],
+   "top1_name": "深圳朴素至纯投资企业(有限合伙)",
+   "top1_ratio": 20.5,
+   "top3_sum": 21.73
+  },
+  "600053": {
+   "secucode": "600053.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "江西中江集团有限责任公司",
+     "ratio": 29.8
+    },
+    {
+     "rank": 2,
+     "name": "江西紫星企业管理有限公司",
+     "ratio": 21.37
+    },
+    {
+     "rank": 3,
+     "name": "江西紫星商业发展有限公司",
+     "ratio": 21.2
+    },
+    {
+     "rank": 4,
+     "name": "拉萨昆吾九鼎产业投资管理有限公司",
+     "ratio": 1.16
+    },
+    {
+     "rank": 5,
+     "name": "查国平",
+     "ratio": 0.53
+    },
+    {
+     "rank": 6,
+     "name": "戴银苑",
+     "ratio": 0.35
+    },
+    {
+     "rank": 7,
+     "name": "陈雪明",
+     "ratio": 0.34
+    },
+    {
+     "rank": 8,
+     "name": "王秀玲",
+     "ratio": 0.3
+    }
+   ],
+   "top1_name": "江西中江集团有限责任公司",
+   "top1_ratio": 29.8,
+   "top3_sum": 72.37
+  },
+  "920575": {
+   "secucode": "920575.BJ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "天狼星控股集团有限公司",
+     "ratio": 21.51
+    },
+    {
+     "rank": 2,
+     "name": "北京江林威华生物技术有限公司",
+     "ratio": 7.9
+    },
+    {
+     "rank": 3,
+     "name": "张安生",
+     "ratio": 3.67
+    },
+    {
+     "rank": 4,
+     "name": "北京百柏瑞盈投资管理中心(有限合伙)",
+     "ratio": 2.01
+    },
+    {
+     "rank": 5,
+     "name": "云南慧港投资有限公司",
+     "ratio": 1.81
+    },
+    {
+     "rank": 6,
+     "name": "杭州方正多策私募基金管理合伙企业(有限合伙)-昆明远望健康产业股权投资基金合伙企业(有限合伙)",
+     "ratio": 1.81
+    },
+    {
+     "rank": 7,
+     "name": "冀跃飞",
+     "ratio": 1.2
+    },
+    {
+     "rank": 8,
+     "name": "郝春利",
+     "ratio": 1.16
+    },
+    {
+     "rank": 9,
+     "name": "云南滇中恒昇投资发展有限公司",
+     "ratio": 1.09
+    },
+    {
+     "rank": 10,
+     "name": "胡松柏",
+     "ratio": 0.88
+    }
+   ],
+   "top1_name": "天狼星控股集团有限公司",
+   "top1_ratio": 21.51,
+   "top3_sum": 33.08
+  },
+  "920023": {
+   "secucode": "920023.BJ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "姚玖志",
+     "ratio": 9.85
+    },
+    {
+     "rank": 2,
+     "name": "上海欣融食品原料有限公司",
+     "ratio": 8.59
+    },
+    {
+     "rank": 3,
+     "name": "勐海志存高远茶业有限公司",
+     "ratio": 4.9
+    },
+    {
+     "rank": 4,
+     "name": "田野创新股份有限公司-2024年员工持股计划",
+     "ratio": 1.95
+    },
+    {
+     "rank": 5,
+     "name": "李香兰",
+     "ratio": 1.8
+    },
+    {
+     "rank": 6,
+     "name": "单丹",
+     "ratio": 1.55
+    },
+    {
+     "rank": 7,
+     "name": "张志明",
+     "ratio": 1.35
+    },
+    {
+     "rank": 8,
+     "name": "国金证券股份有限公司客户信用交易担保证券账户",
+     "ratio": 1.21
+    },
+    {
+     "rank": 9,
+     "name": "东兴证券股份有限公司客户信用交易担保证券账户",
+     "ratio": 1.14
+    },
+    {
+     "rank": 10,
+     "name": "周建禄",
+     "ratio": 1.07
+    }
+   ],
+   "top1_name": "姚玖志",
+   "top1_ratio": 9.85,
+   "top3_sum": 23.34
+  },
+  "600370": {
+   "secucode": "600370.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "三房巷集团有限公司",
+     "ratio": 73.76
+    },
+    {
+     "rank": 2,
+     "name": "江苏三房巷国际贸易有限公司",
+     "ratio": 4.98
+    },
+    {
+     "rank": 3,
+     "name": "周利方",
+     "ratio": 0.94
+    },
+    {
+     "rank": 4,
+     "name": "香港中央结算有限公司",
+     "ratio": 0.35
+    },
+    {
+     "rank": 5,
+     "name": "徐莉蓉",
+     "ratio": 0.2
+    },
+    {
+     "rank": 6,
+     "name": "杨新国",
+     "ratio": 0.17
+    },
+    {
+     "rank": 7,
+     "name": "卞平刚",
+     "ratio": 0.11
+    },
+    {
+     "rank": 8,
+     "name": "卞丰荣",
+     "ratio": 0.1
+    },
+    {
+     "rank": 9,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.1
+    },
+    {
+     "rank": 10,
+     "name": "金红梅",
+     "ratio": 0.09
+    }
+   ],
+   "top1_name": "三房巷集团有限公司",
+   "top1_ratio": 73.76,
+   "top3_sum": 79.68
+  },
+  "600491": {
+   "secucode": "600491.SH",
+   "report_date": "2026-07-10",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "赖振元",
+     "ratio": 16.61
+    },
+    {
+     "rank": 2,
+     "name": "杭州市交通投资集团有限公司",
+     "ratio": 8.4
+    },
+    {
+     "rank": 3,
+     "name": "赖朝辉",
+     "ratio": 7.1
+    },
+    {
+     "rank": 4,
+     "name": "石丽云",
+     "ratio": 1.55
+    }
+   ],
+   "top1_name": "赖振元",
+   "top1_ratio": 16.61,
+   "top3_sum": 32.11
+  },
+  "002193": {
+   "secucode": "002193.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "山东如意科技集团有限公司",
+     "ratio": 11.66
+    },
+    {
+     "rank": 2,
+     "name": "山东如意毛纺集团有限责任公司",
+     "ratio": 7.75
+    },
+    {
+     "rank": 3,
+     "name": "中国东方资产管理股份有限公司",
+     "ratio": 7.24
+    }
+   ],
+   "top1_name": "山东如意科技集团有限公司",
+   "top1_ratio": 11.66,
+   "top3_sum": 26.65
+  },
+  "688496": {
+   "secucode": "688496.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "昆山和高信息科技有限公司",
+     "ratio": 37.91
+    },
+    {
+     "rank": 2,
+     "name": "FAITH CROWN INTERNATIONAL LIMITED",
+     "ratio": 19.46
+    },
+    {
+     "rank": 3,
+     "name": "CROWN CAPITAL HOLDINGS LIMITED",
+     "ratio": 8.62
+    },
+    {
+     "rank": 4,
+     "name": "昆山合志共创企业管理合伙企业(有限合伙)",
+     "ratio": 4.42
+    },
+    {
+     "rank": 5,
+     "name": "昆山合志升扬企业管理合伙企业(有限合伙)",
+     "ratio": 2.41
+    },
+    {
+     "rank": 6,
+     "name": "昆山合志启扬企业管理合伙企业(有限合伙)",
+     "ratio": 2.39
+    },
+    {
+     "rank": 7,
+     "name": "昆山高新创业投资有限公司",
+     "ratio": 2.33
+    },
+    {
+     "rank": 8,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.59
+    },
+    {
+     "rank": 9,
+     "name": "付卫东",
+     "ratio": 0.54
+    },
+    {
+     "rank": 10,
+     "name": "陈先超",
+     "ratio": 0.36
+    }
+   ],
+   "top1_name": "昆山和高信息科技有限公司",
+   "top1_ratio": 37.91,
+   "top3_sum": 65.99
+  },
+  "000826": {
+   "secucode": "000826.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "广州麒正企业管理合伙企业(有限合伙)",
+     "ratio": 5
+    },
+    {
+     "rank": 2,
+     "name": "天府清源控股有限公司",
+     "ratio": 4.99
+    },
+    {
+     "rank": 3,
+     "name": "桑德集团有限公司",
+     "ratio": 3.73
+    },
+    {
+     "rank": 4,
+     "name": "桑德投资控股有限公司",
+     "ratio": 3.45
+    },
+    {
+     "rank": 5,
+     "name": "清控资产管理有限公司",
+     "ratio": 2.49
+    }
+   ],
+   "top1_name": "广州麒正企业管理合伙企业(有限合伙)",
+   "top1_ratio": 5,
+   "top3_sum": 13.72
+  },
+  "002547": {
+   "secucode": "002547.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "孙洁晓",
+     "ratio": 25.53
+    },
+    {
+     "rank": 2,
+     "name": "袁静",
+     "ratio": 2.75
+    },
+    {
+     "rank": 3,
+     "name": "谢晓冰",
+     "ratio": 0.46
+    },
+    {
+     "rank": 4,
+     "name": "彭淑芳",
+     "ratio": 0.39
+    },
+    {
+     "rank": 5,
+     "name": "孙娜娜",
+     "ratio": 0.37
+    },
+    {
+     "rank": 6,
+     "name": "钟华良",
+     "ratio": 0.36
+    },
+    {
+     "rank": 7,
+     "name": "邵兰君",
+     "ratio": 0.35
+    },
+    {
+     "rank": 8,
+     "name": "罗东航",
+     "ratio": 0.31
+    },
+    {
+     "rank": 9,
+     "name": "徐洪斌",
+     "ratio": 0.26
+    },
+    {
+     "rank": 10,
+     "name": "王杭义",
+     "ratio": 0.24
+    }
+   ],
+   "top1_name": "孙洁晓",
+   "top1_ratio": 25.53,
+   "top3_sum": 28.74
+  },
+  "688622": {
+   "secucode": "688622.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "周振",
+     "ratio": 20.76
+    },
+    {
+     "rank": 2,
+     "name": "傅忠",
+     "ratio": 13.43
+    },
+    {
+     "rank": 3,
+     "name": "共青城同策投资管理合伙企业(有限合伙)",
+     "ratio": 8.57
+    },
+    {
+     "rank": 4,
+     "name": "广州科技金融创新投资控股有限公司",
+     "ratio": 5.49
+    },
+    {
+     "rank": 5,
+     "name": "昆山市国科创业投资有限公司",
+     "ratio": 5.22
+    },
+    {
+     "rank": 6,
+     "name": "珠海市孚悦中诚资产管理有限公司-悦诚同心共享8号私募证券投资基金",
+     "ratio": 1.58
+    },
+    {
+     "rank": 7,
+     "name": "珠海市孚悦中诚资产管理有限公司-悦诚同心共享10号私募证券投资基金",
+     "ratio": 0.86
+    },
+    {
+     "rank": 8,
+     "name": "谭建文",
+     "ratio": 0.7
+    },
+    {
+     "rank": 9,
+     "name": "广州市乾元资产管理有限公司-乾元胜意1号私募证券投资基金",
+     "ratio": 0.7
+    },
+    {
+     "rank": 10,
+     "name": "黄薇",
+     "ratio": 0.68
+    }
+   ],
+   "top1_name": "周振",
+   "top1_ratio": 20.76,
+   "top3_sum": 42.76
+  },
+  "000639": {
+   "secucode": "000639.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "西王集团有限公司",
+     "ratio": 18.72
+    },
+    {
+     "rank": 2,
+     "name": "泰达宏利基金-工商银行-泰达宏利价值成长定向增发726号",
+     "ratio": 3.49
+    },
+    {
+     "rank": 3,
+     "name": "山东高速嵩信(天津)投资管理有限公司-山高嵩成私募股权投资基金",
+     "ratio": 1.75
+    },
+    {
+     "rank": 4,
+     "name": "山东永华投资有限公司",
+     "ratio": 1.3
+    },
+    {
+     "rank": 5,
+     "name": "株洲市国有资产投资控股集团有限公司",
+     "ratio": 1
+    },
+    {
+     "rank": 6,
+     "name": "巨能资本管理有限公司-山东聚赢产业基金合伙企业(有限合伙)",
+     "ratio": 0.8
+    },
+    {
+     "rank": 7,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.59
+    },
+    {
+     "rank": 8,
+     "name": "钟地长",
+     "ratio": 0.55
+    }
+   ],
+   "top1_name": "西王集团有限公司",
+   "top1_ratio": 18.72,
+   "top3_sum": 23.96
+  },
+  "000016": {
+   "secucode": "000016.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "磐石润创(深圳)信息管理有限公司",
+     "ratio": 21.76
+    },
+    {
+     "rank": 2,
+     "name": "中信证券经纪(香港)有限公司",
+     "ratio": 8.24
+    },
+    {
+     "rank": 3,
+     "name": "国元证券经纪(香港)有限公司",
+     "ratio": 2.55
+    },
+    {
+     "rank": 4,
+     "name": "HOLY TIME GROUP LIMITED",
+     "ratio": 2.34
+    },
+    {
+     "rank": 5,
+     "name": "李涛",
+     "ratio": 1.32
+    }
+   ],
+   "top1_name": "磐石润创(深圳)信息管理有限公司",
+   "top1_ratio": 21.76,
+   "top3_sum": 32.55
+  },
+  "002691": {
+   "secucode": "002691.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "冯春保",
+     "ratio": 34.33
+    },
+    {
+     "rank": 2,
+     "name": "深圳卓众达富投资合伙企业(有限合伙)",
+     "ratio": 29
+    },
+    {
+     "rank": 3,
+     "name": "杭州焱热实业有限公司",
+     "ratio": 2.28
+    },
+    {
+     "rank": 4,
+     "name": "乔贵彩",
+     "ratio": 1.39
+    },
+    {
+     "rank": 5,
+     "name": "MORGAN STANLEY & CO.INTERNATIONAL PLC.",
+     "ratio": 0.87
+    },
+    {
+     "rank": 6,
+     "name": "BARCLAYS BANK PLC",
+     "ratio": 0.6
+    },
+    {
+     "rank": 7,
+     "name": "上海千宜投资管理中心(有限合伙)-千宜北量3号私募证券投资基金",
+     "ratio": 0.59
+    },
+    {
+     "rank": 8,
+     "name": "曹凯立",
+     "ratio": 0.59
+    },
+    {
+     "rank": 9,
+     "name": "深圳金湾私募证券基金管理有限公司-金湾长安一号私募证券投资基金",
+     "ratio": 0.58
+    },
+    {
+     "rank": 10,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 0.56
+    }
+   ],
+   "top1_name": "冯春保",
+   "top1_ratio": 34.33,
+   "top3_sum": 65.61
+  },
+  "002726": {
+   "secucode": "002726.SZ",
+   "report_date": "2026-08-20",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "蓝润发展控股集团有限公司",
+     "ratio": 13.1259
+    },
+    {
+     "rank": 2,
+     "name": "莱阳银龙投资有限公司",
+     "ratio": 5.78
+    }
+   ],
+   "top1_name": "蓝润发展控股集团有限公司",
+   "top1_ratio": 13.1259,
+   "top3_sum": 18.91
+  },
+  "002694": {
+   "secucode": "002694.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "万洋集团有限公司",
+     "ratio": 21.74
+    },
+    {
+     "rank": 2,
+     "name": "山西盛农投资有限公司",
+     "ratio": 12.54
+    },
+    {
+     "rank": 3,
+     "name": "沈思思",
+     "ratio": 3.5
+    },
+    {
+     "rank": 4,
+     "name": "苏孝锋",
+     "ratio": 3.41
+    },
+    {
+     "rank": 4,
+     "name": "朱少麟",
+     "ratio": 3.41
+    },
+    {
+     "rank": 6,
+     "name": "李晓",
+     "ratio": 3.06
+    },
+    {
+     "rank": 7,
+     "name": "代宏",
+     "ratio": 2.81
+    },
+    {
+     "rank": 8,
+     "name": "华淑洁",
+     "ratio": 1.99
+    },
+    {
+     "rank": 9,
+     "name": "张胜敏",
+     "ratio": 1.31
+    },
+    {
+     "rank": 10,
+     "name": "康军妹",
+     "ratio": 1.18
+    }
+   ],
+   "top1_name": "万洋集团有限公司",
+   "top1_ratio": 21.74,
+   "top3_sum": 37.78
+  },
+  "688033": {
+   "secucode": "688033.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "吴佩芳",
+     "ratio": 22.27
+    },
+    {
+     "rank": 2,
+     "name": "尹俊涛",
+     "ratio": 3.31
+    },
+    {
+     "rank": 3,
+     "name": "上海九太方和信息咨询中心(有限合伙)",
+     "ratio": 2.97
+    },
+    {
+     "rank": 4,
+     "name": "冯学理",
+     "ratio": 2.26
+    },
+    {
+     "rank": 5,
+     "name": "关海果",
+     "ratio": 1.64
+    },
+    {
+     "rank": 6,
+     "name": "李文娟",
+     "ratio": 0.79
+    },
+    {
+     "rank": 7,
+     "name": "青岛市科技风险投资有限公司-青岛华资盛通股权投资基金合伙企业(有限合伙)",
+     "ratio": 0.6
+    },
+    {
+     "rank": 7,
+     "name": "上海常春藤投资控股有限公司-衢州金藤股权投资基金合伙企业(有限合伙)",
+     "ratio": 0.6
+    },
+    {
+     "rank": 9,
+     "name": "黄一真",
+     "ratio": 0.6
+    },
+    {
+     "rank": 10,
+     "name": "潘剑莉",
+     "ratio": 0.56
+    }
+   ],
+   "top1_name": "吴佩芳",
+   "top1_ratio": 22.27,
+   "top3_sum": 28.55
+  },
+  "000632": {
+   "secucode": "000632.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "福建三联投资有限公司",
+     "ratio": 18.06
+    },
+    {
+     "rank": 2,
+     "name": "福州开发区国有资产营运有限公司",
+     "ratio": 3.41
+    }
+   ],
+   "top1_name": "福建三联投资有限公司",
+   "top1_ratio": 18.06,
+   "top3_sum": 21.47
+  },
+  "300068": {
+   "secucode": "300068.SZ",
+   "report_date": "2026-07-06",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "杭州南都电源有限公司",
+     "ratio": 8.43
+    },
+    {
+     "rank": 2,
+     "name": "朱保义",
+     "ratio": 5.46
+    }
+   ],
+   "top1_name": "杭州南都电源有限公司",
+   "top1_ratio": 8.43,
+   "top3_sum": 13.89
+  },
+  "002856": {
+   "secucode": "002856.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "广东怡建股权投资合伙企业(有限合伙)",
+     "ratio": 29.99
+    },
+    {
+     "rank": 2,
+     "name": "李苏华",
+     "ratio": 11.24
+    },
+    {
+     "rank": 3,
+     "name": "何文钜",
+     "ratio": 1.44
+    },
+    {
+     "rank": 4,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 1.2
+    },
+    {
+     "rank": 5,
+     "name": "BARCLAYS BANK PLC",
+     "ratio": 0.77
+    },
+    {
+     "rank": 6,
+     "name": "殷磊",
+     "ratio": 0.5
+    },
+    {
+     "rank": 7,
+     "name": "中国国际金融香港资产管理有限公司-CICCFT10(Q)",
+     "ratio": 0.47
+    },
+    {
+     "rank": 8,
+     "name": "陈彩萍",
+     "ratio": 0.46
+    },
+    {
+     "rank": 9,
+     "name": "黎尚操",
+     "ratio": 0.44
+    },
+    {
+     "rank": 10,
+     "name": "冯敏贤",
+     "ratio": 0.43
+    }
+   ],
+   "top1_name": "广东怡建股权投资合伙企业(有限合伙)",
+   "top1_ratio": 29.99,
+   "top3_sum": 42.67
+  },
+  "300027": {
+   "secucode": "300027.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "王忠军",
+     "ratio": 5.88
+    },
+    {
+     "rank": 2,
+     "name": "孙凯",
+     "ratio": 3.03
+    },
+    {
+     "rank": 3,
+     "name": "王忠磊",
+     "ratio": 1.98
+    },
+    {
+     "rank": 4,
+     "name": "马云",
+     "ratio": 1.6
+    },
+    {
+     "rank": 5,
+     "name": "杭州阿里创业投资有限公司",
+     "ratio": 1.59
+    },
+    {
+     "rank": 6,
+     "name": "陈克庆",
+     "ratio": 1.19
+    }
+   ],
+   "top1_name": "王忠军",
+   "top1_ratio": 5.88,
+   "top3_sum": 10.89
+  },
+  "300212": {
+   "secucode": "300212.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中国华录集团有限公司",
+     "ratio": 31.83
+    },
+    {
+     "rank": 2,
+     "name": "林拥军",
+     "ratio": 2.94
+    },
+    {
+     "rank": 3,
+     "name": "华录资本控股有限公司",
+     "ratio": 2.27
+    },
+    {
+     "rank": 4,
+     "name": "罗利",
+     "ratio": 0.56
+    },
+    {
+     "rank": 5,
+     "name": "赵章财",
+     "ratio": 0.53
+    }
+   ],
+   "top1_name": "中国华录集团有限公司",
+   "top1_ratio": 31.83,
+   "top3_sum": 37.04
+  },
+  "300076": {
+   "secucode": "300076.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "宁波高斯投资有限公司",
+     "ratio": 29.72
+    },
+    {
+     "rank": 2,
+     "name": "郭启寅",
+     "ratio": 2.92
+    },
+    {
+     "rank": 3,
+     "name": "方国宝",
+     "ratio": 1.89
+    },
+    {
+     "rank": 4,
+     "name": "伍声蓉",
+     "ratio": 1.02
+    },
+    {
+     "rank": 5,
+     "name": "浅行私募基金管理(海南)有限公司-浅行知行1号私募证券投资基金",
+     "ratio": 0.96
+    },
+    {
+     "rank": 6,
+     "name": "陈晨",
+     "ratio": 0.95
+    },
+    {
+     "rank": 7,
+     "name": "朱军",
+     "ratio": 0.87
+    },
+    {
+     "rank": 8,
+     "name": "UBS AG",
+     "ratio": 0.58
+    },
+    {
+     "rank": 9,
+     "name": "谭乔谦",
+     "ratio": 0.52
+    },
+    {
+     "rank": 10,
+     "name": "张思敏",
+     "ratio": 0.49
+    }
+   ],
+   "top1_name": "宁波高斯投资有限公司",
+   "top1_ratio": 29.72,
+   "top3_sum": 34.53
+  },
+  "603272": {
+   "secucode": "603272.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "卜晓华",
+     "ratio": 40.53
+    },
+    {
+     "rank": 2,
+     "name": "卜嘉城",
+     "ratio": 7.24
+    },
+    {
+     "rank": 2,
+     "name": "卜嘉翔",
+     "ratio": 7.24
+    },
+    {
+     "rank": 4,
+     "name": "舟山联翔企业管理咨询合伙企业(有限合伙)",
+     "ratio": 1.41
+    },
+    {
+     "rank": 5,
+     "name": "侯祥龙",
+     "ratio": 0.57
+    },
+    {
+     "rank": 6,
+     "name": "纪鹏斌",
+     "ratio": 0.48
+    },
+    {
+     "rank": 7,
+     "name": "肖富荣",
+     "ratio": 0.47
+    },
+    {
+     "rank": 8,
+     "name": "谢建勇",
+     "ratio": 0.44
+    },
+    {
+     "rank": 9,
+     "name": "舒鹏",
+     "ratio": 0.36
+    },
+    {
+     "rank": 10,
+     "name": "徐利峰",
+     "ratio": 0.3
+    }
+   ],
+   "top1_name": "卜晓华",
+   "top1_ratio": 40.53,
+   "top3_sum": 55.01
+  },
+  "600818": {
+   "secucode": "600818.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海中路(集团)有限公司",
+     "ratio": 6.79
+    },
+    {
+     "rank": 2,
+     "name": "刘用旭",
+     "ratio": 1.79
+    },
+    {
+     "rank": 3,
+     "name": "刘斌",
+     "ratio": 1.62
+    },
+    {
+     "rank": 4,
+     "name": "李文武",
+     "ratio": 1.04
+    },
+    {
+     "rank": 5,
+     "name": "HAITONG INTERNATIONAL SECURITIES COMPANY LIMITED-ACCOUNT CLIENT",
+     "ratio": 0.97
+    },
+    {
+     "rank": 6,
+     "name": "浙江浩坤昇发资产管理有限公司-浩坤精选七号私募证券投资基金",
+     "ratio": 0.77
+    },
+    {
+     "rank": 7,
+     "name": "曾明鸣",
+     "ratio": 0.72
+    },
+    {
+     "rank": 8,
+     "name": "苏耀民",
+     "ratio": 0.72
+    }
+   ],
+   "top1_name": "上海中路(集团)有限公司",
+   "top1_ratio": 6.79,
+   "top3_sum": 10.2
+  },
+  "300594": {
+   "secucode": "300594.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "青岛朗进集团有限公司",
+     "ratio": 20.72
+    },
+    {
+     "rank": 2,
+     "name": "广州永金私募证券投资基金管理有限公司-广州永金乐水三号私募证券投资基金",
+     "ratio": 8.05
+    },
+    {
+     "rank": 3,
+     "name": "青岛元德众允投资企业(有限合伙)",
+     "ratio": 5.01
+    },
+    {
+     "rank": 4,
+     "name": "卢雯静",
+     "ratio": 2.47
+    },
+    {
+     "rank": 5,
+     "name": "高盛公司有限责任公司",
+     "ratio": 1.85
+    },
+    {
+     "rank": 6,
+     "name": "UBS AG",
+     "ratio": 1.53
+    },
+    {
+     "rank": 7,
+     "name": "莱芜创业投资有限公司",
+     "ratio": 1.41
+    },
+    {
+     "rank": 8,
+     "name": "MORGAN STANLEY & CO.INTERNATIONAL PLC.",
+     "ratio": 1.41
+    },
+    {
+     "rank": 9,
+     "name": "CITIGROUP GLOBAL MARKETS LIMITED",
+     "ratio": 1.25
+    },
+    {
+     "rank": 10,
+     "name": "MERRILL LYNCH INTERNATIONAL",
+     "ratio": 1.08
+    }
+   ],
+   "top1_name": "青岛朗进集团有限公司",
+   "top1_ratio": 20.72,
+   "top3_sum": 33.78
+  },
+  "300245": {
+   "secucode": "300245.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳裕龙资本投资管理有限公司",
+     "ratio": 8.61
+    },
+    {
+     "rank": 2,
+     "name": "上海天玑科技股份有限公司回购专用证券账户",
+     "ratio": 5.25
+    },
+    {
+     "rank": 3,
+     "name": "苏博",
+     "ratio": 4.71
+    },
+    {
+     "rank": 4,
+     "name": "北京新润投资有限公司",
+     "ratio": 3.85
+    },
+    {
+     "rank": 5,
+     "name": "邹月普",
+     "ratio": 3.01
+    },
+    {
+     "rank": 6,
+     "name": "侯霞",
+     "ratio": 2.13
+    }
+   ],
+   "top1_name": "深圳裕龙资本投资管理有限公司",
+   "top1_ratio": 8.61,
+   "top3_sum": 18.57
+  },
+  "600537": {
+   "secucode": "600537.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "夏月明",
+     "ratio": 1.98
+    },
+    {
+     "rank": 2,
+     "name": "深圳大华信安私募证券基金管理企业(有限合伙)-信安新美汇私募证券投资基金",
+     "ratio": 0.97
+    },
+    {
+     "rank": 3,
+     "name": "王兰峰",
+     "ratio": 0.73
+    },
+    {
+     "rank": 4,
+     "name": "崔向前",
+     "ratio": 0.71
+    }
+   ],
+   "top1_name": "夏月明",
+   "top1_ratio": 1.98,
+   "top3_sum": 3.68
+  },
+  "002360": {
+   "secucode": "002360.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "张云升",
+     "ratio": 19.93
+    },
+    {
+     "rank": 2,
+     "name": "邬庆文",
+     "ratio": 2.51
+    },
+    {
+     "rank": 3,
+     "name": "白利军",
+     "ratio": 1.52
+    },
+    {
+     "rank": 4,
+     "name": "郑俊卿",
+     "ratio": 1.46
+    }
+   ],
+   "top1_name": "张云升",
+   "top1_ratio": 19.93,
+   "top3_sum": 23.96
+  },
+  "600476": {
+   "secucode": "600476.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "北京中邮资产管理有限公司",
+     "ratio": 32.98
+    },
+    {
+     "rank": 2,
+     "name": "邮政科学研究规划院有限公司",
+     "ratio": 6.35
+    },
+    {
+     "rank": 3,
+     "name": "江西赣粤高速公路股份有限公司",
+     "ratio": 2.07
+    },
+    {
+     "rank": 4,
+     "name": "陈辉",
+     "ratio": 1.64
+    },
+    {
+     "rank": 5,
+     "name": "魏寿军",
+     "ratio": 1.1
+    },
+    {
+     "rank": 6,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 1.07
+    },
+    {
+     "rank": 7,
+     "name": "高盛国际-自有资金",
+     "ratio": 0.95
+    },
+    {
+     "rank": 8,
+     "name": "谷峰涛",
+     "ratio": 0.82
+    },
+    {
+     "rank": 9,
+     "name": "BARCLAYS BANK PLC",
+     "ratio": 0.67
+    },
+    {
+     "rank": 10,
+     "name": "MERRILL LYNCH INTERNATIONAL",
+     "ratio": 0.62
+    }
+   ],
+   "top1_name": "北京中邮资产管理有限公司",
+   "top1_ratio": 32.98,
+   "top3_sum": 41.4
+  },
+  "688201": {
+   "secucode": "688201.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "李伟",
+     "ratio": 23.92
+    },
+    {
+     "rank": 2,
+     "name": "丁纯",
+     "ratio": 8.89
+    },
+    {
+     "rank": 3,
+     "name": "王翊心",
+     "ratio": 6.78
+    },
+    {
+     "rank": 4,
+     "name": "宁波恒世顺安企业管理合伙企业(有限合伙)",
+     "ratio": 3.73
+    },
+    {
+     "rank": 5,
+     "name": "毛捍东",
+     "ratio": 3.49
+    },
+    {
+     "rank": 6,
+     "name": "财通创新投资有限公司",
+     "ratio": 1.44
+    },
+    {
+     "rank": 7,
+     "name": "刘辉",
+     "ratio": 1.43
+    },
+    {
+     "rank": 8,
+     "name": "北京信安世纪科技股份有限公司回购专用证券账户",
+     "ratio": 1.34
+    },
+    {
+     "rank": 9,
+     "name": "亓清源",
+     "ratio": 1.27
+    },
+    {
+     "rank": 10,
+     "name": "缪嘉嘉",
+     "ratio": 0.99
+    }
+   ],
+   "top1_name": "李伟",
+   "top1_ratio": 23.92,
+   "top3_sum": 39.59
+  },
+  "002431": {
+   "secucode": "002431.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "河南省豫资保障房管理运营有限公司",
+     "ratio": 29.99
+    },
+    {
+     "rank": 2,
+     "name": "南京栖霞建设股份有限公司",
+     "ratio": 9.79
+    }
+   ],
+   "top1_name": "河南省豫资保障房管理运营有限公司",
+   "top1_ratio": 29.99,
+   "top3_sum": 39.78
+  },
+  "002634": {
+   "secucode": "002634.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "陶建伟",
+     "ratio": 11.68
+    },
+    {
+     "rank": 2,
+     "name": "陶建锋",
+     "ratio": 5.85
+    },
+    {
+     "rank": 3,
+     "name": "上海启烁睿行企业管理合伙企业(有限合伙)",
+     "ratio": 5.03
+    },
+    {
+     "rank": 4,
+     "name": "上海方圆达创投资合伙企业(有限合伙)-方圆-东方28号私募投资基金",
+     "ratio": 4.88
+    },
+    {
+     "rank": 5,
+     "name": "苏州青嵩企业管理合伙企业(有限合伙)",
+     "ratio": 3.72
+    },
+    {
+     "rank": 6,
+     "name": "陶士青",
+     "ratio": 3.23
+    },
+    {
+     "rank": 7,
+     "name": "顾德珍",
+     "ratio": 1.17
+    }
+   ],
+   "top1_name": "陶建伟",
+   "top1_ratio": 11.68,
+   "top3_sum": 22.56
+  },
+  "603008": {
+   "secucode": "603008.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "浙江华易智能制造有限公司",
+     "ratio": 23.03
+    },
+    {
+     "rank": 2,
+     "name": "绍兴市越城区华瀚股权投资合伙企业(有限合伙)",
+     "ratio": 9.99
+    },
+    {
+     "rank": 3,
+     "name": "黄长富",
+     "ratio": 4.07
+    },
+    {
+     "rank": 4,
+     "name": "陈阿裕",
+     "ratio": 2.2
+    },
+    {
+     "rank": 5,
+     "name": "张群峰",
+     "ratio": 1.62
+    }
+   ],
+   "top1_name": "浙江华易智能制造有限公司",
+   "top1_ratio": 23.03,
+   "top3_sum": 37.09
+  },
+  "920090": {
+   "secucode": "920090.BJ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "戴福昊",
+     "ratio": 18.1358
+    },
+    {
+     "rank": 2,
+     "name": "崔振英",
+     "ratio": 5.5724
+    },
+    {
+     "rank": 3,
+     "name": "太仓乐洺咨询管理中心(有限合伙)",
+     "ratio": 4.3832
+    },
+    {
+     "rank": 4,
+     "name": "李刚",
+     "ratio": 3.5623
+    },
+    {
+     "rank": 5,
+     "name": "赵庚飞",
+     "ratio": 3.1195
+    },
+    {
+     "rank": 6,
+     "name": "麻燕利",
+     "ratio": 1.891
+    },
+    {
+     "rank": 7,
+     "name": "张美利",
+     "ratio": 1.6053
+    },
+    {
+     "rank": 8,
+     "name": "温德成",
+     "ratio": 1.1182
+    },
+    {
+     "rank": 9,
+     "name": "李毅",
+     "ratio": 0.841
+    },
+    {
+     "rank": 10,
+     "name": "王小龙",
+     "ratio": 0.7608
+    }
+   ],
+   "top1_name": "戴福昊",
+   "top1_ratio": 18.1358,
+   "top3_sum": 28.09
+  },
+  "000610": {
+   "secucode": "000610.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "西安旅游集团有限责任公司",
+     "ratio": 26.57
+    },
+    {
+     "rank": 2,
+     "name": "肖文琴",
+     "ratio": 1.47
+    },
+    {
+     "rank": 3,
+     "name": "葛燕",
+     "ratio": 1.18
+    },
+    {
+     "rank": 4,
+     "name": "广东臻远私募基金管理有限公司-广东臻远基金-臻远一号私募证券投资基金",
+     "ratio": 1.11
+    },
+    {
+     "rank": 5,
+     "name": "UBS AG",
+     "ratio": 1.06
+    },
+    {
+     "rank": 6,
+     "name": "唐建柏",
+     "ratio": 1.06
+    },
+    {
+     "rank": 7,
+     "name": "沈承建",
+     "ratio": 1.03
+    },
+    {
+     "rank": 8,
+     "name": "西安江洋商贸公司",
+     "ratio": 0.96
+    },
+    {
+     "rank": 9,
+     "name": "李国栋",
+     "ratio": 0.93
+    },
+    {
+     "rank": 10,
+     "name": "高盛国际-自有资金",
+     "ratio": 0.88
+    }
+   ],
+   "top1_name": "西安旅游集团有限责任公司",
+   "top1_ratio": 26.57,
+   "top3_sum": 29.22
+  },
+  "600730": {
+   "secucode": "600730.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "珠海长世芯电子科技有限公司",
+     "ratio": 20.03
+    },
+    {
+     "rank": 2,
+     "name": "香港中央结算有限公司",
+     "ratio": 1.47
+    },
+    {
+     "rank": 3,
+     "name": "王潇湘",
+     "ratio": 0.94
+    },
+    {
+     "rank": 4,
+     "name": "宋长福",
+     "ratio": 0.9
+    },
+    {
+     "rank": 5,
+     "name": "刘乔宇",
+     "ratio": 0.73
+    },
+    {
+     "rank": 6,
+     "name": "陆哲伟",
+     "ratio": 0.61
+    },
+    {
+     "rank": 7,
+     "name": "赵颍",
+     "ratio": 0.57
+    },
+    {
+     "rank": 8,
+     "name": "广东璟诚私募基金管理有限公司-璟诚坦涂1号私募证券投资基金",
+     "ratio": 0.56
+    }
+   ],
+   "top1_name": "珠海长世芯电子科技有限公司",
+   "top1_ratio": 20.03,
+   "top3_sum": 22.44
+  },
+  "000056": {
+   "secucode": "000056.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳市皇庭产业控股有限公司",
+     "ratio": 15.32
+    },
+    {
+     "rank": 2,
+     "name": "百利亚太投资有限公司",
+     "ratio": 5.45
+    },
+    {
+     "rank": 3,
+     "name": "皇庭国际集团有限公司",
+     "ratio": 3.09
+    },
+    {
+     "rank": 4,
+     "name": "崔雁",
+     "ratio": 1.83
+    },
+    {
+     "rank": 5,
+     "name": "GUOTAI JUNAN SECURITIES(HONG KONG)LIMITED",
+     "ratio": 1.82
+    },
+    {
+     "rank": 6,
+     "name": "霍孝谦",
+     "ratio": 1.69
+    }
+   ],
+   "top1_name": "深圳市皇庭产业控股有限公司",
+   "top1_ratio": 15.32,
+   "top3_sum": 23.86
+  },
+  "002977": {
+   "secucode": "002977.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "楼继勇",
+     "ratio": 36.01
+    },
+    {
+     "rank": 2,
+     "name": "陈镭",
+     "ratio": 23.08
+    },
+    {
+     "rank": 3,
+     "name": "刘永红",
+     "ratio": 1.67
+    },
+    {
+     "rank": 4,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.41
+    },
+    {
+     "rank": 5,
+     "name": "张万发",
+     "ratio": 0.39
+    },
+    {
+     "rank": 6,
+     "name": "李君康",
+     "ratio": 0.39
+    },
+    {
+     "rank": 7,
+     "name": "张胜敏",
+     "ratio": 0.33
+    },
+    {
+     "rank": 8,
+     "name": "管琪",
+     "ratio": 0.33
+    },
+    {
+     "rank": 9,
+     "name": "沈阳语梦信息技术有限公司",
+     "ratio": 0.27
+    },
+    {
+     "rank": 10,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 0.23
+    }
+   ],
+   "top1_name": "楼继勇",
+   "top1_ratio": 36.01,
+   "top3_sum": 60.76
+  },
+  "000838": {
+   "secucode": "000838.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "重庆财信房地产开发集团有限公司",
+     "ratio": 36.25
+    },
+    {
+     "rank": 2,
+     "name": "法国兴业银行",
+     "ratio": 0.88
+    },
+    {
+     "rank": 3,
+     "name": "李洪滨",
+     "ratio": 0.87
+    },
+    {
+     "rank": 4,
+     "name": "厦门富诚融资担保有限公司",
+     "ratio": 0.82
+    },
+    {
+     "rank": 5,
+     "name": "王树磊",
+     "ratio": 0.71
+    },
+    {
+     "rank": 6,
+     "name": "李志芳",
+     "ratio": 0.56
+    },
+    {
+     "rank": 7,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 0.47
+    },
+    {
+     "rank": 8,
+     "name": "张晖",
+     "ratio": 0.42
+    },
+    {
+     "rank": 9,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.41
+    },
+    {
+     "rank": 10,
+     "name": "廖玉婵",
+     "ratio": 0.39
+    }
+   ],
+   "top1_name": "重庆财信房地产开发集团有限公司",
+   "top1_ratio": 36.25,
+   "top3_sum": 38.0
+  },
+  "002932": {
+   "secucode": "002932.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "陈莉莉",
+     "ratio": 27.06
+    },
+    {
+     "rank": 2,
+     "name": "王颖",
+     "ratio": 15.45
+    },
+    {
+     "rank": 3,
+     "name": "王锐",
+     "ratio": 1.3
+    },
+    {
+     "rank": 4,
+     "name": "中国工商银行股份有限公司-融通健康产业灵活配置混合型证券投资基金",
+     "ratio": 0.99
+    },
+    {
+     "rank": 5,
+     "name": "陈鑫涛",
+     "ratio": 0.9
+    },
+    {
+     "rank": 6,
+     "name": "周琴",
+     "ratio": 0.81
+    },
+    {
+     "rank": 7,
+     "name": "刘熀松",
+     "ratio": 0.72
+    },
+    {
+     "rank": 8,
+     "name": "上海织箜管理咨询合伙企业(有限合伙)",
+     "ratio": 0.7
+    },
+    {
+     "rank": 9,
+     "name": "甘宜梧",
+     "ratio": 0.69
+    },
+    {
+     "rank": 10,
+     "name": "柏忠伟",
+     "ratio": 0.65
+    }
+   ],
+   "top1_name": "陈莉莉",
+   "top1_ratio": 27.06,
+   "top3_sum": 43.81
+  },
+  "605336": {
+   "secucode": "605336.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "浙江帅丰投资有限公司",
+     "ratio": 37.42
+    },
+    {
+     "rank": 2,
+     "name": "邵于佶",
+     "ratio": 17.86
+    },
+    {
+     "rank": 3,
+     "name": "嵊州市丰福投资管理合伙企业(有限合伙)",
+     "ratio": 6.62
+    },
+    {
+     "rank": 4,
+     "name": "商若云",
+     "ratio": 3.07
+    },
+    {
+     "rank": 4,
+     "name": "邵贤庆",
+     "ratio": 3.07
+    },
+    {
+     "rank": 6,
+     "name": "林树林",
+     "ratio": 2.06
+    },
+    {
+     "rank": 7,
+     "name": "梁林忠",
+     "ratio": 0.61
+    },
+    {
+     "rank": 8,
+     "name": "王刚",
+     "ratio": 0.58
+    },
+    {
+     "rank": 9,
+     "name": "费文初",
+     "ratio": 0.55
+    },
+    {
+     "rank": 10,
+     "name": "金忠妃",
+     "ratio": 0.46
+    }
+   ],
+   "top1_name": "浙江帅丰投资有限公司",
+   "top1_ratio": 37.42,
+   "top3_sum": 61.9
+  },
+  "300295": {
+   "secucode": "300295.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "胡光辉",
+     "ratio": 15.15
+    },
+    {
+     "rank": 2,
+     "name": "谢恺",
+     "ratio": 5
+    },
+    {
+     "rank": 3,
+     "name": "蒋宁",
+     "ratio": 1.96
+    },
+    {
+     "rank": 4,
+     "name": "邓立浦",
+     "ratio": 1.57
+    },
+    {
+     "rank": 5,
+     "name": "马新宇",
+     "ratio": 1.41
+    },
+    {
+     "rank": 6,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 1.15
+    },
+    {
+     "rank": 7,
+     "name": "马圣兰",
+     "ratio": 0.79
+    },
+    {
+     "rank": 8,
+     "name": "陈可菴",
+     "ratio": 0.7
+    },
+    {
+     "rank": 9,
+     "name": "邓文成",
+     "ratio": 0.68
+    },
+    {
+     "rank": 10,
+     "name": "陈国栋",
+     "ratio": 0.62
+    }
+   ],
+   "top1_name": "胡光辉",
+   "top1_ratio": 15.15,
+   "top3_sum": 22.11
+  },
+  "600889": {
+   "secucode": "600889.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "南京新工投资集团有限责任公司",
+     "ratio": 27.77
+    },
+    {
+     "rank": 2,
+     "name": "南京新工新兴产业投资管理有限公司-南京新工并购股权投资基金合伙企业(有限合伙)",
+     "ratio": 8.31
+    },
+    {
+     "rank": 3,
+     "name": "南京轻纺产业(集团)有限公司",
+     "ratio": 4.09
+    },
+    {
+     "rank": 4,
+     "name": "上海亨升投资管理有限公司",
+     "ratio": 3.9
+    },
+    {
+     "rank": 5,
+     "name": "南京国资混改基金有限公司",
+     "ratio": 3.12
+    },
+    {
+     "rank": 6,
+     "name": "江苏和谐科技股份有限公司",
+     "ratio": 2.82
+    },
+    {
+     "rank": 7,
+     "name": "南京高速齿轮产业发展有限公司",
+     "ratio": 2.52
+    },
+    {
+     "rank": 8,
+     "name": "国器元禾私募基金管理有限公司-工业母机产业投资基金(有限合伙)",
+     "ratio": 2.35
+    },
+    {
+     "rank": 9,
+     "name": "南京埃斯顿自动化股份有限公司",
+     "ratio": 1.8
+    },
+    {
+     "rank": 10,
+     "name": "南京大桥机器有限公司",
+     "ratio": 1.64
+    }
+   ],
+   "top1_name": "南京新工投资集团有限责任公司",
+   "top1_ratio": 27.77,
+   "top3_sum": 40.17
+  },
+  "300123": {
+   "secucode": "300123.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖南海斐控股有限公司",
+     "ratio": 12.15
+    },
+    {
+     "rank": 2,
+     "name": "李跃先",
+     "ratio": 2.6
+    }
+   ],
+   "top1_name": "湖南海斐控股有限公司",
+   "top1_ratio": 12.15,
+   "top3_sum": 14.75
+  },
+  "002542": {
+   "secucode": "002542.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "成都兴城投资集团有限公司",
+     "ratio": 29.27
+    },
+    {
+     "rank": 2,
+     "name": "吴延炜",
+     "ratio": 11.22
+    },
+    {
+     "rank": 3,
+     "name": "刘忠池",
+     "ratio": 1.37
+    },
+    {
+     "rank": 4,
+     "name": "宋伟民",
+     "ratio": 1.12
+    }
+   ],
+   "top1_name": "成都兴城投资集团有限公司",
+   "top1_ratio": 29.27,
+   "top3_sum": 41.86
+  },
+  "002227": {
+   "secucode": "002227.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "欧华实业有限公司",
+     "ratio": 51.25
+    },
+    {
+     "rank": 2,
+     "name": "高盛公司有限责任公司",
+     "ratio": 1.36
+    },
+    {
+     "rank": 3,
+     "name": "UBS AG",
+     "ratio": 1.13
+    },
+    {
+     "rank": 4,
+     "name": "廖晓霞",
+     "ratio": 0.92
+    },
+    {
+     "rank": 5,
+     "name": "MORGAN STANLEY & CO.INTERNATIONAL PLC.",
+     "ratio": 0.58
+    },
+    {
+     "rank": 6,
+     "name": "CITIGROUP GLOBAL MARKETS LIMITED",
+     "ratio": 0.5
+    },
+    {
+     "rank": 7,
+     "name": "严青",
+     "ratio": 0.5
+    },
+    {
+     "rank": 8,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 0.48
+    },
+    {
+     "rank": 9,
+     "name": "黄炯儒",
+     "ratio": 0.46
+    },
+    {
+     "rank": 10,
+     "name": "MERRILL LYNCH INTERNATIONAL",
+     "ratio": 0.45
+    }
+   ],
+   "top1_name": "欧华实业有限公司",
+   "top1_ratio": 51.25,
+   "top3_sum": 53.74
+  },
+  "688270": {
+   "secucode": "688270.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "郁发新",
+     "ratio": 21.05
+    },
+    {
+     "rank": 2,
+     "name": "杭州晨芯投资合伙企业(有限合伙)",
+     "ratio": 3.02
+    },
+    {
+     "rank": 3,
+     "name": "杭州臻雷投资合伙企业(有限合伙)",
+     "ratio": 2.9
+    },
+    {
+     "rank": 4,
+     "name": "杭州睿磊投资合伙企业(有限合伙)",
+     "ratio": 1.78
+    },
+    {
+     "rank": 5,
+     "name": "延波",
+     "ratio": 1.71
+    },
+    {
+     "rank": 6,
+     "name": "严欣雨",
+     "ratio": 1.32
+    },
+    {
+     "rank": 7,
+     "name": "吴林佳",
+     "ratio": 1.11
+    },
+    {
+     "rank": 8,
+     "name": "杨毅",
+     "ratio": 0.96
+    },
+    {
+     "rank": 9,
+     "name": "费占军",
+     "ratio": 0.69
+    },
+    {
+     "rank": 10,
+     "name": "王保华",
+     "ratio": 0.68
+    }
+   ],
+   "top1_name": "郁发新",
+   "top1_ratio": 21.05,
+   "top3_sum": 26.97
+  },
+  "300081": {
+   "secucode": "300081.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "孟宪民",
+     "ratio": 10.34
+    },
+    {
+     "rank": 2,
+     "name": "裴军",
+     "ratio": 1.9
+    },
+    {
+     "rank": 3,
+     "name": "许青桥",
+     "ratio": 1.76
+    },
+    {
+     "rank": 4,
+     "name": "宁波梅山保税港区东岦投资合伙企业(有限合伙)",
+     "ratio": 1.37
+    },
+    {
+     "rank": 5,
+     "name": "张宇",
+     "ratio": 0.91
+    },
+    {
+     "rank": 6,
+     "name": "余国旭",
+     "ratio": 0.78
+    },
+    {
+     "rank": 7,
+     "name": "沈阳政利投资有限公司",
+     "ratio": 0.78
+    },
+    {
+     "rank": 8,
+     "name": "汪霞",
+     "ratio": 0.72
+    }
+   ],
+   "top1_name": "孟宪民",
+   "top1_ratio": 10.34,
+   "top3_sum": 14.0
+  },
+  "002598": {
+   "secucode": "002598.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "山东泉丰科技发展有限公司",
+     "ratio": 29.8
+    },
+    {
+     "rank": 2,
+     "name": "方润刚",
+     "ratio": 9.85
+    },
+    {
+     "rank": 3,
+     "name": "UBS AG",
+     "ratio": 1.41
+    },
+    {
+     "rank": 4,
+     "name": "黄力志",
+     "ratio": 1.36
+    },
+    {
+     "rank": 5,
+     "name": "王崇璞",
+     "ratio": 0.85
+    },
+    {
+     "rank": 6,
+     "name": "王成华",
+     "ratio": 0.79
+    },
+    {
+     "rank": 7,
+     "name": "许春东",
+     "ratio": 0.77
+    }
+   ],
+   "top1_name": "山东泉丰科技发展有限公司",
+   "top1_ratio": 29.8,
+   "top3_sum": 41.06
+  },
+  "600082": {
+   "secucode": "600082.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "天津海泰控股集团有限公司",
+     "ratio": 24.31
+    },
+    {
+     "rank": 2,
+     "name": "天津华苑置业有限公司",
+     "ratio": 4.91
+    },
+    {
+     "rank": 3,
+     "name": "高盛公司有限责任公司",
+     "ratio": 1.01
+    },
+    {
+     "rank": 4,
+     "name": "张素芬",
+     "ratio": 0.97
+    },
+    {
+     "rank": 5,
+     "name": "洪来发",
+     "ratio": 0.91
+    },
+    {
+     "rank": 6,
+     "name": "UBS AG",
+     "ratio": 0.78
+    },
+    {
+     "rank": 7,
+     "name": "徐海东",
+     "ratio": 0.7
+    },
+    {
+     "rank": 8,
+     "name": "天津津融卓创投资管理有限公司-津融卓创7号私募证券投资基金",
+     "ratio": 0.67
+    },
+    {
+     "rank": 9,
+     "name": "张巧卿",
+     "ratio": 0.64
+    },
+    {
+     "rank": 10,
+     "name": "MERRILL LYNCH INTERNATIONAL",
+     "ratio": 0.55
+    }
+   ],
+   "top1_name": "天津海泰控股集团有限公司",
+   "top1_ratio": 24.31,
+   "top3_sum": 30.23
+  },
+  "300385": {
+   "secucode": "300385.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "新苏环保产业集团有限公司",
+     "ratio": 29.86
+    },
+    {
+     "rank": 2,
+     "name": "杨建平",
+     "ratio": 9.75
+    },
+    {
+     "rank": 3,
+     "name": "许惠芬",
+     "ratio": 1.54
+    },
+    {
+     "rank": 4,
+     "name": "孙棣",
+     "ratio": 0.77
+    },
+    {
+     "rank": 5,
+     "name": "重庆路桥股份有限公司",
+     "ratio": 0.69
+    },
+    {
+     "rank": 6,
+     "name": "曹险峰",
+     "ratio": 0.64
+    },
+    {
+     "rank": 7,
+     "name": "陈奇志",
+     "ratio": 0.5
+    },
+    {
+     "rank": 8,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.49
+    },
+    {
+     "rank": 9,
+     "name": "MERRILL LYNCH INTERNATIONAL",
+     "ratio": 0.47
+    },
+    {
+     "rank": 10,
+     "name": "黄小妹",
+     "ratio": 0.46
+    }
+   ],
+   "top1_name": "新苏环保产业集团有限公司",
+   "top1_ratio": 29.86,
+   "top3_sum": 41.15
+  },
+  "600581": {
+   "secucode": "600581.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "新疆八一钢铁集团有限公司",
+     "ratio": 50.02
+    },
+    {
+     "rank": 2,
+     "name": "赵睿",
+     "ratio": 1.01
+    },
+    {
+     "rank": 3,
+     "name": "阎洪林",
+     "ratio": 0.49
+    },
+    {
+     "rank": 4,
+     "name": "邯郸钢铁集团有限责任公司",
+     "ratio": 0.47
+    },
+    {
+     "rank": 5,
+     "name": "徐寿勇",
+     "ratio": 0.4
+    },
+    {
+     "rank": 6,
+     "name": "罗志东",
+     "ratio": 0.39
+    },
+    {
+     "rank": 7,
+     "name": "黄红梅",
+     "ratio": 0.33
+    },
+    {
+     "rank": 8,
+     "name": "黄俊跃",
+     "ratio": 0.31
+    }
+   ],
+   "top1_name": "新疆八一钢铁集团有限公司",
+   "top1_ratio": 50.02,
+   "top3_sum": 51.52
+  },
+  "603429": {
+   "secucode": "603429.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "徐善水",
+     "ratio": 41.05
+    },
+    {
+     "rank": 2,
+     "name": "唐红军",
+     "ratio": 3.37
+    },
+    {
+     "rank": 3,
+     "name": "余永恒",
+     "ratio": 1.64
+    },
+    {
+     "rank": 4,
+     "name": "姚发征",
+     "ratio": 1.56
+    },
+    {
+     "rank": 5,
+     "name": "严书诚",
+     "ratio": 0.95
+    },
+    {
+     "rank": 6,
+     "name": "孙志松",
+     "ratio": 0.8
+    },
+    {
+     "rank": 7,
+     "name": "朱向阳",
+     "ratio": 0.8
+    },
+    {
+     "rank": 8,
+     "name": "陈林琴",
+     "ratio": 0.75
+    },
+    {
+     "rank": 9,
+     "name": "杨二果",
+     "ratio": 0.68
+    },
+    {
+     "rank": 10,
+     "name": "张亚",
+     "ratio": 0.66
+    }
+   ],
+   "top1_name": "徐善水",
+   "top1_ratio": 41.05,
+   "top3_sum": 46.06
+  },
+  "002538": {
+   "secucode": "002538.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "国购产业控股有限公司",
+     "ratio": 21.33
+    },
+    {
+     "rank": 2,
+     "name": "安徽省宁国市农业生产资料有限公司",
+     "ratio": 8.3
+    },
+    {
+     "rank": 3,
+     "name": "金国清",
+     "ratio": 2.88
+    },
+    {
+     "rank": 4,
+     "name": "广东德汇投资管理有限公司-德汇全球优选私募证券投资基金",
+     "ratio": 1.72
+    },
+    {
+     "rank": 5,
+     "name": "广东德汇投资管理有限公司-德汇尊享私募证券投资基金",
+     "ratio": 1.15
+    },
+    {
+     "rank": 6,
+     "name": "张嘉轩",
+     "ratio": 0.71
+    },
+    {
+     "rank": 7,
+     "name": "林孝国",
+     "ratio": 0.69
+    },
+    {
+     "rank": 8,
+     "name": "金美兰",
+     "ratio": 0.66
+    },
+    {
+     "rank": 9,
+     "name": "葛向全",
+     "ratio": 0.63
+    },
+    {
+     "rank": 10,
+     "name": "冯星煜",
+     "ratio": 0.62
+    }
+   ],
+   "top1_name": "国购产业控股有限公司",
+   "top1_ratio": 21.33,
+   "top3_sum": 32.51
+  },
+  "002512": {
+   "secucode": "002512.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "珠海植诚投资中心(有限合伙)",
+     "ratio": 8.43
+    },
+    {
+     "rank": 2,
+     "name": "珠海植远投资中心(有限合伙)",
+     "ratio": 7.93
+    },
+    {
+     "rank": 3,
+     "name": "蔡小如",
+     "ratio": 5.68
+    },
+    {
+     "rank": 4,
+     "name": "陈融圣",
+     "ratio": 5.56
+    },
+    {
+     "rank": 5,
+     "name": "李涛",
+     "ratio": 0.87
+    }
+   ],
+   "top1_name": "珠海植诚投资中心(有限合伙)",
+   "top1_ratio": 8.43,
+   "top3_sum": 22.04
+  },
+  "002731": {
+   "secucode": "002731.SZ",
+   "report_date": "2026-04-23",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "陈思伟",
+     "ratio": 12
+    },
+    {
+     "rank": 2,
+     "name": "深圳市翠艺投资有限公司",
+     "ratio": 5.75
+    }
+   ],
+   "top1_name": "陈思伟",
+   "top1_ratio": 12,
+   "top3_sum": 17.75
+  },
+  "000821": {
+   "secucode": "000821.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "京山京源科技投资有限公司",
+     "ratio": 20.45
+    },
+    {
+     "rank": 2,
+     "name": "祖国良",
+     "ratio": 3.9
+    },
+    {
+     "rank": 3,
+     "name": "王伟",
+     "ratio": 2.71
+    },
+    {
+     "rank": 4,
+     "name": "京山轻机控股有限公司",
+     "ratio": 1.6
+    }
+   ],
+   "top1_name": "京山京源科技投资有限公司",
+   "top1_ratio": 20.45,
+   "top3_sum": 27.06
+  },
+  "002055": {
+   "secucode": "002055.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "邱建民",
+     "ratio": 2.32
+    },
+    {
+     "rank": 2,
+     "name": "杨桦",
+     "ratio": 2.02
+    },
+    {
+     "rank": 3,
+     "name": "深圳市得胜资产管理有限公司",
+     "ratio": 1.35
+    },
+    {
+     "rank": 4,
+     "name": "张宇",
+     "ratio": 1.12
+    },
+    {
+     "rank": 5,
+     "name": "王杭义",
+     "ratio": 1.03
+    },
+    {
+     "rank": 6,
+     "name": "魏文浩",
+     "ratio": 0.93
+    },
+    {
+     "rank": 7,
+     "name": "毛聪芬",
+     "ratio": 0.85
+    },
+    {
+     "rank": 8,
+     "name": "魏巍",
+     "ratio": 0.84
+    }
+   ],
+   "top1_name": "邱建民",
+   "top1_ratio": 2.32,
+   "top3_sum": 5.69
+  },
+  "300460": {
+   "secucode": "300460.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "新疆惠伦股权投资合伙企业(有限合伙)",
+     "ratio": 9.77
+    },
+    {
+     "rank": 2,
+     "name": "深圳市锦龙二号投资合伙企业(有限合伙)",
+     "ratio": 4.59
+    },
+    {
+     "rank": 3,
+     "name": "赵积清",
+     "ratio": 3.67
+    },
+    {
+     "rank": 4,
+     "name": "泰晶科技股份有限公司",
+     "ratio": 1.7
+    },
+    {
+     "rank": 5,
+     "name": "伍仕修",
+     "ratio": 1.38
+    },
+    {
+     "rank": 6,
+     "name": "黄力志",
+     "ratio": 1.35
+    },
+    {
+     "rank": 7,
+     "name": "周龙",
+     "ratio": 1.22
+    },
+    {
+     "rank": 8,
+     "name": "世锦国际有限公司",
+     "ratio": 0.78
+    },
+    {
+     "rank": 9,
+     "name": "高宗亮",
+     "ratio": 0.71
+    },
+    {
+     "rank": 10,
+     "name": "CITIGROUP GLOBAL MARKETS LIMITED",
+     "ratio": 0.66
+    }
+   ],
+   "top1_name": "新疆惠伦股权投资合伙企业(有限合伙)",
+   "top1_ratio": 9.77,
+   "top3_sum": 18.03
+  },
+  "603822": {
+   "secucode": "603822.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "桐乡市顺昌投资有限公司",
+     "ratio": 38.84
+    },
+    {
+     "rank": 2,
+     "name": "桐乡中祥化纤有限公司",
+     "ratio": 4.22
+    },
+    {
+     "rank": 3,
+     "name": "胡亚华",
+     "ratio": 3.17
+    },
+    {
+     "rank": 4,
+     "name": "薛明",
+     "ratio": 1.64
+    },
+    {
+     "rank": 5,
+     "name": "沈庭根",
+     "ratio": 1.03
+    },
+    {
+     "rank": 6,
+     "name": "交通银行股份有限公司-易方达科瑞灵活配置混合型证券投资基金",
+     "ratio": 1.01
+    },
+    {
+     "rank": 7,
+     "name": "招商银行股份有限公司-易方达平衡精选混合型证券投资基金",
+     "ratio": 1
+    },
+    {
+     "rank": 8,
+     "name": "周晔",
+     "ratio": 0.89
+    },
+    {
+     "rank": 9,
+     "name": "邹池魏",
+     "ratio": 0.77
+    },
+    {
+     "rank": 10,
+     "name": "李永宝",
+     "ratio": 0.71
+    }
+   ],
+   "top1_name": "桐乡市顺昌投资有限公司",
+   "top1_ratio": 38.84,
+   "top3_sum": 46.23
+  },
+  "300091": {
+   "secucode": "300091.SZ",
+   "report_date": "2026-07-15",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "汇通达网络股份有限公司",
+     "ratio": 25
+    },
+    {
+     "rank": 2,
+     "name": "南通产业控股集团有限公司",
+     "ratio": 15.54
+    },
+    {
+     "rank": 3,
+     "name": "金通灵科技集团股份有限公司破产企业财产处置专用账户",
+     "ratio": 4.41
+    },
+    {
+     "rank": 4,
+     "name": "宁波沅润昆林投资合伙企业(有限合伙)",
+     "ratio": 2.81
+    },
+    {
+     "rank": 5,
+     "name": "南通博灿通叁号企业管理中心(有限合伙)",
+     "ratio": 2.29
+    },
+    {
+     "rank": 6,
+     "name": "北京雅时春芽科技发展中心(有限合伙)",
+     "ratio": 1.91
+    },
+    {
+     "rank": 7,
+     "name": "广州谷昱轩投资合伙企业(有限合伙)",
+     "ratio": 1.76
+    },
+    {
+     "rank": 8,
+     "name": "南通云福金灵咨询合伙企业(有限合伙)",
+     "ratio": 1.61
+    },
+    {
+     "rank": 9,
+     "name": "北京雅善春芽科技发展中心(有限合伙)",
+     "ratio": 1.26
+    },
+    {
+     "rank": 10,
+     "name": "江苏资产管理有限公司",
+     "ratio": 1.22
+    }
+   ],
+   "top1_name": "汇通达网络股份有限公司",
+   "top1_ratio": 25,
+   "top3_sum": 44.95
+  },
+  "300173": {
+   "secucode": "300173.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "佛山市投资控股集团有限公司",
+     "ratio": 20.78
+    }
+   ],
+   "top1_name": "佛山市投资控股集团有限公司",
+   "top1_ratio": 20.78,
+   "top3_sum": 20.78
+  },
+  "600079": {
+   "secucode": "600079.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中粮信托有限责任公司-中粮信托-春泥1号破产重整服务信托",
+     "ratio": 11.7
+    },
+    {
+     "rank": 2,
+     "name": "招商生命科技(武汉)有限公司",
+     "ratio": 9
+    },
+    {
+     "rank": 3,
+     "name": "招商生科投资发展(武汉)合伙企业(有限合伙)",
+     "ratio": 6
+    },
+    {
+     "rank": 4,
+     "name": "李杰",
+     "ratio": 5.31
+    },
+    {
+     "rank": 5,
+     "name": "芜湖信福股权投资合伙企业(有限合伙)",
+     "ratio": 3.67
+    },
+    {
+     "rank": 6,
+     "name": "陈小清",
+     "ratio": 2.63
+    },
+    {
+     "rank": 7,
+     "name": "武汉高科国有控股集团有限公司",
+     "ratio": 1.6
+    },
+    {
+     "rank": 8,
+     "name": "沈阳森木投资管理有限公司-森木价值发现1号私募证券投资基金",
+     "ratio": 1.28
+    }
+   ],
+   "top1_name": "中粮信托有限责任公司-中粮信托-春泥1号破产重整服务信托",
+   "top1_ratio": 11.7,
+   "top3_sum": 26.7
+  },
+  "002689": {
+   "secucode": "002689.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "沈阳远大铝业集团有限公司",
+     "ratio": 34.64
+    },
+    {
+     "rank": 2,
+     "name": "远大铝业工程(新加坡)有限公司",
+     "ratio": 16.61
+    },
+    {
+     "rank": 3,
+     "name": "许磊",
+     "ratio": 1.19
+    },
+    {
+     "rank": 4,
+     "name": "彭旭",
+     "ratio": 0.81
+    },
+    {
+     "rank": 5,
+     "name": "王晓远",
+     "ratio": 0.47
+    },
+    {
+     "rank": 6,
+     "name": "孔令寿",
+     "ratio": 0.44
+    },
+    {
+     "rank": 7,
+     "name": "杨成社",
+     "ratio": 0.42
+    },
+    {
+     "rank": 8,
+     "name": "卢玉芳",
+     "ratio": 0.41
+    },
+    {
+     "rank": 9,
+     "name": "杨俊敏",
+     "ratio": 0.37
+    },
+    {
+     "rank": 10,
+     "name": "吴永棠",
+     "ratio": 0.37
+    }
+   ],
+   "top1_name": "沈阳远大铝业集团有限公司",
+   "top1_ratio": 34.64,
+   "top3_sum": 52.44
+  },
+  "603595": {
+   "secucode": "603595.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "沈新芳",
+     "ratio": 29.25
+    },
+    {
+     "rank": 2,
+     "name": "沈晓宇",
+     "ratio": 16.65
+    },
+    {
+     "rank": 3,
+     "name": "张英",
+     "ratio": 4
+    },
+    {
+     "rank": 4,
+     "name": "UBS AG",
+     "ratio": 2.09
+    },
+    {
+     "rank": 5,
+     "name": "杜四明",
+     "ratio": 1.12
+    },
+    {
+     "rank": 6,
+     "name": "罗纾沂",
+     "ratio": 1.05
+    },
+    {
+     "rank": 7,
+     "name": "高盛国际-自有资金",
+     "ratio": 0.96
+    },
+    {
+     "rank": 8,
+     "name": "上海启态易方投资管理有限公司-启态价值所相1号私募证券投资基金",
+     "ratio": 0.89
+    },
+    {
+     "rank": 9,
+     "name": "熊英",
+     "ratio": 0.87
+    },
+    {
+     "rank": 10,
+     "name": "康帝实业有限公司",
+     "ratio": 0.79
+    }
+   ],
+   "top1_name": "沈新芳",
+   "top1_ratio": 29.25,
+   "top3_sum": 49.9
+  },
+  "600169": {
+   "secucode": "600169.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "太原重型机械集团有限公司",
+     "ratio": 51.68
+    },
+    {
+     "rank": 2,
+     "name": "山西省旅游投资控股集团有限公司",
+     "ratio": 0.98
+    },
+    {
+     "rank": 3,
+     "name": "王育杰",
+     "ratio": 0.44
+    }
+   ],
+   "top1_name": "太原重型机械集团有限公司",
+   "top1_ratio": 51.68,
+   "top3_sum": 53.1
+  },
+  "300366": {
+   "secucode": "300366.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "陆文斌",
+     "ratio": 16.07
+    },
+    {
+     "rank": 2,
+     "name": "罗利",
+     "ratio": 2.11
+    },
+    {
+     "rank": 3,
+     "name": "赵章财",
+     "ratio": 1.86
+    },
+    {
+     "rank": 4,
+     "name": "四川省集成电路和信息安全产业投资基金有限公司",
+     "ratio": 1.83
+    },
+    {
+     "rank": 5,
+     "name": "唐建柏",
+     "ratio": 1.4
+    },
+    {
+     "rank": 6,
+     "name": "万能",
+     "ratio": 1.38
+    }
+   ],
+   "top1_name": "陆文斌",
+   "top1_ratio": 16.07,
+   "top3_sum": 20.04
+  },
+  "300237": {
+   "secucode": "300237.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "潍坊市国有资产投资控股集团有限公司",
+     "ratio": 21.62
+    },
+    {
+     "rank": 2,
+     "name": "诸城市经开投资发展有限公司",
+     "ratio": 5.44
+    },
+    {
+     "rank": 3,
+     "name": "蒙棣良",
+     "ratio": 1.73
+    },
+    {
+     "rank": 4,
+     "name": "马骋",
+     "ratio": 1.04
+    },
+    {
+     "rank": 5,
+     "name": "靳志强",
+     "ratio": 0.65
+    },
+    {
+     "rank": 6,
+     "name": "王炯",
+     "ratio": 0.63
+    },
+    {
+     "rank": 7,
+     "name": "敖宗华",
+     "ratio": 0.6
+    },
+    {
+     "rank": 8,
+     "name": "陆金根",
+     "ratio": 0.52
+    }
+   ],
+   "top1_name": "潍坊市国有资产投资控股集团有限公司",
+   "top1_ratio": 21.62,
+   "top3_sum": 28.79
+  },
+  "603517": {
+   "secucode": "603517.SH",
+   "report_date": "2026-08-31",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海聚成企业发展合伙企业(有限合伙)",
+     "ratio": 34.32
+    },
+    {
+     "rank": 2,
+     "name": "上海慧功企业发展合伙企业(有限合伙)",
+     "ratio": 8.13
+    },
+    {
+     "rank": 3,
+     "name": "上海成广企业发展合伙企业(有限合伙)",
+     "ratio": 2.79
+    },
+    {
+     "rank": 4,
+     "name": "上海福博企业发展合伙企业(有限合伙)",
+     "ratio": 2.54
+    },
+    {
+     "rank": 5,
+     "name": "全国社保基金五零三组合",
+     "ratio": 1.45
+    },
+    {
+     "rank": 6,
+     "name": "林芝腾讯科技有限公司",
+     "ratio": 1
+    },
+    {
+     "rank": 7,
+     "name": "北京禧悦私募基金管理有限公司-禧悦2号私募证券投资基金",
+     "ratio": 0.9
+    },
+    {
+     "rank": 8,
+     "name": "唐颖",
+     "ratio": 0.83
+    },
+    {
+     "rank": 9,
+     "name": "中国银行股份有限公司-兴全合丰三年持有期混合型证券投资基金",
+     "ratio": 0.66
+    },
+    {
+     "rank": 10,
+     "name": "中国工商银行股份有限公司-易方达科翔混合型证券投资基金",
+     "ratio": 0.55
+    }
+   ],
+   "top1_name": "上海聚成企业发展合伙企业(有限合伙)",
+   "top1_ratio": 34.32,
+   "top3_sum": 45.24
+  },
+  "600735": {
+   "secucode": "600735.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "山东鲁锦进出口集团有限公司",
+     "ratio": 43.27
+    },
+    {
+     "rank": 2,
+     "name": "王韬",
+     "ratio": 1.22
+    },
+    {
+     "rank": 3,
+     "name": "柯毅",
+     "ratio": 0.75
+    },
+    {
+     "rank": 4,
+     "name": "李宏图",
+     "ratio": 0.54
+    },
+    {
+     "rank": 5,
+     "name": "万中华",
+     "ratio": 0.54
+    },
+    {
+     "rank": 6,
+     "name": "宋仕良",
+     "ratio": 0.46
+    }
+   ],
+   "top1_name": "山东鲁锦进出口集团有限公司",
+   "top1_ratio": 43.27,
+   "top3_sum": 45.24
+  },
+  "000698": {
+   "secucode": "000698.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "沈阳化工集团有限公司",
+     "ratio": 26.68
+    },
+    {
+     "rank": 2,
+     "name": "中国蓝星(集团)股份有限公司",
+     "ratio": 19.35
+    },
+    {
+     "rank": 3,
+     "name": "顾诵华",
+     "ratio": 2.25
+    },
+    {
+     "rank": 4,
+     "name": "中国化工集团有限公司",
+     "ratio": 1.2
+    },
+    {
+     "rank": 5,
+     "name": "张国祥",
+     "ratio": 0.51
+    },
+    {
+     "rank": 6,
+     "name": "刘修煌",
+     "ratio": 0.37
+    },
+    {
+     "rank": 7,
+     "name": "傅晓鸣",
+     "ratio": 0.32
+    },
+    {
+     "rank": 8,
+     "name": "周森",
+     "ratio": 0.31
+    }
+   ],
+   "top1_name": "沈阳化工集团有限公司",
+   "top1_ratio": 26.68,
+   "top3_sum": 48.28
+  },
+  "300527": {
+   "secucode": "300527.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中国船舶重工集团有限公司",
+     "ratio": 42.81
+    },
+    {
+     "rank": 2,
+     "name": "中国船舶重工集团武汉船舶工业有限公司",
+     "ratio": 11.08
+    },
+    {
+     "rank": 3,
+     "name": "西安精密机械研究所(中国船舶重工集团公司第七0五研究所)",
+     "ratio": 1.92
+    },
+    {
+     "rank": 4,
+     "name": "夏琼",
+     "ratio": 1.11
+    },
+    {
+     "rank": 5,
+     "name": "黄海彬",
+     "ratio": 0.29
+    },
+    {
+     "rank": 6,
+     "name": "王喜栓",
+     "ratio": 0.27
+    },
+    {
+     "rank": 7,
+     "name": "林永清",
+     "ratio": 0.25
+    },
+    {
+     "rank": 8,
+     "name": "王建",
+     "ratio": 0.22
+    },
+    {
+     "rank": 9,
+     "name": "赵睿",
+     "ratio": 0.21
+    },
+    {
+     "rank": 10,
+     "name": "张文旭",
+     "ratio": 0.19
+    }
+   ],
+   "top1_name": "中国船舶重工集团有限公司",
+   "top1_ratio": 42.81,
+   "top3_sum": 55.81
+  },
+  "002581": {
+   "secucode": "002581.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "高宝林",
+     "ratio": 8.19
+    },
+    {
+     "rank": 2,
+     "name": "厦门恒兴集团有限公司",
+     "ratio": 7.49
+    },
+    {
+     "rank": 3,
+     "name": "深圳嘉联私募证券投资基金管理有限公司-嘉联一号证券投资基金",
+     "ratio": 4.85
+    },
+    {
+     "rank": 4,
+     "name": "深圳市易联技术有限公司",
+     "ratio": 3.82
+    },
+    {
+     "rank": 5,
+     "name": "刘凯莉",
+     "ratio": 3.64
+    },
+    {
+     "rank": 6,
+     "name": "杨艳",
+     "ratio": 3.37
+    },
+    {
+     "rank": 7,
+     "name": "深圳市聚运来投资合伙企业(有限合伙)",
+     "ratio": 2.52
+    },
+    {
+     "rank": 8,
+     "name": "北京北大未名生物工程集团有限公司",
+     "ratio": 1.52
+    },
+    {
+     "rank": 9,
+     "name": "郭雪钦",
+     "ratio": 1.39
+    },
+    {
+     "rank": 10,
+     "name": "石庭波",
+     "ratio": 1.33
+    }
+   ],
+   "top1_name": "高宝林",
+   "top1_ratio": 8.19,
+   "top3_sum": 20.53
+  },
+  "603825": {
+   "secucode": "603825.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖南湘江新区发展集团有限公司",
+     "ratio": 19.81
+    },
+    {
+     "rank": 2,
+     "name": "苏同",
+     "ratio": 12.67
+    },
+    {
+     "rank": 3,
+     "name": "湖南省财信资产管理有限公司",
+     "ratio": 4.9
+    },
+    {
+     "rank": 4,
+     "name": "姜香蕊",
+     "ratio": 4.36
+    },
+    {
+     "rank": 5,
+     "name": "唐建柏",
+     "ratio": 4.17
+    },
+    {
+     "rank": 6,
+     "name": "黄力志",
+     "ratio": 1.02
+    },
+    {
+     "rank": 7,
+     "name": "洪清法",
+     "ratio": 0.91
+    },
+    {
+     "rank": 8,
+     "name": "朱华",
+     "ratio": 0.84
+    },
+    {
+     "rank": 9,
+     "name": "胡群芳",
+     "ratio": 0.75
+    },
+    {
+     "rank": 10,
+     "name": "娄军",
+     "ratio": 0.62
+    }
+   ],
+   "top1_name": "湖南湘江新区发展集团有限公司",
+   "top1_ratio": 19.81,
+   "top3_sum": 37.38
+  },
+  "688076": {
+   "secucode": "688076.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "连云港诺泰投资管理合伙企业(有限合伙)",
+     "ratio": 8.86
+    },
+    {
+     "rank": 2,
+     "name": "赵德毅",
+     "ratio": 5.94
+    },
+    {
+     "rank": 2,
+     "name": "赵德中",
+     "ratio": 5.94
+    },
+    {
+     "rank": 4,
+     "name": "建德市星联企业管理有限公司",
+     "ratio": 4.54
+    },
+    {
+     "rank": 5,
+     "name": "杭州伏隆贸易有限公司",
+     "ratio": 4.21
+    },
+    {
+     "rank": 5,
+     "name": "杭州鹏亭贸易有限公司",
+     "ratio": 4.21
+    },
+    {
+     "rank": 7,
+     "name": "建德市上将企业管理有限公司",
+     "ratio": 3.57
+    },
+    {
+     "rank": 8,
+     "name": "建德市宇信企业管理有限公司",
+     "ratio": 3.02
+    },
+    {
+     "rank": 9,
+     "name": "方东晖",
+     "ratio": 2.47
+    },
+    {
+     "rank": 10,
+     "name": "建德市睿信企业管理有限公司",
+     "ratio": 1.59
+    }
+   ],
+   "top1_name": "连云港诺泰投资管理合伙企业(有限合伙)",
+   "top1_ratio": 8.86,
+   "top3_sum": 20.74
+  },
+  "688053": {
+   "secucode": "688053.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "成都市铨钧企业管理中心(有限合伙)",
+     "ratio": 54.91
+    },
+    {
+     "rank": 2,
+     "name": "宁波通元优博创业投资合伙企业(有限合伙)",
+     "ratio": 2.46
+    },
+    {
+     "rank": 3,
+     "name": "新余环亚诺金企业管理有限公司",
+     "ratio": 1.82
+    },
+    {
+     "rank": 4,
+     "name": "肖志军",
+     "ratio": 1.53
+    },
+    {
+     "rank": 5,
+     "name": "宁波通泰信创业投资合伙企业(有限合伙)",
+     "ratio": 1.41
+    },
+    {
+     "rank": 6,
+     "name": "何红梅",
+     "ratio": 1.13
+    },
+    {
+     "rank": 7,
+     "name": "国联民生证券股份有限公司",
+     "ratio": 0.73
+    },
+    {
+     "rank": 8,
+     "name": "薛耀兴",
+     "ratio": 0.48
+    },
+    {
+     "rank": 9,
+     "name": "郑伟民",
+     "ratio": 0.47
+    },
+    {
+     "rank": 10,
+     "name": "李王文",
+     "ratio": 0.36
+    }
+   ],
+   "top1_name": "成都市铨钧企业管理中心(有限合伙)",
+   "top1_ratio": 54.91,
+   "top3_sum": 59.19
+  },
+  "688184": {
+   "secucode": "688184.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "诸暨兆远投资有限公司",
+     "ratio": 15.31
+    },
+    {
+     "rank": 2,
+     "name": "张宝",
+     "ratio": 10.57
+    },
+    {
+     "rank": 3,
+     "name": "浙江浙商产业投资基金合伙企业(有限合伙)",
+     "ratio": 5.13
+    },
+    {
+     "rank": 4,
+     "name": "厦门建发新兴产业股权投资贰号合伙企业(有限合伙)",
+     "ratio": 4.63
+    },
+    {
+     "rank": 5,
+     "name": "浙江展诚建设集团股份有限公司",
+     "ratio": 3.83
+    },
+    {
+     "rank": 5,
+     "name": "王宝良",
+     "ratio": 3.83
+    },
+    {
+     "rank": 5,
+     "name": "姚挺",
+     "ratio": 3.83
+    },
+    {
+     "rank": 8,
+     "name": "苏州汇毅芯源贰号创业投资合伙企业(有限合伙)",
+     "ratio": 3.71
+    },
+    {
+     "rank": 9,
+     "name": "南昌汇毅芯源壹号创业投资基金合伙企业(有限合伙)",
+     "ratio": 3.08
+    },
+    {
+     "rank": 10,
+     "name": "湖州源玺企业管理咨询合伙企业(有限合伙)",
+     "ratio": 1.7
+    }
+   ],
+   "top1_name": "诸暨兆远投资有限公司",
+   "top1_ratio": 15.31,
+   "top3_sum": 31.01
+  },
+  "300211": {
+   "secucode": "300211.SZ",
+   "report_date": "2026-07-14",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "安徽顺源芯科管理咨询合伙企业(有限合伙)",
+     "ratio": 29.88
+    },
+    {
+     "rank": 2,
+     "name": "王振洪",
+     "ratio": 13.1625
+    }
+   ],
+   "top1_name": "安徽顺源芯科管理咨询合伙企业(有限合伙)",
+   "top1_ratio": 29.88,
+   "top3_sum": 43.04
+  },
+  "603843": {
+   "secucode": "603843.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "金生光",
+     "ratio": 17.33
+    },
+    {
+     "rank": 2,
+     "name": "金生辉",
+     "ratio": 6.61
+    },
+    {
+     "rank": 3,
+     "name": "李建莉",
+     "ratio": 2.14
+    },
+    {
+     "rank": 4,
+     "name": "青海金阳光投资集团有限公司",
+     "ratio": 1.49
+    },
+    {
+     "rank": 5,
+     "name": "金飞梅",
+     "ratio": 1.22
+    },
+    {
+     "rank": 6,
+     "name": "孙建平",
+     "ratio": 0.48
+    },
+    {
+     "rank": 7,
+     "name": "金飞菲",
+     "ratio": 0.39
+    },
+    {
+     "rank": 8,
+     "name": "刘滢",
+     "ratio": 0.39
+    },
+    {
+     "rank": 9,
+     "name": "张建军",
+     "ratio": 0.33
+    },
+    {
+     "rank": 10,
+     "name": "仲远",
+     "ratio": 0.29
+    }
+   ],
+   "top1_name": "金生光",
+   "top1_ratio": 17.33,
+   "top3_sum": 26.08
+  },
+  "603398": {
+   "secucode": "603398.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "江西沐邦新能源控股有限公司",
+     "ratio": 13.12
+    },
+    {
+     "rank": 2,
+     "name": "邦领国际有限公司",
+     "ratio": 12.89
+    },
+    {
+     "rank": 3,
+     "name": "铜陵高新企航股权投资合伙企业(有限合伙)",
+     "ratio": 4.11
+    },
+    {
+     "rank": 4,
+     "name": "郑煜东",
+     "ratio": 2.54
+    },
+    {
+     "rank": 4,
+     "name": "郑煜方",
+     "ratio": 2.54
+    },
+    {
+     "rank": 6,
+     "name": "文勇",
+     "ratio": 2.42
+    },
+    {
+     "rank": 7,
+     "name": "李晓辉",
+     "ratio": 0.78
+    },
+    {
+     "rank": 8,
+     "name": "南昌金兴企业管理中心(有限合伙)",
+     "ratio": 0.54
+    },
+    {
+     "rank": 9,
+     "name": "林渝童",
+     "ratio": 0.54
+    },
+    {
+     "rank": 10,
+     "name": "周鑫平",
+     "ratio": 0.49
+    }
+   ],
+   "top1_name": "江西沐邦新能源控股有限公司",
+   "top1_ratio": 13.12,
+   "top3_sum": 30.12
+  },
+  "300472": {
+   "secucode": "300472.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "朱业胜",
+     "ratio": 3.92
+    },
+    {
+     "rank": 2,
+     "name": "曾维斌",
+     "ratio": 3.02
+    },
+    {
+     "rank": 3,
+     "name": "青岛洪运瑞恒私募基金管理有限公司-洪运瑞恒泓创老字号私募证券投资基金",
+     "ratio": 2.94
+    },
+    {
+     "rank": 4,
+     "name": "姜承法",
+     "ratio": 2.84
+    },
+    {
+     "rank": 5,
+     "name": "吴优",
+     "ratio": 2.43
+    },
+    {
+     "rank": 6,
+     "name": "宁波世纪万向企业管理合伙企业(有限合伙)",
+     "ratio": 1.6
+    }
+   ],
+   "top1_name": "朱业胜",
+   "top1_ratio": 3.92,
+   "top3_sum": 9.88
+  },
+  "603789": {
+   "secucode": "603789.SH",
+   "report_date": "2026-08-10",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "江苏玖元亨通新能源发展合伙企业(有限合伙)",
+     "ratio": 22.2004
+    },
+    {
+     "rank": 2,
+     "name": "星光农科控股集团有限公司",
+     "ratio": 16.65
+    },
+    {
+     "rank": 3,
+     "name": "章沈强",
+     "ratio": 8.94
+    }
+   ],
+   "top1_name": "江苏玖元亨通新能源发展合伙企业(有限合伙)",
+   "top1_ratio": 22.2004,
+   "top3_sum": 47.79
+  },
+  "600107": {
+   "secucode": "600107.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖北美尔雅集团有限公司",
+     "ratio": 20.39
+    },
+    {
+     "rank": 2,
+     "name": "刘荣珍",
+     "ratio": 2.47
+    },
+    {
+     "rank": 3,
+     "name": "胡冬艳",
+     "ratio": 1.88
+    },
+    {
+     "rank": 4,
+     "name": "郑继平",
+     "ratio": 1.26
+    }
+   ],
+   "top1_name": "湖北美尔雅集团有限公司",
+   "top1_ratio": 20.39,
+   "top3_sum": 24.74
+  },
+  "605199": {
+   "secucode": "605199.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "海南葫芦娃投资发展有限公司",
+     "ratio": 35.79
+    },
+    {
+     "rank": 2,
+     "name": "浙江孚旺钜德健康发展有限公司",
+     "ratio": 14.38
+    },
+    {
+     "rank": 3,
+     "name": "杭州中嘉瑞管理合伙企业(有限合伙)",
+     "ratio": 6.88
+    },
+    {
+     "rank": 4,
+     "name": "卢锦华",
+     "ratio": 4.89
+    },
+    {
+     "rank": 5,
+     "name": "汤杰丞",
+     "ratio": 4.7
+    },
+    {
+     "rank": 6,
+     "name": "汤旭东",
+     "ratio": 2.74
+    },
+    {
+     "rank": 7,
+     "name": "彭沛东",
+     "ratio": 2
+    },
+    {
+     "rank": 8,
+     "name": "深圳市赛硕基金管理有限公司-赛硕启航三号私募证券投资基金",
+     "ratio": 1
+    },
+    {
+     "rank": 8,
+     "name": "欧先涛",
+     "ratio": 1
+    },
+    {
+     "rank": 10,
+     "name": "姚慧力",
+     "ratio": 0.5
+    }
+   ],
+   "top1_name": "海南葫芦娃投资发展有限公司",
+   "top1_ratio": 35.79,
+   "top3_sum": 57.05
+  },
+  "002620": {
+   "secucode": "002620.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "李介平",
+     "ratio": 20.21
+    },
+    {
+     "rank": 2,
+     "name": "深圳市瑞展实业发展有限公司",
+     "ratio": 19.54
+    },
+    {
+     "rank": 3,
+     "name": "王维忠",
+     "ratio": 0.79
+    },
+    {
+     "rank": 4,
+     "name": "喻汉林",
+     "ratio": 0.79
+    },
+    {
+     "rank": 5,
+     "name": "李中朝",
+     "ratio": 0.66
+    },
+    {
+     "rank": 6,
+     "name": "陈晟然",
+     "ratio": 0.53
+    },
+    {
+     "rank": 7,
+     "name": "林洲",
+     "ratio": 0.51
+    },
+    {
+     "rank": 8,
+     "name": "CITIGROUP GLOBAL MARKETS LIMITED",
+     "ratio": 0.42
+    },
+    {
+     "rank": 9,
+     "name": "罗洪礼",
+     "ratio": 0.37
+    },
+    {
+     "rank": 10,
+     "name": "陈淑霞",
+     "ratio": 0.35
+    }
+   ],
+   "top1_name": "李介平",
+   "top1_ratio": 20.21,
+   "top3_sum": 40.54
+  },
+  "002630": {
+   "secucode": "002630.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "黎仁超",
+     "ratio": 11.57
+    },
+    {
+     "rank": 2,
+     "name": "李明欣",
+     "ratio": 1.02
+    },
+    {
+     "rank": 3,
+     "name": "罗仲杰",
+     "ratio": 0.84
+    },
+    {
+     "rank": 4,
+     "name": "国沣资产(湖北)私募基金管理有限公司-国沣玉山一号私募证券投资基金",
+     "ratio": 0.76
+    },
+    {
+     "rank": 5,
+     "name": "王伟",
+     "ratio": 0.7
+    },
+    {
+     "rank": 6,
+     "name": "国沣资产(湖北)私募基金管理有限公司-国沣峨眉山一号私募证券投资基金",
+     "ratio": 0.59
+    },
+    {
+     "rank": 7,
+     "name": "张士英",
+     "ratio": 0.59
+    },
+    {
+     "rank": 8,
+     "name": "李一霏",
+     "ratio": 0.5
+    },
+    {
+     "rank": 9,
+     "name": "国沣资产(湖北)私募基金管理有限公司-国沣祁连山一号私募证券投资基金",
+     "ratio": 0.48
+    },
+    {
+     "rank": 10,
+     "name": "罗亮",
+     "ratio": 0.46
+    }
+   ],
+   "top1_name": "黎仁超",
+   "top1_ratio": 11.57,
+   "top3_sum": 13.43
+  },
+  "603838": {
+   "secucode": "603838.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "黄建平",
+     "ratio": 28.25
+    },
+    {
+     "rank": 2,
+     "name": "蔡镇城",
+     "ratio": 4.52
+    },
+    {
+     "rank": 3,
+     "name": "蔡镇煌",
+     "ratio": 4.51
+    },
+    {
+     "rank": 4,
+     "name": "蔡镇锋",
+     "ratio": 4.51
+    },
+    {
+     "rank": 4,
+     "name": "李维香",
+     "ratio": 4.51
+    },
+    {
+     "rank": 4,
+     "name": "蔡镇通",
+     "ratio": 4.51
+    },
+    {
+     "rank": 4,
+     "name": "蔡镇茂",
+     "ratio": 4.51
+    },
+    {
+     "rank": 8,
+     "name": "邓建华",
+     "ratio": 4.17
+    },
+    {
+     "rank": 8,
+     "name": "谢悦增",
+     "ratio": 4.17
+    }
+   ],
+   "top1_name": "黄建平",
+   "top1_ratio": 28.25,
+   "top3_sum": 37.28
+  },
+  "002305": {
+   "secucode": "002305.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中国电建地产集团有限公司",
+     "ratio": 22.43
+    },
+    {
+     "rank": 2,
+     "name": "武汉新天地投资有限公司",
+     "ratio": 18.06
+    },
+    {
+     "rank": 3,
+     "name": "孙育人",
+     "ratio": 0.58
+    }
+   ],
+   "top1_name": "中国电建地产集团有限公司",
+   "top1_ratio": 22.43,
+   "top3_sum": 41.07
+  },
+  "300462": {
+   "secucode": "300462.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "张亮",
+     "ratio": 29.47
+    },
+    {
+     "rank": 2,
+     "name": "袁夫敏",
+     "ratio": 3.59
+    },
+    {
+     "rank": 3,
+     "name": "诸弘立",
+     "ratio": 2.76
+    },
+    {
+     "rank": 4,
+     "name": "谢根方",
+     "ratio": 2.31
+    },
+    {
+     "rank": 5,
+     "name": "张晓燕",
+     "ratio": 1.88
+    },
+    {
+     "rank": 6,
+     "name": "徐小蓉",
+     "ratio": 1.63
+    },
+    {
+     "rank": 7,
+     "name": "北京元程序资产管理有限公司-元程序价值成长1号私募证券投资基金",
+     "ratio": 1.56
+    },
+    {
+     "rank": 8,
+     "name": "浙江泓芯新材料股份有限公司",
+     "ratio": 1.54
+    },
+    {
+     "rank": 9,
+     "name": "周玉波",
+     "ratio": 1.38
+    },
+    {
+     "rank": 10,
+     "name": "高建芳",
+     "ratio": 1.38
+    }
+   ],
+   "top1_name": "张亮",
+   "top1_ratio": 29.47,
+   "top3_sum": 35.82
+  },
+  "300477": {
+   "secucode": "300477.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "刘泽刚",
+     "ratio": 7.11
+    },
+    {
+     "rank": 2,
+     "name": "韦强",
+     "ratio": 2.31
+    },
+    {
+     "rank": 3,
+     "name": "王俊兴",
+     "ratio": 0.67
+    },
+    {
+     "rank": 4,
+     "name": "朱恺",
+     "ratio": 0.64
+    }
+   ],
+   "top1_name": "刘泽刚",
+   "top1_ratio": 7.11,
+   "top3_sum": 10.09
+  },
+  "300716": {
+   "secucode": "300716.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "广东国立科技控股有限公司",
+     "ratio": 12
+    },
+    {
+     "rank": 2,
+     "name": "泉为绿能投资(海南)有限公司",
+     "ratio": 6.42
+    },
+    {
+     "rank": 3,
+     "name": "东莞市盛和伟业投资有限公司",
+     "ratio": 3.37
+    },
+    {
+     "rank": 4,
+     "name": "卢闯",
+     "ratio": 3.12
+    },
+    {
+     "rank": 5,
+     "name": "顾萍",
+     "ratio": 1.27
+    },
+    {
+     "rank": 6,
+     "name": "秦张明",
+     "ratio": 1.17
+    },
+    {
+     "rank": 7,
+     "name": "黄凯凯",
+     "ratio": 1
+    }
+   ],
+   "top1_name": "广东国立科技控股有限公司",
+   "top1_ratio": 12,
+   "top3_sum": 21.79
+  },
+  "300326": {
+   "secucode": "300326.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "涌金投资控股有限公司",
+     "ratio": 7
+    },
+    {
+     "rank": 2,
+     "name": "上海欣诚意投资有限公司",
+     "ratio": 5.16
+    },
+    {
+     "rank": 3,
+     "name": "上海凯诚君泰投资有限公司",
+     "ratio": 3.51
+    },
+    {
+     "rank": 4,
+     "name": "李虹",
+     "ratio": 3.46
+    },
+    {
+     "rank": 5,
+     "name": "郑志刚",
+     "ratio": 2.97
+    },
+    {
+     "rank": 6,
+     "name": "刘双全",
+     "ratio": 2.52
+    },
+    {
+     "rank": 7,
+     "name": "袁征",
+     "ratio": 1.2
+    }
+   ],
+   "top1_name": "涌金投资控股有限公司",
+   "top1_ratio": 7,
+   "top3_sum": 15.67
+  },
+  "002717": {
+   "secucode": "002717.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中山华盈产业投资合伙企业(有限合伙)",
+     "ratio": 4.63
+    },
+    {
+     "rank": 2,
+     "name": "卢闯",
+     "ratio": 4.4
+    },
+    {
+     "rank": 3,
+     "name": "尹洪卫",
+     "ratio": 1.72
+    },
+    {
+     "rank": 4,
+     "name": "张宇",
+     "ratio": 1.65
+    },
+    {
+     "rank": 5,
+     "name": "芜湖盛晖企业管理中心(有限合伙)",
+     "ratio": 1.37
+    },
+    {
+     "rank": 6,
+     "name": "冯俊伟",
+     "ratio": 1.1
+    },
+    {
+     "rank": 6,
+     "name": "江西瑞京金融资产管理有限公司",
+     "ratio": 1.1
+    },
+    {
+     "rank": 8,
+     "name": "中山火炬华盈投资有限公司",
+     "ratio": 0.99
+    },
+    {
+     "rank": 9,
+     "name": "张鑫",
+     "ratio": 0.55
+    },
+    {
+     "rank": 10,
+     "name": "李宏",
+     "ratio": 0.48
+    }
+   ],
+   "top1_name": "中山华盈产业投资合伙企业(有限合伙)",
+   "top1_ratio": 4.63,
+   "top3_sum": 10.75
+  },
+  "600753": {
+   "secucode": "600753.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "浙江海歆能源有限责任公司",
+     "ratio": 26
+    },
+    {
+     "rank": 2,
+     "name": "何珠兴",
+     "ratio": 5.7
+    },
+    {
+     "rank": 3,
+     "name": "上海杰宇资产管理有限公司",
+     "ratio": 5
+    },
+    {
+     "rank": 4,
+     "name": "福建瑞善科技有限公司",
+     "ratio": 4.91
+    },
+    {
+     "rank": 5,
+     "name": "南京恒达通商贸有限公司",
+     "ratio": 2.63
+    },
+    {
+     "rank": 6,
+     "name": "王赤平",
+     "ratio": 1.49
+    },
+    {
+     "rank": 7,
+     "name": "曹智刚",
+     "ratio": 1.22
+    },
+    {
+     "rank": 8,
+     "name": "钟建明",
+     "ratio": 1.2
+    },
+    {
+     "rank": 9,
+     "name": "中庚置业集团有限公司",
+     "ratio": 0.87
+    }
+   ],
+   "top1_name": "浙江海歆能源有限责任公司",
+   "top1_ratio": 26,
+   "top3_sum": 36.7
+  },
+  "300152": {
+   "secucode": "300152.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "肖劲东",
+     "ratio": 2.65
+    },
+    {
+     "rank": 2,
+     "name": "天津腾宇高通信息咨询合伙企业(有限合伙)",
+     "ratio": 2.53
+    },
+    {
+     "rank": 3,
+     "name": "南昌达亿投资有限公司",
+     "ratio": 1.68
+    },
+    {
+     "rank": 4,
+     "name": "方海云",
+     "ratio": 1.66
+    },
+    {
+     "rank": 5,
+     "name": "鼎泰四方(深圳)私募证券基金管理有限公司-鼎泰四方金圆1号私募证券投资基金",
+     "ratio": 0.73
+    },
+    {
+     "rank": 6,
+     "name": "陈荣萍",
+     "ratio": 0.59
+    },
+    {
+     "rank": 7,
+     "name": "深圳泽源私募证券基金管理有限公司-泽源利旺田42号私募证券投资基金",
+     "ratio": 0.53
+    },
+    {
+     "rank": 8,
+     "name": "黄智",
+     "ratio": 0.53
+    },
+    {
+     "rank": 9,
+     "name": "胡俊翀",
+     "ratio": 0.48
+    },
+    {
+     "rank": 10,
+     "name": "王建明",
+     "ratio": 0.48
+    }
+   ],
+   "top1_name": "肖劲东",
+   "top1_ratio": 2.65,
+   "top3_sum": 6.86
+  },
+  "600624": {
+   "secucode": "600624.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海奉贤投资(集团)有限公司",
+     "ratio": 18.89
+    },
+    {
+     "rank": 2,
+     "name": "上海上科科技投资有限公司",
+     "ratio": 10.19
+    },
+    {
+     "rank": 3,
+     "name": "杨展伟",
+     "ratio": 0.77
+    },
+    {
+     "rank": 4,
+     "name": "吴建忠",
+     "ratio": 0.7
+    },
+    {
+     "rank": 5,
+     "name": "吴育敏",
+     "ratio": 0.62
+    },
+    {
+     "rank": 6,
+     "name": "唐建柏",
+     "ratio": 0.62
+    },
+    {
+     "rank": 7,
+     "name": "杨晓峰",
+     "ratio": 0.55
+    },
+    {
+     "rank": 8,
+     "name": "孟圣喜",
+     "ratio": 0.54
+    },
+    {
+     "rank": 9,
+     "name": "贺光毅",
+     "ratio": 0.45
+    },
+    {
+     "rank": 10,
+     "name": "孔健敏",
+     "ratio": 0.37
+    }
+   ],
+   "top1_name": "上海奉贤投资(集团)有限公司",
+   "top1_ratio": 18.89,
+   "top3_sum": 29.85
+  },
+  "002789": {
+   "secucode": "002789.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "珠海正方集团有限公司",
+     "ratio": 29.95
+    },
+    {
+     "rank": 2,
+     "name": "刘海云",
+     "ratio": 20.86
+    },
+    {
+     "rank": 3,
+     "name": "刘珊",
+     "ratio": 2.13
+    },
+    {
+     "rank": 4,
+     "name": "孙昀",
+     "ratio": 1.23
+    },
+    {
+     "rank": 5,
+     "name": "崔晓路",
+     "ratio": 1.07
+    },
+    {
+     "rank": 6,
+     "name": "蒋家远",
+     "ratio": 0.96
+    },
+    {
+     "rank": 7,
+     "name": "戚良季",
+     "ratio": 0.91
+    },
+    {
+     "rank": 8,
+     "name": "蒋芊羽",
+     "ratio": 0.83
+    },
+    {
+     "rank": 9,
+     "name": "李红杰",
+     "ratio": 0.68
+    },
+    {
+     "rank": 10,
+     "name": "屈丽平",
+     "ratio": 0.65
+    }
+   ],
+   "top1_name": "珠海正方集团有限公司",
+   "top1_ratio": 29.95,
+   "top3_sum": 52.94
+  },
+  "603021": {
+   "secucode": "603021.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "山东海科控股有限公司",
+     "ratio": 24.33
+    },
+    {
+     "rank": 2,
+     "name": "山东省绿色资本投资集团有限公司",
+     "ratio": 16.48
+    },
+    {
+     "rank": 3,
+     "name": "张涛",
+     "ratio": 2.24
+    },
+    {
+     "rank": 4,
+     "name": "陈怡卿",
+     "ratio": 1.44
+    },
+    {
+     "rank": 5,
+     "name": "刘建波",
+     "ratio": 1.31
+    },
+    {
+     "rank": 6,
+     "name": "刘晓军",
+     "ratio": 0.96
+    },
+    {
+     "rank": 7,
+     "name": "严佳炫",
+     "ratio": 0.87
+    },
+    {
+     "rank": 8,
+     "name": "刘全江",
+     "ratio": 0.85
+    },
+    {
+     "rank": 9,
+     "name": "付磊",
+     "ratio": 0.81
+    },
+    {
+     "rank": 10,
+     "name": "刘青现",
+     "ratio": 0.75
+    }
+   ],
+   "top1_name": "山东海科控股有限公司",
+   "top1_ratio": 24.33,
+   "top3_sum": 43.05
+  },
+  "300147": {
+   "secucode": "300147.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "广州市昆仑投资有限公司",
+     "ratio": 22.59
+    },
+    {
+     "rank": 2,
+     "name": "广州市罗岗自来水有限公司",
+     "ratio": 4.06
+    },
+    {
+     "rank": 3,
+     "name": "陈沐生",
+     "ratio": 1.36
+    },
+    {
+     "rank": 4,
+     "name": "周小东",
+     "ratio": 0.83
+    },
+    {
+     "rank": 5,
+     "name": "沈荣贵",
+     "ratio": 0.71
+    },
+    {
+     "rank": 6,
+     "name": "广东万铭建设工程有限公司",
+     "ratio": 0.54
+    }
+   ],
+   "top1_name": "广州市昆仑投资有限公司",
+   "top1_ratio": 22.59,
+   "top3_sum": 28.01
+  },
+  "000793": {
+   "secucode": "000793.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "华闻传媒投资集团股份有限公司破产企业财产处置专用账户",
+     "ratio": 16.02
+    },
+    {
+     "rank": 2,
+     "name": "海南联合资产管理有限公司",
+     "ratio": 11.01
+    },
+    {
+     "rank": 3,
+     "name": "国广环球资产管理有限公司",
+     "ratio": 3.24
+    },
+    {
+     "rank": 4,
+     "name": "前海开源基金-浦发银行-渤海国际信托-渤海信托·煦沁聚和1号集合资金信托计划",
+     "ratio": 2.79
+    },
+    {
+     "rank": 5,
+     "name": "中国对外经济贸易信托有限公司-外贸信托-玄武41号华闻集团重整投资集合资金信托计划",
+     "ratio": 2.4
+    },
+    {
+     "rank": 6,
+     "name": "海南联瀚投资有限责任公司",
+     "ratio": 2.27
+    },
+    {
+     "rank": 7,
+     "name": "北京京韬聚合企业管理咨询中心(有限合伙)",
+     "ratio": 1.96
+    },
+    {
+     "rank": 7,
+     "name": "新余达卓企业管理中心(有限合伙)",
+     "ratio": 1.96
+    },
+    {
+     "rank": 7,
+     "name": "芜湖长卓投资中心(有限合伙)",
+     "ratio": 1.96
+    },
+    {
+     "rank": 7,
+     "name": "天津泓生嘉和管理咨询合伙企业(有限合伙)",
+     "ratio": 1.96
+    }
+   ],
+   "top1_name": "华闻传媒投资集团股份有限公司破产企业财产处置专用账户",
+   "top1_ratio": 16.02,
+   "top3_sum": 30.27
+  },
+  "000903": {
+   "secucode": "000903.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "云南云内动力集团有限公司",
+     "ratio": 33.6
+    },
+    {
+     "rank": 2,
+     "name": "林永清",
+     "ratio": 1.37
+    },
+    {
+     "rank": 3,
+     "name": "郑玉秀",
+     "ratio": 0.81
+    },
+    {
+     "rank": 4,
+     "name": "卢群凯",
+     "ratio": 0.4
+    }
+   ],
+   "top1_name": "云南云内动力集团有限公司",
+   "top1_ratio": 33.6,
+   "top3_sum": 35.78
+  },
+  "300419": {
+   "secucode": "300419.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "义乌至芯网络科技有限公司",
+     "ratio": 15
+    },
+    {
+     "rank": 2,
+     "name": "北京元和盛德投资有限责任公司",
+     "ratio": 1.36
+    },
+    {
+     "rank": 3,
+     "name": "华清",
+     "ratio": 0.73
+    },
+    {
+     "rank": 4,
+     "name": "张磊",
+     "ratio": 0.66
+    },
+    {
+     "rank": 5,
+     "name": "王铭",
+     "ratio": 0.58
+    },
+    {
+     "rank": 6,
+     "name": "杨献民",
+     "ratio": 0.57
+    },
+    {
+     "rank": 7,
+     "name": "李志",
+     "ratio": 0.54
+    },
+    {
+     "rank": 8,
+     "name": "陈少湧",
+     "ratio": 0.54
+    },
+    {
+     "rank": 9,
+     "name": "黄丹",
+     "ratio": 0.52
+    },
+    {
+     "rank": 10,
+     "name": "孙玉新",
+     "ratio": 0.49
+    }
+   ],
+   "top1_name": "义乌至芯网络科技有限公司",
+   "top1_ratio": 15,
+   "top3_sum": 17.09
+  },
+  "300020": {
+   "secucode": "300020.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "银江科技集团有限公司",
+     "ratio": 6.65
+    },
+    {
+     "rank": 2,
+     "name": "山东宝泽产业投资有限公司",
+     "ratio": 3.65
+    },
+    {
+     "rank": 3,
+     "name": "浙江浙商证券资产管理有限公司",
+     "ratio": 3.5
+    },
+    {
+     "rank": 4,
+     "name": "黄建山",
+     "ratio": 1.83
+    },
+    {
+     "rank": 5,
+     "name": "张森箭",
+     "ratio": 1.25
+    },
+    {
+     "rank": 6,
+     "name": "黄腾宇",
+     "ratio": 0.98
+    },
+    {
+     "rank": 7,
+     "name": "谢燕生",
+     "ratio": 0.8
+    },
+    {
+     "rank": 8,
+     "name": "魏银珊",
+     "ratio": 0.77
+    },
+    {
+     "rank": 9,
+     "name": "曹梦虎",
+     "ratio": 0.77
+    },
+    {
+     "rank": 10,
+     "name": "李绪芳",
+     "ratio": 0.62
+    }
+   ],
+   "top1_name": "银江科技集团有限公司",
+   "top1_ratio": 6.65,
+   "top3_sum": 13.8
+  },
+  "000488": {
+   "secucode": "000488.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "晨鸣控股有限公司",
+     "ratio": 15.5
+    },
+    {
+     "rank": 2,
+     "name": "HKSCC NOMINEES LIMITED",
+     "ratio": 12.7
+    },
+    {
+     "rank": 3,
+     "name": "晨鸣控股(香港)有限公司",
+     "ratio": 12.38
+    },
+    {
+     "rank": 4,
+     "name": "金幸",
+     "ratio": 1.31
+    },
+    {
+     "rank": 5,
+     "name": "陈洪国",
+     "ratio": 0.65
+    }
+   ],
+   "top1_name": "晨鸣控股有限公司",
+   "top1_ratio": 15.5,
+   "top3_sum": 40.58
+  },
+  "002424": {
+   "secucode": "002424.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "姜伟",
+     "ratio": 17.55
+    },
+    {
+     "rank": 2,
+     "name": "华创证券-证券行业支持民企发展系列之华创证券1号FOF单一资产管理计划-华创证券有限责任公司支持民企发展14号单一资产管理计划",
+     "ratio": 6.21
+    },
+    {
+     "rank": 3,
+     "name": "华创证券-工商银行-华创证券有限责任公司支持民企发展1号集合资产管理计划",
+     "ratio": 5.33
+    }
+   ],
+   "top1_name": "姜伟",
+   "top1_ratio": 17.55,
+   "top3_sum": 29.09
+  },
+  "002217": {
+   "secucode": "002217.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "福建省电子信息(集团)有限责任公司",
+     "ratio": 17.42
+    },
+    {
+     "rank": 2,
+     "name": "合力泰科技股份有限公司破产企业财产处置专用账户",
+     "ratio": 10.59
+    },
+    {
+     "rank": 3,
+     "name": "杭州骋风而来控股合伙企业(有限合伙)",
+     "ratio": 2.67
+    },
+    {
+     "rank": 4,
+     "name": "萍乡金伍纾困企业管理中心(有限合伙)",
+     "ratio": 0.8
+    },
+    {
+     "rank": 5,
+     "name": "香港中央结算有限公司",
+     "ratio": 0.65
+    },
+    {
+     "rank": 6,
+     "name": "汪文政",
+     "ratio": 0.58
+    },
+    {
+     "rank": 7,
+     "name": "赣州银行股份有限公司庐陵支行",
+     "ratio": 0.56
+    }
+   ],
+   "top1_name": "福建省电子信息(集团)有限责任公司",
+   "top1_ratio": 17.42,
+   "top3_sum": 30.68
+  },
+  "002528": {
+   "secucode": "002528.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳市投资控股有限公司",
+     "ratio": 26.35
+    },
+    {
+     "rank": 2,
+     "name": "JEFFREY ZHAOHUAI LIU",
+     "ratio": 16.29
+    },
+    {
+     "rank": 3,
+     "name": "JHL INFINITE LLC",
+     "ratio": 16.13
+    },
+    {
+     "rank": 4,
+     "name": "星光资产管理有限公司-闪亮星基金分隔投资组合2-Q",
+     "ratio": 1.09
+    },
+    {
+     "rank": 5,
+     "name": "李小丁",
+     "ratio": 0.82
+    },
+    {
+     "rank": 6,
+     "name": "赖新阳",
+     "ratio": 0.57
+    },
+    {
+     "rank": 7,
+     "name": "陈卫军",
+     "ratio": 0.43
+    },
+    {
+     "rank": 8,
+     "name": "易网金",
+     "ratio": 0.37
+    },
+    {
+     "rank": 9,
+     "name": "深圳企生活运营服务有限公司",
+     "ratio": 0.32
+    },
+    {
+     "rank": 10,
+     "name": "胡红娣",
+     "ratio": 0.31
+    }
+   ],
+   "top1_name": "深圳市投资控股有限公司",
+   "top1_ratio": 26.35,
+   "top3_sum": 58.77
+  },
+  "603959": {
+   "secucode": "603959.SH",
+   "report_date": "2026-08-10",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖南派勒科技有限公司",
+     "ratio": 11.85
+    },
+    {
+     "rank": 2,
+     "name": "西藏新海新创业投资有限公司",
+     "ratio": 5.82
+    },
+    {
+     "rank": 3,
+     "name": "上海织箜管理咨询合伙企业(有限合伙)",
+     "ratio": 4.99
+    },
+    {
+     "rank": 4,
+     "name": "张文扬",
+     "ratio": 2.13
+    },
+    {
+     "rank": 5,
+     "name": "张新明",
+     "ratio": 1.72
+    },
+    {
+     "rank": 6,
+     "name": "林永贤",
+     "ratio": 1.38
+    },
+    {
+     "rank": 7,
+     "name": "史涛",
+     "ratio": 1.05
+    },
+    {
+     "rank": 8,
+     "name": "马胜利",
+     "ratio": 0.69
+    },
+    {
+     "rank": 9,
+     "name": "解红",
+     "ratio": 0.47
+    },
+    {
+     "rank": 10,
+     "name": "王媛",
+     "ratio": 0.45
+    }
+   ],
+   "top1_name": "湖南派勒科技有限公司",
+   "top1_ratio": 11.85,
+   "top3_sum": 22.66
+  },
+  "603869": {
+   "secucode": "603869.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "新奥能源供应链有限公司",
+     "ratio": 43.08
+    },
+    {
+     "rank": 2,
+     "name": "天津亿恩锐投资中心(有限合伙)",
+     "ratio": 6.28
+    },
+    {
+     "rank": 3,
+     "name": "天津新绎德辉投资管理中心(有限合伙)",
+     "ratio": 4.4
+    },
+    {
+     "rank": 4,
+     "name": "杨英",
+     "ratio": 4.16
+    },
+    {
+     "rank": 5,
+     "name": "新奥资本管理有限公司",
+     "ratio": 3.78
+    },
+    {
+     "rank": 6,
+     "name": "新奥新智科技有限公司",
+     "ratio": 3.08
+    },
+    {
+     "rank": 7,
+     "name": "新奥控股投资股份有限公司",
+     "ratio": 2.94
+    },
+    {
+     "rank": 8,
+     "name": "新智认知数字科技股份有限公司-2022年员工持股计划",
+     "ratio": 1.36
+    },
+    {
+     "rank": 9,
+     "name": "陈惜如",
+     "ratio": 0.84
+    },
+    {
+     "rank": 10,
+     "name": "杨丽莹",
+     "ratio": 0.82
+    }
+   ],
+   "top1_name": "新奥能源供应链有限公司",
+   "top1_ratio": 43.08,
+   "top3_sum": 53.76
+  },
+  "603828": {
+   "secucode": "603828.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "苏州柯利达集团有限公司",
+     "ratio": 18.74
+    },
+    {
+     "rank": 2,
+     "name": "崔建泉",
+     "ratio": 6.72
+    },
+    {
+     "rank": 3,
+     "name": "上海庞增投资管理中心(有限合伙)-庞增汇聚27号私募证券投资基金",
+     "ratio": 5.79
+    },
+    {
+     "rank": 4,
+     "name": "上海庞增投资管理中心(有限合伙)-庞增汇聚26号私募证券投资基金",
+     "ratio": 5.71
+    },
+    {
+     "rank": 5,
+     "name": "上海英众智能科技有限公司",
+     "ratio": 5.03
+    },
+    {
+     "rank": 6,
+     "name": "顾益明",
+     "ratio": 4.98
+    },
+    {
+     "rank": 7,
+     "name": "顾龙棣",
+     "ratio": 3.27
+    },
+    {
+     "rank": 8,
+     "name": "苏州柯利达装饰股份有限公司-第二期员工持股计划",
+     "ratio": 1.53
+    },
+    {
+     "rank": 9,
+     "name": "鲁崇明",
+     "ratio": 1.38
+    },
+    {
+     "rank": 10,
+     "name": "苏州柯利达装饰股份有限公司-第一期员工持股计划",
+     "ratio": 0.93
+    }
+   ],
+   "top1_name": "苏州柯利达集团有限公司",
+   "top1_ratio": 18.74,
+   "top3_sum": 31.25
+  },
+  "002822": {
+   "secucode": "002822.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海恒涔企业管理咨询有限公司",
+     "ratio": 16
+    },
+    {
+     "rank": 2,
+     "name": "深圳市中装建设集团股份有限公司破产企业财产处置专用账户",
+     "ratio": 12.49
+    },
+    {
+     "rank": 3,
+     "name": "庄小红",
+     "ratio": 5.1
+    },
+    {
+     "rank": 4,
+     "name": "张国锋",
+     "ratio": 4.87
+    },
+    {
+     "rank": 5,
+     "name": "国民信托有限公司-国民信托-中装建设重整财务投资集合资金信托计划",
+     "ratio": 3.85
+    },
+    {
+     "rank": 6,
+     "name": "成都吉瑞泽雅企业管理合伙企业(有限合伙)",
+     "ratio": 3.46
+    },
+    {
+     "rank": 7,
+     "name": "陈建忠",
+     "ratio": 3.4
+    },
+    {
+     "rank": 8,
+     "name": "上海伯川管理咨询合伙企业(有限合伙)",
+     "ratio": 2.85
+    },
+    {
+     "rank": 9,
+     "name": "庄展诺",
+     "ratio": 2.66
+    },
+    {
+     "rank": 10,
+     "name": "炬信灿图(深圳)投资合伙企业(有限合伙)",
+     "ratio": 0.74
+    }
+   ],
+   "top1_name": "上海恒涔企业管理咨询有限公司",
+   "top1_ratio": 16,
+   "top3_sum": 33.59
+  },
+  "300198": {
+   "secucode": "300198.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "长江生态环保集团有限公司",
+     "ratio": 15.28
+    },
+    {
+     "rank": 2,
+     "name": "三峡资本控股有限责任公司",
+     "ratio": 5.01
+    },
+    {
+     "rank": 3,
+     "name": "中国对外经济贸易信托有限公司-外贸信托-恒赢2025005号家族信托",
+     "ratio": 1.45
+    },
+    {
+     "rank": 4,
+     "name": "中国对外经济贸易信托有限公司-外贸信托-恒赢2025007号家族信托",
+     "ratio": 1.12
+    },
+    {
+     "rank": 5,
+     "name": "刘芳",
+     "ratio": 0.93
+    },
+    {
+     "rank": 6,
+     "name": "刘修煌",
+     "ratio": 0.9
+    }
+   ],
+   "top1_name": "长江生态环保集团有限公司",
+   "top1_ratio": 15.28,
+   "top3_sum": 21.74
+  },
+  "300205": {
+   "secucode": "300205.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "武汉光谷创业科技投资有限公司",
+     "ratio": 14.63
+    },
+    {
+     "rank": 2,
+     "name": "西藏联创永源股权投资有限公司-武汉同喻投资合伙企业(有限合伙)",
+     "ratio": 12.45
+    },
+    {
+     "rank": 3,
+     "name": "西藏中茵集团有限公司",
+     "ratio": 12.13
+    },
+    {
+     "rank": 4,
+     "name": "武汉华中科大资产管理有限公司",
+     "ratio": 2.99
+    },
+    {
+     "rank": 5,
+     "name": "武汉华工创业投资有限责任公司",
+     "ratio": 2
+    },
+    {
+     "rank": 6,
+     "name": "冯建屏",
+     "ratio": 1.83
+    },
+    {
+     "rank": 7,
+     "name": "胡晓静",
+     "ratio": 1.15
+    },
+    {
+     "rank": 8,
+     "name": "张新访",
+     "ratio": 1.07
+    },
+    {
+     "rank": 9,
+     "name": "李秀美",
+     "ratio": 1.03
+    },
+    {
+     "rank": 10,
+     "name": "吴晓蓉",
+     "ratio": 0.9
+    }
+   ],
+   "top1_name": "武汉光谷创业科技投资有限公司",
+   "top1_ratio": 14.63,
+   "top3_sum": 39.21
+  },
+  "000615": {
+   "secucode": "000615.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖北九州产业园区运营管理有限公司",
+     "ratio": 24.39
+    },
+    {
+     "rank": 2,
+     "name": "深圳奥园科星投资有限公司",
+     "ratio": 9.62
+    },
+    {
+     "rank": 3,
+     "name": "天津信美通成股权投资合伙企业(有限合伙)",
+     "ratio": 6.77
+    },
+    {
+     "rank": 4,
+     "name": "深圳市吉富启瑞投资合伙企业(有限合伙)-吉富启瑞天泽9号私募证券投资基金",
+     "ratio": 5.42
+    },
+    {
+     "rank": 5,
+     "name": "奥园美谷科技股份有限公司破产企业财产处置专用账户",
+     "ratio": 4.66
+    },
+    {
+     "rank": 6,
+     "name": "湖北汉江产业投资有限公司",
+     "ratio": 3.39
+    },
+    {
+     "rank": 7,
+     "name": "上海创厚沣信企业发展合伙企业(有限合伙)",
+     "ratio": 3.05
+    },
+    {
+     "rank": 8,
+     "name": "中国对外经济贸易信托有限公司-外贸信托-玄武39号集合资金信托计划",
+     "ratio": 2.37
+    },
+    {
+     "rank": 9,
+     "name": "北京燕园铭丰医疗科技合伙企业(有限合伙)",
+     "ratio": 1.8
+    },
+    {
+     "rank": 10,
+     "name": "北京燕园领智科技合伙企业(有限合伙)",
+     "ratio": 1.42
+    }
+   ],
+   "top1_name": "湖北九州产业园区运营管理有限公司",
+   "top1_ratio": 24.39,
+   "top3_sum": 40.78
+  },
+  "300096": {
+   "secucode": "300096.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "周口城发智能科技有限公司",
+     "ratio": 16.19
+    },
+    {
+     "rank": 2,
+     "name": "莲花健康水业(深圳)有限公司",
+     "ratio": 4.06
+    },
+    {
+     "rank": 3,
+     "name": "戚良季",
+     "ratio": 3.47
+    },
+    {
+     "rank": 4,
+     "name": "何彬",
+     "ratio": 1.43
+    },
+    {
+     "rank": 5,
+     "name": "方勤华",
+     "ratio": 1.25
+    },
+    {
+     "rank": 6,
+     "name": "吴小玲",
+     "ratio": 1.25
+    },
+    {
+     "rank": 7,
+     "name": "何芳华",
+     "ratio": 1.03
+    },
+    {
+     "rank": 8,
+     "name": "朱和平",
+     "ratio": 1.01
+    },
+    {
+     "rank": 9,
+     "name": "金莉莉",
+     "ratio": 0.88
+    },
+    {
+     "rank": 10,
+     "name": "蒋俊青",
+     "ratio": 0.86
+    }
+   ],
+   "top1_name": "周口城发智能科技有限公司",
+   "top1_ratio": 16.19,
+   "top3_sum": 23.72
+  },
+  "603377": {
+   "secucode": "603377.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "新余润芳投资管理中心(有限合伙)",
+     "ratio": 10.12
+    },
+    {
+     "rank": 2,
+     "name": "安徽荣智管理咨询合伙企业(有限合伙)",
+     "ratio": 7.82
+    },
+    {
+     "rank": 3,
+     "name": "华能贵诚信托有限公司-华能信托·元和1号集合资金信托计划",
+     "ratio": 7.11
+    },
+    {
+     "rank": 4,
+     "name": "东方时尚投资有限公司",
+     "ratio": 6.18
+    },
+    {
+     "rank": 5,
+     "name": "北京大兴投资集团有限公司",
+     "ratio": 4.88
+    },
+    {
+     "rank": 6,
+     "name": "石家庄明财贸易有限公司",
+     "ratio": 4.88
+    },
+    {
+     "rank": 7,
+     "name": "登途控股集团有限公司",
+     "ratio": 4.23
+    },
+    {
+     "rank": 8,
+     "name": "北京蓝海同游科技发展中心(有限合伙)",
+     "ratio": 1.91
+    },
+    {
+     "rank": 9,
+     "name": "李燕",
+     "ratio": 1.18
+    }
+   ],
+   "top1_name": "新余润芳投资管理中心(有限合伙)",
+   "top1_ratio": 10.12,
+   "top3_sum": 25.05
+  },
+  "600381": {
+   "secucode": "600381.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "西藏荣恩科技有限公司",
+     "ratio": 32.13
+    },
+    {
+     "rank": 2,
+     "name": "肖融",
+     "ratio": 9.67
+    },
+    {
+     "rank": 3,
+     "name": "青海春天药用资源科技股份有限公司回购专用证券账户",
+     "ratio": 2.5
+    },
+    {
+     "rank": 4,
+     "name": "胡振民",
+     "ratio": 1.56
+    },
+    {
+     "rank": 5,
+     "name": "朱秋连",
+     "ratio": 1.09
+    }
+   ],
+   "top1_name": "西藏荣恩科技有限公司",
+   "top1_ratio": 32.13,
+   "top3_sum": 44.3
+  },
+  "000909": {
+   "secucode": "000909.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "西湖电子集团有限公司",
+     "ratio": 30.57
+    },
+    {
+     "rank": 2,
+     "name": "杭州信息科技有限公司",
+     "ratio": 10.03
+    },
+    {
+     "rank": 3,
+     "name": "詹冰洁",
+     "ratio": 1.56
+    },
+    {
+     "rank": 4,
+     "name": "许正明",
+     "ratio": 1.14
+    },
+    {
+     "rank": 5,
+     "name": "赵望生",
+     "ratio": 0.95
+    },
+    {
+     "rank": 6,
+     "name": "杭州西湖数源软件园有限公司",
+     "ratio": 0.83
+    },
+    {
+     "rank": 7,
+     "name": "殷睿捷",
+     "ratio": 0.73
+    },
+    {
+     "rank": 8,
+     "name": "沈恺",
+     "ratio": 0.65
+    },
+    {
+     "rank": 9,
+     "name": "赵伟彪",
+     "ratio": 0.58
+    },
+    {
+     "rank": 10,
+     "name": "杭州金投乾憬投资管理有限公司-乾憬长宏私募证券投资基金",
+     "ratio": 0.51
+    }
+   ],
+   "top1_name": "西湖电子集团有限公司",
+   "top1_ratio": 30.57,
+   "top3_sum": 42.16
+  },
+  "300555": {
+   "secucode": "300555.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "吴世春",
+     "ratio": 10.46
+    },
+    {
+     "rank": 2,
+     "name": "贾清",
+     "ratio": 6.28
+    },
+    {
+     "rank": 3,
+     "name": "吴爱军",
+     "ratio": 4.99
+    },
+    {
+     "rank": 4,
+     "name": "孟庆亮",
+     "ratio": 4.32
+    },
+    {
+     "rank": 5,
+     "name": "陈赞",
+     "ratio": 3.01
+    },
+    {
+     "rank": 6,
+     "name": "萍乡汇德企业管理中心(有限合伙)",
+     "ratio": 2
+    },
+    {
+     "rank": 7,
+     "name": "顾纪明",
+     "ratio": 1.96
+    },
+    {
+     "rank": 8,
+     "name": "无锡金投资本私募基金管理有限公司-无锡市上市公司高质量发展基金(有限合伙)",
+     "ratio": 1.77
+    }
+   ],
+   "top1_name": "吴世春",
+   "top1_ratio": 10.46,
+   "top3_sum": 21.73
+  },
+  "002816": {
+   "secucode": "002816.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "安徽赋颍智科企业管理有限公司",
+     "ratio": 16
+    },
+    {
+     "rank": 2,
+     "name": "陶德琴",
+     "ratio": 2.2
+    },
+    {
+     "rank": 3,
+     "name": "唐武盛",
+     "ratio": 1.72
+    },
+    {
+     "rank": 4,
+     "name": "安惊川",
+     "ratio": 1.4
+    },
+    {
+     "rank": 5,
+     "name": "毛瓯越",
+     "ratio": 1
+    },
+    {
+     "rank": 6,
+     "name": "章兆利",
+     "ratio": 1
+    },
+    {
+     "rank": 7,
+     "name": "吴欣",
+     "ratio": 0.87
+    },
+    {
+     "rank": 8,
+     "name": "徐峰",
+     "ratio": 0.83
+    },
+    {
+     "rank": 9,
+     "name": "魏巍",
+     "ratio": 0.8
+    },
+    {
+     "rank": 10,
+     "name": "孙丰",
+     "ratio": 0.79
+    }
+   ],
+   "top1_name": "安徽赋颍智科企业管理有限公司",
+   "top1_ratio": 16,
+   "top3_sum": 19.92
+  },
+  "300167": {
+   "secucode": "300167.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海飒哟港企业咨询服务合伙企业(有限合伙)",
+     "ratio": 6.76
+    },
+    {
+     "rank": 2,
+     "name": "黄欣",
+     "ratio": 1.03
+    },
+    {
+     "rank": 3,
+     "name": "杨国辉",
+     "ratio": 1.03
+    },
+    {
+     "rank": 4,
+     "name": "何泽敏",
+     "ratio": 0.89
+    },
+    {
+     "rank": 5,
+     "name": "深圳易淳投资中心(有限合伙)",
+     "ratio": 0.87
+    },
+    {
+     "rank": 6,
+     "name": "高盛公司有限责任公司",
+     "ratio": 0.8
+    },
+    {
+     "rank": 7,
+     "name": "许黄慕怡",
+     "ratio": 0.79
+    },
+    {
+     "rank": 8,
+     "name": "于滢",
+     "ratio": 0.77
+    },
+    {
+     "rank": 9,
+     "name": "兰雪",
+     "ratio": 0.71
+    },
+    {
+     "rank": 10,
+     "name": "潘艳芬",
+     "ratio": 0.66
+    }
+   ],
+   "top1_name": "上海飒哟港企业咨询服务合伙企业(有限合伙)",
+   "top1_ratio": 6.76,
+   "top3_sum": 8.82
+  },
+  "300010": {
+   "secucode": "300010.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "窦昕",
+     "ratio": 18.29
+    },
+    {
+     "rank": 2,
+     "name": "张源",
+     "ratio": 2.58
+    },
+    {
+     "rank": 3,
+     "name": "浙文互联集团股份有限公司",
+     "ratio": 2.47
+    },
+    {
+     "rank": 4,
+     "name": "张国庆",
+     "ratio": 2.42
+    },
+    {
+     "rank": 5,
+     "name": "豆神教育科技(北京)股份有限公司破产企业财产处置专用账户",
+     "ratio": 1.38
+    },
+    {
+     "rank": 6,
+     "name": "段力平",
+     "ratio": 0.98
+    },
+    {
+     "rank": 7,
+     "name": "深圳申优资产管理有限公司-申优复索对冲1号私募证券投资基金",
+     "ratio": 0.83
+    }
+   ],
+   "top1_name": "窦昕",
+   "top1_ratio": 18.29,
+   "top3_sum": 23.34
+  },
+  "000711": {
+   "secucode": "000711.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "云南佳骏靶材科技有限公司",
+     "ratio": 18.28
+    },
+    {
+     "rank": 2,
+     "name": "京蓝科技股份有限公司破产企业财产处置专用账户",
+     "ratio": 2.09
+    },
+    {
+     "rank": 3,
+     "name": "廊坊银行股份有限公司",
+     "ratio": 1.89
+    },
+    {
+     "rank": 4,
+     "name": "王梓旭",
+     "ratio": 1.67
+    },
+    {
+     "rank": 5,
+     "name": "建信信托有限责任公司",
+     "ratio": 1.43
+    },
+    {
+     "rank": 6,
+     "name": "天津北控工程管理咨询有限公司",
+     "ratio": 0.77
+    }
+   ],
+   "top1_name": "云南佳骏靶材科技有限公司",
+   "top1_ratio": 18.28,
+   "top3_sum": 22.26
+  },
+  "300301": {
+   "secucode": "300301.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "南昌鑫旺资本企业(有限合伙)",
+     "ratio": 7.14
+    },
+    {
+     "rank": 2,
+     "name": "骆科树",
+     "ratio": 4.76
+    },
+    {
+     "rank": 3,
+     "name": "王刚",
+     "ratio": 4.14
+    }
+   ],
+   "top1_name": "南昌鑫旺资本企业(有限合伙)",
+   "top1_ratio": 7.14,
+   "top3_sum": 16.04
+  },
+  "002485": {
+   "secucode": "002485.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "广州雪松文化旅游投资有限公司",
+     "ratio": 63.62
+    },
+    {
+     "rank": 2,
+     "name": "广州君凯投资有限公司",
+     "ratio": 5.78
+    },
+    {
+     "rank": 3,
+     "name": "孟学",
+     "ratio": 2.95
+    },
+    {
+     "rank": 4,
+     "name": "刘平",
+     "ratio": 2.01
+    },
+    {
+     "rank": 5,
+     "name": "熊承英",
+     "ratio": 1.04
+    },
+    {
+     "rank": 6,
+     "name": "施鸿华",
+     "ratio": 0.49
+    }
+   ],
+   "top1_name": "广州雪松文化旅游投资有限公司",
+   "top1_ratio": 63.62,
+   "top3_sum": 72.35
+  },
+  "002024": {
+   "secucode": "002024.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "张近东",
+     "ratio": 17.7
+    },
+    {
+     "rank": 2,
+     "name": "杭州灏月企业管理有限公司",
+     "ratio": 17.63
+    },
+    {
+     "rank": 3,
+     "name": "江苏新新零售创新基金二期(有限合伙)",
+     "ratio": 17.04
+    },
+    {
+     "rank": 4,
+     "name": "江苏新新零售创新基金(有限合伙)",
+     "ratio": 5.61
+    },
+    {
+     "rank": 5,
+     "name": "李松强",
+     "ratio": 3.5
+    },
+    {
+     "rank": 6,
+     "name": "苏宁控股集团有限公司",
+     "ratio": 2.75
+    },
+    {
+     "rank": 7,
+     "name": "苏宁电器集团有限公司",
+     "ratio": 1.4
+    },
+    {
+     "rank": 8,
+     "name": "金明",
+     "ratio": 1.35
+    }
+   ],
+   "top1_name": "张近东",
+   "top1_ratio": 17.7,
+   "top3_sum": 52.37
+  },
+  "600136": {
+   "secucode": "600136.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖北联投城市运营有限公司",
+     "ratio": 20
+    },
+    {
+     "rank": 2,
+     "name": "武汉当代明诚文化体育集团股份有限公司破产企业财产处置专用账户",
+     "ratio": 9.33
+    },
+    {
+     "rank": 3,
+     "name": "湖北合作投资集团有限公司",
+     "ratio": 2.84
+    },
+    {
+     "rank": 4,
+     "name": "武汉株信睿康科技有限责任公司",
+     "ratio": 2.81
+    },
+    {
+     "rank": 5,
+     "name": "武汉国创资本投资集团有限公司",
+     "ratio": 2.72
+    },
+    {
+     "rank": 6,
+     "name": "武汉新星汉宜化工有限公司",
+     "ratio": 2.57
+    },
+    {
+     "rank": 7,
+     "name": "武汉当代明诚体育发展集团有限公司",
+     "ratio": 2.43
+    },
+    {
+     "rank": 8,
+     "name": "武汉市通合利贸易有限公司",
+     "ratio": 2
+    },
+    {
+     "rank": 9,
+     "name": "中国中信金融资产管理股份有限公司",
+     "ratio": 2
+    },
+    {
+     "rank": 10,
+     "name": "武汉市固茂贸易有限公司",
+     "ratio": 1.83
+    }
+   ],
+   "top1_name": "湖北联投城市运营有限公司",
+   "top1_ratio": 20,
+   "top3_sum": 32.17
+  },
+  "603729": {
+   "secucode": "603729.SH",
+   "report_date": "2026-07-17",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "段佩璋",
+     "ratio": 30.21
+    }
+   ],
+   "top1_name": "段佩璋",
+   "top1_ratio": 30.21,
+   "top3_sum": 30.21
+  },
+  "600759": {
+   "secucode": "600759.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "广西正和实业集团有限公司",
+     "ratio": 12.25
+    },
+    {
+     "rank": 2,
+     "name": "深圳市中民昇汇壹号投资企业(有限合伙)",
+     "ratio": 4.08
+    },
+    {
+     "rank": 3,
+     "name": "星河云享(湖州)股权投资合伙企业(有限合伙)",
+     "ratio": 3.99
+    },
+    {
+     "rank": 4,
+     "name": "洲际油气股份有限公司破产企业财产处置专用账户",
+     "ratio": 2.73
+    },
+    {
+     "rank": 5,
+     "name": "戴雄峰",
+     "ratio": 1.85
+    },
+    {
+     "rank": 6,
+     "name": "北京泰德圣私募基金管理有限公司-泰德圣投资-泰来景睿私募证券投资基金",
+     "ratio": 1.64
+    },
+    {
+     "rank": 7,
+     "name": "香港中央结算有限公司",
+     "ratio": 1.6
+    },
+    {
+     "rank": 8,
+     "name": "北京泰德圣私募基金管理有限公司-泰德圣投资致圣量化1号私募证券投资基金",
+     "ratio": 1.35
+    },
+    {
+     "rank": 9,
+     "name": "海口东铎商务服务合伙企业(有限合伙)",
+     "ratio": 1.23
+    },
+    {
+     "rank": 10,
+     "name": "洲际油气股份有限公司回购专用证券账户",
+     "ratio": 1.21
+    }
+   ],
+   "top1_name": "广西正和实业集团有限公司",
+   "top1_ratio": 12.25,
+   "top3_sum": 20.32
+  },
+  "600543": {
+   "secucode": "600543.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "甘肃省农垦集团有限责任公司",
+     "ratio": 16.25
+    },
+    {
+     "rank": 2,
+     "name": "甘肃黄羊河农工商(集团)有限责任公司",
+     "ratio": 13.31
+    },
+    {
+     "rank": 3,
+     "name": "甘肃省农垦资产经营有限公司",
+     "ratio": 6.13
+    },
+    {
+     "rank": 4,
+     "name": "钱戌强",
+     "ratio": 2.15
+    },
+    {
+     "rank": 5,
+     "name": "周宇光",
+     "ratio": 2.12
+    },
+    {
+     "rank": 6,
+     "name": "UBS AG",
+     "ratio": 1.65
+    },
+    {
+     "rank": 7,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 1.22
+    },
+    {
+     "rank": 8,
+     "name": "甘肃莫高实业发展股份有限公司回购专用证券账户",
+     "ratio": 1.03
+    },
+    {
+     "rank": 9,
+     "name": "甘肃兴陇资本管理有限公司",
+     "ratio": 1.02
+    }
+   ],
+   "top1_name": "甘肃省农垦集团有限责任公司",
+   "top1_ratio": 16.25,
+   "top3_sum": 35.69
+  },
+  "000609": {
+   "secucode": "000609.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳天微投资合伙企业(有限合伙)",
+     "ratio": 23.77
+    },
+    {
+     "rank": 2,
+     "name": "中国石化集团北京燕山石油化工有限公司",
+     "ratio": 2.4
+    },
+    {
+     "rank": 3,
+     "name": "刘杰",
+     "ratio": 1.44
+    },
+    {
+     "rank": 4,
+     "name": "李深秋",
+     "ratio": 1.38
+    },
+    {
+     "rank": 5,
+     "name": "陈龙剑",
+     "ratio": 1.13
+    },
+    {
+     "rank": 6,
+     "name": "许飞",
+     "ratio": 1.1
+    }
+   ],
+   "top1_name": "深圳天微投资合伙企业(有限合伙)",
+   "top1_ratio": 23.77,
+   "top3_sum": 27.61
+  },
+  "300338": {
+   "secucode": "300338.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "赵君",
+     "ratio": 4.36
+    },
+    {
+     "rank": 2,
+     "name": "江勇",
+     "ratio": 2.87
+    },
+    {
+     "rank": 3,
+     "name": "新余中大瑞泽投资合伙企业(有限合伙)",
+     "ratio": 1.81
+    },
+    {
+     "rank": 4,
+     "name": "冯守陈",
+     "ratio": 1.22
+    },
+    {
+     "rank": 5,
+     "name": "王上益",
+     "ratio": 1.2
+    },
+    {
+     "rank": 6,
+     "name": "郭文新",
+     "ratio": 1.15
+    },
+    {
+     "rank": 7,
+     "name": "黄洪林",
+     "ratio": 1.14
+    }
+   ],
+   "top1_name": "赵君",
+   "top1_ratio": 4.36,
+   "top3_sum": 9.04
+  },
+  "300044": {
+   "secucode": "300044.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "周勇",
+     "ratio": 8.44
+    },
+    {
+     "rank": 2,
+     "name": "周新宏",
+     "ratio": 2.07
+    },
+    {
+     "rank": 3,
+     "name": "刘军",
+     "ratio": 0.62
+    },
+    {
+     "rank": 4,
+     "name": "黄文忠",
+     "ratio": 0.54
+    },
+    {
+     "rank": 5,
+     "name": "彭吉",
+     "ratio": 0.5
+    },
+    {
+     "rank": 6,
+     "name": "彭汉光",
+     "ratio": 0.44
+    },
+    {
+     "rank": 7,
+     "name": "杨若和",
+     "ratio": 0.44
+    },
+    {
+     "rank": 8,
+     "name": "林代伦",
+     "ratio": 0.4
+    }
+   ],
+   "top1_name": "周勇",
+   "top1_ratio": 8.44,
+   "top3_sum": 11.13
+  },
+  "600239": {
+   "secucode": "600239.SH",
+   "report_date": "2026-07-09",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "云南省康旅控股集团有限公司",
+     "ratio": 40.03
+    }
+   ],
+   "top1_name": "云南省康旅控股集团有限公司",
+   "top1_ratio": 40.03,
+   "top3_sum": 40.03
+  },
+  "603557": {
+   "secucode": "603557.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖州鸿煜企业管理合伙企业(有限合伙)",
+     "ratio": 23.77
+    },
+    {
+     "rank": 2,
+     "name": "和和和(浙江)生物科技有限公司",
+     "ratio": 7.84
+    },
+    {
+     "rank": 3,
+     "name": "张晓双",
+     "ratio": 3.79
+    },
+    {
+     "rank": 4,
+     "name": "陈立兴",
+     "ratio": 1.28
+    },
+    {
+     "rank": 5,
+     "name": "王乐晓",
+     "ratio": 1.22
+    },
+    {
+     "rank": 6,
+     "name": "陈丽红",
+     "ratio": 1.14
+    },
+    {
+     "rank": 7,
+     "name": "董安忠",
+     "ratio": 1.01
+    },
+    {
+     "rank": 8,
+     "name": "李斌",
+     "ratio": 0.83
+    },
+    {
+     "rank": 9,
+     "name": "张莉",
+     "ratio": 0.83
+    },
+    {
+     "rank": 10,
+     "name": "杨映洲",
+     "ratio": 0.66
+    }
+   ],
+   "top1_name": "湖州鸿煜企业管理合伙企业(有限合伙)",
+   "top1_ratio": 23.77,
+   "top3_sum": 35.4
+  },
+  "002168": {
+   "secucode": "002168.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "重庆绿发城市建设有限公司",
+     "ratio": 12.15
+    },
+    {
+     "rank": 2,
+     "name": "中驰惠程企业管理有限公司",
+     "ratio": 5.9
+    },
+    {
+     "rank": 3,
+     "name": "蔡明友",
+     "ratio": 2.17
+    },
+    {
+     "rank": 4,
+     "name": "管雪平",
+     "ratio": 0.97
+    }
+   ],
+   "top1_name": "重庆绿发城市建设有限公司",
+   "top1_ratio": 12.15,
+   "top3_sum": 20.22
+  },
+  "600365": {
+   "secucode": "600365.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "吉林省吉祥嘉德投资有限公司",
+     "ratio": 9.49
+    },
+    {
+     "rank": 2,
+     "name": "尹兵",
+     "ratio": 5
+    },
+    {
+     "rank": 3,
+     "name": "安吉众虹管理咨询合伙企业(有限合伙)",
+     "ratio": 4.41
+    },
+    {
+     "rank": 4,
+     "name": "张鑫",
+     "ratio": 1.35
+    },
+    {
+     "rank": 5,
+     "name": "北京百宸佳业商贸有限责任公司",
+     "ratio": 1.3
+    },
+    {
+     "rank": 6,
+     "name": "陈爱娣",
+     "ratio": 1.16
+    }
+   ],
+   "top1_name": "吉林省吉祥嘉德投资有限公司",
+   "top1_ratio": 9.49,
+   "top3_sum": 18.9
+  },
+  "002211": {
+   "secucode": "002211.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "朱恩伟",
+     "ratio": 22.52
+    },
+    {
+     "rank": 2,
+     "name": "杭州科立企业管理合伙企业(有限合伙)",
+     "ratio": 7.96
+    },
+    {
+     "rank": 3,
+     "name": "江苏伟伦投资管理有限公司",
+     "ratio": 6.55
+    },
+    {
+     "rank": 4,
+     "name": "MORGAN STANLEY & CO.INTERNATIONAL PLC.",
+     "ratio": 1.34
+    },
+    {
+     "rank": 5,
+     "name": "高盛国际-自有资金",
+     "ratio": 1.29
+    },
+    {
+     "rank": 6,
+     "name": "熊雨昊",
+     "ratio": 1.12
+    },
+    {
+     "rank": 7,
+     "name": "何明坤",
+     "ratio": 1.09
+    },
+    {
+     "rank": 8,
+     "name": "胡祖平",
+     "ratio": 0.82
+    },
+    {
+     "rank": 9,
+     "name": "陈玲",
+     "ratio": 0.66
+    },
+    {
+     "rank": 10,
+     "name": "王海伏",
+     "ratio": 0.61
+    }
+   ],
+   "top1_name": "朱恩伟",
+   "top1_ratio": 22.52,
+   "top3_sum": 37.03
+  },
+  "002569": {
+   "secucode": "002569.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "广州延丰数字科技有限公司",
+     "ratio": 14.81
+    },
+    {
+     "rank": 2,
+     "name": "孟祥龙",
+     "ratio": 4.19
+    },
+    {
+     "rank": 3,
+     "name": "张庆北",
+     "ratio": 4.08
+    },
+    {
+     "rank": 4,
+     "name": "张旭",
+     "ratio": 3.57
+    },
+    {
+     "rank": 5,
+     "name": "王波",
+     "ratio": 3.48
+    },
+    {
+     "rank": 6,
+     "name": "重庆信三威投资咨询中心(有限合伙)-昌盛十一号私募基金",
+     "ratio": 2.84
+    },
+    {
+     "rank": 7,
+     "name": "步森集团有限公司",
+     "ratio": 1.85
+    },
+    {
+     "rank": 8,
+     "name": "韩伟",
+     "ratio": 1.75
+    }
+   ],
+   "top1_name": "广州延丰数字科技有限公司",
+   "top1_ratio": 14.81,
+   "top3_sum": 23.08
+  },
+  "600734": {
+   "secucode": "600734.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "福建省数晟投资合伙企业(有限合伙)",
+     "ratio": 25
+    },
+    {
+     "rank": 2,
+     "name": "福建大数据产业投资控股有限公司",
+     "ratio": 1.11
+    },
+    {
+     "rank": 3,
+     "name": "福建新立基投资合伙企业(有限合伙)",
+     "ratio": 0.96
+    },
+    {
+     "rank": 4,
+     "name": "张志团",
+     "ratio": 0.71
+    },
+    {
+     "rank": 5,
+     "name": "张双喜",
+     "ratio": 0.6
+    },
+    {
+     "rank": 6,
+     "name": "张雅芳",
+     "ratio": 0.6
+    },
+    {
+     "rank": 7,
+     "name": "张天虚",
+     "ratio": 0.56
+    },
+    {
+     "rank": 8,
+     "name": "张炜达",
+     "ratio": 0.52
+    }
+   ],
+   "top1_name": "福建省数晟投资合伙企业(有限合伙)",
+   "top1_ratio": 25,
+   "top3_sum": 27.07
+  },
+  "002586": {
+   "secucode": "002586.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "杭州光曜致新钟洋股权投资合伙企业(有限合伙)",
+     "ratio": 14.85
+    },
+    {
+     "rank": 2,
+     "name": "宁波舜农集团有限公司",
+     "ratio": 14.74
+    },
+    {
+     "rank": 3,
+     "name": "宁波源真投资管理有限公司",
+     "ratio": 10.84
+    },
+    {
+     "rank": 4,
+     "name": "上海千年工程投资管理有限公司",
+     "ratio": 3.54
+    },
+    {
+     "rank": 5,
+     "name": "许喆",
+     "ratio": 2.06
+    },
+    {
+     "rank": 6,
+     "name": "许磊",
+     "ratio": 2.05
+    },
+    {
+     "rank": 7,
+     "name": "陈德海",
+     "ratio": 1.21
+    },
+    {
+     "rank": 8,
+     "name": "海天机械(余姚)销售有限公司",
+     "ratio": 0.96
+    }
+   ],
+   "top1_name": "杭州光曜致新钟洋股权投资合伙企业(有限合伙)",
+   "top1_ratio": 14.85,
+   "top3_sum": 40.43
+  },
+  "002122": {
+   "secucode": "002122.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "四合聚力信息科技集团有限公司",
+     "ratio": 12.42
+    },
+    {
+     "rank": 2,
+     "name": "衢州智造祈爵企业管理合伙企业(有限合伙)",
+     "ratio": 10.99
+    },
+    {
+     "rank": 3,
+     "name": "博厚明久(衢州)企业管理咨询合伙企业(有限合伙)",
+     "ratio": 9.96
+    },
+    {
+     "rank": 4,
+     "name": "马兴法",
+     "ratio": 2.12
+    }
+   ],
+   "top1_name": "四合聚力信息科技集团有限公司",
+   "top1_ratio": 12.42,
+   "top3_sum": 33.37
+  },
+  "002175": {
+   "secucode": "002175.SZ",
+   "report_date": "2026-07-22",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "宁夏东泰能源集团有限公司",
+     "ratio": 14.76
+    }
+   ],
+   "top1_name": "宁夏东泰能源集团有限公司",
+   "top1_ratio": 14.76,
+   "top3_sum": 14.76
+  },
+  "002501": {
+   "secucode": "002501.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "倍有智能科技(长春)有限公司",
+     "ratio": 22.54
+    },
+    {
+     "rank": 2,
+     "name": "吉林银行股份有限公司辽源金汇支行",
+     "ratio": 3.55
+    },
+    {
+     "rank": 3,
+     "name": "辽源市智晟达资产管理有限公司",
+     "ratio": 2.33
+    },
+    {
+     "rank": 4,
+     "name": "东北证券股份有限公司",
+     "ratio": 1.65
+    },
+    {
+     "rank": 5,
+     "name": "长城国泰(舟山)产业并购重组基金合伙企业(有限合伙)",
+     "ratio": 1.49
+    },
+    {
+     "rank": 6,
+     "name": "谢仁国",
+     "ratio": 1.04
+    },
+    {
+     "rank": 7,
+     "name": "辽源市巨峰生化科技有限责任公司",
+     "ratio": 0.94
+    },
+    {
+     "rank": 8,
+     "name": "北信瑞丰基金-工商银行-华融国际信托-华融·融汇54号权益投资集合资金信托计划",
+     "ratio": 0.64
+    },
+    {
+     "rank": 9,
+     "name": "巢捷",
+     "ratio": 0.52
+    },
+    {
+     "rank": 10,
+     "name": "周磊",
+     "ratio": 0.51
+    }
+   ],
+   "top1_name": "倍有智能科技(长春)有限公司",
+   "top1_ratio": 22.54,
+   "top3_sum": 28.42
+  },
+  "002592": {
+   "secucode": "002592.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "杨竞忠",
+     "ratio": 23.39
+    },
+    {
+     "rank": 2,
+     "name": "顾瑜",
+     "ratio": 8.69
+    },
+    {
+     "rank": 3,
+     "name": "南宁八菱科技股份有限公司-第五期员工持股计划",
+     "ratio": 4.99
+    },
+    {
+     "rank": 4,
+     "name": "黄志强",
+     "ratio": 4.04
+    },
+    {
+     "rank": 5,
+     "name": "南宁八菱科技股份有限公司-第六期员工持股计划",
+     "ratio": 3.57
+    }
+   ],
+   "top1_name": "杨竞忠",
+   "top1_ratio": 23.39,
+   "top3_sum": 37.07
+  },
+  "002323": {
+   "secucode": "002323.SZ",
+   "report_date": "2026-07-15",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "枣庄市财金控股集团有限公司",
+     "ratio": 17.1145
+    }
+   ],
+   "top1_name": "枣庄市财金控股集团有限公司",
+   "top1_ratio": 17.1145,
+   "top3_sum": 17.11
+  },
+  "002650": {
+   "secucode": "002650.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中国东方资产管理股份有限公司",
+     "ratio": 24.37
+    },
+    {
+     "rank": 2,
+     "name": "湖南卓越投资有限公司",
+     "ratio": 19.55
+    },
+    {
+     "rank": 3,
+     "name": "海南香元私募基金管理合伙企业(有限合伙)-香元梅花6号量子精选私募证券投资基金",
+     "ratio": 2.62
+    },
+    {
+     "rank": 4,
+     "name": "蒙仙花",
+     "ratio": 0.88
+    },
+    {
+     "rank": 5,
+     "name": "张申俊",
+     "ratio": 0.8
+    },
+    {
+     "rank": 6,
+     "name": "张志广",
+     "ratio": 0.72
+    },
+    {
+     "rank": 7,
+     "name": "林燕",
+     "ratio": 0.71
+    },
+    {
+     "rank": 8,
+     "name": "海南香元私募基金管理合伙企业(有限合伙)-香元梅花2号行业精选私募证券投资基金",
+     "ratio": 0.66
+    },
+    {
+     "rank": 9,
+     "name": "赵泽俭",
+     "ratio": 0.47
+    }
+   ],
+   "top1_name": "中国东方资产管理股份有限公司",
+   "top1_ratio": 24.37,
+   "top3_sum": 46.54
+  },
+  "002306": {
+   "secucode": "002306.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "上海臻禧企业管理咨询合伙企业(有限合伙)",
+     "ratio": 16.43
+    },
+    {
+     "rank": 2,
+     "name": "杭州诺克隆恩企业管理咨询合伙企业(有限合伙)",
+     "ratio": 1.45
+    },
+    {
+     "rank": 3,
+     "name": "黄婧",
+     "ratio": 1.07
+    },
+    {
+     "rank": 4,
+     "name": "翁史伟",
+     "ratio": 1.01
+    },
+    {
+     "rank": 5,
+     "name": "王志",
+     "ratio": 0.88
+    },
+    {
+     "rank": 6,
+     "name": "李鑫",
+     "ratio": 0.69
+    },
+    {
+     "rank": 7,
+     "name": "秦国伟",
+     "ratio": 0.67
+    },
+    {
+     "rank": 8,
+     "name": "陈继",
+     "ratio": 0.64
+    },
+    {
+     "rank": 9,
+     "name": "沈洪秀",
+     "ratio": 0.6
+    },
+    {
+     "rank": 10,
+     "name": "俞基田",
+     "ratio": 0.57
+    }
+   ],
+   "top1_name": "上海臻禧企业管理咨询合伙企业(有限合伙)",
+   "top1_ratio": 16.43,
+   "top3_sum": 18.95
+  },
+  "000010": {
+   "secucode": "000010.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳宝立盛实业发展合伙企业(有限合伙)",
+     "ratio": 8.7
+    },
+    {
+     "rank": 2,
+     "name": "湖南钜银私募基金管理有限公司-湖南钜银文丰一号私募证券投资基金",
+     "ratio": 4.25
+    },
+    {
+     "rank": 3,
+     "name": "珠海红信鼎通企业管理有限公司",
+     "ratio": 3.87
+    },
+    {
+     "rank": 4,
+     "name": "江阴鑫诚业展企业管理合伙企业(有限合伙)",
+     "ratio": 3.4
+    },
+    {
+     "rank": 5,
+     "name": "过青",
+     "ratio": 2.61
+    },
+    {
+     "rank": 6,
+     "name": "来丞铭",
+     "ratio": 2.3
+    },
+    {
+     "rank": 7,
+     "name": "佳源创盛控股集团有限公司",
+     "ratio": 1.99
+    },
+    {
+     "rank": 8,
+     "name": "太平洋证券股份有限公司",
+     "ratio": 1.93
+    },
+    {
+     "rank": 9,
+     "name": "保达投资管理(平潭)有限公司",
+     "ratio": 1.77
+    },
+    {
+     "rank": 10,
+     "name": "张翠娜",
+     "ratio": 1.61
+    }
+   ],
+   "top1_name": "深圳宝立盛实业发展合伙企业(有限合伙)",
+   "top1_ratio": 8.7,
+   "top3_sum": 16.82
+  },
+  "002102": {
+   "secucode": "002102.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "湖北荆江实业投资集团有限公司",
+     "ratio": 13.67
+    },
+    {
+     "rank": 2,
+     "name": "陈烈权",
+     "ratio": 9.38
+    },
+    {
+     "rank": 3,
+     "name": "邓海雄",
+     "ratio": 7.22
+    },
+    {
+     "rank": 4,
+     "name": "北京天宇泽华物联科技有限公司",
+     "ratio": 2.32
+    }
+   ],
+   "top1_name": "湖北荆江实业投资集团有限公司",
+   "top1_ratio": 13.67,
+   "top3_sum": 30.27
+  },
+  "600243": {
+   "secucode": "600243.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "朗宁宜和(杭州)企业管理合伙企业(有限合伙)",
+     "ratio": 9.85
+    },
+    {
+     "rank": 2,
+     "name": "青海欣世置业有限公司",
+     "ratio": 4.1
+    },
+    {
+     "rank": 3,
+     "name": "李松强",
+     "ratio": 3.66
+    },
+    {
+     "rank": 4,
+     "name": "深圳市创东方富达投资企业(有限合伙)",
+     "ratio": 2.72
+    },
+    {
+     "rank": 5,
+     "name": "王封",
+     "ratio": 2.25
+    }
+   ],
+   "top1_name": "朗宁宜和(杭州)企业管理合伙企业(有限合伙)",
+   "top1_ratio": 9.85,
+   "top3_sum": 17.61
+  },
+  "600289": {
+   "secucode": "600289.SH",
+   "report_date": "2026-07-28",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "亿阳集团股份有限公司",
+     "ratio": 32.89
+    }
+   ],
+   "top1_name": "亿阳集团股份有限公司",
+   "top1_ratio": 32.89,
+   "top3_sum": 32.89
+  },
+  "002207": {
+   "secucode": "002207.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "克拉玛依市城市建设投资发展有限责任公司",
+     "ratio": 18
+    },
+    {
+     "rank": 2,
+     "name": "湖州燕润投资管理合伙企业(有限合伙)",
+     "ratio": 12
+    },
+    {
+     "rank": 3,
+     "name": "王耀",
+     "ratio": 1
+    },
+    {
+     "rank": 4,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 0.83
+    },
+    {
+     "rank": 5,
+     "name": "陈建勇",
+     "ratio": 0.7
+    }
+   ],
+   "top1_name": "克拉玛依市城市建设投资发展有限责任公司",
+   "top1_ratio": 18,
+   "top3_sum": 31
+  },
+  "600238": {
+   "secucode": "600238.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "海口市国有资产经营有限公司",
+     "ratio": 13.48
+    },
+    {
+     "rank": 2,
+     "name": "全德能源(江苏)有限公司",
+     "ratio": 5.05
+    },
+    {
+     "rank": 3,
+     "name": "混源贸易(宁波)有限公司",
+     "ratio": 3.95
+    },
+    {
+     "rank": 4,
+     "name": "海南环樾科技合伙企业(有限合伙)",
+     "ratio": 3.45
+    },
+    {
+     "rank": 5,
+     "name": "胡彦斌",
+     "ratio": 3.14
+    },
+    {
+     "rank": 6,
+     "name": "刘海冬",
+     "ratio": 1.07
+    }
+   ],
+   "top1_name": "海口市国有资产经营有限公司",
+   "top1_ratio": 13.48,
+   "top3_sum": 22.48
+  },
+  "600080": {
+   "secucode": "600080.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "邢博越",
+     "ratio": 25.4
+    },
+    {
+     "rank": 2,
+     "name": "新余金煜企业管理有限公司",
+     "ratio": 1.64
+    },
+    {
+     "rank": 3,
+     "name": "亓同新",
+     "ratio": 1.32
+    },
+    {
+     "rank": 4,
+     "name": "杨亮",
+     "ratio": 1.29
+    },
+    {
+     "rank": 5,
+     "name": "金花投资控股集团有限公司",
+     "ratio": 1.22
+    }
+   ],
+   "top1_name": "邢博越",
+   "top1_ratio": 25.4,
+   "top3_sum": 28.36
+  },
+  "600119": {
+   "secucode": "600119.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "长江经济联合发展(集团)股份有限公司",
+     "ratio": 45.83
+    },
+    {
+     "rank": 2,
+     "name": "武汉金融控股(集团)有限公司",
+     "ratio": 2.79
+    },
+    {
+     "rank": 3,
+     "name": "高盛公司有限责任公司",
+     "ratio": 1.38
+    },
+    {
+     "rank": 4,
+     "name": "顾沈晨",
+     "ratio": 1.38
+    },
+    {
+     "rank": 5,
+     "name": "于滨滨",
+     "ratio": 1.3
+    },
+    {
+     "rank": 6,
+     "name": "BARCLAYS BANK PLC",
+     "ratio": 0.83
+    },
+    {
+     "rank": 7,
+     "name": "林雅莉",
+     "ratio": 0.83
+    },
+    {
+     "rank": 8,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 0.8
+    },
+    {
+     "rank": 9,
+     "name": "UBS AG",
+     "ratio": 0.74
+    },
+    {
+     "rank": 10,
+     "name": "唐建柏",
+     "ratio": 0.66
+    }
+   ],
+   "top1_name": "长江经济联合发展(集团)股份有限公司",
+   "top1_ratio": 45.83,
+   "top3_sum": 50.0
+  },
+  "600084": {
+   "secucode": "600084.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "中信国安实业集团有限公司",
+     "ratio": 44.93
+    },
+    {
+     "rank": 2,
+     "name": "孙伟",
+     "ratio": 11.79
+    },
+    {
+     "rank": 3,
+     "name": "熊劭春",
+     "ratio": 2.98
+    },
+    {
+     "rank": 4,
+     "name": "马秋丽",
+     "ratio": 2.66
+    },
+    {
+     "rank": 5,
+     "name": "杜景玉",
+     "ratio": 1.02
+    },
+    {
+     "rank": 6,
+     "name": "新疆生产建设兵团投资有限责任公司",
+     "ratio": 0.86
+    },
+    {
+     "rank": 7,
+     "name": "陈晔",
+     "ratio": 0.81
+    }
+   ],
+   "top1_name": "中信国安实业集团有限公司",
+   "top1_ratio": 44.93,
+   "top3_sum": 59.7
+  },
+  "002719": {
+   "secucode": "002719.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "新疆麦趣尔集团有限责任公司",
+     "ratio": 9.86
+    },
+    {
+     "rank": 2,
+     "name": "昌吉州国有资产投资经营集团有限公司",
+     "ratio": 7.52
+    },
+    {
+     "rank": 3,
+     "name": "李勇",
+     "ratio": 6.45
+    },
+    {
+     "rank": 4,
+     "name": "麦趣尔集团股份有限公司-2022年员工持股计划",
+     "ratio": 4.65
+    },
+    {
+     "rank": 5,
+     "name": "深圳市上古投资管理有限公司-上古投资瑞喜2号私募证券投资基金",
+     "ratio": 1.86
+    },
+    {
+     "rank": 6,
+     "name": "罗利",
+     "ratio": 1.64
+    },
+    {
+     "rank": 7,
+     "name": "J.P.Morgan Securities PLC-自有资金",
+     "ratio": 1.54
+    },
+    {
+     "rank": 8,
+     "name": "黎丽",
+     "ratio": 1.33
+    },
+    {
+     "rank": 9,
+     "name": "赵章财",
+     "ratio": 1.32
+    },
+    {
+     "rank": 10,
+     "name": "戚海云",
+     "ratio": 1.29
+    }
+   ],
+   "top1_name": "新疆麦趣尔集团有限责任公司",
+   "top1_ratio": 9.86,
+   "top3_sum": 23.83
+  },
+  "600265": {
+   "secucode": "600265.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "周大福投资有限公司",
+     "ratio": 55
+    },
+    {
+     "rank": 2,
+     "name": "杭州磁晅沛曈投资管理合伙企业(有限合伙)",
+     "ratio": 9.31
+    },
+    {
+     "rank": 3,
+     "name": "谢志敏",
+     "ratio": 2.06
+    },
+    {
+     "rank": 4,
+     "name": "吴达",
+     "ratio": 1.42
+    }
+   ],
+   "top1_name": "周大福投资有限公司",
+   "top1_ratio": 55,
+   "top3_sum": 66.37
+  },
+  "002872": {
+   "secucode": "002872.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "刘群",
+     "ratio": 32.89
+    },
+    {
+     "rank": 2,
+     "name": "重庆渝垫国有资产经营集团有限公司",
+     "ratio": 4.34
+    },
+    {
+     "rank": 3,
+     "name": "夏重阳",
+     "ratio": 1.55
+    },
+    {
+     "rank": 4,
+     "name": "周仁瑀",
+     "ratio": 1.39
+    },
+    {
+     "rank": 5,
+     "name": "周山清",
+     "ratio": 1.26
+    },
+    {
+     "rank": 6,
+     "name": "吴日升",
+     "ratio": 1.26
+    },
+    {
+     "rank": 7,
+     "name": "侯书桥",
+     "ratio": 1.19
+    },
+    {
+     "rank": 8,
+     "name": "齐杏发",
+     "ratio": 1.14
+    },
+    {
+     "rank": 9,
+     "name": "西藏润富空气处理工程技术有限公司",
+     "ratio": 1
+    },
+    {
+     "rank": 10,
+     "name": "江波",
+     "ratio": 0.9
+    }
+   ],
+   "top1_name": "刘群",
+   "top1_ratio": 32.89,
+   "top3_sum": 38.78
+  },
+  "200488": {
+   "secucode": "200488.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "晨鸣控股有限公司",
+     "ratio": 15.5
+    },
+    {
+     "rank": 2,
+     "name": "HKSCC NOMINEES LIMITED",
+     "ratio": 12.7
+    },
+    {
+     "rank": 3,
+     "name": "晨鸣控股(香港)有限公司",
+     "ratio": 12.38
+    },
+    {
+     "rank": 4,
+     "name": "金幸",
+     "ratio": 1.31
+    },
+    {
+     "rank": 5,
+     "name": "陈洪国",
+     "ratio": 0.65
+    }
+   ],
+   "top1_name": "晨鸣控股有限公司",
+   "top1_ratio": 15.5,
+   "top3_sum": 40.58
+  },
+  "000911": {
+   "secucode": "000911.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "广西农村投资集团有限公司",
+     "ratio": 38.23
+    },
+    {
+     "rank": 2,
+     "name": "南宁产业投资集团有限责任公司",
+     "ratio": 14.98
+    },
+    {
+     "rank": 3,
+     "name": "深圳金湾私募证券基金管理有限公司-金湾长安一号私募证券投资基金",
+     "ratio": 0.55
+    },
+    {
+     "rank": 4,
+     "name": "钟立平",
+     "ratio": 0.44
+    },
+    {
+     "rank": 5,
+     "name": "上海千宜投资管理中心(有限合伙)-千宜北量3号私募证券投资基金",
+     "ratio": 0.41
+    },
+    {
+     "rank": 6,
+     "name": "上海千宜投资管理中心(有限合伙)-千宜北量5号私募证券投资基金",
+     "ratio": 0.4
+    }
+   ],
+   "top1_name": "广西农村投资集团有限公司",
+   "top1_ratio": 38.23,
+   "top3_sum": 53.76
+  },
+  "200016": {
+   "secucode": "200016.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "磐石润创(深圳)信息管理有限公司",
+     "ratio": 21.76
+    },
+    {
+     "rank": 2,
+     "name": "中信证券经纪(香港)有限公司",
+     "ratio": 8.24
+    },
+    {
+     "rank": 3,
+     "name": "国元证券经纪(香港)有限公司",
+     "ratio": 2.55
+    },
+    {
+     "rank": 4,
+     "name": "HOLY TIME GROUP LIMITED",
+     "ratio": 2.34
+    },
+    {
+     "rank": 5,
+     "name": "李涛",
+     "ratio": 1.32
+    }
+   ],
+   "top1_name": "磐石润创(深圳)信息管理有限公司",
+   "top1_ratio": 21.76,
+   "top3_sum": 32.55
+  },
+  "000752": {
+   "secucode": "000752.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "西藏盛邦控股有限公司",
+     "ratio": 12.74
+    },
+    {
+     "rank": 2,
+     "name": "西藏国有资本投资运营有限公司",
+     "ratio": 6.09
+    },
+    {
+     "rank": 3,
+     "name": "张寿春",
+     "ratio": 1.97
+    },
+    {
+     "rank": 4,
+     "name": "汪新文",
+     "ratio": 1.55
+    },
+    {
+     "rank": 5,
+     "name": "刘选云",
+     "ratio": 1.36
+    },
+    {
+     "rank": 6,
+     "name": "张敏",
+     "ratio": 1.15
+    }
+   ],
+   "top1_name": "西藏盛邦控股有限公司",
+   "top1_ratio": 12.74,
+   "top3_sum": 20.8
+  },
+  "600423": {
+   "secucode": "600423.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "柳州元通投资发展有限公司",
+     "ratio": 25.22
+    },
+    {
+     "rank": 2,
+     "name": "柳州化学工业集团有限公司",
+     "ratio": 2.86
+    },
+    {
+     "rank": 3,
+     "name": "中国工商银行股份有限公司柳州分行",
+     "ratio": 2.22
+    },
+    {
+     "rank": 4,
+     "name": "柳州化工股份有限公司破产企业财产处置专用账户",
+     "ratio": 2.09
+    },
+    {
+     "rank": 5,
+     "name": "高盛国际-自有资金",
+     "ratio": 1.5
+    },
+    {
+     "rank": 6,
+     "name": "广西盛亚科技集团股份有限公司",
+     "ratio": 1.02
+    },
+    {
+     "rank": 7,
+     "name": "朱建华",
+     "ratio": 0.89
+    },
+    {
+     "rank": 8,
+     "name": "赵飞雪",
+     "ratio": 0.81
+    },
+    {
+     "rank": 9,
+     "name": "建信金融租赁有限公司",
+     "ratio": 0.78
+    },
+    {
+     "rank": 10,
+     "name": "广西柳州发电有限责任公司",
+     "ratio": 0.78
+    }
+   ],
+   "top1_name": "柳州元通投资发展有限公司",
+   "top1_ratio": 25.22,
+   "top3_sum": 30.3
+  },
+  "600530": {
+   "secucode": "600530.SH",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "大众交通(集团)股份有限公司",
+     "ratio": 14.48
+    },
+    {
+     "rank": 2,
+     "name": "上海韵简实业发展有限公司",
+     "ratio": 12.19
+    },
+    {
+     "rank": 3,
+     "name": "上海饰杰装饰设计工程有限公司",
+     "ratio": 6.87
+    },
+    {
+     "rank": 4,
+     "name": "上海徐汇城市发展(集团)有限公司",
+     "ratio": 6.19
+    },
+    {
+     "rank": 5,
+     "name": "丽水新诚新创科技发展合伙企业(有限合伙)",
+     "ratio": 5.82
+    },
+    {
+     "rank": 6,
+     "name": "丽水农帮咨询合伙企业(有限合伙)",
+     "ratio": 5.04
+    },
+    {
+     "rank": 7,
+     "name": "上海金澹资产管理有限公司-金澹资产添利二期私募证券投资基金",
+     "ratio": 3.87
+    },
+    {
+     "rank": 8,
+     "name": "上海茸北工贸实业总公司",
+     "ratio": 2.75
+    }
+   ],
+   "top1_name": "大众交通(集团)股份有限公司",
+   "top1_ratio": 14.48,
+   "top3_sum": 33.54
+  },
+  "000669": {
+   "secucode": "000669.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "山西坤杰能源科技合伙企业(有限合伙)",
+     "ratio": 20.71
+    },
+    {
+     "rank": 2,
+     "name": "陈家榕",
+     "ratio": 2.4
+    },
+    {
+     "rank": 3,
+     "name": "联中实业有限公司",
+     "ratio": 1.89
+    },
+    {
+     "rank": 4,
+     "name": "许锡龙",
+     "ratio": 1.7
+    },
+    {
+     "rank": 5,
+     "name": "吴立壁",
+     "ratio": 1.49
+    }
+   ],
+   "top1_name": "山西坤杰能源科技合伙企业(有限合伙)",
+   "top1_ratio": 20.71,
+   "top3_sum": 25.0
+  },
+  "600568": {
+   "secucode": "600568.SH",
+   "report_date": "2026-07-15",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳市朗地科技发展有限公司",
+     "ratio": 19.08
+    },
+    {
+     "rank": 2,
+     "name": "共青城梅花腾龙起飞投资合伙企业(有限合伙)",
+     "ratio": 10.38
+    },
+    {
+     "rank": 3,
+     "name": "黄鹏斌",
+     "ratio": 5.22
+    },
+    {
+     "rank": 4,
+     "name": "萧妃英",
+     "ratio": 5.02
+    },
+    {
+     "rank": 5,
+     "name": "深圳市中盛源企业管理中心(有限合伙)",
+     "ratio": 5
+    }
+   ],
+   "top1_name": "深圳市朗地科技发展有限公司",
+   "top1_ratio": 19.08,
+   "top3_sum": 34.68
+  },
+  "200056": {
+   "secucode": "200056.SZ",
+   "report_date": "2026-06-30",
+   "top_holders": [
+    {
+     "rank": 1,
+     "name": "深圳市皇庭产业控股有限公司",
+     "ratio": 15.32
+    },
+    {
+     "rank": 2,
+     "name": "百利亚太投资有限公司",
+     "ratio": 5.45
+    },
+    {
+     "rank": 3,
+     "name": "皇庭国际集团有限公司",
+     "ratio": 3.09
+    },
+    {
+     "rank": 4,
+     "name": "崔雁",
+     "ratio": 1.83
+    },
+    {
+     "rank": 5,
+     "name": "GUOTAI JUNAN SECURITIES(HONG KONG)LIMITED",
+     "ratio": 1.82
+    },
+    {
+     "rank": 6,
+     "name": "霍孝谦",
+     "ratio": 1.69
+    }
+   ],
+   "top1_name": "深圳市皇庭产业控股有限公司",
+   "top1_ratio": 15.32,
+   "top3_sum": 23.86
+  }
+ }
+}

@@ -1,8 +1,8 @@
 {
-  "system": "ST保壳评分系统V2 十三维100分制（老Z定稿2026-08-28）",
-  "config_version": "v2.1",
+  "system": "ST保壳评分系统V2 十二维100分制（2026-08-28老Z定稿，2026-09-02重构13→12维：取消F1趋势4分→A1净资产+2分/C2壳价值+2分，F2重组更名F1）",
+  "config_version": "v2.3",
   "created": "2026-08-29",
-  "note": "阶段3分头解耦：权重/档位/闸门/评级全部外置本文件，改配置不改代码；批量fetch管道不动",
+  "note": "阶段3分头解耦：权重/档位/闸门/评级全部外置本文件，改配置不改代码；批量fetch管道不动；v2.3(2026-09-02)维度结构13→12重构",
   "shell_base": {
     "json": "C:\\Users\\xiaot\\.workbuddy\\skills\\shell-fee-base\\shell_transactions.json",
     "key": "benchmark_config.own_mcap_median_yi",
@@ -38,19 +38,19 @@
     },
     "C2": {
       "name": "壳价值锚定",
-      "max": 8,
+      "max": 10,
       "base_ratio_brackets": [
         [
           0.5,
-          8
+          10
         ],
         [
           0.75,
-          6
+          8
         ],
         [
           1.0,
-          4
+          5
         ],
         [
           1.5,
@@ -58,17 +58,51 @@
         ]
       ],
       "floor": 0,
-      "missing": 4,
+      "missing": 5,
       "c1_linkage": {
         "0": 2,
-        "1": 4
+        "1": 5
       }
     },
     "S1": {
-      "name": "实控人性质与保壳能力",
+      "name": "实控人性质与保壳能力(2026-09-02老Z新版)",
       "max": 12,
       "default": 3,
-      "fraud_cap": 4
+      "s1_floor": 1,
+      "fraud_cap": 4,
+      "hold_ok_pct": 20,
+      "hold_under_coef": 0.8,
+      "base_by_cat": {
+        "央企": 12,
+        "省级国资": 12,
+        "市县国资": 12,
+        "高校院所": 10,
+        "国资(未分层)": 10,
+        "民企(个人)": 8,
+        "民企(法人)": 8,
+        "无实控人": 8
+      },
+      "private_top3_up": {
+        "top3_pct": 50,
+        "raise_to": 10
+      },
+      "mega_shareholder12": {
+        "enabled": false,
+        "asset_yi": 500,
+        "scope_cats": [
+          "央企",
+          "省级国资",
+          "市县国资",
+          "国资(未分层)"
+        ]
+      },
+      "conviction_flat": 3,
+      "litigation_coef": {
+        "freeze": 0.5,
+        "consume_limit": 0.6
+      },
+      "pledge_reduce_pct": 60,
+      "pledge_reduce_coef": 0.5
     },
     "S2": {
       "name": "股权质押与控制权",
@@ -89,15 +123,15 @@
     },
     "A1": {
       "name": "净资产充裕度",
-      "max": 10,
+      "max": 12,
       "nav_yi_brackets": [
         [
           10,
-          10
+          12
         ],
         [
           5,
-          8
+          9
         ],
         [
           2,
@@ -109,7 +143,7 @@
         ]
       ],
       "floor": 0,
-      "missing": 3
+      "missing": 4
     },
     "A2": {
       "name": "扣非主营业务收入",
@@ -180,24 +214,13 @@
       "emphasis": 9,
       "clean": 12
     },
-    "F2": {
+    "F1": {
       "name": "重组/纾困进度",
       "max": 6,
       "exec": 6,
       "applied": 4,
       "asset_ops": 2,
       "none": 0
-    },
-    "F1": {
-      "name": "经营改善趋势",
-      "max": 4,
-      "both_up": 4,
-      "one_up": 2,
-      "none_up": 0,
-      "proxy_both": 4,
-      "proxy_one": 2,
-      "proxy_none": 0,
-      "missing": 1
     },
     "H1": {
       "name": "实控人司法风险",

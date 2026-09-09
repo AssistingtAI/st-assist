@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate baokeng-rank.html from ST保壳评分系统V2 scores (分数越高=保壳越容易)
-V2十三维100分制（唯一口径，2026-08-28正式版，灰度对照已取消）
+V2十二维100分制（唯一口径，2026-08-28正式版，2026-09-02 13→12重构）
 RAW(V1承载数据字段): [code,name,type,board,reason, delisted, note, mkt_cap, mkt_str, prev_close, flags]
-V2 RAW: [code,name,type,board, C1,C2,S1,S2,A1,A2,A3,D1,B1,B2,F2,F1,H1(13维), delisted, note, controller, controller_cat, total]
+V2 RAW: [code,name,type,board, C1,C2,S1,S2,A1,A2,A3,D1,B1,B2,F1,H1(12维), delisted, note, controller, controller_cat, total]
 """
 
 import json
@@ -73,13 +73,13 @@ for s in scores:
     )
 raw_str = '[\n' + ',\n'.join(raw_lines) + '\n]'
 
-# V2 十三维数据（主口径）
+# V2 十二维数据（主口径）
 v2_lines = []
 for s in v2scores:
     v2_lines.append(
         f'  ["{esc(s["code"])}","{esc(s["name"])}","{esc(s["type"])}","{esc(s["board"])}",'
         f'{s["C1"]},{s["C2"]},{s["S1"]},{s["S2"]},{s["A1"]},{s["A2"]},{s["A3"]},'
-        f'{s["D1"]},{s["B1"]},{s["B2"]},{s["F2"]},{s["F1"]},{s["H1"]},'
+        f'{s["D1"]},{s["B1"]},{s["B2"]},{s["F1"]},{s["H1"]},'
         f'{str(bool(s.get("delisted"))).lower()},'
         f'"{esc(s.get("note", ""))}",'
         f'"{esc(s.get("controller", ""))}",'
@@ -109,11 +109,9 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsof
 
 .score-legend {{ background: #fff; border-radius: 12px; border: 0.5px solid #c8e6d0; padding: 16px 20px; margin-bottom: 20px; }}
 .score-legend h3 {{ font-size: 14px; font-weight: 600; color: #1a3d2b; margin-bottom: 8px; }}
-.score-legend-grid {{ display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }}
-.slg-item {{ font-size: 11px; padding: 8px; background: #f4fbf6; border-radius: 8px; text-align: center; }}
-.slg-dim {{ font-weight: 600; color: #1a5e35; }}
-.slg-weight {{ color: #999; font-size: 10px; }}
-.slg-real {{ color: #1a6b3a; }}
+.score-legend-grid {{ display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }}
+.slg-item {{ font-size: 12px; padding: 10px 4px; background: #f4fbf6; border-radius: 8px; text-align: center; }}
+.slg-dim {{ font-weight: 600; color: #1a5e35; font-size: 12.5px; }}
 
 .stats-grid {{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }}
 .stat-card {{ background: #fff; border-radius: 12px; padding: 16px 12px; border: 0.5px solid #c8e6d0; text-align: center; }}
@@ -307,12 +305,12 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
 <div class="header">
 <div class="header-inner">
   <h1>🌿 保壳风云榜 <span style="font-size:13px;font-weight:400;opacity:0.7">ST保壳评分系统V2 · 正式版</span></h1>
-  <p>A股 ST / *ST 上市公司保壳能力评估 · 十三维退市概率打分 · 实时排名</p>
+  <p>A股 ST / *ST 上市公司保壳能力评估 · 十二维退市概率打分 · 实时排名</p>
   <div class="header-meta">
     <span>更新时间：{today}</span>
     <span>覆盖公司：{len(v2scores)} 家</span>
     <span>财务报告期：{report_label}</span>
-    <span>评分口径：V2十三维100分制（A&gt;70 / B51-70 / C31-50 / D≤30）</span>
+    <span>评分口径：V2十二维100分制（A&gt;70 / B51-70 / C31-50 / D≤30）</span>
     <span>每周五更新</span>
   </div>
 </div>
@@ -321,23 +319,22 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
 <div class="container">
 
   <div class="score-legend">
-    <h3>📐 ST保壳评分系统V2 · 十三维退市概率打分（分数越高=保壳越容易 · ★=真实公告数据 · ◆=外部数据接口）</h3>
+    <h3>📐 ST保壳评分系统V2 · 十二维退市概率打分（分数越高=保壳越容易 · 满分合计100分）</h3>
     <div class="score-legend-grid">
-      <div class="slg-item"><div class="slg-dim">C1 面值距离</div><div class="slg-weight">6分</div></div>
-      <div class="slg-item"><div class="slg-dim">C2 壳价值(反转)</div><div class="slg-weight">8分</div></div>
-      <div class="slg-item"><div class="slg-dim slg-real">S1 实控人性质◆</div><div class="slg-weight">12分</div></div>
-      <div class="slg-item"><div class="slg-dim slg-real">S2 股权质押◆</div><div class="slg-weight">6分</div></div>
-      <div class="slg-item"><div class="slg-dim">A1 净资产</div><div class="slg-weight">10分</div></div>
-      <div class="slg-item"><div class="slg-dim slg-real">A2 扣非主营收入◆</div><div class="slg-weight">12分</div></div>
-      <div class="slg-item"><div class="slg-dim">A3 扣非净利润</div><div class="slg-weight">6分</div></div>
-      <div class="slg-item"><div class="slg-dim">D1 现金流质量</div><div class="slg-weight">4分</div></div>
-      <div class="slg-item"><div class="slg-dim slg-real">B1 立案/造假★</div><div class="slg-weight">10分</div></div>
-      <div class="slg-item"><div class="slg-dim slg-real">B2 审计意见★</div><div class="slg-weight">12分</div></div>
-      <div class="slg-item"><div class="slg-dim slg-real">F2 重组/纾困★</div><div class="slg-weight">6分</div></div>
-      <div class="slg-item"><div class="slg-dim slg-real">F1 财务趋势◆</div><div class="slg-weight">4分</div></div>
-      <div class="slg-item"><div class="slg-dim slg-real">H1 司法风险★</div><div class="slg-weight">4分</div></div>
+      <div class="slg-item"><div class="slg-dim">C1 面值距离</div></div>
+      <div class="slg-item"><div class="slg-dim">C2 壳价值(反转)</div></div>
+      <div class="slg-item"><div class="slg-dim">S1 实控人性质</div></div>
+      <div class="slg-item"><div class="slg-dim">S2 股权质押</div></div>
+      <div class="slg-item"><div class="slg-dim">A1 净资产</div></div>
+      <div class="slg-item"><div class="slg-dim">A2 扣非主营收入</div></div>
+      <div class="slg-item"><div class="slg-dim">A3 扣非净利润</div></div>
+      <div class="slg-item"><div class="slg-dim">D1 现金流质量</div></div>
+      <div class="slg-item"><div class="slg-dim">B1 立案/造假</div></div>
+      <div class="slg-item"><div class="slg-dim">B2 审计意见</div></div>
+      <div class="slg-item"><div class="slg-dim">F1 重组/纾困</div></div>
+      <div class="slg-item"><div class="slg-dim">H1 司法风险</div></div>
     </div>
-    <p style="font-size:11px;color:#888;margin-top:8px">维度=退市通道，权重=近5年176家退市案例实证贡献度（交易类55%/财务类32%/规范类8%/违法类5-9%）· 联动规则：面值危机(C1≤1)压制壳价值；涉造假立案实控人维度封顶4分 · 通道封顶一票否决：C1=0/B2=0总分封顶50、B1=0封顶30</p>
+    <p style="font-size:11px;color:#888;margin-top:8px">维度=退市通道，权重=近5年176家退市案例实证贡献度（交易类55%/财务类32%/规范类8%/违法类5-9%）· 2026-09-02重构：取消原F1经营改善趋势4分，并入A1净资产(+2)与C2壳价值(+2)，原F2重组/纾困更名F1 · 联动规则：面值危机(C1≤1)压制壳价值；涉造假立案实控人维度封顶4分 · 通道封顶一票否决：C1=0/B2=0总分封顶50、B1=0封顶30</p>
   </div>
 
   <div class="stats-grid">
@@ -356,7 +353,7 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
   </div>
 
   <div id="tab-rank" class="tab-content active">
-    <div class="source-tip">📊 数据覆盖 <b>{len(v2scores)}</b> 家 ST/*ST 公司 · V2十三维退市概率打分 · 财务报告期 <b>{report_label}</b> · 公告信号来自巨潮资讯网（近24个月） · 分数越高保壳越容易</div>
+    <div class="source-tip">📊 数据覆盖 <b>{len(v2scores)}</b> 家 ST/*ST 公司 · V2十二维退市概率打分 · 财务报告期 <b>{report_label}</b> · 公告信号来自巨潮资讯网（近24个月） · 分数越高保壳越容易</div>
     <div class="rank-grid">
       <div class="rank-panel">
         <div class="rank-header-easy">
@@ -467,7 +464,7 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
 // RAW（数据字段）: [代码,简称,类型,板块,风险原因,
 //  已锁定退市, 备注, 市值_亿, 市值_显示, 昨收, 信号串]
 // V2RAW（唯一评分口径）: [代码,简称,类型,板块,
-//  C1,C2,S1,S2, A1,A2,A3, D1, B1,B2, F2,F1, H1 (13个),
+//  C1,C2,S1,S2, A1,A2,A3, D1, B1,B2, F1, H1 (12个),
 //  已锁定退市, 备注, 实控人, 实控人分类, total]
 // 分数越高 = 保壳能力越强
 const REPORT_LABEL = "{report_label}";
@@ -475,10 +472,10 @@ const SHELL_BASE_YI = {SHELL_BASE_YI};  // 壳基准（亿），与build_baokeng
 const SHELL_BASE_LABEL = "{SHELL_BASE_LABEL}";
 const RAW = {raw_str};
 
-// V2 保壳能力总分 = 13维之和（100分制）+ 通道封顶（与build_baokeng_v2.py一致）
+// V2 保壳能力总分 = 12维之和（100分制）+ 通道封顶（与build_baokeng_v2.py一致）
 const V2RAW = {v2_str};
 function calcScore2(r) {{
-  let s = r[4]+r[5]+r[6]+r[7]+r[8]+r[9]+r[10]+r[11]+r[12]+r[13]+r[14]+r[15]+r[16];
+  let s = r[4]+r[5]+r[6]+r[7]+r[8]+r[9]+r[10]+r[11]+r[12]+r[13]+r[14]+r[15];
   if (r[4] === 0) s = Math.min(s, 50);   // C1=0 面值危机：交易类通道触发，封顶50
   if (r[13] === 0) s = Math.min(s, 50);  // B2=0 无法表示/否定意见：规范类通道触发，封顶50
   if (r[12] === 0) s = Math.min(s, 30);  // B1=0 涉造假立案：重大违法通道，封顶30
@@ -491,9 +488,9 @@ V2RAW.forEach(r => {{
   const s2 = calcScore2(r);
   V2MAP.set(r[0], {{
     C1:r[4], C2:r[5], S1:r[6], S2:r[7], A1:r[8], A2:r[9], A3:r[10],
-    D1:r[11], B1:r[12], B2:r[13], F2:r[14], F1:r[15], H1:r[16],
-    delisted:r[17], note2:r[18], controller:r[19], controller_cat:r[20],
-    total2:r[21], score2:s2, level2:calcLevel2(s2)
+    D1:r[11], B1:r[12], B2:r[13], F1:r[14], H1:r[15],
+    delisted:r[16], note2:r[17], controller:r[18], controller_cat:r[19],
+    total2:r[20], score2:s2, level2:calcLevel2(s2)
   }});
 }});
 
@@ -719,17 +716,16 @@ function showReport(c){{
   const v2 = c.v2;
   const v2f = v2 ? [
     {{label:'C1 面值距离(6)',v:v2.C1,max:6,col:'#117a65'}},
-    {{label:'C2 壳价值·反转(8)',v:v2.C2,max:8,col:'#148f77'}},
+    {{label:'C2 壳价值·反转(10)',v:v2.C2,max:10,col:'#148f77'}},
     {{label:'S1 实控人性质(12)',v:v2.S1,max:12,col:'#8e44ad'}},
     {{label:'S2 股权质押(6)',v:v2.S2,max:6,col:'#6c3483'}},
-    {{label:'A1 净资产(10)',v:v2.A1,max:10,col:'#2980b9'}},
+    {{label:'A1 净资产(12)',v:v2.A1,max:12,col:'#2980b9'}},
     {{label:'A2 扣非主营收入(12)',v:v2.A2,max:12,col:'#1a5e35'}},
     {{label:'A3 扣非净利润(6)',v:v2.A3,max:6,col:'#27ae60'}},
     {{label:'D1 现金流质量(4)',v:v2.D1,max:4,col:'#1a5276'}},
     {{label:'B1 立案/造假★(10)',v:v2.B1,max:10,col:'#2e86c1'}},
     {{label:'B2 审计意见★(12)',v:v2.B2,max:12,col:'#5499c7'}},
-    {{label:'F2 重组/纾困★(6)',v:v2.F2,max:6,col:'#f39c12'}},
-    {{label:'F1 财务趋势◆(4)',v:v2.F1,max:4,col:'#117a65'}},
+    {{label:'F1 重组/纾困★(6)',v:v2.F1,max:6,col:'#f39c12'}},
     {{label:'H1 司法风险★(4)',v:v2.H1,max:4,col:'#af601a'}},
   ] : [];
   const sigHTML = c.flags.length
@@ -763,7 +759,7 @@ function showReport(c){{
         <div class="signal-row">${{sigHTML}}</div>
       </div>
       <div class="factors-section">
-        <div class="factors-title">ST保壳评分系统V2 十三维退市概率打分明细（满分100分 · ★=公告数据 ◆=外部数据接口）</div>
+        <div class="factors-title">ST保壳评分系统V2 十二维退市概率打分明细（满分100分 · ★=公告数据信号维度）</div>
         ${{v2f.map(f=>`<div class="factor-row">
           <div class="factor-label">${{f.label}}</div>
           <div class="factor-bar-wrap"><div class="factor-bar" style="width:${{Math.round(f.v/f.max*100)}}%;background:${{f.col}}"></div></div>
@@ -930,4 +926,4 @@ with open('baokeng-rank.html', 'w', encoding='utf-8') as f:
 with open('index.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
-print(f'Generated baokeng-rank.html + index.html ({len(html)} bytes) | ST保壳评分系统V2正式版(十三维+摸鱼榜) | 报告期: {report_label} | 公司数: {len(v2scores)}')
+print(f'Generated baokeng-rank.html + index.html ({len(html)} bytes) | ST保壳评分系统V2正式版(十二维+摸鱼榜) | 报告期: {report_label} | 公司数: {len(v2scores)}')

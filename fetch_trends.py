@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""F1维度经营改善趋势管道 — 东财F10主要指标 RPT_F10_FINANCE_MAINFINADATA
+"""财务趋势采集管道（原V2-F1"经营改善趋势"数据源，东财F10主要指标 RPT_F10_FINANCE_MAINFINADATA）
 
+2026-09-02 十二维重构后该维度已取消（4分并入A1/C2），本脚本保留采集用于A2等财务
+交叉参考与历史留档，评分引擎不再消费 st_trends.json。
 取最新报告期与上年同期（同月日）对比：
   rev_yoy  营业总收入同比
   kc_yoy   扣非净利润同比（亏损收窄=正值）
-F1规则：双改善:4 / 单改善:2 / 双恶化:0
 输出 st_trends.json
 """
 import json
