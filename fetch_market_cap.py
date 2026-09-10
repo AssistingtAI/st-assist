@@ -118,7 +118,7 @@ def main():
             'git push origin main'
         )
         print("  [OK] Pushed")
-        print("\n  Online: https://zsheng007.github.io/baokeng-ranking/")
+        print("\n  Online: https://zsheng007.github.io/st-assist/")
     else:
         print(f"\n  Local file ready: {os.path.join(BASE, 'baokeng-rank.html')}")
         print("  Open in browser (needs market_cap.json in same dir)")

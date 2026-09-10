@@ -1,6 +1,6 @@
 # 保壳风云榜 项目记忆
 
-工作目录：C:\Users\xiaot\WorkBuddy\2026-05-16-task-2（GitHub Pages: zsheng007.github.io/baokeng-ranking）
+工作目录：C:\Users\xiaot\WorkBuddy\2026-05-16-task-2（GitHub Pages: zsheng007.github.io/st-assist，2026-09-10仓库由baokeng-ranking更名）
 
 ## 评分体系（当前权威口径）
 **ST保壳评分系统V2 · 十二维100分制**（2026-08-28老Z定稿切换，2026-09-02 13→12重构 config v2.3；**十三维/V1已废弃**，历史见每日日志+git）。分数越高=保壳越容易；评级 A(>70)/B(51-70)/C(31-50)/D(≤30)。score_v2.py 是唯一评分实现源，榜单分数=个股报告分数零偏差。完整维度档位/规则见 skill `~/.workbuddy/skills/baokeng-rank/SKILL.md`。
