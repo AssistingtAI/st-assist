@@ -922,7 +922,7 @@ with open('baokeng-rank.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
 # GitHub Pages 首页同步：index.html 与 baokeng-rank.html 内容一致，
-# 别人打开 https://assistingtai.github.io/baokeng-ranking/ 即可看到最新版
+# 别人打开 https://assistingtai.github.io/st-assist/ 即可看到最新版
 with open('index.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
