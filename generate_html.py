@@ -117,9 +117,14 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsof
 
 .score-legend {{ background: #fff; border-radius: 12px; border: 0.5px solid #c8e6d0; padding: 16px 20px; margin-bottom: 20px; }}
 .score-legend h3 {{ font-size: 14px; font-weight: 600; color: #1a3d2b; margin-bottom: 8px; }}
-.score-legend-grid {{ display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }}
+.score-legend-grid {{ display: none; }}
+.slg-group {{ display: flex; align-items: center; gap: 12px; margin: 9px 0; }}
+.slg-gname {{ width: 158px; flex-shrink: 0; font-size: 12.5px; font-weight: 700; color: #1a3d2b; }}
+.slg-gname i {{ font-style: normal; font-weight: 400; color: #8a9a78; font-size: 11px; display: block; }}
+.slg-gitems {{ flex: 1; display: grid; gap: 8px; }}
 .slg-item {{ font-size: 12px; padding: 10px 4px; background: #f4fbf6; border-radius: 8px; text-align: center; }}
 .slg-dim {{ font-weight: 600; color: #1a5e35; font-size: 12.5px; }}
+.slg-max {{ font-size: 10.5px; color: #8a9a78; margin-top: 2px; }}
 
 .stats-grid {{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }}
 .stat-card {{ background: #fff; border-radius: 12px; padding: 16px 12px; border: 0.5px solid #c8e6d0; text-align: center; }}
@@ -302,7 +307,10 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
 
 @media(max-width:700px){{
   .rank-grid {{ grid-template-columns: 1fr; }}
-  .stats-grid, .score-legend-grid {{ grid-template-columns: repeat(2,1fr); }}
+  .stats-grid {{ grid-template-columns: repeat(2,1fr); }}
+  .slg-group {{ flex-direction: column; align-items: stretch; gap: 5px; }}
+  .slg-gname {{ width: auto; }}
+  .slg-gitems {{ grid-template-columns: repeat(2,1fr); }}
   .info-row {{ grid-template-columns: repeat(2,1fr); }}
   .vote-options {{ grid-template-columns: repeat(2, 1fr); }}
   .vote-rank-grid {{ grid-template-columns: 1fr; }}
@@ -330,21 +338,29 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
 
   <div class="score-legend">
     <h3>📐 ST保壳评分系统V2 · 十二维退市风险评分（分数越高=退市风险相对较低 · 满分合计100分）</h3>
-    <div class="score-legend-grid">
-      <div class="slg-item"><div class="slg-dim">C1 面值距离</div></div>
-      <div class="slg-item"><div class="slg-dim">C2 壳价值(反转)</div></div>
-      <div class="slg-item"><div class="slg-dim">S1 实控人性质</div></div>
-      <div class="slg-item"><div class="slg-dim">S2 股权质押</div></div>
-      <div class="slg-item"><div class="slg-dim">A1 净资产</div></div>
-      <div class="slg-item"><div class="slg-dim">A2 扣非主营收入</div></div>
-      <div class="slg-item"><div class="slg-dim">A3 扣非净利润</div></div>
-      <div class="slg-item"><div class="slg-dim">D1 现金流质量</div></div>
-      <div class="slg-item"><div class="slg-dim">B1 立案/造假</div></div>
-      <div class="slg-item"><div class="slg-dim">B2 审计意见</div></div>
-      <div class="slg-item"><div class="slg-dim">F1 重组/纾困</div></div>
-      <div class="slg-item"><div class="slg-dim">H1 司法风险</div></div>
-    </div>
-    <p style="font-size:11px;color:#888;margin-top:8px">维度=退市通道，权重=近5年176家退市案例实证贡献度（交易类55%/财务类32%/规范类8%/违法类5-9%）· 2026-09-02重构：取消原F1经营改善趋势4分，并入A1净资产(+2)与C2壳价值(+2)，原F2重组/纾困更名F1 · 联动规则：面值危机(C1≤1)压制壳价值；涉造假立案实控人维度封顶4分 · 通道封顶一票否决：C1=0/B2=0总分封顶50、B1=0封顶30</p>
+    <div class="slg-group"><div class="slg-gname">🟢 财务红线<i>34分 · 退市财务标准直对</i></div><div class="slg-gitems" style="grid-template-columns:repeat(4,1fr)">
+      <div class="slg-item"><div class="slg-dim">A1 净资产</div><div class="slg-max">12分</div></div>
+      <div class="slg-item"><div class="slg-dim">A2 扣非主营收入</div><div class="slg-max">12分</div></div>
+      <div class="slg-item"><div class="slg-dim">A3 扣非净利润</div><div class="slg-max">6分</div></div>
+      <div class="slg-item"><div class="slg-dim">D1 现金流质量</div><div class="slg-max">4分</div></div>
+    </div></div>
+    <div class="slg-group"><div class="slg-gname">🔴 监管信号<i>22分 · 公告/审计实锤</i></div><div class="slg-gitems" style="grid-template-columns:repeat(2,1fr)">
+      <div class="slg-item"><div class="slg-dim">B1 立案/造假</div><div class="slg-max">10分</div></div>
+      <div class="slg-item"><div class="slg-dim">B2 审计意见</div><div class="slg-max">12分</div></div>
+    </div></div>
+    <div class="slg-group"><div class="slg-gname">🟣 控制权<i>18分 · 股东实力与稳定性</i></div><div class="slg-gitems" style="grid-template-columns:repeat(2,1fr)">
+      <div class="slg-item"><div class="slg-dim">S1 实控人性质</div><div class="slg-max">12分</div></div>
+      <div class="slg-item"><div class="slg-dim">S2 股权质押</div><div class="slg-max">6分</div></div>
+    </div></div>
+    <div class="slg-group"><div class="slg-gname">🟡 市场类<i>16分 · 交易类通道距离</i></div><div class="slg-gitems" style="grid-template-columns:repeat(2,1fr)">
+      <div class="slg-item"><div class="slg-dim">C1 面值距离</div><div class="slg-max">6分</div></div>
+      <div class="slg-item"><div class="slg-dim">C2 壳价值(反转)</div><div class="slg-max">10分</div></div>
+    </div></div>
+    <div class="slg-group"><div class="slg-gname">🟠 纾困与司法<i>10分 · 外部救援与实控人风险</i></div><div class="slg-gitems" style="grid-template-columns:repeat(2,1fr)">
+      <div class="slg-item"><div class="slg-dim">F1 重组/纾困</div><div class="slg-max">6分</div></div>
+      <div class="slg-item"><div class="slg-dim">H1 司法风险</div><div class="slg-max">4分</div></div>
+    </div></div>
+    <p style="font-size:11px;color:#888;margin-top:8px">五类分组：财务红线34 · 监管信号22 · 控制权18 · 市场类16 · 纾困与司法10（编号沿用历史口径）· 维度=退市通道，权重=近5年176家退市案例实证贡献度（交易类55%/财务类32%/规范类8%/违法类5-9%）· 联动规则：面值危机(C1≤1)压制壳价值；涉造假立案实控人维度封顶4分 · 通道封顶一票否决：C1=0/B2=0总分封顶50、B1=0封顶30</p>
   </div>
 
   <div class="stats-grid">
@@ -728,17 +744,17 @@ function showReport(c){{
   const col = LC[c.level];
   const v2 = c.v2;
   const v2f = v2 ? [
-    {{label:'C1 面值距离(6)',v:v2.C1,max:6,col:'#117a65'}},
-    {{label:'C2 壳价值·反转(10)',v:v2.C2,max:10,col:'#148f77'}},
-    {{label:'S1 实控人性质(12)',v:v2.S1,max:12,col:'#8e44ad'}},
-    {{label:'S2 股权质押(6)',v:v2.S2,max:6,col:'#6c3483'}},
-    {{label:'A1 净资产(12)',v:v2.A1,max:12,col:'#2980b9'}},
+    {{label:'A1 净资产(12)',v:v2.A1,max:12,col:'#2980b9',cat:'🟢 财务红线 · 34分'}},
     {{label:'A2 扣非主营收入(12)',v:v2.A2,max:12,col:'#1a5e35'}},
     {{label:'A3 扣非净利润(6)',v:v2.A3,max:6,col:'#27ae60'}},
     {{label:'D1 现金流质量(4)',v:v2.D1,max:4,col:'#1a5276'}},
-    {{label:'B1 立案/造假★(10)',v:v2.B1,max:10,col:'#2e86c1'}},
+    {{label:'B1 立案/造假★(10)',v:v2.B1,max:10,col:'#2e86c1',cat:'🔴 监管信号 · 22分'}},
     {{label:'B2 审计意见★(12)',v:v2.B2,max:12,col:'#5499c7'}},
-    {{label:'F1 重组/纾困★(6)',v:v2.F1,max:6,col:'#f39c12'}},
+    {{label:'S1 实控人性质(12)',v:v2.S1,max:12,col:'#8e44ad',cat:'🟣 控制权 · 18分'}},
+    {{label:'S2 股权质押(6)',v:v2.S2,max:6,col:'#6c3483'}},
+    {{label:'C1 面值距离(6)',v:v2.C1,max:6,col:'#117a65',cat:'🟡 市场类 · 16分'}},
+    {{label:'C2 壳价值·反转(10)',v:v2.C2,max:10,col:'#148f77'}},
+    {{label:'F1 重组/纾困★(6)',v:v2.F1,max:6,col:'#f39c12',cat:'🟠 纾困与司法 · 10分'}},
     {{label:'H1 司法风险★(4)',v:v2.H1,max:4,col:'#af601a'}},
   ] : [];
   const sigHTML = c.flags.length
@@ -774,7 +790,9 @@ function showReport(c){{
       </div>
       <div class="factors-section">
         <div class="factors-title">ST保壳评分系统V2 十二维退市风险评分明细（满分100分 · ★=公告数据信号维度）</div>
-        ${{v2f.map(f=>`<div class="factor-row">
+        ${{v2f.map(f=>`
+          ${{f.cat ? `<div style="font-size:11px;color:#8a9a78;font-weight:700;margin:12px 0 5px;border-bottom:1px dashed #e0e8d8;padding-bottom:3px">${{f.cat}}</div>` : ''}}
+          <div class="factor-row">
           <div class="factor-label">${{f.label}}</div>
           <div class="factor-bar-wrap"><div class="factor-bar" style="width:${{Math.round(f.v/f.max*100)}}%;background:${{f.col}}"></div></div>
           <div class="factor-score" style="color:${{f.col}}">${{f.v}}/${{f.max}}</div>
