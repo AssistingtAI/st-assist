@@ -482,9 +482,9 @@ const UNIQUE = Array.from(CODE_MAP.values());
 const BY_SCORE = [...UNIQUE].sort((a,b)=>b.score-a.score);
 BY_SCORE.forEach((c,i)=>c.rank=i+1);
 
-// ===================== 摸鱼榜：市值越低 + 保壳分越高 = 综合机会越好 =====================
-// 壳便宜分：市值对数归一化（最便宜=100, 最贵=0, 仅非退市且市值>0）
-// 摸鱼指数 = (50%×保壳分 + 50%×壳便宜分) × 等级系数（A/B 1.0 · C 0.85 · D 0.6）
+// ===================== 壳市值观察：低市值 × 较高评分的客观组合视角 =====================
+// 壳市值分：市值对数归一化（最低=100, 最高=0, 仅非退市且市值>0）
+// 壳市值指数 = (50%×V2评分 + 50%×壳市值分) × 等级系数（A/B 1.0 · C 0.85 · D 0.6）
 const MOYU_LV_K = {'A':1.0,'B':1.0,'C':0.85,'D':0.6};
 const MOYU_POOL = UNIQUE.filter(c=>!c.delisted && c.market_cap_yi>0);
 {
@@ -499,8 +499,8 @@ const BY_MOYU = [...MOYU_POOL].sort((a,b)=>b.moyu-a.moyu);
 BY_MOYU.forEach((c,i)=>c.moyuRank=i+1);
 
 const LC = {'A':'#27ae60','B':'#2980b9','C':'#e67e22','D':'#c0392b'};
-const LT = {'A':'低风险·退市概率低','B':'中风险·保壳有希望','C':'高风险·保壳难度大','D':'极高风险·退市警钟'};
-const LE = {'A':'✅ 综合评估：保壳能力较强','B':'🔵 综合评估：中等退市风险','C':'🟠 综合评估：较高退市风险','D':'🔴 综合评估：退市风险极高'};
+const LT = {'A':'低风险·退市概率低','B':'中风险·需关注修复进展','C':'高风险·退市风险较高','D':'极高风险·退市警钟'};
+const LE = {'A':'✅ 综合评估：退市风险相对较低','B':'🔵 综合评估：中等退市风险','C':'🟠 综合评估：较高退市风险','D':'🔴 综合评估：退市风险极高'};
 
 let currentFilter = 'all';
 
@@ -561,9 +561,9 @@ function renderRank(){
   const easy = BY_SCORE.slice(0,10);
   const hard = BY_SCORE.slice(-10).reverse();
   const moyu = BY_MOYU.slice(0,10);
-  document.getElementById('easyList').innerHTML = topTableHTML(easy, c=>c.score, c=>LC[c.level], '保壳分');
-  document.getElementById('hardList').innerHTML = topTableHTML(hard, c=>c.score, c=>LC[c.level], '保壳分');
-  document.getElementById('moyuTopList').innerHTML = topTableHTML(moyu, c=>c.moyu, ()=> '#b9770e', '摸鱼指数', c=>`gotoDetail('${c.code}')`);
+  document.getElementById('easyList').innerHTML = topTableHTML(easy, c=>c.score, c=>LC[c.level], 'V2评分');
+  document.getElementById('hardList').innerHTML = topTableHTML(hard, c=>c.score, c=>LC[c.level], 'V2评分');
+  document.getElementById('moyuTopList').innerHTML = topTableHTML(moyu, c=>c.moyu, ()=> '#b9770e', '壳市值指数', c=>`gotoDetail('${c.code}')`);
 }
 
 function renderMoyu(){
@@ -573,11 +573,11 @@ function renderMoyu(){
     <div class="rank-num ${numClass(i)}">${i+1}</div>
     <div class="rank-info">
       <div class="rank-name">${c.name}<span class="rtag rtag-${c.level}">${c.level}</span></div>
-      <div class="rank-code">${c.code} · ${c.board} · 市值${c.market_cap_str}亿 · 保壳分${c.score} · 壳便宜分${c.cheap}</div>
+      <div class="rank-code">${c.code} · ${c.board} · 市值${c.market_cap_str}亿 · V2评分${c.score} · 壳市值分${c.cheap}</div>
     </div>
     <div class="rank-score-col">
       <div class="mini-bar-wrap"><div class="mini-bar" style="width:${Math.min(100,Math.round(c.moyu))}%;background:${MC}"></div></div>
-      <div class="score-val" style="color:${MC}" title="摸鱼指数">${c.moyu}</div>
+      <div class="score-val" style="color:${MC}" title="壳市值指数">${c.moyu}</div>
     </div>
   </div>`).join('');
 }
@@ -699,8 +699,8 @@ function showReport(c){
         </div>
         <div style="text-align:right">
           <div class="score-big" style="color:${col}">${c.score}<span style="font-size:16px;font-weight:400"> 分</span></div>
-          <div class="score-label">全榜第 ${c.rank} / ${UNIQUE.length}（越高越易保壳）</div>
-          ${c.moyuRank ? `<div class="score-label" style="color:#b9770e">🎣 摸鱼榜第 ${c.moyuRank} / ${MOYU_POOL.length} · 指数 ${c.moyu}</div>` : ''}
+          <div class="score-label">全榜第 ${c.rank} / ${UNIQUE.length}（分数越高=退市风险相对较低）</div>
+          ${c.moyuRank ? `<div class="score-label" style="color:#b9770e">📊 壳市值观察第 ${c.moyuRank} / ${MOYU_POOL.length} · 指数 ${c.moyu}</div>` : ''}
         </div>
       </div>
       <div class="info-row">
@@ -714,7 +714,7 @@ function showReport(c){
         <div class="signal-row">${sigHTML}</div>
       </div>
       <div class="factors-section">
-        <div class="factors-title">ST保壳评分系统V2 十二维退市概率打分明细（满分100分 · ★=公告数据信号维度）</div>
+        <div class="factors-title">ST保壳评分系统V2 十二维退市风险评分明细（满分100分 · ★=公告数据信号维度）</div>
         ${v2f.map(f=>`<div class="factor-row">
           <div class="factor-label">${f.label}</div>
           <div class="factor-bar-wrap"><div class="factor-bar" style="width:${Math.round(f.v/f.max*100)}%;background:${f.col}"></div></div>
@@ -752,24 +752,24 @@ function voteSectionHTML(code){
   const voted = !!v.my;
   return `
     <div class="vote-box" style="margin-top:16px" id="voteBox_${code}">
-      <h3>🗳️ 你觉得 ${name} 保壳难度如何？</h3>
-      <div class="vote-desc">为这家公司的保壳难度投票，${total} 人已参与</div>
+      <h3>🗳️ 你觉得 ${name} 退市风险如何？</h3>
+      <div class="vote-desc">为这家公司的退市风险投票，${total} 人已参与</div>
       <div class="vote-options">
         <div class="vopt A ${v.my==='A'?'selected':''}" id="vo_${code}_A" onclick="pickCompanyVote('${code}','A')">
           <div class="vopt-letter">A</div>
-          <div class="vopt-label">容易保壳</div>
+          <div class="vopt-label">风险较低</div>
         </div>
         <div class="vopt B ${v.my==='B'?'selected':''}" id="vo_${code}_B" onclick="pickCompanyVote('${code}','B')">
           <div class="vopt-letter">B</div>
-          <div class="vopt-label">较容易</div>
+          <div class="vopt-label">中等</div>
         </div>
         <div class="vopt C ${v.my==='C'?'selected':''}" id="vo_${code}_C" onclick="pickCompanyVote('${code}','C')">
           <div class="vopt-letter">C</div>
-          <div class="vopt-label">较困难</div>
+          <div class="vopt-label">较高</div>
         </div>
         <div class="vopt D ${v.my==='D'?'selected':''}" id="vo_${code}_D" onclick="pickCompanyVote('${code}','D')">
           <div class="vopt-letter">D</div>
-          <div class="vopt-label">必定退市</div>
+          <div class="vopt-label">极高风险</div>
         </div>
       </div>
       <div style="text-align:center">
@@ -820,7 +820,7 @@ function castCompanyVote(code){
   const box = document.getElementById('voteBox_'+code);
   if(box){
     const desc = box.querySelector('.vote-desc');
-    if(desc) desc.textContent='为这家公司的保壳难度投票，'+total+' 人已参与';
+    if(desc) desc.textContent='为这家公司的退市风险投票，'+total+' 人已参与';
   }
   renderVoteRank();
 }

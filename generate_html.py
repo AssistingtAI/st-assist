@@ -305,7 +305,7 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
 <div class="header">
 <div class="header-inner">
   <h1>🌿 保壳风云榜 <span style="font-size:13px;font-weight:400;opacity:0.7">ST保壳评分系统V2 · 正式版</span></h1>
-  <p>A股 ST / *ST 上市公司保壳能力评估 · 十二维退市概率打分 · 实时排名</p>
+  <p>A股 ST / *ST 上市公司退市风险量化研究 · 十二维评分 · 每周更新（仅供研究，不构成投资建议）</p>
   <div class="header-meta">
     <span>更新时间：{today}</span>
     <span>覆盖公司：{len(v2scores)} 家</span>
@@ -319,7 +319,7 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
 <div class="container">
 
   <div class="score-legend">
-    <h3>📐 ST保壳评分系统V2 · 十二维退市概率打分（分数越高=保壳越容易 · 满分合计100分）</h3>
+    <h3>📐 ST保壳评分系统V2 · 十二维退市风险评分（分数越高=退市风险相对较低 · 满分合计100分）</h3>
     <div class="score-legend-grid">
       <div class="slg-item"><div class="slg-dim">C1 面值距离</div></div>
       <div class="slg-item"><div class="slg-dim">C2 壳价值(反转)</div></div>
@@ -338,41 +338,41 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
   </div>
 
   <div class="stats-grid">
-    <div class="stat-card lv-A"><div class="stat-num">{stats["A"]}</div><div class="stat-label">A级 · 保壳能力强（&gt;70分）</div></div>
-    <div class="stat-card lv-B"><div class="stat-num">{stats["B"]}</div><div class="stat-label">B级 · 保壳有希望（51-70分）</div></div>
-    <div class="stat-card lv-C"><div class="stat-num">{stats["C"]}</div><div class="stat-label">C级 · 保壳难度大（31-50分）</div></div>
+    <div class="stat-card lv-A"><div class="stat-num">{stats["A"]}</div><div class="stat-label">A级 · 退市风险相对较低（&gt;70分）</div></div>
+    <div class="stat-card lv-B"><div class="stat-num">{stats["B"]}</div><div class="stat-label">B级 · 中等风险（51-70分）</div></div>
+    <div class="stat-card lv-C"><div class="stat-num">{stats["C"]}</div><div class="stat-label">C级 · 风险较高（31-50分）</div></div>
     <div class="stat-card lv-D"><div class="stat-num">{stats["D"]}</div><div class="stat-label">D级 · 退市警钟（≤30分）</div></div>
   </div>
 
   <div class="tabs">
     <button class="tab active" onclick="switchTab('rank')">📊 风云榜</button>
-    <button class="tab" onclick="switchTab('moyu')">🎣 摸鱼榜</button>
+    <button class="tab" onclick="switchTab('moyu')">📊 壳市值观察</button>
     <button class="tab" onclick="switchTab('query')">🔍 查询详情</button>
     <button class="tab" onclick="switchTab('list')">📋 全名单（{len(v2scores)}家）</button>
     <button class="tab" onclick="switchTab('vote')">🗳️ 投票排行</button>
   </div>
 
   <div id="tab-rank" class="tab-content active">
-    <div class="source-tip">📊 数据覆盖 <b>{len(v2scores)}</b> 家 ST/*ST 公司 · V2十二维退市概率打分 · 财务报告期 <b>{report_label}</b> · 公告信号来自巨潮资讯网（近24个月） · 分数越高保壳越容易</div>
+    <div class="source-tip">📊 数据覆盖 <b>{len(v2scores)}</b> 家 ST/*ST 公司 · V2十二维退市概率打分 · 财务报告期 <b>{report_label}</b> · 公告信号来自巨潮资讯网（近24个月） · 分数越高=退市风险相对较低</div>
     <div class="rank-grid">
       <div class="rank-panel">
         <div class="rank-header-easy">
-          <div class="rank-panel-title">🟢 保壳最容易 TOP 10</div>
-          <div class="rank-panel-sub">保壳能力分最高 · 退市概率最低</div>
+          <div class="rank-panel-title">🟢 评分最高 TOP 10</div>
+          <div class="rank-panel-sub">综合评分最高 · 退市风险相对较低</div>
         </div>
         <div id="easyList"></div>
       </div>
       <div class="rank-panel">
         <div class="rank-header-hard">
-          <div class="rank-panel-title">🔴 保壳最困难 TOP 10</div>
-          <div class="rank-panel-sub">保壳能力分最低 · 退市风险最大</div>
+          <div class="rank-panel-title">🔴 评分最低 TOP 10</div>
+          <div class="rank-panel-sub">综合评分最低 · 退市风险较高</div>
         </div>
         <div id="hardList"></div>
       </div>
       <div class="rank-panel">
         <div class="rank-header-moyu">
-        <div class="rank-panel-title">🎣 ST摸鱼榜 TOP 10</div>
-        <div class="rank-panel-sub">市值越低 + 保壳分越高 = 综合机会越好 · 点击行查看详情</div>
+        <div class="rank-panel-title">📊 壳市值观察 TOP 10</div>
+        <div class="rank-panel-sub">低市值 × 较高评分的客观组合视角 · 点击行查看详情</div>
         </div>
         <div id="moyuTopList"></div>
       </div>
@@ -380,15 +380,15 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
   </div>
 
   <div id="tab-moyu" class="tab-content">
-    <div class="source-tip">🎣 摸鱼指数 = 50%×V2保壳分 + 50%×壳便宜分（市值对数归一化，越便宜分越高）× 等级系数（A/B 1.0 · C 0.85 · D 0.6）· 已剔除锁定退市标的 · 指数越高 = 壳便宜 + 保壳稳 = 摸鱼综合机会越好</div>
+    <div class="source-tip">📊 壳市值指数 = 50%×V2评分 + 50%×壳市值分（市值对数归一化，市值越低分越高）× 等级系数（A/B 1.0 · C 0.85 · D 0.6）· 已剔除锁定退市标的 · 该指数仅为数据研究观察口径，不构成任何投资建议</div>
     <div class="rank-panel">
       <div class="rank-header-easy" style="background:#fdf6e9;border-bottom:0.5px solid #f5dcb0">
-        <div class="rank-panel-title">🎣 ST摸鱼榜 TOP 20</div>
-        <div class="rank-panel-sub">摸鱼池全部 ${{MOYU_POOL.length}} 家 · 点击行查看详情</div>
+        <div class="rank-panel-title">📊 壳市值观察 TOP 20</div>
+        <div class="rank-panel-sub">观察池全部 ${{MOYU_POOL.length}} 家 · 点击行查看详情</div>
       </div>
       <div id="moyuList"></div>
     </div>
-    <div class="source-tip" style="margin-top:12px">💡 摸鱼逻辑：壳越便宜，买方并购/借壳成本越低（对标{SHELL_BASE_LABEL}亿基准壳费）；保壳分越高，退市擦肩而过的概率越低。两者兼得 = 低位潜伏的综合机会。D级折扣防止"超便宜但快退市"的飞刀陷阱。</div>
+    <div class="source-tip" style="margin-top:12px">💡 观察说明：市值越低，潜在并购/重组方的交易成本越低（对标{SHELL_BASE_LABEL}亿基准壳费，公开交易案例统计口径）；评分越高，退市风险相对越低。该指数仅用于数据研究观察，不构成任何投资建议或操作提示。D级折扣用于降低"超低市值但退市风险高"标的的误读。</div>
   </div>
 
   <div id="tab-query" class="tab-content">
@@ -404,7 +404,7 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
   </div>
 
   <div id="tab-list" class="tab-content">
-    <div class="source-tip"><b id="listTotal">{len(v2scores)}</b> 家 · 排序：按保壳能力分（分数越高保壳越容易）· ●红=风险信号 ●绿=纾困信号</div>
+    <div class="source-tip"><b id="listTotal">{len(v2scores)}</b> 家 · 排序：按V2评分（分数越高=退市风险相对较低）· ●红=风险信号 ●绿=纾困信号</div>
     <div class="filter-row">
       <span class="filter-chip active" onclick="setFilter('all',this)">全部</span>
       <span class="filter-chip" onclick="setFilter('ST',this)">ST</span>
@@ -424,7 +424,7 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
             <th style="width:55px" data-key="type" onclick="sortBy('type')" title="点击排序">类型</th>
             <th data-key="reason" onclick="sortBy('reason')" title="点击排序">风险原因</th>
             <th style="width:58px" data-key="signal" onclick="sortBy('signal')" title="公告信号数">信号</th>
-            <th style="width:60px" data-key="score" onclick="sortBy('score')" title="点击排序">保壳分</th>
+            <th style="width:60px" data-key="score" onclick="sortBy('score')" title="点击排序">V2评分</th>
             <th style="width:50px" data-key="level" onclick="sortBy('level')" title="点击排序">等级</th>
             <th style="width:75px" data-key="market_cap_yi" onclick="sortBy('market_cap_yi')" title="点击排序">市值(亿)</th>
             <th style="width:55px">详情</th>
@@ -436,14 +436,14 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
   </div>
 
   <div id="tab-vote" class="tab-content">
-    <div class="vote-rank-intro">🗳️ 对每家ST公司的保壳难度投票 · 查看大家怎么看<br><span style="font-size:11px;color:#aaa">在查询页查看公司详情时即可参与投票</span></div>
+    <div class="vote-rank-intro">🗳️ 对每家ST公司的退市风险投票 · 观点仅供交流<br><span style="font-size:11px;color:#aaa">在查询页查看公司详情时即可参与投票</span></div>
     <div class="vote-rank-grid">
       <div class="vote-rank-card">
-        <h4>🔴 「最难保壳」投票最多的公司</h4>
+        <h4>🔴 「风险最高」投票最多的公司</h4>
         <div id="voteHardList"></div>
       </div>
       <div class="vote-rank-card">
-        <h4>🟢 「最容易保壳」投票最多的公司</h4>
+        <h4>🟢 「风险最低」投票最多的公司</h4>
         <div id="voteEasyList"></div>
       </div>
     </div>
@@ -451,10 +451,10 @@ tbody td {{ padding: 9px 12px; font-size: 12px; white-space: nowrap; overflow: h
 
   <div class="disclaimer">
     <h4>⚠️ 免责声明</h4>
-    <p>1. 本工具仅供学习研究参考，<b>不构成任何投资建议</b>。评分模型基于公开数据和算法推断，可能存在偏差与滞后。</p>
-    <p>2. 投资者应自行判断风险，<b>据此操作风险自负</b>。退市涉及复杂的财务、法律及监管因素，本工具无法全面覆盖。</p>
+    <p>1. 本平台为独立数据研究工具，<b>不提供证券投资咨询服务</b>，不推荐任何证券，不构成任何投资建议。评分模型基于公开数据和算法推断，可能存在偏差与滞后。</p>
+    <p>2. 页面内容均为公开信息整理与模型计算结果，仅供参考交流，请以交易所及上市公司官方披露为准。投资者应自行判断风险，<b>据此操作风险自负</b>。退市涉及复杂的财务、法律及监管因素，本工具无法全面覆盖。</p>
     <p>3. 数据来源：沪深交易所风险警示板公开名单、腾讯财经行情、巨潮资讯网公告、中登周报质押数据、东财F10主营构成/财务趋势/实控人信息。财务维度基于 <b>{report_label}</b>，公告信号窗口为近24个月。评分模型「ST保壳评分系统V2」为独立研究框架，<b>不代表任何机构观点</b>。</p>
-    <p>4. 历史评分不代表未来结果，保壳能力评分仅反映基于公开信息的综合评估，不保证准确性。北交所股票公告信号暂未覆盖（走规则推演）。</p>
+    <p>4. 历史评分不代表未来结果，评分仅反映基于公开信息的综合评估，不保证准确性。北交所股票公告信号暂未覆盖（走规则推演）。</p>
   </div>
 
 </div>
@@ -527,9 +527,9 @@ const UNIQUE = Array.from(CODE_MAP.values());
 const BY_SCORE = [...UNIQUE].sort((a,b)=>b.score-a.score);
 BY_SCORE.forEach((c,i)=>c.rank=i+1);
 
-// ===================== 摸鱼榜：市值越低 + 保壳分越高 = 综合机会越好 =====================
-// 壳便宜分：市值对数归一化（最便宜=100, 最贵=0, 仅非退市且市值>0）
-// 摸鱼指数 = (50%×保壳分 + 50%×壳便宜分) × 等级系数（A/B 1.0 · C 0.85 · D 0.6）
+// ===================== 壳市值观察：低市值 × 较高评分的客观组合视角 =====================
+// 壳市值分：市值对数归一化（最低=100, 最高=0, 仅非退市且市值>0）
+// 壳市值指数 = (50%×V2评分 + 50%×壳市值分) × 等级系数（A/B 1.0 · C 0.85 · D 0.6）
 const MOYU_LV_K = {{'A':1.0,'B':1.0,'C':0.85,'D':0.6}};
 const MOYU_POOL = UNIQUE.filter(c=>!c.delisted && c.market_cap_yi>0);
 {{
@@ -544,8 +544,8 @@ const BY_MOYU = [...MOYU_POOL].sort((a,b)=>b.moyu-a.moyu);
 BY_MOYU.forEach((c,i)=>c.moyuRank=i+1);
 
 const LC = {{'A':'#27ae60','B':'#2980b9','C':'#e67e22','D':'#c0392b'}};
-const LT = {{'A':'低风险·退市概率低','B':'中风险·保壳有希望','C':'高风险·保壳难度大','D':'极高风险·退市警钟'}};
-const LE = {{'A':'✅ 综合评估：保壳能力较强','B':'🔵 综合评估：中等退市风险','C':'🟠 综合评估：较高退市风险','D':'🔴 综合评估：退市风险极高'}};
+const LT = {{'A':'低风险·退市概率低','B':'中风险·需关注修复进展','C':'高风险·退市风险较高','D':'极高风险·退市警钟'}};
+const LE = {{'A':'✅ 综合评估：退市风险相对较低','B':'🔵 综合评估：中等退市风险','C':'🟠 综合评估：较高退市风险','D':'🔴 综合评估：退市风险极高'}};
 
 let currentFilter = 'all';
 
@@ -606,9 +606,9 @@ function renderRank(){{
   const easy = BY_SCORE.slice(0,10);
   const hard = BY_SCORE.slice(-10).reverse();
   const moyu = BY_MOYU.slice(0,10);
-  document.getElementById('easyList').innerHTML = topTableHTML(easy, c=>c.score, c=>LC[c.level], '保壳分');
-  document.getElementById('hardList').innerHTML = topTableHTML(hard, c=>c.score, c=>LC[c.level], '保壳分');
-  document.getElementById('moyuTopList').innerHTML = topTableHTML(moyu, c=>c.moyu, ()=> '#b9770e', '摸鱼指数', c=>`gotoDetail('${{c.code}}')`);
+  document.getElementById('easyList').innerHTML = topTableHTML(easy, c=>c.score, c=>LC[c.level], 'V2评分');
+  document.getElementById('hardList').innerHTML = topTableHTML(hard, c=>c.score, c=>LC[c.level], 'V2评分');
+  document.getElementById('moyuTopList').innerHTML = topTableHTML(moyu, c=>c.moyu, ()=> '#b9770e', '壳市值指数', c=>`gotoDetail('${{c.code}}')`);
 }}
 
 function renderMoyu(){{
@@ -618,11 +618,11 @@ function renderMoyu(){{
     <div class="rank-num ${{numClass(i)}}">${{i+1}}</div>
     <div class="rank-info">
       <div class="rank-name">${{c.name}}<span class="rtag rtag-${{c.level}}">${{c.level}}</span></div>
-      <div class="rank-code">${{c.code}} · ${{c.board}} · 市值${{c.market_cap_str}}亿 · 保壳分${{c.score}} · 壳便宜分${{c.cheap}}</div>
+      <div class="rank-code">${{c.code}} · ${{c.board}} · 市值${{c.market_cap_str}}亿 · V2评分${{c.score}} · 壳市值分${{c.cheap}}</div>
     </div>
     <div class="rank-score-col">
       <div class="mini-bar-wrap"><div class="mini-bar" style="width:${{Math.min(100,Math.round(c.moyu))}}%;background:${{MC}}"></div></div>
-      <div class="score-val" style="color:${{MC}}" title="摸鱼指数">${{c.moyu}}</div>
+      <div class="score-val" style="color:${{MC}}" title="壳市值指数">${{c.moyu}}</div>
     </div>
   </div>`).join('');
 }}
@@ -744,8 +744,8 @@ function showReport(c){{
         </div>
         <div style="text-align:right">
           <div class="score-big" style="color:${{col}}">${{c.score}}<span style="font-size:16px;font-weight:400"> 分</span></div>
-          <div class="score-label">全榜第 ${{c.rank}} / ${{UNIQUE.length}}（越高越易保壳）</div>
-          ${{c.moyuRank ? `<div class="score-label" style="color:#b9770e">🎣 摸鱼榜第 ${{c.moyuRank}} / ${{MOYU_POOL.length}} · 指数 ${{c.moyu}}</div>` : ''}}
+          <div class="score-label">全榜第 ${{c.rank}} / ${{UNIQUE.length}}（分数越高=退市风险相对较低）</div>
+          ${{c.moyuRank ? `<div class="score-label" style="color:#b9770e">📊 壳市值观察第 ${{c.moyuRank}} / ${{MOYU_POOL.length}} · 指数 ${{c.moyu}}</div>` : ''}}
         </div>
       </div>
       <div class="info-row">
@@ -759,7 +759,7 @@ function showReport(c){{
         <div class="signal-row">${{sigHTML}}</div>
       </div>
       <div class="factors-section">
-        <div class="factors-title">ST保壳评分系统V2 十二维退市概率打分明细（满分100分 · ★=公告数据信号维度）</div>
+        <div class="factors-title">ST保壳评分系统V2 十二维退市风险评分明细（满分100分 · ★=公告数据信号维度）</div>
         ${{v2f.map(f=>`<div class="factor-row">
           <div class="factor-label">${{f.label}}</div>
           <div class="factor-bar-wrap"><div class="factor-bar" style="width:${{Math.round(f.v/f.max*100)}}%;background:${{f.col}}"></div></div>
@@ -797,24 +797,24 @@ function voteSectionHTML(code){{
   const voted = !!v.my;
   return `
     <div class="vote-box" style="margin-top:16px" id="voteBox_${{code}}">
-      <h3>🗳️ 你觉得 ${{name}} 保壳难度如何？</h3>
-      <div class="vote-desc">为这家公司的保壳难度投票，${{total}} 人已参与</div>
+      <h3>🗳️ 你觉得 ${{name}} 退市风险如何？</h3>
+      <div class="vote-desc">为这家公司的退市风险投票，${{total}} 人已参与</div>
       <div class="vote-options">
         <div class="vopt A ${{v.my==='A'?'selected':''}}" id="vo_${{code}}_A" onclick="pickCompanyVote('${{code}}','A')">
           <div class="vopt-letter">A</div>
-          <div class="vopt-label">容易保壳</div>
+          <div class="vopt-label">风险较低</div>
         </div>
         <div class="vopt B ${{v.my==='B'?'selected':''}}" id="vo_${{code}}_B" onclick="pickCompanyVote('${{code}}','B')">
           <div class="vopt-letter">B</div>
-          <div class="vopt-label">较容易</div>
+          <div class="vopt-label">中等</div>
         </div>
         <div class="vopt C ${{v.my==='C'?'selected':''}}" id="vo_${{code}}_C" onclick="pickCompanyVote('${{code}}','C')">
           <div class="vopt-letter">C</div>
-          <div class="vopt-label">较困难</div>
+          <div class="vopt-label">较高</div>
         </div>
         <div class="vopt D ${{v.my==='D'?'selected':''}}" id="vo_${{code}}_D" onclick="pickCompanyVote('${{code}}','D')">
           <div class="vopt-letter">D</div>
-          <div class="vopt-label">必定退市</div>
+          <div class="vopt-label">极高风险</div>
         </div>
       </div>
       <div style="text-align:center">
@@ -865,7 +865,7 @@ function castCompanyVote(code){{
   const box = document.getElementById('voteBox_'+code);
   if(box){{
     const desc = box.querySelector('.vote-desc');
-    if(desc) desc.textContent='为这家公司的保壳难度投票，'+total+' 人已参与';
+    if(desc) desc.textContent='为这家公司的退市风险投票，'+total+' 人已参与';
   }}
   renderVoteRank();
 }}
