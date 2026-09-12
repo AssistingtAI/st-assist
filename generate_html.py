@@ -47,6 +47,14 @@ except Exception:
     SHELL_BASE_YI = 33.81
 SHELL_BASE_LABEL = f'{SHELL_BASE_YI:.1f}'  # 展示口径
 
+# 研究档案索引（reports_index.json 由 convert_reports_html.py 生成；不存在则按钮不出现）
+try:
+    with open('reports_index.json', encoding='utf-8') as _f:
+        _ri = json.load(_f)
+except Exception:
+    _ri = {}
+REPORTS_JS = json.dumps(sorted(_ri.keys()), ensure_ascii=False)
+
 # 信号中文名映射
 FLAG_CN = {
     'investigation': '立案调查', 'adverse_audit': '无法表示/否定意见',
@@ -187,6 +195,8 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsof
 .report-sub {{ font-size: 13px; color: #888; margin-top: 3px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }}
 .score-big {{ font-size: 38px; font-weight: 700; line-height: 1; }}
 .score-label {{ font-size: 11px; color: #888; text-align: right; margin-top: 4px; }}
+.archive-btn {{ display:block; margin:14px 0 6px; padding:10px 14px; background:#eef4ea; color:#3B6D11; border:1px solid #cfe0c6; border-radius:8px; text-align:center; font-size:13.5px; text-decoration:none; font-weight:600; }}
+.archive-btn:hover {{ background:#e2edd8; }}
 
 .info-row {{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 16px; }}
 .info-chip {{ background: #f4fbf6; border-radius: 8px; padding: 10px 12px; border: 0.5px solid #c8e6d0; }}
@@ -524,6 +534,9 @@ const CODE_MAP = new Map();
 COS.forEach(c => {{ if(!CODE_MAP.has(c.code)) CODE_MAP.set(c.code, c); }});
 const UNIQUE = Array.from(CODE_MAP.values());
 
+// 研究档案索引（2026-09-01历史档案，十三维旧口径，页面内只读预览）
+const REPORTS = new Set({REPORTS_JS});
+
 const BY_SCORE = [...UNIQUE].sort((a,b)=>b.score-a.score);
 BY_SCORE.forEach((c,i)=>c.rank=i+1);
 
@@ -748,6 +761,7 @@ function showReport(c){{
           ${{c.moyuRank ? `<div class="score-label" style="color:#b9770e">📊 壳市值观察第 ${{c.moyuRank}} / ${{MOYU_POOL.length}} · 指数 ${{c.moyu}}</div>` : ''}}
         </div>
       </div>
+      ${{REPORTS.has(c.code) ? `<a class="archive-btn" href="reports/${{c.code}}.html" target="_blank" rel="noopener">📖 历史研究档案 · 深度报告（2026-09-01版 · 只读预览）</a>` : ''}}
       <div class="info-row">
         <div class="info-chip"><div class="info-chip-label">实控人（S1）</div><div class="info-chip-val" style="font-size:11px">${{ctrlHTML}}</div></div>
         <div class="info-chip"><div class="info-chip-label">风险原因</div><div class="info-chip-val" style="font-size:11px">${{c.reason}}</div></div>

@@ -97,6 +97,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft
 .report-sub { font-size: 13px; color: #888; margin-top: 3px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .score-big { font-size: 38px; font-weight: 700; line-height: 1; }
 .score-label { font-size: 11px; color: #888; text-align: right; margin-top: 4px; }
+.archive-btn { display:block; margin:14px 0 6px; padding:10px 14px; background:#eef4ea; color:#3B6D11; border:1px solid #cfe0c6; border-radius:8px; text-align:center; font-size:13.5px; text-decoration:none; font-weight:600; }
+.archive-btn:hover { background:#e2edd8; }
 
 .info-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 16px; }
 .info-chip { background: #f4fbf6; border-radius: 8px; padding: 10px 12px; border: 0.5px solid #c8e6d0; }
@@ -850,6 +852,9 @@ const CODE_MAP = new Map();
 COS.forEach(c => { if(!CODE_MAP.has(c.code)) CODE_MAP.set(c.code, c); });
 const UNIQUE = Array.from(CODE_MAP.values());
 
+// 研究档案索引（2026-09-01历史档案，十三维旧口径，页面内只读预览）
+const REPORTS = new Set(["000010", "000016", "000056", "000078", "000488", "000609", "000610", "000615", "000632", "000639", "000669", "000677", "000698", "000711", "000752", "000793", "000821", "000826", "000838", "000903", "000909", "000911", "002024", "002055", "002082", "002102", "002109", "002122", "002168", "002175", "002193", "002198", "002207", "002211", "002217", "002227", "002305", "002306", "002323", "002360", "002424", "002431", "002485", "002501", "002512", "002514", "002528", "002538", "002542", "002547", "002569", "002581", "002586", "002592", "002598", "002620", "002630", "002634", "002650", "002667", "002689", "002691", "002694", "002717", "002719", "002726", "002731", "002759", "002789", "002816", "002822", "002856", "002872", "002883", "002932", "002977", "200016", "200056", "200488", "300010", "300020", "300027", "300044", "300068", "300076", "300081", "300087", "300091", "300096", "300123", "300147", "300152", "300167", "300173", "300198", "300205", "300211", "300212", "300237", "300245", "300290", "300295", "300301", "300326", "300338", "300352", "300366", "300385", "300396", "300419", "300430", "300460", "300462", "300472", "300477", "300527", "300555", "300594", "300716", "300831", "301030", "301139", "600053", "600079", "600080", "600082", "600084", "600107", "600119", "600136", "600169", "600180", "600187", "600238", "600239", "600243", "600265", "600289", "600302", "600337", "600340", "600365", "600370", "600381", "600423", "600439", "600476", "600491", "600530", "600537", "600543", "600568", "600581", "600624", "600678", "600730", "600734", "600735", "600745", "600753", "600759", "600818", "600889", "600965", "601010", "601718", "603008", "603021", "603189", "603272", "603359", "603377", "603378", "603398", "603429", "603517", "603557", "603595", "603718", "603729", "603789", "603822", "603825", "603828", "603838", "603843", "603869", "603922", "603959", "605199", "605336", "688022", "688033", "688053", "688066", "688076", "688089", "688121", "688184", "688189", "688201", "688270", "688496", "688622", "920023", "920090", "920575"]);
+
 const BY_SCORE = [...UNIQUE].sort((a,b)=>b.score-a.score);
 BY_SCORE.forEach((c,i)=>c.rank=i+1);
 
@@ -1074,6 +1079,7 @@ function showReport(c){
           ${c.moyuRank ? `<div class="score-label" style="color:#b9770e">📊 壳市值观察第 ${c.moyuRank} / ${MOYU_POOL.length} · 指数 ${c.moyu}</div>` : ''}
         </div>
       </div>
+      ${REPORTS.has(c.code) ? `<a class="archive-btn" href="reports/${c.code}.html" target="_blank" rel="noopener">📖 历史研究档案 · 深度报告（2026-09-01版 · 只读预览）</a>` : ''}
       <div class="info-row">
         <div class="info-chip"><div class="info-chip-label">实控人（S1）</div><div class="info-chip-val" style="font-size:11px">${ctrlHTML}</div></div>
         <div class="info-chip"><div class="info-chip-label">风险原因</div><div class="info-chip-val" style="font-size:11px">${c.reason}</div></div>
