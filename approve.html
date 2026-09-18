@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>提额申请审批台</title>
+<style>
+  :root{
+    --g900:#2F5A0E; --g700:#3B6D11; --g500:#639922; --g300:#97C45B;
+    --cream:#F5F8EF; --ink:#1F2A16; --muted:#6B7A5E; --line:#DDE7CF;
+    --warn:#C2410C; --ok:#15803D;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+    background:#F2F6EA;color:var(--ink);padding:18px 14px 40px}
+  .wrap{max-width:760px;margin:0 auto}
+  h1{font-size:19px;margin:0 0 4px}
+  .sub{font-size:12.5px;color:var(--muted);margin-bottom:16px}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .tab{padding:8px 15px;border-radius:20px;border:1px solid var(--line);background:#fff;
+    font-size:13px;cursor:pointer;transition:.15s}
+  .tab.on{background:linear-gradient(135deg,var(--g700),var(--g500));color:#fff;border-color:transparent}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:11px;
+    box-shadow:0 1px 6px rgba(59,109,17,.05)}
+  .card.sponsor{border:2px solid var(--g300);background:linear-gradient(180deg,#FBFDF7,#fff)}
+  .head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:10px}
+  .code{font-size:15px;font-weight:700;color:var(--g900)}
+  .rid{font-size:11.5px;color:var(--muted);font-weight:400}
+  .badge{font-size:11px;padding:3px 9px;border-radius:10px;white-space:nowrap;font-weight:600}
+  .badge.sp{background:#EDF6E0;color:var(--g900);border:1px solid var(--g300)}
+  .badge.st-pending{background:#FFF7ED;color:var(--warn)}
+  .badge.st-approved{background:#F0FDF4;color:var(--ok)}
+  .badge.st-rejected{background:#FEF2F2;color:#B91C1C}
+  .row{display:flex;gap:8px;font-size:13px;margin:5px 0;line-height:1.6}
+  .row .k{color:var(--muted);flex:0 0 68px}
+  .row .v{flex:1;word-break:break-all}
+  .acts{display:flex;gap:8px;margin-top:12px;align-items:center;flex-wrap:wrap}
+  .acts select{padding:8px 10px;border:1px solid var(--line);border-radius:9px;font-size:13px;
+    background:#FCFDF9;font-family:inherit}
+  button{padding:9px 18px;border:none;border-radius:9px;font-size:13.5px;font-weight:600;
+    cursor:pointer;transition:.15s}
+  .ok{background:linear-gradient(135deg,var(--g700),var(--g500));color:#fff}
+  .no{background:#fff;color:#B91C1C;border:1px solid #FECACA}
+  button:active{transform:scale(.97)}
+  button:disabled{opacity:.5;cursor:not-allowed}
+  .empty{text-align:center;padding:50px 20px;color:var(--muted);font-size:13.5px}
+  .tips{background:#FFF8E7;border:1px solid #F5E0A3;border-radius:11px;padding:12px 14px;
+    font-size:12.5px;line-height:1.7;color:#7C5A0B;margin-bottom:14px}
+  .tips b{color:#8A5A00}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>提额申请审批台</h1>
+  <div class="sub">小调AI · 报告额度追加管理</div>
+
+  <div class="tips">
+    <b>合规提示：</b>「愿意赞助」仅用于<b>排序优先</b>，不作为放开额度的前提条件。
+    本服务免费提供公告数据整理，报告不构成投资建议。
+  </div>
+
+  <div class="bar">
+    <div class="tab on" data-st="pending">待处理 <span id="cPend">0</span></div>
+    <div class="tab" data-st="approved">已通过</div>
+    <div class="tab" data-st="rejected">已拒绝</div>
+    <div class="tab" data-st="all">全部</div>
+  </div>
+
+  <div id="list"></div>
+</div>
+
+<script>
+/* ============================================================
+   数据源：本页直连本地 bot_server 的审批 API（需在本机运行）
+   若 API 不可达（例如在手机上打开），自动降级为「口令模式」：
+   只展示如何用对话/命令行审批。
+   ============================================================ */
+const API_BASE = localStorage.getItem("xt_api_base") || "http://127.0.0.1:8899";
+const TOKEN = localStorage.getItem("xt_token") || "";
+let CUR = "pending";
+let DATA = [];
+
+async function api(path, opts){
+  const r = await fetch(API_BASE + path, Object.assign({
+    headers: {"Content-Type":"application/json", "X-Token": TOKEN}
+  }, opts||{}));
+  if(!r.ok) throw new Error("HTTP " + r.status);
+  return r.json();
+}
+
+function ts(t){
+  if(!t) return "—";
+  const d = new Date(t*1000);
+  const p = n => String(n).padStart(2,"0");
+  return `${d.getMonth()+1}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+
+function esc(s){
+  return String(s==null?"":s).replace(/[&<>"']/g, c => (
+    {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+function render(){
+  const box = document.getElementById("list");
+  if(!DATA.length){
+    box.innerHTML = '<div class="empty">暂无记录</div>';
+    return;
+  }
+  box.innerHTML = DATA.map(r => {
+    const isSp = r.sponsor == 1;
+    const st = r.status;
+    const canAct = st === "pending";
+    const badge = isSp ? '<span class="badge sp">★ 愿意赞助</span>' : '';
+    return `
+    <div class="card ${isSp && canAct ? "sponsor" : ""}">
+      <div class="head">
+        <div>
+          <div class="code">${esc(r.code_want || "未指定标的")}
+            <span class="rid">#${r.id} · ${esc(r.contact || "无联系方式")}</span>
+          </div>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          ${badge}
+          <span class="badge st-${st}">${{pending:"待处理",approved:"已通过",rejected:"已拒绝"}[st]||st}</span>
+        </div>
+      </div>
+      <div class="row"><span class="k">申请说明</span><span class="v">${esc(r.reason) || "（未填）"}</span></div>
+      <div class="row"><span class="k">提交时间</span><span class="v">${ts(r.created_at)}</span></div>
+      ${r.user_id ? `<div class="row"><span class="k">用户ID</span><span class="v" style="font-size:11.5px;color:var(--muted)">${esc(r.user_id)}</span></div>` : ""}
+      ${canAct ? `
+      <div class="acts">
+        <select id="ex_${r.id}">
+          <option value="3" selected>+3 篇</option>
+          <option value="5">+5 篇</option>
+          <option value="10">+10 篇</option>
+          <option value="999">不限量</option>
+        </select>
+        <button class="ok" onclick="approve(${r.id})">✅ 通过并放开</button>
+        <button class="no" onclick="reject(${r.id})">拒绝</button>
+      </div>` : `
+      <div class="row" style="margin-top:8px">
+        <span class="k">处理时间</span><span class="v">${ts(r.handled_at)} ${r.note ? "· " + esc(r.note) : ""}</span>
+      </div>`}
+    </div>`;
+  }).join("");
+}
+
+async function load(){
+  const box = document.getElementById("list");
+  box.innerHTML = '<div class="empty">加载中…</div>';
+  try{
+    const res = await api("/requests?status=" + CUR);
+    DATA = res.items || [];
+    const pr = await api("/requests?status=pending");
+    document.getElementById("cPend").textContent = (pr.items||[]).length;
+    render();
+  }catch(e){
+    box.innerHTML = `
+    <div class="empty">
+      <div style="font-size:15px;margin-bottom:12px;color:var(--warn)">⚠️ 无法连接审批服务</div>
+      <div style="text-align:left;line-height:1.9">
+        审批服务需在本机运行：<br>
+        <code style="background:#F0F5E6;padding:3px 7px;border-radius:5px;font-size:12px">
+        python bot_server/apply_server.py</code><br><br>
+        <b>或者</b>你在对话里直接说：<br>
+        <code style="background:#F0F5E6;padding:3px 7px;border-radius:5px;font-size:12px">
+        通过提额申请 3</code><br>
+        （3 为申请编号，我来执行）
+      </div>
+    </div>`;
+  }
+}
+
+async function approve(id){
+  const extra = parseInt(document.getElementById("ex_"+id).value, 10);
+  if(!confirm("确认为该申请追加 " + (extra===999?"不限量":extra+" 篇") + "？")) return;
+  try{
+    await api("/approve", {method:"POST",
+      body: JSON.stringify({id, extra: extra===999?999:extra, note:"审批台通过"})});
+    load();
+  }catch(e){ alert("操作失败：" + e.message); }
+}
+
+async function reject(id){
+  const note = prompt("拒绝原因（可留空）", "") ;
+  if(note === null) return;
+  try{
+    await api("/reject", {method:"POST", body: JSON.stringify({id, note})});
+    load();
+  }catch(e){ alert("操作失败：" + e.message); }
+}
+
+document.querySelectorAll(".tab").forEach(t => {
+  t.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(x => x.classList.remove("on"));
+    t.classList.add("on");
+    CUR = t.dataset.st;
+    load();
+  });
+});
+
+load();
+</script>
+</body>
+</html>
