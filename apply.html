@@ -39,12 +39,43 @@
     border-color:var(--green-500);box-shadow:0 0 0 3px rgba(99,153,34,.12)}
   textarea{resize:vertical;min-height:76px}
   .hint{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.55}
-  .sponsor{display:flex;gap:10px;align-items:flex-start;margin-top:6px;
+  .wxbox{display:flex;gap:10px;align-items:flex-start;margin-top:6px;
     background:linear-gradient(135deg,#F7FBF0,#EDF6E0);border:1px dashed var(--green-300);
     border-radius:12px;padding:12px}
-  .sponsor input{width:18px;height:18px;flex:0 0 auto;margin-top:2px;accent-color:var(--green-700)}
-  .sponsor div{font-size:13px;line-height:1.6}
-  .sponsor b{color:var(--green-900)}
+  .wxbox input{width:18px;height:18px;flex:0 0 auto;margin-top:2px;accent-color:var(--green-700)}
+  .wxbox div{font-size:13px;line-height:1.6}
+  .wxbox b{color:var(--green-900)}
+
+  /* 问卷选项按钮组 */
+  .opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .opt-item{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;
+    padding:8px 12px;border:1px solid var(--line);border-radius:10px;
+    background:#FCFDF9;font-size:13px;cursor:pointer;transition:all .15s;
+    user-select:none;-webkit-user-select:none}
+  .opt-item input{display:none}
+  .opt-item:active{transform:scale(.98)}
+  .opt-item.on{border-color:var(--green-500);background:#EDF6E0;color:var(--green-900);font-weight:600}
+  .opt-item.on::before{content:"✓";color:var(--green-700);font-weight:700}
+
+  /* 语音按钮 */
+  .voice-btn{width:auto;padding:9px 16px;margin-top:8px;font-size:13px;font-weight:500;
+    background:linear-gradient(135deg,#EDF6E0,#E2EFD2);color:var(--green-900);
+    box-shadow:none;border:1px solid var(--green-300)}
+  .voice-btn.rec{background:linear-gradient(135deg,#FCEBEB,#F7C1C1);color:#791F1F;
+    border-color:#E24B4A;animation:pulse 1.2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
+  .voice-hint{display:block;font-size:11.5px;color:var(--muted);margin-top:6px}
+
+  /* 企微二维码 */
+  .wxbox{flex-direction:column;gap:0}
+  .wx-head{font-size:13px;margin-bottom:10px}
+  .wx-body{display:flex;gap:12px;align-items:flex-start}
+  #wxQr{width:92px;height:92px;flex:0 0 auto;border-radius:8px;object-fit:cover;
+    border:1px solid var(--line);background:#fff}
+  .wx-fallback{width:92px;height:92px;flex:0 0 auto;border-radius:8px;
+    border:1px dashed var(--green-300);background:#fff;display:none;
+    align-items:center;justify-content:center;font-size:11px;color:var(--muted);text-align:center}
+  .wx-text{font-size:12.5px;line-height:1.65;color:var(--ink)}
   button{
     width:100%;padding:14px;border:none;border-radius:12px;font-size:15px;font-weight:600;
     color:#fff;background:linear-gradient(135deg,var(--green-700),var(--green-500));
@@ -80,23 +111,40 @@
       <div class="steps"><div class="step on"></div><div class="step"></div><div class="step"></div></div>
       <p class="hint" style="margin-top:10px">
         为让更多人用到，每人每月可自由生成 <b>3 篇</b> 新报告（已生成过的报告当月重复索取不计入）。
-        如需追加，请填写下方信息，我们会尽快审核。
+        如需追加，请回答下面两个问题，帮助我们改进报告。
       </p>
 
-      <label>联系方式 <span class="opt">（必填，方便我们回复你）</span></label>
-      <input id="contact" placeholder="手机号 / 微信号" autocomplete="off">
+      <label>1. 您更关注报告的哪个章节？ <span class="opt">（可多选）</span></label>
+      <div class="opts" id="q1">
+        <label class="opt-item"><input type="checkbox" value="公司速览"><span>第一章 公司速览</span></label>
+        <label class="opt-item"><input type="checkbox" value="业务与行业"><span>第二章 业务与行业</span></label>
+        <label class="opt-item"><input type="checkbox" value="财务尽调"><span>第三章 财务尽调</span></label>
+        <label class="opt-item"><input type="checkbox" value="法务尽调"><span>第四章 法务尽调</span></label>
+        <label class="opt-item"><input type="checkbox" value="实控权现状"><span>第五章 实控权现状</span></label>
+        <label class="opt-item"><input type="checkbox" value="退市风险"><span>第六章 退市风险</span></label>
+        <label class="opt-item"><input type="checkbox" value="实控权转让评估"><span>第七章 实控权转让评估</span></label>
+        <label class="opt-item"><input type="checkbox" value="并购监管框架"><span>第八章 并购监管框架</span></label>
+        <label class="opt-item"><input type="checkbox" value="投资结论与跟踪"><span>第九章 结论与跟踪指标</span></label>
+      </div>
+
+      <label>2. 您希望报告修改或增加哪部分内容？ <span class="opt">（选填，可文字或语音）</span></label>
+      <textarea id="q2" placeholder="例如：希望财务部分增加同行业对比；或直接按住下方按钮语音说明"></textarea>
+      <button type="button" id="voiceBtn" class="voice-btn">按住说话</button>
+      <span class="voice-hint" id="voiceHint">支持语音转文字（需浏览器授权麦克风）</span>
 
       <label>所需标的 <span class="opt">（选填，多个用逗号分隔）</span></label>
       <input id="codes" placeholder="如 002795、600519" autocomplete="off">
 
-      <label>申请说明 <span class="opt">（选填）</span></label>
-      <textarea id="reason" placeholder="简要说明用途，如：课题研究需要批量查看同行业标的"></textarea>
-
-      <div class="sponsor">
-        <input type="checkbox" id="sponsor">
-        <div>
-          <b>我愿意赞助支持本项目</b>（完全自愿）<br>
-          <span style="color:var(--muted)">赞助是对持续更新的鼓励，不作为额度审批的前提条件；表示感谢，我们会优先为你处理。</span>
+      <div class="wxbox">
+        <div class="wx-head"><b>加入企业微信接收通知</b><span style="color:var(--muted);font-weight:400">（选填）</span></div>
+        <div class="wx-body">
+          <img id="wxQr" src="wx-qr.png" alt="企业微信二维码"
+               onerror="this.style.display='none';document.getElementById('wxQrFallback').style.display='flex'">
+          <div id="wxQrFallback" class="wx-fallback">二维码待上传</div>
+          <div class="wx-text">
+            扫码添加后可接收申请结果与更新提醒。<br>
+            <span style="color:var(--muted)">不加也不影响申请，两者额度相同。</span>
+          </div>
         </div>
       </div>
 
@@ -105,7 +153,7 @@
 
     <p class="note">
       本服务仅整理公开公告数据、供研究参考，不构成投资建议。<br>
-      申请信息仅用于本次审核与回复，不作他用。<br>
+      问卷仅用于改进报告内容，不作他用；选填项均可留空。<br>
       若提交后未收到回执，可回到对话中发送「申请 你的申请码」。
     </p>
   </div>
@@ -124,24 +172,75 @@
 <script>
 const LOCAL_KEY = "xt_apply_submitted";
 
-document.getElementById("submitBtn").addEventListener("click", async () => {
-  const contact = document.getElementById("contact").value.trim();
-  const codes   = document.getElementById("codes").value.trim();
-  const reason  = document.getElementById("reason").value.trim();
-  const sponsor = document.getElementById("sponsor").checked;
+// ── 问卷选项：点击切换选中态 ──
+document.querySelectorAll("#q1 .opt-item").forEach(el => {
+  el.addEventListener("click", e => {
+    e.preventDefault();
+    const cb = el.querySelector("input");
+    cb.checked = !cb.checked;
+    el.classList.toggle("on", cb.checked);
+  });
+});
 
-  if (!contact) {
-    alert("请填写联系方式，方便我们回复你。");
-    document.getElementById("contact").focus();
+// ── 语音转文字（浏览器原生 Web Speech API，不支持时隐藏按钮）──
+(function initVoice() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const btn = document.getElementById("voiceBtn");
+  const hint = document.getElementById("voiceHint");
+  if (!SR) { btn.style.display = "none"; hint.textContent = "当前浏览器不支持语音，请用文字填写"; return; }
+  const rec = new SR();
+  rec.lang = "zh-CN"; rec.continuous = true; rec.interimResults = true;
+  let recording = false, base = "";
+  rec.onresult = ev => {
+    let finalTxt = "";
+    for (let i = ev.resultIndex; i < ev.results.length; i++) {
+      if (ev.results[i].isFinal) finalTxt += ev.results[i][0].transcript;
+    }
+    if (finalTxt) {
+      const ta = document.getElementById("q2");
+      base = (base ? base + " " : "") + finalTxt.trim();
+      ta.value = base;
+    }
+  };
+  rec.onerror = () => { stop(); hint.textContent = "语音识别失败，请改用文字填写"; };
+  rec.onend = () => { if (recording) { try { rec.start(); } catch (e) {} } else { stop(); } };
+  function start() {
+    recording = true; base = document.getElementById("q2").value.trim();
+    btn.classList.add("rec"); btn.textContent = "正在录音…点击停止";
+    hint.textContent = "正在识别，请说话";
+    try { rec.start(); } catch (e) {}
+  }
+  function stop() {
+    recording = false; btn.classList.remove("rec"); btn.textContent = "按住说话";
+    hint.textContent = "支持语音转文字（需浏览器授权麦克风）";
+    try { rec.stop(); } catch (e) {}
+  }
+  btn.addEventListener("click", () => { recording ? stop() : start(); });
+})();
+
+document.getElementById("submitBtn").addEventListener("click", async () => {
+  const q1 = [...document.querySelectorAll("#q1 input:checked")].map(i => i.value);
+  const q2 = document.getElementById("q2").value.trim();
+  const codes = document.getElementById("codes").value.trim();
+
+  if (q1.length === 0 && !q2) {
+    alert("请先回答第 1 题（点选您关注的章节），方便我们安排。");
+    document.getElementById("q1").scrollIntoView({ behavior: "smooth", block: "center" });
     return;
   }
 
   const btn = document.getElementById("submitBtn");
   btn.disabled = true; btn.textContent = "提交中…";
 
-  // 本地留存一份（便于离线/直连场景），并生成申请码给用户
+  // 先生成申请码（后面 reason 与本地留存都要用）
   const reqId = "R" + Date.now().toString(36).toUpperCase().slice(-6);
-  const payload = { id: reqId, contact, codes, reason, sponsor, ts: new Date().toISOString() };
+
+  // 组装问卷说明（存进 reason 字段，审批时可见；并把申请码写入，供「绑定 RXXXX」匹配）
+  const q1Text = q1.length ? q1.join("、") : "（未选）";
+  const reason = "[" + reqId + "]【Q1 关注章节】" + q1Text + (q2 ? "\n【Q2 建议】" + q2 : "");
+
+  // 本地留存一份（便于离线/直连场景）
+  const payload = { id: reqId, q1, q2, codes, ts: new Date().toISOString() };
   try {
     const list = JSON.parse(localStorage.getItem("xt_applies") || "[]");
     list.push(payload);
@@ -160,7 +259,7 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
         const resp = await fetch(APPLY_API, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ contact, codes, reason, sponsor }),
+          body: JSON.stringify({ contact: "", codes, reason, sponsor: false }),
           signal: ctl.signal
         });
         const j = await resp.json();
@@ -176,10 +275,11 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
         method: "POST",
         headers: { "Content-Type": "application/json", "Accept": "application/json" },
         body: JSON.stringify({
-          _subject: `【提额申请】${reqId} · ${contact}`,
-          申请码: reqId, 联系方式: contact,
-          所需标的: codes || "（未填）", 申请说明: reason || "（未填）",
-          愿意赞助: sponsor ? "是" : "否",
+          _subject: `【提额申请】${reqId}`,
+          申请码: reqId,
+          关注章节: q1Text,
+          建议内容: q2 || "（未填）",
+          所需标的: codes || "（未填）",
           提交时间: new Date().toLocaleString("zh-CN"), 来源: "H5提额申请页"
         })
       });

@@ -55,7 +55,7 @@
   <div class="sub">小调AI · 报告额度追加管理</div>
 
   <div class="tips">
-    <b>合规提示：</b>「愿意赞助」仅用于<b>排序优先</b>，不作为放开额度的前提条件。
+    <b>合规提示：</b>提额门槛为<b>回答问卷</b>（关注章节 / 改进建议），<b>不涉及任何收费</b>。
     本服务免费提供公告数据整理，报告不构成投资建议。
   </div>
 
@@ -107,16 +107,19 @@ function render(){
     return;
   }
   box.innerHTML = DATA.map(r => {
-    const isSp = r.sponsor == 1;
     const st = r.status;
     const canAct = st === "pending";
-    const badge = isSp ? '<span class="badge sp">★ 愿意赞助</span>' : '';
+    // 从 reason 中抽出申请码（形如 [R1A2B3C]）与问卷正文
+    const mCode = (r.reason || "").match(/\[([Rr][0-9A-Za-z]{4,10})\]/);
+    const rc = mCode ? mCode[1].toUpperCase() : "";
+    const body = rc ? (r.reason || "").replace("[" + rc + "]", "") : (r.reason || "");
+    const badge = rc ? `<span class="badge">${esc(rc)}</span>` : '';
     return `
-    <div class="card ${isSp && canAct ? "sponsor" : ""}">
+    <div class="card">
       <div class="head">
         <div>
           <div class="code">${esc(r.code_want || "未指定标的")}
-            <span class="rid">#${r.id} · ${esc(r.contact || "无联系方式")}</span>
+            <span class="rid">#${r.id}${r.user_id ? "" : " · 待用户绑定"}</span>
           </div>
         </div>
         <div style="display:flex;gap:6px;flex-wrap:wrap">
@@ -124,7 +127,7 @@ function render(){
           <span class="badge st-${st}">${{pending:"待处理",approved:"已通过",rejected:"已拒绝"}[st]||st}</span>
         </div>
       </div>
-      <div class="row"><span class="k">申请说明</span><span class="v">${esc(r.reason) || "（未填）"}</span></div>
+      <div class="row"><span class="k">问卷内容</span><span class="v" style="white-space:pre-wrap">${esc(body) || "（未填）"}</span></div>
       <div class="row"><span class="k">提交时间</span><span class="v">${ts(r.created_at)}</span></div>
       ${r.user_id ? `<div class="row"><span class="k">用户ID</span><span class="v" style="font-size:11.5px;color:var(--muted)">${esc(r.user_id)}</span></div>` : ""}
       ${canAct ? `
