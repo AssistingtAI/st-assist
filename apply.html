@@ -147,17 +147,25 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     localStorage.setItem("xt_applies", JSON.stringify(list));
   } catch (e) {}
 
-  // 提交到本地审批服务（若在本机打开/服务可达）；不可达时降级为邮件通道+本机留存
+  // 1) 优先走本地审批服务（仅当页面在本机打开时可达）；手机上 127.0.0.1 指向手机自身，
+  //    且 HTTPS 页面请求 HTTP 会被浏览器拦截，故 1.2 秒超时快速降级，避免用户干等。
   const APPLY_API = localStorage.getItem("xt_apply_api") || "http://127.0.0.1:8899/apply";
   let ok = false;
   try {
-    const resp = await fetch(APPLY_API, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ contact, codes, reason, sponsor })
-    });
-    const j = await resp.json();
-    ok = !!j.ok;
+    if (location.protocol !== "https:" || /^(127\.0\.0\.1|localhost)$/.test(location.hostname)) {
+      const ctl = new AbortController();
+      const timer = setTimeout(() => ctl.abort(), 1200);
+      try {
+        const resp = await fetch(APPLY_API, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ contact, codes, reason, sponsor }),
+          signal: ctl.signal
+        });
+        const j = await resp.json();
+        ok = !!j.ok;
+      } finally { clearTimeout(timer); }
+    }
   } catch (e) { ok = false; }
 
   // 兜底通道：邮件（服务不可达时仍能到达）

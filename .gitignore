@@ -1,2 +1,19 @@
 _backtest_fetch.log
 __pycache__/
+*.pyc
+
+# 日志与运行产物（不入库）
+*.log
+logs/
+temp/
+
+# 机器人数据库与凭证（含用户信息/密钥，禁止入库）
+bot.db
+bot.db-journal
+bot.db-wal
+bot.db-shm
+*credentials*.json
+*kf_token*.json
+*_token_cache.json
+*.env
+.env
