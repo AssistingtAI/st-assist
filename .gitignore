@@ -17,3 +17,7 @@ bot.db-shm
 *_token_cache.json
 *.env
 .env
+
+# 二维码替换时的本地备份/临时图（不入库）
+wx-qr.png.bak
+_test_qr_src.png
