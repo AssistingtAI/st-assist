@@ -39,29 +39,29 @@
     border-color:var(--green-500);box-shadow:0 0 0 3px rgba(99,153,34,.12)}
   textarea{resize:vertical;min-height:76px}
   .hint{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.55}
-  .wxbox{display:flex;gap:10px;align-items:flex-start;margin-top:6px;
+  .wxbox{display:flex;flex-direction:column;gap:0;margin-top:6px;
     background:linear-gradient(135deg,#F7FBF0,#EDF6E0);border:1px dashed var(--green-300);
     border-radius:12px;padding:12px}
-  .wxbox input{width:18px;height:18px;flex:0 0 auto;margin-top:2px;accent-color:var(--green-700)}
-  .wxbox div{font-size:13px;line-height:1.6}
   .wxbox b{color:var(--green-900)}
 
   /* 问卷选项按钮组 */
   .opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
-  .opt-item{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;
+  .opt-item{display:inline-flex;align-items:center;gap:5px;flex:0 1 auto;
     padding:8px 12px;border:1px solid var(--line);border-radius:10px;
     background:#FCFDF9;font-size:13px;cursor:pointer;transition:all .15s;
-    user-select:none;-webkit-user-select:none}
+    user-select:none;-webkit-user-select:none;position:relative}
   .opt-item input{display:none}
   .opt-item:active{transform:scale(.98)}
+  /* 勾选态：用绝对定位的对勾，避免宽度跳动 */
   .opt-item.on{border-color:var(--green-500);background:#EDF6E0;color:var(--green-900);font-weight:600}
-  .opt-item.on::before{content:"✓";color:var(--green-700);font-weight:700}
+  .opt-item .tick{display:none;color:var(--green-700);font-weight:700}
+  .opt-item.on .tick{display:inline}
 
-  /* 语音按钮 */
-  .voice-btn{width:auto;padding:9px 16px;margin-top:8px;font-size:13px;font-weight:500;
-    background:linear-gradient(135deg,#EDF6E0,#E2EFD2);color:var(--green-900);
-    box-shadow:none;border:1px solid var(--green-300)}
-  .voice-btn.rec{background:linear-gradient(135deg,#FCEBEB,#F7C1C1);color:#791F1F;
+  /* 语音按钮（覆盖通用 button 的 width:100%） */
+  button.voice-btn{width:auto;display:inline-block;padding:9px 16px;margin-top:8px;font-size:13px;
+    font-weight:500;background:linear-gradient(135deg,#EDF6E0,#E2EFD2);color:var(--green-900);
+    box-shadow:none;border:1px solid var(--green-300);letter-spacing:0}
+  button.voice-btn.rec{background:linear-gradient(135deg,#FCEBEB,#F7C1C1);color:#791F1F;
     border-color:#E24B4A;animation:pulse 1.2s infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
   .voice-hint{display:block;font-size:11.5px;color:var(--muted);margin-top:6px}
@@ -88,6 +88,14 @@
   .result .icon{font-size:42px;margin-bottom:10px}
   .result h3{margin:0 0 8px;font-size:17px;color:var(--green-900)}
   .result p{margin:0;font-size:13.5px;color:var(--muted);line-height:1.7}
+  /* 兜底：一键复制对话指令 */
+  .fallback-box{display:flex;gap:8px;align-items:center;justify-content:center;
+    margin:14px auto 0;max-width:280px;background:#F7FBF0;border:1px dashed var(--green-300);
+    border-radius:10px;padding:10px 12px}
+  .fallback-box code{font-size:14px;font-weight:700;color:var(--green-900);
+    letter-spacing:.5px;flex:1;text-align:center;user-select:all}
+  button.copy-btn{width:auto;margin:0;padding:7px 14px;font-size:13px;border-radius:8px;
+    flex:0 0 auto;letter-spacing:0}
   .note{font-size:11.5px;color:var(--muted);line-height:1.7;text-align:center;margin-top:18px}
   .steps{display:flex;gap:6px;margin-bottom:4px}
   .step{flex:1;height:4px;border-radius:2px;background:var(--line)}
@@ -116,33 +124,33 @@
 
       <label>1. 您更关注报告的哪个章节？ <span class="opt">（可多选）</span></label>
       <div class="opts" id="q1">
-        <label class="opt-item"><input type="checkbox" value="公司速览"><span>第一章 公司速览</span></label>
-        <label class="opt-item"><input type="checkbox" value="业务与行业"><span>第二章 业务与行业</span></label>
-        <label class="opt-item"><input type="checkbox" value="财务尽调"><span>第三章 财务尽调</span></label>
-        <label class="opt-item"><input type="checkbox" value="法务尽调"><span>第四章 法务尽调</span></label>
-        <label class="opt-item"><input type="checkbox" value="实控权现状"><span>第五章 实控权现状</span></label>
-        <label class="opt-item"><input type="checkbox" value="退市风险"><span>第六章 退市风险</span></label>
-        <label class="opt-item"><input type="checkbox" value="实控权转让评估"><span>第七章 实控权转让评估</span></label>
-        <label class="opt-item"><input type="checkbox" value="并购监管框架"><span>第八章 并购监管框架</span></label>
-        <label class="opt-item"><input type="checkbox" value="投资结论与跟踪"><span>第九章 结论与跟踪指标</span></label>
+        <label class="opt-item"><input type="checkbox" value="公司速览"><span class="tick">✓</span><span>第一章 公司速览</span></label>
+        <label class="opt-item"><input type="checkbox" value="业务与行业"><span class="tick">✓</span><span>第二章 业务与行业</span></label>
+        <label class="opt-item"><input type="checkbox" value="财务尽调"><span class="tick">✓</span><span>第三章 财务尽调</span></label>
+        <label class="opt-item"><input type="checkbox" value="法务尽调"><span class="tick">✓</span><span>第四章 法务尽调</span></label>
+        <label class="opt-item"><input type="checkbox" value="实控权现状"><span class="tick">✓</span><span>第五章 实控权现状</span></label>
+        <label class="opt-item"><input type="checkbox" value="退市风险"><span class="tick">✓</span><span>第六章 退市风险</span></label>
+        <label class="opt-item"><input type="checkbox" value="实控权转让评估"><span class="tick">✓</span><span>第七章 实控权转让评估</span></label>
+        <label class="opt-item"><input type="checkbox" value="并购监管框架"><span class="tick">✓</span><span>第八章 并购监管框架</span></label>
+        <label class="opt-item"><input type="checkbox" value="投资结论与跟踪"><span class="tick">✓</span><span>第九章 结论与跟踪指标</span></label>
       </div>
 
       <label>2. 您希望报告修改或增加哪部分内容？ <span class="opt">（选填，可文字或语音）</span></label>
       <textarea id="q2" placeholder="例如：希望财务部分增加同行业对比；或直接按住下方按钮语音说明"></textarea>
-      <button type="button" id="voiceBtn" class="voice-btn">按住说话</button>
+      <button type="button" id="voiceBtn" class="voice-btn">点击开始语音</button>
       <span class="voice-hint" id="voiceHint">支持语音转文字（需浏览器授权麦克风）</span>
 
       <label>所需标的 <span class="opt">（选填，多个用逗号分隔）</span></label>
       <input id="codes" placeholder="如 002795、600519" autocomplete="off">
 
       <div class="wxbox">
-        <div class="wx-head"><b>加入企业微信接收通知</b><span style="color:var(--muted);font-weight:400">（选填）</span></div>
+        <div class="wx-head"><b>加入「小调AI-客服」接收通知</b><span style="color:var(--muted);font-weight:400">（选填）</span></div>
         <div class="wx-body">
-          <img id="wxQr" src="wx-qr.png" alt="企业微信二维码"
+          <img id="wxQr" src="wx-qr.png" alt="小调AI-客服 二维码"
                onerror="this.style.display='none';document.getElementById('wxQrFallback').style.display='flex'">
           <div id="wxQrFallback" class="wx-fallback">二维码待上传</div>
           <div class="wx-text">
-            扫码添加后可接收申请结果与更新提醒。<br>
+            扫码添加客服，可接收申请结果与更新提醒。<br>
             <span style="color:var(--muted)">不加也不影响申请，两者额度相同。</span>
           </div>
         </div>
@@ -162,6 +170,10 @@
     <div class="icon">✅</div>
     <h3>申请已提交</h3>
     <p id="resultMsg">我们会尽快审核，通过后即刻放开本月篇数。</p>
+    <div id="fallbackBox" class="fallback-box" style="display:none">
+      <code id="cmdText">申请 RXXXXXX</code>
+      <button type="button" id="copyCmd" class="copy-btn">复制</button>
+    </div>
     <p style="margin-top:14px;font-size:12.5px">
       你也可以回到对话中直接发送股票代码，<br>额度放开后即可正常生成。
     </p>
@@ -190,29 +202,39 @@ document.querySelectorAll("#q1 .opt-item").forEach(el => {
   if (!SR) { btn.style.display = "none"; hint.textContent = "当前浏览器不支持语音，请用文字填写"; return; }
   const rec = new SR();
   rec.lang = "zh-CN"; rec.continuous = true; rec.interimResults = true;
-  let recording = false, base = "";
+  let recording = false, base = "", sawErr = false;
   rec.onresult = ev => {
-    let finalTxt = "";
+    // 中间结果实时回显，最终结果追加（按 resultIndex 增量处理，避免重复）
+    let interim = "", finals = "";
     for (let i = ev.resultIndex; i < ev.results.length; i++) {
-      if (ev.results[i].isFinal) finalTxt += ev.results[i][0].transcript;
+      const t = ev.results[i][0].transcript;
+      if (ev.results[i].isFinal) finals += t;
+      else interim += t;
     }
-    if (finalTxt) {
-      const ta = document.getElementById("q2");
-      base = (base ? base + " " : "") + finalTxt.trim();
-      ta.value = base;
-    }
+    const ta = document.getElementById("q2");
+    if (finals) base = base ? base + finals.trim() : finals.trim();
+    ta.value = interim ? (base + interim) : base;
+    if (finals) hint.textContent = "已识别，继续说话或点击停止";
   };
-  rec.onerror = () => { stop(); hint.textContent = "语音识别失败，请改用文字填写"; };
-  rec.onend = () => { if (recording) { try { rec.start(); } catch (e) {} } else { stop(); } };
+  rec.onerror = e => {
+    sawErr = true;
+    const map = { "not-allowed": "麦克风未授权，请允许后重试或改用文字",
+                  "no-speech": "没有听到声音，请靠近话筒重试",
+                  "network": "网络异常，请改用文字填写" };
+    hint.textContent = map[e.error] || "语音识别失败，请改用文字填写";
+    stop();
+  };
+  rec.onend = () => { if (recording && !sawErr) { try { rec.start(); } catch (e) { stop(); } } else { stop(); } };
   function start() {
-    recording = true; base = document.getElementById("q2").value.trim();
-    btn.classList.add("rec"); btn.textContent = "正在录音…点击停止";
-    hint.textContent = "正在识别，请说话";
-    try { rec.start(); } catch (e) {}
+    recording = true; sawErr = false;
+    base = document.getElementById("q2").value.trim();
+    btn.classList.add("rec"); btn.textContent = "正在录音 · 点击停止";
+    hint.textContent = "请开始说话（说完点一下停止）";
+    try { rec.start(); } catch (e) { stop(); }
   }
   function stop() {
-    recording = false; btn.classList.remove("rec"); btn.textContent = "按住说话";
-    hint.textContent = "支持语音转文字（需浏览器授权麦克风）";
+    recording = false; btn.classList.remove("rec"); btn.textContent = "点击开始语音";
+    if (!sawErr) hint.textContent = "支持语音转文字（需浏览器授权麦克风）";
     try { rec.stop(); } catch (e) {}
   }
   btn.addEventListener("click", () => { recording ? stop() : start(); });
@@ -247,16 +269,15 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     localStorage.setItem("xt_applies", JSON.stringify(list));
   } catch (e) {}
 
-  // 1) 优先走本地审批服务（仅当页面在本机打开时可达）；手机上 127.0.0.1 指向手机自身，
-  //    且 HTTPS 页面请求 HTTP 会被浏览器拦截，故 1.2 秒超时快速降级，避免用户干等。
-  const APPLY_API = localStorage.getItem("xt_apply_api") || "http://127.0.0.1:8899/apply";
+  // 兜底：仅在本机 8899 打开时才可能直连成功；其余场景由「对话补录」承接，
+  // 页面不再做任何无效等待，也不写入任何私人联系方式（源码公开可查）。
   let ok = false;
-  try {
-    if (location.protocol !== "https:" || /^(127\.0\.0\.1|localhost)$/.test(location.hostname)) {
+  if (location.hostname === "127.0.0.1" && location.port === "8899") {
+    try {
       const ctl = new AbortController();
-      const timer = setTimeout(() => ctl.abort(), 1200);
+      const timer = setTimeout(() => ctl.abort(), 2500);
       try {
-        const resp = await fetch(APPLY_API, {
+        const resp = await fetch("/apply", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ contact: "", codes, reason, sponsor: false }),
@@ -265,34 +286,38 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
         const j = await resp.json();
         ok = !!j.ok;
       } finally { clearTimeout(timer); }
-    }
-  } catch (e) { ok = false; }
-
-  // 兜底通道：邮件（服务不可达时仍能到达）
-  if (!ok) {
-    try {
-      const resp2 = await fetch("https://formsubmit.co/ajax/zsheng007@qq.com", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "Accept": "application/json" },
-        body: JSON.stringify({
-          _subject: `【提额申请】${reqId}`,
-          申请码: reqId,
-          关注章节: q1Text,
-          建议内容: q2 || "（未填）",
-          所需标的: codes || "（未填）",
-          提交时间: new Date().toLocaleString("zh-CN"), 来源: "H5提额申请页"
-        })
-      });
-      ok = resp2.ok;
     } catch (e) { ok = false; }
   }
 
   document.getElementById("formArea").style.display = "none";
   const r = document.getElementById("resultArea");
   r.style.display = "block";
-  document.getElementById("resultMsg").innerHTML = ok
-    ? `申请码 <b>${reqId}</b>，我们会尽快审核。<br>通过后本月篇数自动放开。`
-    : `申请码 <b>${reqId}</b><br>网络提交未成功。请回到对话中，<b>直接发送「申请 ${reqId}」</b>，我们会立刻收到。`;
+  if (ok) {
+    document.getElementById("resultMsg").innerHTML =
+      `申请码 <b>${reqId}</b>，已提交，我们会尽快审核。<br>通过后本月篇数自动放开。`;
+  } else {
+    // 未直连成功：给出可直接粘贴的对话指令，用户回到客服对话粘一句即可完成申请
+    document.getElementById("resultMsg").innerHTML =
+      `申请码 <b>${reqId}</b><br>请回到「小调AI-客服」对话，发送下面这句话即可完成申请：`;
+    const box = document.getElementById("fallbackBox");
+    if (box) {
+      box.style.display = "block";
+      document.getElementById("cmdText").textContent = "申请 " + reqId;
+      const cb = document.getElementById("copyCmd");
+      cb.onclick = () => {
+        const t = "申请 " + reqId;
+        const done = () => { cb.textContent = "已复制"; setTimeout(() => cb.textContent = "复制", 1500); };
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(t).then(done).catch(() => {});
+        } else {
+          const ta = document.createElement("textarea");
+          ta.value = t; document.body.appendChild(ta); ta.select();
+          try { document.execCommand("copy"); done(); } catch (e) {}
+          document.body.removeChild(ta);
+        }
+      };
+    }
+  }
 });
 </script>
 </body>
