@@ -105,7 +105,8 @@
 
     <p class="note">
       本服务仅整理公开公告数据、供研究参考，不构成投资建议。<br>
-      申请信息仅用于本次审核与回复，不作他用。
+      申请信息仅用于本次审核与回复，不作他用。<br>
+      若提交后未收到回执，可回到对话中发送「申请 你的申请码」。
     </p>
   </div>
 
@@ -190,8 +191,8 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
   const r = document.getElementById("resultArea");
   r.style.display = "block";
   document.getElementById("resultMsg").innerHTML = ok
-    ? `申请码 <b>${reqId}</b>，我们会尽快审核，通过后即刻放开本月篇数。`
-    : `申请码 <b>${reqId}</b>（网络提交未成功，但已在本机留存，请把申请码发到对话中）`; 
+    ? `申请码 <b>${reqId}</b>，我们会尽快审核。<br>通过后本月篇数自动放开。`
+    : `申请码 <b>${reqId}</b><br>网络提交未成功。请回到对话中，<b>直接发送「申请 ${reqId}」</b>，我们会立刻收到。`;
 });
 </script>
 </body>
