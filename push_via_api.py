@@ -134,6 +134,7 @@ def main():
     print("认证成功: %s" % me.get("login"))
     ref = api.req("GET", "/repos/%s/git/ref/heads/%s" % (repo, branch))
     remote_sha = ref["object"]["sha"]
+    remote_head = remote_sha          # 远端真实 HEAD（后续可能被 fork 覆盖，故另存）
     remote_tree = api.req("GET", "/repos/%s/git/commits/%s" % (repo, remote_sha))["tree"]["sha"]
     print("远端 %s/%s = %s" % (repo, branch, remote_sha[:8]))
 
@@ -146,12 +147,34 @@ def main():
                          cwd=ROOT, capture_output=True)
     fork = None
     if anc.returncode != 0:
-        # 分叉：找到共同祖先，从那里开始复刻，保证 parent 链与本地一致（SHA 不变）
-        fork = git("merge-base", "HEAD", base).strip()
-        print("检测到分叉：")
-        print("  远端 main = %s" % remote_sha[:8])
-        print("  共同祖先  = %s" % fork[:8])
-        print("  → 从共同祖先开始复刻本地提交，最终远端历史将与本地完全一致")
+        # 远端提交不在本地对象库（典型：上一轮由本脚本 API 重放生成，SHA 与本地不同），
+        # git merge-base 无从计算。改用"树哈希等价"定位：远端 HEAD 的 tree 若与本地
+        # 某个提交的 tree 完全一致，则该本地提交即等价基线（内容零差异）。
+        mb = subprocess.run(["git", "merge-base", "HEAD", base],
+                            cwd=ROOT, capture_output=True)
+        if mb.returncode == 0:
+            fork = mb.stdout.decode().strip()
+            print("检测到分叉：")
+            print("  远端 main = %s" % remote_sha[:8])
+            print("  共同祖先  = %s" % fork[:8])
+            print("  → 从共同祖先开始复刻本地提交，最终远端历史将与本地完全一致")
+        else:
+            # 找本地 tree == remote_tree 的提交作为等价基线
+            cand = git("log", "--all", "--format=%H %T").splitlines()
+            eq = [ln.split()[0] for ln in cand
+                  if len(ln.split()) == 2 and ln.split()[1] == remote_tree]
+            if not eq:
+                raise SystemExit(
+                    "[错误] 远端 %s 既不在本地历史，也找不到树等价的本地提交。\n"
+                    "       远端 tree = %s\n"
+                    "       请先人工确认远端状态（可能需要 git fetch 后重试）。"
+                    % (remote_sha[:8], remote_tree[:8]))
+            # 取最新（committer date 最大）的等价提交
+            fork = git("log", "-1", "--format=%H", "--date-order", *eq).strip()
+            print("远端提交不在本地对象库，按树哈希定位等价基线：")
+            print("  远端 main = %s (tree %s)" % (remote_sha[:8], remote_tree[:8]))
+            print("  等价基线  = %s (tree %s)" % (fork[:8], remote_tree[:8]))
+            print("  → 两者内容完全一致，从该基线继续复刻本地新提交")
         base = fork
         remote_sha = fork
 
@@ -167,15 +190,29 @@ def main():
                               "（远端另有 %d 个提交，将被覆盖）" % len(behind) if behind else ""))
 
     # ---- 3) 链式复刻 ----
-    # 确保起点对象在远端存在：分叉点（fork）可能只在本地有，远端没有对应 commit。
-    # 若 GET 失败，就用本地对象在远端"补建"该 commit（parent 指向它自己的 parent）。
+    # 确定复刻起点的"远端父节点"与"基线树"：
+    #   正常情况 base 即远端已有提交，直接取它的 tree 作为 base_tree。
+    #   特殊情况（树等价基线）：远端 HEAD 的 tree 与本地 base 相同，但远端 HEAD
+    #   是本地没有的 API 对象 —— 此时它的内容已覆盖到 base 的状态，直接用远端
+    #   HEAD 作父节点，避免无谓地补建一整条重复父链。
     cur_remote = base
+    cur_tree = None
     try:
         cur_tree = api.req("GET", "/repos/%s/git/commits/%s" % (repo, base))["tree"]["sha"]
     except SystemExit:
+        if remote_head != base and remote_head != remote_sha:
+            # 远端 HEAD 存在且其 tree 就是我们要的基线树 → 直接沿用
+            try:
+                rt = api.req("GET", "/repos/%s/git/commits/%s" % (repo, remote_head))["tree"]["sha"]
+                if rt == git("rev-parse", "%s^{tree}" % base).strip():
+                    print("复用远端已有等价提交 %s 作为父节点（内容与本地 %s 一致）"
+                          % (remote_head[:8], base[:8]))
+                    cur_remote, cur_tree = remote_head, rt
+            except SystemExit:
+                pass
+
+    if cur_tree is None:
         print("起点 %s 在远端不存在，先补建…" % base[:8])
-        p = git("rev-parse", "%s^" % base).strip()
-        pt = git("rev-parse", "%s^{tree}" % base).strip()
         # 递归补建父链（最多回溯到远端已知点）
         chain = []
         cur = base
@@ -185,7 +222,10 @@ def main():
                 break
             except SystemExit:
                 chain.append(cur)
-                cur = git("rev-parse", "%s^" % cur).strip()
+                nxt = git("rev-parse", "%s^" % cur).strip()
+                if not nxt or nxt == cur:
+                    raise SystemExit("[错误] 补建回溯到根仍未找到远端已有提交，请检查远端状态。")
+                cur = nxt
         print("需补建 %d 个对象" % len(chain))
         for sha in reversed(chain):
             pm = git("log", "-1", "--format=%an%x00%ae%x00%aI%x00%cn%x00%ce%x00%cI%x00%B", sha).split("\x00")
@@ -197,6 +237,7 @@ def main():
                 "committer": {"name": pm[3], "email": pm[4], "date": pm[5]},
             })
             print("  补建 %s -> %s" % (sha[:8], c["sha"][:8]))
+        cur_remote = base
         cur_tree = git("rev-parse", "%s^{tree}" % base).strip()
 
     for i, lc in enumerate(commits, 1):
