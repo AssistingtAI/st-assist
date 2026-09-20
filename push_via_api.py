@@ -52,6 +52,12 @@ class Api:
     def __init__(self, token, dry=False):
         self.h = build_headers(token)
         self.dry = dry
+        # 直连 api.github.com：忽略环境代理变量（HTTP_PROXY 等指向的本机代理
+        # 对 api.github.com 时通时断，直连实测稳定）。api.github.com 与
+        # github.com 是不同域名，国内网络下后者常被阻断、前者通常可达。
+        self.s = requests.Session()
+        self.s.trust_env = False
+        self.s.headers.update(self.h)
 
     def req(self, method, path, **kw):
         url = API + path
@@ -67,7 +73,7 @@ class Api:
             return {"object": {"sha": "0" * 40}}
         for attempt in range(3):
             try:
-                r = requests.request(method, url, headers=self.h, timeout=120, **kw)
+                r = self.s.request(method, url, timeout=60, **kw)
             except requests.RequestException as e:
                 if attempt == 2:
                     raise SystemExit("[网络错误] %s %s -> %s" % (method, path, e))
@@ -134,8 +140,21 @@ def main():
     base = args.base or remote_sha
 
     # ---- 2) 收集待推送提交（旧→新）----
-    if not git("merge-base", "--is-ancestor", base, "HEAD", binary=False):
-        pass  # 非祖先也允许（说明分叉，下面用链式复刻处理）
+    # 注意：分叉场景下 merge-base --is-ancestor 会返回非 0，这属正常（远端有本地没有的提交），
+    #       不能用 git() 包装（它会当成失败抛错），这里单独判断。
+    anc = subprocess.run(["git", "merge-base", "--is-ancestor", base, "HEAD"],
+                         cwd=ROOT, capture_output=True)
+    fork = None
+    if anc.returncode != 0:
+        # 分叉：找到共同祖先，从那里开始复刻，保证 parent 链与本地一致（SHA 不变）
+        fork = git("merge-base", "HEAD", base).strip()
+        print("检测到分叉：")
+        print("  远端 main = %s" % remote_sha[:8])
+        print("  共同祖先  = %s" % fork[:8])
+        print("  → 从共同祖先开始复刻本地提交，最终远端历史将与本地完全一致")
+        base = fork
+        remote_sha = fork
+
     rng = "%s..HEAD" % base
     commits = [c for c in git("rev-list", "--reverse", rng).split("\n") if c.strip()]
     if not commits:
@@ -148,8 +167,37 @@ def main():
                               "（远端另有 %d 个提交，将被覆盖）" % len(behind) if behind else ""))
 
     # ---- 3) 链式复刻 ----
-    cur_remote, cur_tree = base, api.req(
-        "GET", "/repos/%s/git/commits/%s" % (repo, base))["tree"]["sha"]
+    # 确保起点对象在远端存在：分叉点（fork）可能只在本地有，远端没有对应 commit。
+    # 若 GET 失败，就用本地对象在远端"补建"该 commit（parent 指向它自己的 parent）。
+    cur_remote = base
+    try:
+        cur_tree = api.req("GET", "/repos/%s/git/commits/%s" % (repo, base))["tree"]["sha"]
+    except SystemExit:
+        print("起点 %s 在远端不存在，先补建…" % base[:8])
+        p = git("rev-parse", "%s^" % base).strip()
+        pt = git("rev-parse", "%s^{tree}" % base).strip()
+        # 递归补建父链（最多回溯到远端已知点）
+        chain = []
+        cur = base
+        while True:
+            try:
+                api.req("GET", "/repos/%s/git/commits/%s" % (repo, cur))
+                break
+            except SystemExit:
+                chain.append(cur)
+                cur = git("rev-parse", "%s^" % cur).strip()
+        print("需补建 %d 个对象" % len(chain))
+        for sha in reversed(chain):
+            pm = git("log", "-1", "--format=%an%x00%ae%x00%aI%x00%cn%x00%ce%x00%cI%x00%B", sha).split("\x00")
+            pl = git("rev-parse", "%s^" % sha).strip()
+            ptree = git("rev-parse", "%s^{tree}" % sha).strip()
+            c = api.req("POST", "/repos/%s/git/commits" % repo, json={
+                "message": pm[6].rstrip("\n"), "tree": ptree, "parents": [pl],
+                "author": {"name": pm[0], "email": pm[1], "date": pm[2]},
+                "committer": {"name": pm[3], "email": pm[4], "date": pm[5]},
+            })
+            print("  补建 %s -> %s" % (sha[:8], c["sha"][:8]))
+        cur_tree = git("rev-parse", "%s^{tree}" % base).strip()
 
     for i, lc in enumerate(commits, 1):
         full = git("rev-parse", lc).strip()
@@ -158,13 +206,24 @@ def main():
         lparent = git("rev-parse", "%s^" % full).strip()
         ltree = git("rev-parse", "%s^{tree}" % full).strip()
 
-        raw = git("diff", "--name-only", "-z", lparent, full, binary=True)
-        files = [p for p in raw.decode("utf-8").split("\0") if p]
+        raw = git("diff", "--name-status", "--no-renames", "-z", lparent, full, binary=True)
+        toks = [t for t in raw.decode("utf-8").split("\0") if t]
+        files = []
+        k = 0
+        while k + 1 < len(toks):
+            files.append((toks[k].strip(), toks[k + 1]))
+            k += 2
         title = msg.splitlines()[0][:48] if msg.splitlines() else ""
         print("\n[%d/%d] %s %s (%d 文件)" % (i, len(commits), full[:8], title, len(files)))
 
         entries = []
-        for f in files:
+        for st, f in files:
+            if st.startswith("D"):
+                # 删除型变更：路径在目标树已不存在，读 blob 必然失败。
+                # GitHub 建树 API 的语义：sha=null 的条目 = 从 base_tree 中删除该路径。
+                entries.append({"path": f, "mode": "100644", "type": "blob", "sha": None})
+                print("   删  %s" % f)
+                continue
             content = git("cat-file", "blob", "%s:%s" % (full, f), binary=True)
             blob = api.req("POST", "/repos/%s/git/blobs" % repo,
                            json={"content": base64.b64encode(content).decode(), "encoding": "base64"})
