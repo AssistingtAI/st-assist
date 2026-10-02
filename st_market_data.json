@@ -1,9 +1,9 @@
 {
  "000010": {
   "name": "*ST美丽",
-  "price": 1.5,
-  "prev_close": 1.52,
-  "market_cap_yi": 17.24
+  "price": 1.44,
+  "prev_close": 1.47,
+  "market_cap_yi": 16.55
  },
  "000016": {
   "name": "*ST康佳A",
@@ -13,375 +13,375 @@
  },
  "000056": {
   "name": "*ST皇庭",
-  "price": 2.76,
-  "prev_close": 2.69,
-  "market_cap_yi": 32.64
+  "price": 2.7,
+  "prev_close": 2.7,
+  "market_cap_yi": 31.93
  },
  "000078": {
   "name": "ST海王",
-  "price": 1.55,
-  "prev_close": 1.57,
-  "market_cap_yi": 40.78
+  "price": 1.49,
+  "prev_close": 1.49,
+  "market_cap_yi": 39.2
  },
  "000488": {
   "name": "ST晨鸣",
-  "price": 2.11,
-  "prev_close": 2.12,
-  "market_cap_yi": 62.06
+  "price": 2.13,
+  "prev_close": 2.08,
+  "market_cap_yi": 62.65
  },
  "000609": {
   "name": "*ST中迪",
-  "price": 9.94,
-  "prev_close": 10.01,
-  "market_cap_yi": 29.75
+  "price": 9.37,
+  "prev_close": 9.34,
+  "market_cap_yi": 28.04
  },
  "000610": {
   "name": "*ST西旅",
-  "price": 7.4,
-  "prev_close": 7.57,
-  "market_cap_yi": 17.52
+  "price": 7.5,
+  "prev_close": 7.46,
+  "market_cap_yi": 17.76
  },
  "000615": {
   "name": "*ST美谷",
-  "price": 3.2,
-  "prev_close": 3.22,
-  "market_cap_yi": 57.2
+  "price": 3.28,
+  "prev_close": 3.25,
+  "market_cap_yi": 58.63
  },
  "000632": {
   "name": "ST三木",
-  "price": 3.75,
-  "prev_close": 3.71,
-  "market_cap_yi": 17.46
+  "price": 3.8,
+  "prev_close": 3.7,
+  "market_cap_yi": 17.69
  },
  "000639": {
   "name": "ST西王",
-  "price": 1.53,
-  "prev_close": 1.53,
-  "market_cap_yi": 16.52
+  "price": 1.54,
+  "prev_close": 1.5,
+  "market_cap_yi": 16.62
  },
  "000669": {
   "name": "ST金鸿",
-  "price": 4.2,
-  "prev_close": 4.2,
-  "market_cap_yi": 28.58
+  "price": 4.05,
+  "prev_close": 4.01,
+  "market_cap_yi": 27.56
  },
  "000677": {
   "name": "ST海龙",
-  "price": 1.8,
-  "prev_close": 1.77,
-  "market_cap_yi": 15.55
+  "price": 1.74,
+  "prev_close": 1.76,
+  "market_cap_yi": 15.03
  },
  "000698": {
   "name": "ST沈化",
-  "price": 3.66,
-  "prev_close": 3.63,
-  "market_cap_yi": 29.99
+  "price": 3.72,
+  "prev_close": 3.66,
+  "market_cap_yi": 30.49
  },
  "000752": {
   "name": "*ST西发",
-  "price": 8.96,
-  "prev_close": 8.73,
-  "market_cap_yi": 23.63
+  "price": 8.72,
+  "prev_close": 8.68,
+  "market_cap_yi": 23.0
  },
  "000793": {
   "name": "ST华闻",
-  "price": 2.03,
-  "prev_close": 2.05,
-  "market_cap_yi": 89.2
+  "price": 1.99,
+  "prev_close": 2.0,
+  "market_cap_yi": 87.44
  },
  "000821": {
   "name": "ST京机",
-  "price": 7.45,
-  "prev_close": 7.57,
-  "market_cap_yi": 46.4
+  "price": 7.28,
+  "prev_close": 7.29,
+  "market_cap_yi": 45.35
  },
  "000826": {
   "name": "*ST启环",
-  "price": 1.78,
-  "prev_close": 1.84,
-  "market_cap_yi": 25.37
+  "price": 1.72,
+  "prev_close": 1.73,
+  "market_cap_yi": 24.52
  },
  "000838": {
   "name": "*ST发展",
-  "price": 2.31,
-  "prev_close": 2.39,
-  "market_cap_yi": 25.42
+  "price": 2.45,
+  "prev_close": 2.23,
+  "market_cap_yi": 26.96
  },
  "000903": {
   "name": "ST云动",
-  "price": 1.96,
-  "prev_close": 1.97,
-  "market_cap_yi": 37.64
+  "price": 1.97,
+  "prev_close": 1.92,
+  "market_cap_yi": 37.83
  },
  "000909": {
   "name": "*ST数源",
-  "price": 5.32,
-  "prev_close": 5.46,
-  "market_cap_yi": 23.29
+  "price": 5.25,
+  "prev_close": 5.19,
+  "market_cap_yi": 22.98
  },
  "000911": {
   "name": "*ST广糖",
-  "price": 5.11,
-  "prev_close": 5.16,
-  "market_cap_yi": 20.46
+  "price": 5.4,
+  "prev_close": 4.91,
+  "market_cap_yi": 21.62
  },
  "002024": {
   "name": "ST易购",
-  "price": 1.15,
-  "prev_close": 1.16,
-  "market_cap_yi": 106.54
+  "price": 1.16,
+  "prev_close": 1.15,
+  "market_cap_yi": 107.47
  },
  "002055": {
   "name": "ST得润",
-  "price": 6.88,
-  "prev_close": 6.9,
-  "market_cap_yi": 41.59
+  "price": 6.43,
+  "prev_close": 6.54,
+  "market_cap_yi": 38.87
  },
  "002082": {
   "name": "ST万邦",
-  "price": 12.0,
-  "prev_close": 11.37,
-  "market_cap_yi": 73.4
+  "price": 12.97,
+  "prev_close": 12.81,
+  "market_cap_yi": 79.34
  },
  "002102": {
   "name": "ST能特",
-  "price": 2.65,
-  "prev_close": 2.71,
-  "market_cap_yi": 64.03
+  "price": 2.6,
+  "prev_close": 2.55,
+  "market_cap_yi": 62.82
  },
  "002109": {
   "name": "ST兴化",
-  "price": 2.77,
-  "prev_close": 2.77,
-  "market_cap_yi": 35.35
+  "price": 2.8,
+  "prev_close": 2.8,
+  "market_cap_yi": 35.74
  },
  "002122": {
   "name": "ST汇洲",
-  "price": 2.73,
-  "prev_close": 2.74,
-  "market_cap_yi": 54.64
+  "price": 2.84,
+  "prev_close": 2.77,
+  "market_cap_yi": 56.84
  },
  "002168": {
   "name": "ST惠程",
-  "price": 3.59,
-  "prev_close": 3.58,
-  "market_cap_yi": 28.15
+  "price": 3.56,
+  "prev_close": 3.57,
+  "market_cap_yi": 27.92
  },
  "002175": {
   "name": "*ST东智",
-  "price": 2.5,
-  "prev_close": 2.51,
-  "market_cap_yi": 31.92
+  "price": 2.48,
+  "prev_close": 2.48,
+  "market_cap_yi": 31.66
  },
  "002193": {
   "name": "ST如意",
-  "price": 4.65,
-  "prev_close": 4.66,
-  "market_cap_yi": 12.17
+  "price": 4.53,
+  "prev_close": 4.55,
+  "market_cap_yi": 11.86
  },
  "002198": {
   "name": "ST嘉应",
-  "price": 3.61,
-  "prev_close": 3.63,
-  "market_cap_yi": 18.32
+  "price": 3.58,
+  "prev_close": 3.59,
+  "market_cap_yi": 18.17
  },
  "002207": {
   "name": "*ST准油",
-  "price": 5.38,
-  "prev_close": 5.45,
-  "market_cap_yi": 14.1
+  "price": 5.33,
+  "prev_close": 5.4,
+  "market_cap_yi": 13.97
  },
  "002211": {
   "name": "ST宏达",
-  "price": 3.8,
-  "prev_close": 3.81,
-  "market_cap_yi": 16.43
+  "price": 3.74,
+  "prev_close": 3.74,
+  "market_cap_yi": 16.17
  },
  "002217": {
   "name": "ST合力泰",
-  "price": 1.56,
-  "prev_close": 1.55,
-  "market_cap_yi": 116.68
+  "price": 1.53,
+  "prev_close": 1.52,
+  "market_cap_yi": 114.43
  },
  "002227": {
   "name": "*ST特迅",
-  "price": 6.35,
-  "prev_close": 6.46,
-  "market_cap_yi": 15.74
+  "price": 6.43,
+  "prev_close": 6.41,
+  "market_cap_yi": 15.93
  },
  "002305": {
   "name": "*ST南置",
-  "price": 2.01,
-  "prev_close": 2.02,
-  "market_cap_yi": 34.86
+  "price": 2.09,
+  "prev_close": 2.08,
+  "market_cap_yi": 36.25
  },
  "002306": {
   "name": "ST云网",
-  "price": 2.15,
-  "prev_close": 2.19,
-  "market_cap_yi": 18.7
+  "price": 2.11,
+  "prev_close": 2.11,
+  "market_cap_yi": 18.35
  },
  "002323": {
   "name": "*ST雅博",
-  "price": 1.25,
-  "prev_close": 1.25,
-  "market_cap_yi": 26.51
+  "price": 1.19,
+  "prev_close": 1.22,
+  "market_cap_yi": 25.24
  },
  "002360": {
   "name": "ST同德",
-  "price": 5.5,
-  "prev_close": 5.34,
-  "market_cap_yi": 22.1
+  "price": 5.33,
+  "prev_close": 5.37,
+  "market_cap_yi": 21.41
  },
  "002424": {
   "name": "ST百灵",
-  "price": 4.61,
-  "prev_close": 4.44,
-  "market_cap_yi": 63.87
+  "price": 4.69,
+  "prev_close": 4.63,
+  "market_cap_yi": 64.98
  },
  "002431": {
   "name": "ST棕榈",
-  "price": 1.31,
-  "prev_close": 1.33,
-  "market_cap_yi": 23.61
+  "price": 1.32,
+  "prev_close": 1.3,
+  "market_cap_yi": 23.79
  },
  "002485": {
   "name": "ST雪发",
-  "price": 5.88,
-  "prev_close": 5.96,
-  "market_cap_yi": 31.99
+  "price": 5.98,
+  "prev_close": 5.84,
+  "market_cap_yi": 32.53
  },
  "002501": {
   "name": "*ST利源",
   "price": 1.3,
-  "prev_close": 1.31,
+  "prev_close": 1.27,
   "market_cap_yi": 46.15
  },
  "002512": {
   "name": "ST达华",
-  "price": 3.88,
-  "prev_close": 3.86,
-  "market_cap_yi": 42.77
+  "price": 3.76,
+  "prev_close": 3.72,
+  "market_cap_yi": 41.45
  },
  "002514": {
   "name": "*ST宝馨",
-  "price": 2.49,
-  "prev_close": 2.49,
-  "market_cap_yi": 17.93
+  "price": 2.41,
+  "prev_close": 2.41,
+  "market_cap_yi": 17.35
  },
  "002528": {
   "name": "*ST英飞",
-  "price": 5.73,
-  "prev_close": 5.8,
-  "market_cap_yi": 68.68
+  "price": 6.17,
+  "prev_close": 6.21,
+  "market_cap_yi": 73.96
  },
  "002538": {
   "name": "ST司特",
-  "price": 6.61,
-  "prev_close": 6.73,
-  "market_cap_yi": 56.42
+  "price": 6.75,
+  "prev_close": 6.89,
+  "market_cap_yi": 57.62
  },
  "002542": {
   "name": "*ST中岩",
-  "price": 1.63,
-  "prev_close": 1.66,
-  "market_cap_yi": 29.44
+  "price": 1.64,
+  "prev_close": 1.59,
+  "market_cap_yi": 29.62
  },
  "002547": {
   "name": "*ST春兴",
-  "price": 2.45,
-  "prev_close": 2.36,
-  "market_cap_yi": 27.64
+  "price": 2.58,
+  "prev_close": 2.51,
+  "market_cap_yi": 29.1
  },
  "002569": {
   "name": "*ST步森",
-  "price": 11.43,
-  "prev_close": 11.6,
-  "market_cap_yi": 16.46
+  "price": 12.06,
+  "prev_close": 12.0,
+  "market_cap_yi": 17.37
  },
  "002581": {
   "name": "*ST未名",
-  "price": 4.97,
-  "prev_close": 5.18,
-  "market_cap_yi": 32.79
+  "price": 5.1,
+  "prev_close": 4.75,
+  "market_cap_yi": 33.65
  },
  "002592": {
   "name": "ST八菱",
-  "price": 6.36,
-  "prev_close": 6.42,
-  "market_cap_yi": 18.07
+  "price": 6.25,
+  "prev_close": 6.25,
+  "market_cap_yi": 17.76
  },
  "002598": {
   "name": "ST章鼓",
-  "price": 6.9,
-  "prev_close": 6.95,
-  "market_cap_yi": 21.53
+  "price": 6.81,
+  "prev_close": 6.82,
+  "market_cap_yi": 21.25
  },
  "002620": {
   "name": "*ST瑞和",
-  "price": 5.72,
-  "prev_close": 5.82,
-  "market_cap_yi": 21.59
+  "price": 5.34,
+  "prev_close": 5.39,
+  "market_cap_yi": 20.16
  },
  "002630": {
   "name": "*ST华西",
-  "price": 1.59,
-  "prev_close": 1.6,
-  "market_cap_yi": 18.77
+  "price": 1.43,
+  "prev_close": 1.46,
+  "market_cap_yi": 16.89
  },
  "002634": {
   "name": "*ST棒杰",
-  "price": 4.04,
-  "prev_close": 4.01,
-  "market_cap_yi": 18.56
+  "price": 3.92,
+  "prev_close": 3.91,
+  "market_cap_yi": 18.01
  },
  "002650": {
   "name": "ST加加",
-  "price": 6.54,
-  "prev_close": 7.27,
-  "market_cap_yi": 72.4
+  "price": 6.44,
+  "prev_close": 6.29,
+  "market_cap_yi": 71.3
  },
  "002667": {
   "name": "*ST威领",
-  "price": 21.02,
-  "prev_close": 22.09,
-  "market_cap_yi": 54.78
+  "price": 22.19,
+  "prev_close": 22.19,
+  "market_cap_yi": 57.83
  },
  "002689": {
   "name": "ST远智",
   "price": 2.93,
-  "prev_close": 2.93,
+  "prev_close": 2.91,
   "market_cap_yi": 30.57
  },
  "002691": {
   "name": "*ST冀凯",
-  "price": 4.09,
-  "prev_close": 4.13,
-  "market_cap_yi": 13.91
+  "price": 3.96,
+  "prev_close": 3.97,
+  "market_cap_yi": 13.46
  },
  "002694": {
   "name": "*ST顾地",
-  "price": 2.52,
+  "price": 2.76,
   "prev_close": 2.51,
-  "market_cap_yi": 19.23
+  "market_cap_yi": 21.06
  },
  "002717": {
   "name": "*ST岭南",
-  "price": 0.85,
-  "prev_close": 0.89,
-  "market_cap_yi": 15.47
+  "price": 0.62,
+  "prev_close": 0.69,
+  "market_cap_yi": 11.29
  },
  "002719": {
   "name": "ST麦趣",
-  "price": 6.25,
-  "prev_close": 6.26,
-  "market_cap_yi": 10.88
+  "price": 6.18,
+  "prev_close": 6.08,
+  "market_cap_yi": 10.76
  },
  "002726": {
   "name": "ST龙大",
-  "price": 2.39,
-  "prev_close": 2.48,
-  "market_cap_yi": 32.53
+  "price": 2.22,
+  "prev_close": 2.38,
+  "market_cap_yi": 30.22
  },
  "002731": {
   "name": "*ST萃华",
@@ -391,63 +391,63 @@
  },
  "002743": {
   "name": "ST富煌",
-  "price": 4.75,
-  "prev_close": 4.57,
-  "market_cap_yi": 20.68
+  "price": 4.43,
+  "prev_close": 4.34,
+  "market_cap_yi": 19.28
  },
  "002759": {
   "name": "ST天际",
-  "price": 13.89,
-  "prev_close": 14.32,
-  "market_cap_yi": 69.64
+  "price": 13.54,
+  "prev_close": 13.65,
+  "market_cap_yi": 67.89
  },
  "002789": {
   "name": "*ST建艺",
-  "price": 14.05,
-  "prev_close": 13.17,
-  "market_cap_yi": 22.43
+  "price": 14.95,
+  "prev_close": 14.26,
+  "market_cap_yi": 23.86
  },
  "002816": {
   "name": "*ST和科",
-  "price": 21.29,
-  "prev_close": 21.56,
-  "market_cap_yi": 21.29
+  "price": 21.86,
+  "prev_close": 21.9,
+  "market_cap_yi": 21.86
  },
  "002822": {
   "name": "ST中装",
-  "price": 2.91,
-  "prev_close": 2.93,
-  "market_cap_yi": 56.74
+  "price": 2.97,
+  "prev_close": 3.0,
+  "market_cap_yi": 57.91
  },
  "002856": {
   "name": "*ST美芝",
-  "price": 17.79,
-  "prev_close": 19.77,
-  "market_cap_yi": 24.07
+  "price": 20.22,
+  "prev_close": 18.38,
+  "market_cap_yi": 27.36
  },
  "002872": {
   "name": "ST天圣",
-  "price": 5.94,
-  "prev_close": 5.96,
-  "market_cap_yi": 18.89
+  "price": 6.19,
+  "prev_close": 6.12,
+  "market_cap_yi": 19.68
  },
  "002883": {
   "name": "*ST中设",
-  "price": 9.26,
-  "prev_close": 9.22,
-  "market_cap_yi": 14.46
+  "price": 9.14,
+  "prev_close": 9.18,
+  "market_cap_yi": 14.27
  },
  "002932": {
   "name": "*ST明德",
-  "price": 15.26,
-  "prev_close": 15.35,
-  "market_cap_yi": 35.48
+  "price": 15.33,
+  "prev_close": 15.15,
+  "market_cap_yi": 35.65
  },
  "002977": {
   "name": "*ST天箭",
-  "price": 19.66,
-  "prev_close": 19.57,
-  "market_cap_yi": 23.62
+  "price": 18.43,
+  "prev_close": 18.73,
+  "market_cap_yi": 22.14
  },
  "200016": {
   "name": "*ST康佳B",
@@ -463,764 +463,764 @@
  },
  "200488": {
   "name": "ST晨鸣B",
-  "price": 0.61,
-  "prev_close": 0.62,
-  "market_cap_yi": 17.94
+  "price": 0.63,
+  "prev_close": 0.61,
+  "market_cap_yi": 18.53
  },
  "300010": {
   "name": "ST豆神",
-  "price": 5.34,
-  "prev_close": 5.27,
-  "market_cap_yi": 110.36
+  "price": 5.1,
+  "prev_close": 4.95,
+  "market_cap_yi": 105.4
  },
  "300020": {
   "name": "ST银江",
-  "price": 3.79,
-  "prev_close": 3.8,
-  "market_cap_yi": 30.12
+  "price": 3.76,
+  "prev_close": 3.59,
+  "market_cap_yi": 29.88
  },
  "300027": {
   "name": "ST华谊",
-  "price": 1.68,
-  "prev_close": 1.68,
-  "market_cap_yi": 46.61
+  "price": 1.65,
+  "prev_close": 1.66,
+  "market_cap_yi": 45.78
  },
  "300044": {
   "name": "*ST赛为",
-  "price": 6.14,
-  "prev_close": 6.13,
-  "market_cap_yi": 46.9
+  "price": 5.9,
+  "prev_close": 5.9,
+  "market_cap_yi": 45.07
  },
  "300068": {
   "name": "ST南都",
-  "price": 4.12,
-  "prev_close": 4.15,
-  "market_cap_yi": 37.01
+  "price": 3.96,
+  "prev_close": 4.05,
+  "market_cap_yi": 35.58
  },
  "300076": {
   "name": "*ST宁视",
-  "price": 4.22,
-  "prev_close": 4.27,
-  "market_cap_yi": 17.89
+  "price": 4.05,
+  "prev_close": 4.1,
+  "market_cap_yi": 17.17
  },
  "300081": {
   "name": "ST恒信",
-  "price": 3.47,
-  "prev_close": 3.35,
-  "market_cap_yi": 20.99
+  "price": 3.23,
+  "prev_close": 3.27,
+  "market_cap_yi": 19.53
  },
  "300087": {
   "name": "ST荃银",
-  "price": 5.61,
-  "prev_close": 5.62,
-  "market_cap_yi": 53.15
+  "price": 5.69,
+  "prev_close": 5.52,
+  "market_cap_yi": 53.9
  },
  "300091": {
   "name": "*ST金灵",
-  "price": 2.42,
-  "prev_close": 2.41,
-  "market_cap_yi": 68.78
+  "price": 2.37,
+  "prev_close": 2.37,
+  "market_cap_yi": 67.36
  },
  "300123": {
   "name": "ST亚光",
-  "price": 4.36,
-  "prev_close": 4.37,
-  "market_cap_yi": 44.55
+  "price": 4.28,
+  "prev_close": 4.17,
+  "market_cap_yi": 43.73
  },
  "300147": {
   "name": "*ST香雪",
-  "price": 5.62,
-  "prev_close": 6.33,
-  "market_cap_yi": 37.16
+  "price": 5.9,
+  "prev_close": 5.9,
+  "market_cap_yi": 39.02
  },
  "300152": {
   "name": "*ST动力",
-  "price": 1.61,
-  "prev_close": 1.66,
-  "market_cap_yi": 11.48
+  "price": 1.58,
+  "prev_close": 1.59,
+  "market_cap_yi": 11.26
  },
  "300167": {
   "name": "ST迪威迅",
-  "price": 4.02,
-  "prev_close": 4.0,
-  "market_cap_yi": 16.74
+  "price": 3.84,
+  "prev_close": 3.76,
+  "market_cap_yi": 15.99
  },
  "300173": {
   "name": "ST福能",
-  "price": 3.31,
-  "prev_close": 3.36,
-  "market_cap_yi": 24.32
+  "price": 3.33,
+  "prev_close": 3.31,
+  "market_cap_yi": 24.47
  },
  "300198": {
   "name": "*ST纳川",
-  "price": 2.27,
-  "prev_close": 2.26,
-  "market_cap_yi": 23.42
+  "price": 2.43,
+  "prev_close": 2.41,
+  "market_cap_yi": 25.07
  },
  "300205": {
   "name": "*ST天喻",
-  "price": 5.36,
-  "prev_close": 5.28,
-  "market_cap_yi": 23.05
+  "price": 5.02,
+  "prev_close": 4.89,
+  "market_cap_yi": 21.59
  },
  "300212": {
   "name": "*ST易录",
-  "price": 7.7,
-  "prev_close": 7.91,
-  "market_cap_yi": 55.43
+  "price": 7.94,
+  "prev_close": 7.57,
+  "market_cap_yi": 57.16
  },
  "300237": {
   "name": "ST美晨",
-  "price": 2.27,
-  "prev_close": 2.25,
-  "market_cap_yi": 32.73
+  "price": 2.41,
+  "prev_close": 2.38,
+  "market_cap_yi": 34.75
  },
  "300245": {
   "name": "ST天玑",
-  "price": 6.05,
-  "prev_close": 6.14,
-  "market_cap_yi": 18.46
+  "price": 5.83,
+  "prev_close": 5.87,
+  "market_cap_yi": 17.78
  },
  "300290": {
   "name": "ST荣科",
-  "price": 7.21,
-  "prev_close": 7.52,
-  "market_cap_yi": 46.12
+  "price": 6.68,
+  "prev_close": 6.85,
+  "market_cap_yi": 42.73
  },
  "300295": {
   "name": "*ST三六",
-  "price": 11.7,
-  "prev_close": 11.97,
-  "market_cap_yi": 22.18
+  "price": 11.98,
+  "prev_close": 11.58,
+  "market_cap_yi": 22.72
  },
  "300301": {
   "name": "ST长方",
-  "price": 3.6,
-  "prev_close": 3.43,
-  "market_cap_yi": 29.88
+  "price": 3.99,
+  "prev_close": 3.82,
+  "market_cap_yi": 33.11
  },
  "300326": {
   "name": "ST凯利",
-  "price": 6.24,
-  "prev_close": 6.31,
-  "market_cap_yi": 44.74
+  "price": 6.22,
+  "prev_close": 6.26,
+  "market_cap_yi": 44.6
  },
  "300338": {
   "name": "*ST开元",
-  "price": 2.82,
-  "prev_close": 2.88,
-  "market_cap_yi": 11.35
+  "price": 2.64,
+  "prev_close": 2.71,
+  "market_cap_yi": 10.63
  },
  "300352": {
   "name": "ST信源",
-  "price": 3.08,
-  "prev_close": 3.0,
-  "market_cap_yi": 44.65
+  "price": 2.89,
+  "prev_close": 2.94,
+  "market_cap_yi": 41.9
  },
  "300366": {
   "name": "ST创意",
-  "price": 5.45,
-  "prev_close": 5.53,
-  "market_cap_yi": 33.11
+  "price": 5.56,
+  "prev_close": 5.58,
+  "market_cap_yi": 33.78
  },
  "300385": {
   "name": "ST雪浪",
-  "price": 13.36,
-  "prev_close": 13.57,
-  "market_cap_yi": 44.51
+  "price": 13.03,
+  "prev_close": 13.03,
+  "market_cap_yi": 43.41
  },
  "300396": {
   "name": "ST迪瑞",
-  "price": 7.05,
-  "prev_close": 7.13,
-  "market_cap_yi": 19.23
+  "price": 7.08,
+  "prev_close": 7.02,
+  "market_cap_yi": 19.31
  },
  "300419": {
   "name": "ST浩丰",
-  "price": 7.44,
-  "prev_close": 7.58,
-  "market_cap_yi": 27.36
+  "price": 7.96,
+  "prev_close": 7.9,
+  "market_cap_yi": 29.27
  },
  "300430": {
   "name": "*ST益通",
-  "price": 4.59,
-  "prev_close": 4.63,
-  "market_cap_yi": 12.53
+  "price": 4.15,
+  "prev_close": 4.33,
+  "market_cap_yi": 11.33
  },
  "300460": {
   "name": "ST惠伦",
-  "price": 9.06,
-  "prev_close": 9.13,
-  "market_cap_yi": 25.44
+  "price": 8.91,
+  "prev_close": 9.08,
+  "market_cap_yi": 25.02
  },
  "300462": {
   "name": "ST华铭",
-  "price": 11.49,
-  "prev_close": 11.62,
-  "market_cap_yi": 20.82
+  "price": 11.38,
+  "prev_close": 11.33,
+  "market_cap_yi": 20.62
  },
  "300472": {
   "name": "ST新元",
-  "price": 6.87,
-  "prev_close": 6.92,
-  "market_cap_yi": 18.91
+  "price": 6.78,
+  "prev_close": 6.65,
+  "market_cap_yi": 18.66
  },
  "300477": {
   "name": "ST合纵",
-  "price": 2.64,
-  "prev_close": 2.68,
-  "market_cap_yi": 28.3
- },
- "300527": {
-  "name": "ST应急",
-  "price": 8.18,
-  "prev_close": 8.26,
-  "market_cap_yi": 83.17
+  "price": 2.76,
+  "prev_close": 2.65,
+  "market_cap_yi": 29.59
  },
  "300555": {
   "name": "ST路通",
-  "price": 12.45,
-  "prev_close": 12.35,
-  "market_cap_yi": 24.9
+  "price": 12.28,
+  "prev_close": 12.18,
+  "market_cap_yi": 24.56
  },
  "300594": {
   "name": "ST朗进",
-  "price": 15.19,
-  "prev_close": 15.18,
-  "market_cap_yi": 13.96
+  "price": 15.12,
+  "prev_close": 15.33,
+  "market_cap_yi": 13.89
  },
  "300716": {
   "name": "*ST泉为",
-  "price": 17.85,
-  "prev_close": 17.89,
-  "market_cap_yi": 28.56
+  "price": 17.05,
+  "prev_close": 17.42,
+  "market_cap_yi": 27.28
  },
  "300831": {
   "name": "ST派瑞",
-  "price": 13.91,
-  "prev_close": 14.05,
-  "market_cap_yi": 44.51
+  "price": 13.24,
+  "prev_close": 13.39,
+  "market_cap_yi": 42.37
  },
  "301030": {
   "name": "*ST仕净",
-  "price": 5.33,
-  "prev_close": 5.44,
-  "market_cap_yi": 10.79
+  "price": 4.18,
+  "prev_close": 4.97,
+  "market_cap_yi": 8.46
  },
  "301117": {
   "name": "ST佳缘",
-  "price": 12.98,
-  "prev_close": 13.25,
-  "market_cap_yi": 23.47
+  "price": 12.08,
+  "prev_close": 12.12,
+  "market_cap_yi": 21.84
  },
  "600053": {
   "name": "*ST九鼎",
-  "price": 7.26,
-  "prev_close": 7.43,
-  "market_cap_yi": 31.48
+  "price": 7.77,
+  "prev_close": 7.69,
+  "market_cap_yi": 33.69
  },
  "600079": {
   "name": "ST人福",
-  "price": 18.82,
+  "price": 19.17,
   "prev_close": 18.83,
-  "market_cap_yi": 307.18
+  "market_cap_yi": 312.9
  },
  "600080": {
   "name": "ST金花",
-  "price": 4.73,
-  "prev_close": 4.74,
-  "market_cap_yi": 17.66
+  "price": 4.61,
+  "prev_close": 4.64,
+  "market_cap_yi": 17.21
  },
  "600082": {
   "name": "ST海泰",
-  "price": 3.31,
-  "prev_close": 3.27,
-  "market_cap_yi": 21.39
+  "price": 3.32,
+  "prev_close": 3.35,
+  "market_cap_yi": 21.45
  },
  "600084": {
   "name": "*ST尼雅",
-  "price": 4.38,
-  "prev_close": 4.44,
-  "market_cap_yi": 49.22
+  "price": 4.45,
+  "prev_close": 4.38,
+  "market_cap_yi": 50.01
  },
  "600107": {
   "name": "*ST尔雅",
-  "price": 5.72,
-  "prev_close": 5.71,
-  "market_cap_yi": 20.59
+  "price": 5.62,
+  "prev_close": 5.64,
+  "market_cap_yi": 20.23
  },
  "600119": {
   "name": "*ST长投",
-  "price": 5.0,
-  "prev_close": 4.96,
-  "market_cap_yi": 18.26
+  "price": 4.74,
+  "prev_close": 4.78,
+  "market_cap_yi": 17.31
  },
  "600136": {
   "name": "ST明诚",
-  "price": 1.48,
-  "prev_close": 1.5,
-  "market_cap_yi": 30.2
+  "price": 1.49,
+  "prev_close": 1.47,
+  "market_cap_yi": 30.41
  },
  "600169": {
   "name": "ST太重",
-  "price": 2.18,
-  "prev_close": 2.19,
-  "market_cap_yi": 72.66
+  "price": 2.19,
+  "prev_close": 2.18,
+  "market_cap_yi": 73.0
  },
  "600180": {
   "name": "*ST瑞茂",
-  "price": 1.55,
-  "prev_close": 1.58,
-  "market_cap_yi": 16.84
+  "price": 1.49,
+  "prev_close": 1.5,
+  "market_cap_yi": 16.19
  },
  "600187": {
   "name": "*ST国中",
-  "price": 1.27,
-  "prev_close": 1.28,
-  "market_cap_yi": 20.5
+  "price": 1.24,
+  "prev_close": 1.24,
+  "market_cap_yi": 20.01
  },
  "600238": {
   "name": "ST椰岛",
-  "price": 4.06,
-  "prev_close": 4.08,
-  "market_cap_yi": 18.2
+  "price": 4.01,
+  "prev_close": 4.01,
+  "market_cap_yi": 17.97
  },
  "600239": {
   "name": "ST云城",
   "price": 1.44,
-  "prev_close": 1.44,
+  "prev_close": 1.43,
   "market_cap_yi": 23.12
  },
  "600243": {
   "name": "*ST海华",
-  "price": 3.54,
-  "prev_close": 3.66,
-  "market_cap_yi": 15.54
+  "price": 3.64,
+  "prev_close": 3.64,
+  "market_cap_yi": 15.97
  },
  "600265": {
   "name": "*ST景谷",
-  "price": 23.41,
-  "prev_close": 23.27,
-  "market_cap_yi": 30.39
+  "price": 22.95,
+  "prev_close": 22.55,
+  "market_cap_yi": 29.79
  },
  "600289": {
   "name": "ST信通",
-  "price": 4.32,
-  "prev_close": 4.3,
-  "market_cap_yi": 27.26
+  "price": 4.4,
+  "prev_close": 4.26,
+  "market_cap_yi": 27.77
  },
  "600302": {
   "name": "ST标准",
-  "price": 7.14,
-  "prev_close": 7.1,
-  "market_cap_yi": 24.71
+  "price": 6.76,
+  "prev_close": 6.77,
+  "market_cap_yi": 23.39
  },
  "600337": {
   "name": "ST美克",
-  "price": 3.43,
-  "prev_close": 3.32,
-  "market_cap_yi": 49.29
+  "price": 3.82,
+  "prev_close": 3.7,
+  "market_cap_yi": 54.89
  },
  "600340": {
   "name": "*ST华幸",
-  "price": 1.17,
-  "prev_close": 1.15,
-  "market_cap_yi": 45.55
+  "price": 1.3,
+  "prev_close": 1.37,
+  "market_cap_yi": 50.61
+ },
+ "600363": {
+  "name": "ST联光",
+  "price": 12.2,
+  "prev_close": 13.55,
+  "market_cap_yi": 55.01
  },
  "600365": {
   "name": "ST通葡",
-  "price": 2.9,
-  "prev_close": 2.85,
-  "market_cap_yi": 13.16
+  "price": 2.86,
+  "prev_close": 2.86,
+  "market_cap_yi": 12.98
  },
  "600370": {
   "name": "*ST三房",
-  "price": 1.47,
-  "prev_close": 1.49,
-  "market_cap_yi": 59.13
+  "price": 1.37,
+  "prev_close": 1.45,
+  "market_cap_yi": 55.11
  },
  "600381": {
   "name": "*ST春天",
   "price": 4.2,
-  "prev_close": 4.34,
+  "prev_close": 4.13,
   "market_cap_yi": 24.66
  },
  "600423": {
   "name": "*ST柳化",
-  "price": 2.68,
-  "prev_close": 2.71,
-  "market_cap_yi": 21.41
+  "price": 2.67,
+  "prev_close": 2.64,
+  "market_cap_yi": 21.33
  },
  "600439": {
   "name": "ST瑞贝卡",
-  "price": 1.86,
-  "prev_close": 1.87,
-  "market_cap_yi": 21.05
+  "price": 1.84,
+  "prev_close": 1.84,
+  "market_cap_yi": 20.83
  },
  "600476": {
   "name": "*ST湘邮",
-  "price": 9.97,
-  "prev_close": 10.24,
-  "market_cap_yi": 16.06
+  "price": 9.92,
+  "prev_close": 9.9,
+  "market_cap_yi": 15.98
  },
  "600491": {
   "name": "ST龙元",
-  "price": 1.62,
-  "prev_close": 1.67,
-  "market_cap_yi": 24.78
+  "price": 1.57,
+  "prev_close": 1.55,
+  "market_cap_yi": 24.02
  },
  "600530": {
   "name": "ST交昂",
-  "price": 3.89,
-  "prev_close": 3.98,
-  "market_cap_yi": 30.14
+  "price": 3.76,
+  "prev_close": 3.79,
+  "market_cap_yi": 29.14
  },
  "600537": {
   "name": "*ST亿晶",
-  "price": 2.22,
-  "prev_close": 2.19,
-  "market_cap_yi": 26.28
+  "price": 2.11,
+  "prev_close": 2.11,
+  "market_cap_yi": 24.98
  },
  "600543": {
   "name": "*ST莫高",
   "price": 4.07,
-  "prev_close": 4.09,
+  "prev_close": 4.07,
   "market_cap_yi": 13.07
  },
  "600568": {
   "name": "ST中珠",
-  "price": 2.41,
-  "prev_close": 2.37,
-  "market_cap_yi": 48.03
+  "price": 2.37,
+  "prev_close": 2.4,
+  "market_cap_yi": 47.23
  },
  "600581": {
   "name": "*ST八钢",
-  "price": 2.49,
-  "prev_close": 2.48,
-  "market_cap_yi": 38.17
+  "price": 2.47,
+  "prev_close": 2.45,
+  "market_cap_yi": 37.86
  },
  "600624": {
   "name": "ST复华",
-  "price": 4.62,
-  "prev_close": 4.65,
-  "market_cap_yi": 31.39
+  "price": 4.61,
+  "prev_close": 4.61,
+  "market_cap_yi": 31.32
  },
  "600678": {
   "name": "ST金顶",
-  "price": 5.68,
-  "prev_close": 5.73,
-  "market_cap_yi": 19.82
+  "price": 5.78,
+  "prev_close": 5.75,
+  "market_cap_yi": 20.17
  },
  "600730": {
   "name": "*ST高科",
-  "price": 8.91,
-  "prev_close": 9.29,
-  "market_cap_yi": 52.27
+  "price": 8.55,
+  "prev_close": 8.41,
+  "market_cap_yi": 50.16
  },
  "600734": {
   "name": "*ST实达",
-  "price": 1.93,
-  "prev_close": 1.93,
-  "market_cap_yi": 42.04
+  "price": 1.86,
+  "prev_close": 1.85,
+  "market_cap_yi": 40.52
  },
  "600735": {
   "name": "ST新华锦",
-  "price": 6.57,
-  "prev_close": 6.66,
-  "market_cap_yi": 28.17
+  "price": 6.65,
+  "prev_close": 6.51,
+  "market_cap_yi": 28.51
  },
  "600745": {
   "name": "*ST闻泰",
-  "price": 17.04,
-  "prev_close": 17.1,
-  "market_cap_yi": 217.07
+  "price": 16.43,
+  "prev_close": 16.51,
+  "market_cap_yi": 209.3
  },
  "600753": {
   "name": "ST海钦",
-  "price": 13.47,
-  "prev_close": 13.4,
-  "market_cap_yi": 31.02
+  "price": 13.01,
+  "prev_close": 13.73,
+  "market_cap_yi": 29.96
  },
  "600759": {
   "name": "ST洲际",
-  "price": 2.31,
-  "prev_close": 2.31,
-  "market_cap_yi": 95.84
+  "price": 2.25,
+  "prev_close": 2.2,
+  "market_cap_yi": 93.35
  },
  "600818": {
   "name": "ST中路",
-  "price": 9.11,
-  "prev_close": 9.34,
-  "market_cap_yi": 29.28
+  "price": 9.31,
+  "prev_close": 9.17,
+  "market_cap_yi": 29.93
  },
  "600889": {
   "name": "*ST京化",
-  "price": 13.39,
-  "prev_close": 13.7,
-  "market_cap_yi": 78.54
+  "price": 13.32,
+  "prev_close": 13.17,
+  "market_cap_yi": 78.13
  },
  "600965": {
   "name": "*ST福成",
-  "price": 2.69,
-  "prev_close": 2.69,
-  "market_cap_yi": 22.02
+  "price": 2.57,
+  "prev_close": 2.6,
+  "market_cap_yi": 21.04
  },
  "601010": {
   "name": "ST文峰",
-  "price": 1.43,
-  "prev_close": 1.46,
-  "market_cap_yi": 25.86
+  "price": 1.42,
+  "prev_close": 1.43,
+  "market_cap_yi": 25.68
  },
  "601718": {
   "name": "ST际华",
-  "price": 1.92,
-  "prev_close": 1.95,
-  "market_cap_yi": 83.73
+  "price": 1.94,
+  "prev_close": 1.91,
+  "market_cap_yi": 84.6
  },
  "603008": {
   "name": "ST喜临门",
-  "price": 10.47,
-  "prev_close": 10.1,
-  "market_cap_yi": 38.56
+  "price": 10.6,
+  "prev_close": 9.98,
+  "market_cap_yi": 39.04
  },
  "603021": {
   "name": "*ST华鹏",
-  "price": 5.19,
-  "prev_close": 5.24,
-  "market_cap_yi": 16.61
+  "price": 4.46,
+  "prev_close": 4.95,
+  "market_cap_yi": 14.27
  },
  "603189": {
   "name": "*ST网达",
-  "price": 9.63,
-  "prev_close": 9.62,
-  "market_cap_yi": 25.96
+  "price": 9.27,
+  "prev_close": 9.4,
+  "market_cap_yi": 24.99
  },
  "603272": {
   "name": "*ST联翔",
-  "price": 16.81,
-  "prev_close": 16.1,
-  "market_cap_yi": 17.42
+  "price": 15.0,
+  "prev_close": 15.73,
+  "market_cap_yi": 15.54
  },
  "603359": {
   "name": "*ST东珠",
-  "price": 2.15,
-  "prev_close": 2.18,
-  "market_cap_yi": 9.59
+  "price": 2.03,
+  "prev_close": 2.07,
+  "market_cap_yi": 9.06
  },
  "603377": {
   "name": "ST东时",
-  "price": 3.19,
-  "prev_close": 3.17,
-  "market_cap_yi": 23.06
+  "price": 3.06,
+  "prev_close": 3.09,
+  "market_cap_yi": 22.12
  },
  "603378": {
   "name": "*ST亚士",
-  "price": 4.71,
-  "prev_close": 4.9,
-  "market_cap_yi": 20.19
+  "price": 4.91,
+  "prev_close": 4.69,
+  "market_cap_yi": 21.04
  },
  "603398": {
   "name": "*ST沐邦",
-  "price": 8.75,
-  "prev_close": 8.63,
-  "market_cap_yi": 37.94
+  "price": 8.38,
+  "prev_close": 8.32,
+  "market_cap_yi": 36.34
  },
  "603429": {
   "name": "*ST集友",
-  "price": 8.7,
-  "prev_close": 8.6,
-  "market_cap_yi": 45.63
+  "price": 9.09,
+  "prev_close": 8.88,
+  "market_cap_yi": 47.68
  },
  "603517": {
   "name": "ST绝味",
   "price": 11.43,
-  "prev_close": 11.38,
+  "prev_close": 11.3,
   "market_cap_yi": 69.27
  },
  "603557": {
   "name": "*ST起步",
-  "price": 3.14,
-  "prev_close": 3.25,
-  "market_cap_yi": 19.58
+  "price": 3.05,
+  "prev_close": 3.03,
+  "market_cap_yi": 19.01
  },
  "603595": {
   "name": "ST东尼",
-  "price": 32.55,
-  "prev_close": 33.3,
-  "market_cap_yi": 75.66
+  "price": 31.02,
+  "prev_close": 31.5,
+  "market_cap_yi": 72.1
  },
  "603718": {
   "name": "*ST海利",
-  "price": 3.07,
-  "prev_close": 3.07,
-  "market_cap_yi": 19.92
+  "price": 3.09,
+  "prev_close": 3.09,
+  "market_cap_yi": 20.05
  },
  "603729": {
   "name": "ST龙韵",
-  "price": 12.51,
-  "prev_close": 12.62,
-  "market_cap_yi": 11.53
+  "price": 12.45,
+  "prev_close": 12.45,
+  "market_cap_yi": 11.47
  },
  "603789": {
   "name": "ST星农",
-  "price": 5.85,
-  "prev_close": 5.95,
-  "market_cap_yi": 15.52
+  "price": 5.84,
+  "prev_close": 5.9,
+  "market_cap_yi": 15.49
  },
  "603822": {
   "name": "ST嘉澳",
-  "price": 62.42,
-  "prev_close": 62.65,
-  "market_cap_yi": 47.95
+  "price": 64.5,
+  "prev_close": 62.7,
+  "market_cap_yi": 49.55
  },
  "603825": {
   "name": "ST华扬",
-  "price": 7.81,
-  "prev_close": 7.8,
-  "market_cap_yi": 19.79
+  "price": 7.61,
+  "prev_close": 7.58,
+  "market_cap_yi": 19.28
  },
  "603828": {
   "name": "*ST利达",
-  "price": 6.1,
-  "prev_close": 6.16,
-  "market_cap_yi": 36.35
+  "price": 6.19,
+  "prev_close": 6.0,
+  "market_cap_yi": 36.89
  },
  "603838": {
   "name": "*ST四通",
-  "price": 13.24,
-  "prev_close": 13.78,
-  "market_cap_yi": 42.37
+  "price": 12.56,
+  "prev_close": 12.45,
+  "market_cap_yi": 40.19
  },
  "603843": {
   "name": "*ST正平",
-  "price": 6.33,
-  "prev_close": 6.6,
-  "market_cap_yi": 44.29
+  "price": 6.34,
+  "prev_close": 6.18,
+  "market_cap_yi": 44.36
  },
  "603869": {
   "name": "ST智知",
-  "price": 8.52,
-  "prev_close": 8.54,
-  "market_cap_yi": 41.63
+  "price": 8.6,
+  "prev_close": 8.62,
+  "market_cap_yi": 42.02
  },
  "603922": {
   "name": "ST金鸿顺",
-  "price": 12.13,
-  "prev_close": 12.7,
-  "market_cap_yi": 21.74
+  "price": 12.02,
+  "prev_close": 12.15,
+  "market_cap_yi": 21.54
  },
  "603959": {
   "name": "ST百利",
-  "price": 4.31,
-  "prev_close": 4.39,
-  "market_cap_yi": 21.13
+  "price": 4.09,
+  "prev_close": 4.2,
+  "market_cap_yi": 20.05
  },
  "605199": {
   "name": "ST葫芦娃",
-  "price": 5.76,
-  "prev_close": 5.85,
-  "market_cap_yi": 23.05
+  "price": 5.71,
+  "prev_close": 5.72,
+  "market_cap_yi": 22.85
  },
  "605336": {
   "name": "*ST帅电",
-  "price": 11.63,
-  "prev_close": 11.63,
-  "market_cap_yi": 21.33
+  "price": 11.85,
+  "prev_close": 11.48,
+  "market_cap_yi": 21.73
  },
  "688022": {
-  "name": "ST瀚川智能",
-  "price": 8.78,
-  "prev_close": 8.9,
-  "market_cap_yi": 14.97
+  "name": "ST瀚川",
+  "price": 9.21,
+  "prev_close": 9.1,
+  "market_cap_yi": 15.7
  },
  "688033": {
-  "name": "*ST天宜新材",
-  "price": 7.51,
-  "prev_close": 7.35,
-  "market_cap_yi": 42.22
+  "name": "*ST天宜",
+  "price": 7.21,
+  "prev_close": 7.29,
+  "market_cap_yi": 40.53
  },
  "688053": {
-  "name": "ST思科瑞微电子",
-  "price": 39.08,
-  "prev_close": 39.8,
-  "market_cap_yi": 39.08
+  "name": "ST思科瑞",
+  "price": 39.39,
+  "prev_close": 39.39,
+  "market_cap_yi": 39.39
  },
  "688066": {
-  "name": "*ST航天宏图",
-  "price": 8.96,
-  "prev_close": 8.18,
-  "market_cap_yi": 23.59
+  "name": "*ST航图",
+  "price": 8.8,
+  "prev_close": 8.5,
+  "market_cap_yi": 26.83
  },
  "688076": {
-  "name": "ST诺泰生物",
-  "price": 28.83,
-  "prev_close": 29.06,
-  "market_cap_yi": 91.34
+  "name": "ST诺泰",
+  "price": 29.76,
+  "prev_close": 29.35,
+  "market_cap_yi": 94.28
  },
  "688089": {
-  "name": "ST嘉必优生物",
-  "price": 8.46,
-  "prev_close": 8.51,
-  "market_cap_yi": 14.07
+  "name": "ST嘉必优",
+  "price": 8.42,
+  "prev_close": 8.47,
+  "market_cap_yi": 14.01
  },
  "688121": {
-  "name": "*ST卓然技术",
-  "price": 1.16,
-  "prev_close": 1.16,
-  "market_cap_yi": 2.71
+  "name": "*ST卓然",
+  "price": 1.02,
+  "prev_close": 1.09,
+  "market_cap_yi": 2.38
  },
  "688184": {
-  "name": "ST帕瓦股份",
-  "price": 10.76,
-  "prev_close": 10.8,
-  "market_cap_yi": 16.86
+  "name": "ST帕瓦",
+  "price": 10.67,
+  "prev_close": 10.79,
+  "market_cap_yi": 16.72
  },
  "688189": {
-  "name": "ST南新制药",
-  "price": 6.48,
-  "prev_close": 6.53,
-  "market_cap_yi": 17.68
+  "name": "ST南新",
+  "price": 6.44,
+  "prev_close": 6.41,
+  "market_cap_yi": 17.57
  },
  "688201": {
-  "name": "ST信安世纪",
-  "price": 7.71,
-  "prev_close": 7.9,
-  "market_cap_yi": 24.45
+  "name": "ST信安",
+  "price": 7.69,
+  "prev_close": 7.7,
+  "market_cap_yi": 24.39
  },
  "688270": {
-  "name": "ST臻镭科技",
-  "price": 56.91,
-  "prev_close": 57.13,
-  "market_cap_yi": 170.45
+  "name": "ST臻镭",
+  "price": 53.2,
+  "prev_close": 54.15,
+  "market_cap_yi": 159.34
  },
  "688496": {
-  "name": "*ST清越科技",
+  "name": "*ST清越",
   "price": 0.58,
   "prev_close": 0.58,
   "market_cap_yi": 2.61
  },
  "688622": {
-  "name": "*ST禾信仪器",
-  "price": 142.39,
-  "prev_close": 136.82,
-  "market_cap_yi": 100.34
+  "name": "*ST禾信",
+  "price": 119.6,
+  "prev_close": 136.0,
+  "market_cap_yi": 84.28
  },
  "920023": {
   "name": "*ST田野",
-  "price": 1.42,
-  "prev_close": 1.44,
-  "market_cap_yi": 4.65
+  "price": 1.4,
+  "prev_close": 1.39,
+  "market_cap_yi": 4.58
  },
  "920090": {
   "name": "*ST同辉",
-  "price": 3.34,
-  "prev_close": 3.41,
-  "market_cap_yi": 6.66
+  "price": 3.16,
+  "prev_close": 3.24,
+  "market_cap_yi": 6.3
  },
  "920575": {
   "name": "*ST康乐",
-  "price": 5.11,
-  "prev_close": 5.39,
-  "market_cap_yi": 14.36
+  "price": 5.07,
+  "prev_close": 4.94,
+  "market_cap_yi": 14.24
  }
 }

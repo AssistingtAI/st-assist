@@ -1,16 +1,19 @@
 {
  "meta": {
-  "verified_at": "2026-09-18 11:03:04",
+  "verified_at": "2026-09-25 11:03:29",
   "verdict": "FAIL",
   "sse_scanned": 2520,
-  "szse_scanned": 2939,
-  "official_hs_total": 5300,
+  "szse_scanned": 2940,
+  "official_hs_total": 5301,
   "official_hs_st": 205,
-  "eastmoney_hs": 204,
+  "eastmoney_hs": 201,
   "bj_count": 3
  },
  "missing_in_eastmoney": {
-  "900915": "ST中路"
+  "900915": "ST中路",
+  "300096": "ST易联众",
+  "300211": "*ST亿通",
+  "301139": "*ST元道"
  },
  "eastmoney_lag_unst": {},
  "official_name_lag": {},
@@ -74,8 +77,8 @@
   }
  },
  "bj_stocks": {
-  "920575": "*ST康乐",
   "920023": "*ST田野",
+  "920575": "*ST康乐",
   "920090": "*ST同辉"
  }
 }
