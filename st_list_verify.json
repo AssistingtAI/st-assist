@@ -1,84 +1,35 @@
 {
  "meta": {
-  "verified_at": "2026-09-25 11:03:29",
+  "verified_at": "2026-10-02 16:36:41",
   "verdict": "FAIL",
   "sse_scanned": 2520,
-  "szse_scanned": 2940,
-  "official_hs_total": 5301,
-  "official_hs_st": 205,
+  "szse_scanned": 2942,
+  "official_hs_total": 5303,
+  "official_hs_st": 201,
   "eastmoney_hs": 201,
   "bj_count": 3
  },
  "missing_in_eastmoney": {
-  "900915": "ST中路",
-  "300096": "ST易联众",
-  "300211": "*ST亿通",
-  "301139": "*ST元道"
+  "900915": "ST中路"
  },
  "eastmoney_lag_unst": {},
- "official_name_lag": {},
+ "official_name_lag": {
+  "600363": {
+   "ours": "ST联光",
+   "official": "联创光电",
+   "tencent": "ST联光"
+  }
+ },
  "delisted_in_eastmoney": {},
  "name_mismatch": {
-  "688089": {
-   "ours": "ST嘉必优生物",
-   "official": "ST嘉必优"
-  },
-  "688121": {
-   "ours": "*ST卓然技术",
-   "official": "*ST卓然"
-  },
-  "688189": {
-   "ours": "ST南新制药",
-   "official": "ST南新"
-  },
-  "688022": {
-   "ours": "ST瀚川智能",
-   "official": "ST瀚川"
-  },
-  "688066": {
-   "ours": "*ST航天宏图",
-   "official": "*ST航图"
-  },
-  "688496": {
-   "ours": "*ST清越科技",
-   "official": "*ST清越"
-  },
-  "688622": {
-   "ours": "*ST禾信仪器",
-   "official": "*ST禾信"
-  },
-  "688033": {
-   "ours": "*ST天宜新材",
-   "official": "*ST天宜"
-  },
-  "688201": {
-   "ours": "ST信安世纪",
-   "official": "ST信安"
-  },
   "300295": {
    "ours": "*ST三六",
    "official": "*ST三六五"
-  },
-  "688270": {
-   "ours": "ST臻镭科技",
-   "official": "ST臻镭"
-  },
-  "688053": {
-   "ours": "ST思科瑞微电子",
-   "official": "ST思科瑞"
-  },
-  "688076": {
-   "ours": "ST诺泰生物",
-   "official": "ST诺泰"
-  },
-  "688184": {
-   "ours": "ST帕瓦股份",
-   "official": "ST帕瓦"
   }
  },
  "bj_stocks": {
-  "920023": "*ST田野",
   "920575": "*ST康乐",
+  "920023": "*ST田野",
   "920090": "*ST同辉"
  }
 }

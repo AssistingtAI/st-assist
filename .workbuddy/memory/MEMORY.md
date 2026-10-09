@@ -14,7 +14,7 @@
 **2026-09-02 13→12重构**：取消原F1趋势4分→A1+2(→12)/C2+2(→10)；F2更名F1。config v2.3。分布 A20/B86/C60/D41，均分51.7，覆盖207家。冀凯 70/B/rank21(13维为67/rank30)。
 
 ## 数据与管道
-唯一口径链：st_names/st_market_data/st_financials + st_risk_flags(巨潮定向) + st_controllers/st_top_holders/st_pledges/st_deduct_income → build_baokeng_v2.py → st_scores_v2.json → generate_html.py → baokeng-rank.html+index.html。st_trends 不再消费(原F1维度取消)。verify_html.js 生成后必跑(RAW结构+V2求和=total+等级+JS语法四重)。
+唯一口径链：st_names/st_market_data/st_financials + st_risk_flags(巨潮定向) + st_controllers/st_top_holders/st_pledges/st_deduct_income → build_baokeng_v2.py → st_scores_v2.json → generate_html.py → baokeng-rank.html+index.html。研究档案链：reports_baokeng_v2/*.docx → convert_reports_html.py → reports/<code>.html+reports_index.json（详情页📖按钮只读预览，十三维历史口径横幅+noindex，无会员无企微导流）。st_trends 不再消费(原F1维度取消)。verify_html.js 生成后必跑(RAW结构+V2求和=total+等级+JS语法四重)。
 
 ## 关键铁律/坑
 - **generate_html.py 模板是唯一权威，HTML是产物**：改页面文案必落模板，直接改HTML会被下次生成覆盖；模板JS内`${...}`需转义`${{...}}`；镜像 _check.js 由verify自动同步。
