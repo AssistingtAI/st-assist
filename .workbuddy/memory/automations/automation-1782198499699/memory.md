@@ -1,5 +1,18 @@
 # automation-1782198499699 - 保壳风云榜每周五更新
 
+## 2026-10-09 09:06 执行
+
+**结果：全链路成功，线上已更新（连续第2周走Git Data API方案成功）**
+
+- weekly_update_friday.py 13步：✅ 成功（204家，V2 A19/B86/C61/D38，新增0/移除0；行情/价格/市值 204/204；莫高验算63.6/B）
+- verify_html.js：✅ 全通过（RAW 204行、V2 row len 21、sum!=total 0、missing 0、JS语法OK）
+- git commit：✅ 056992e（22文件，含补交9-12/9-18/9-25/10-02四份历史memory日志）
+- git push origin HEAD：❌ github.com:443 仍被封（Connection was reset；30秒timeout试探防挂起，此招有效）
+- push_via_api.py：✅ 成功（venv python，token走.gh_token），远端 main be4805d9 → e826f4c9，等价基线定位8fcec8d9（tree一致），1提交复刻
+- 线上验证：assistingtai.github.io/st-assist/baokeng-rank.html 200
+- 分布变化：B84→86 / C63→61（对比10-02），无名单变更纯分数重算
+- 自动化提示词仍写"十三维"和旧URL，实际=十二维100分制+AssistingtAI/st-assist（已连续多周如此，可考虑更新提示词）
+
 ## 2026-09-11 10:07 执行（首次记录）
 
 **结果：数据链+验证全通过，GitHub push 阻断，未上线**

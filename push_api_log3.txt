@@ -1,0 +1,5 @@
+认证成功: AssistingtAI
+远端 AssistingtAI/st-assist/main = d69b3c11
+git merge-base HEAD d69b3c11206ba3dd81100ba79c1be811ce994302 失败: fatal: Not a valid commit name d69b3c11206ba3dd81100ba79c1be811ce994302
+
+EXIT=1

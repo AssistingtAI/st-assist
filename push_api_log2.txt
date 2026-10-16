@@ -1,0 +1,97 @@
+认证成功: AssistingtAI
+远端 AssistingtAI/st-assist/main = 53bda5cf
+检测到分叉：
+  远端 main = 53bda5cf
+  共同祖先  = e58d0800
+  → 从共同祖先开始复刻本地提交，最终远端历史将与本地完全一致
+待推送 20 个提交
+
+[1/20] 5139e036 周更新2026-09-11: 207家 V2十二维 A20/B88/C60/D39 均分51.9 (13 文件)
+   tree  c52c0393  与本地一致
+   commit b1ac3bf5  与本地不一致
+
+[2/20] 404a74df chore: 账号更名 Zsheng007→AssistingtAI，Pages地址同步为 as (9 文件)
+   tree  87a7465e  与本地一致
+   commit 28638b2a  与本地不一致
+
+[3/20] 773178f1 chore: 新增Git Data API推送工具 push_via_api.py + 09-1 (2 文件)
+   tree  fce0c322  与本地一致
+   commit a854622c  与本地不一致
+
+[4/20] 25fa5bdc chore: 仓库更名 baokeng-ranking→st-assist，Pages地址同步为 (5 文件)
+   tree  f2467a96  与本地一致
+   commit add8151c  与本地不一致
+
+[5/20] efde8976 chore: 合规化话术清理——摸鱼榜→壳市值观察、删机会/潜伏话术、免责声明升级（明示不提供证 (5 文件)
+   tree  fc8c3804  与本地一致
+   commit f2658362  与本地不一致
+
+[6/20] c6099fd6 feat: 个股详情页恢复深度报告入口——研究档案形态（207份docx转只读HTML+历史口径 (212 文件)
+   tree  8ac60d85  与本地一致
+   commit e060cc3e  与本地不一致
+
+[7/20] c7068b85 chore: 档案报告名整合——删V168+G九章式结构行，报告名改为小调AI-ST摸鱼报告V2 (208 文件)
+   tree  0867f4b3  与本地一致
+   commit 8746d718  与本地不一致
+
+[8/20] 939d700b chore: 档案副题去掉'深度跟读报告'，统一为小调AI-ST摸鱼报告V2 (208 文件)
+   tree  a759be64  与本地一致
+   commit ce9a9144  与本地不一致
+
+[9/20] 7414dd5f chore: 档案正文清除最后的V168方法论引用句 (208 文件)
+   tree  635e9729  与本地一致
+   commit 1b0ab835  与本地不一致
+
+[10/20] 15274b35 chore: 公众号海报重生成——十二维合规口径（去摸鱼/机会话术，12维明细+五通道修正，免责 (3 文件)
+   tree  660e4a9f  与本地一致
+   commit 0b4bda1a  与本地不一致
+
+[11/20] 6db36c4f feat: 12维按五类分组展示（图例+详情明细，编号口径不变） (3 文件)
+   tree  0098b3b0  与本地一致
+   commit 53bda5cf  与本地不一致
+
+[12/20] d5b344d8 2026-09-18 更新保壳风云榜V2：207家 A20/B87/C60/D40 (13 文件)
+   tree  1e907754  与本地一致
+   commit dbbfea70  与本地不一致
+
+[13/20] 6a7ec4fa feat: 提额申请页与审批台（额度用完后自助申请追加） (2 文件)
+   tree  e27a2d20  与本地一致
+   commit b4da06e0  与本地不一致
+
+[14/20] ae9ea85b apply.html: 手机端快速降级(1.2s 超时+协议/Host 守卫, 避免 HTTPS (6 文件)
+   删  _fetch_flags_run.log
+   删  _fetch_flags_run2.log
+   删  _fetch_flags_run3.log
+   删  weekly_update_20260821.log
+   tree  60d26186  与本地一致
+   commit 067f5fae  与本地不一致
+
+[15/20] 14bf1fa6 apply.html: 提交失败时明确引导「申请 申请码」对话兜底(不再依赖邮件通道激活) (1 文件)
+   tree  60658af0  与本地一致
+   commit 50015622  与本地不一致
+
+[16/20] bdcda1b7 提额页改问卷版: Q1章节多选+Q2建议(支持语音转文字), 企微二维码选填, 去掉手机号与赞助 (3 文件)
+   tree  889b480b  与本地一致
+   commit fe964fc0  与本地不一致
+
+[17/20] ef6d50f5 apply.html: 移除源码中的私人邮箱(formsubmit兜底改本地直连), 二维码文案 (1 文件)
+   tree  9c5749d4  与本地一致
+   commit 70cb74a1  与本地不一致
+
+[18/20] d7075f39 新增 set_wx_qr.py 二维码一键替换脚本(自动补白边/缩放/备份), gitignor (2 文件)
+   tree  ff020d5f  与本地一致
+   commit 19dddbc0  与本地不一致
+
+[19/20] 37e606cd 新增 push_retry.py: GitHub 网络不稳定时自动重试推送(--force-wi (1 文件)
+   tree  bf52bb6b  与本地一致
+   commit 37f406a9  与本地不一致
+
+[20/20] 7f29129c 重写 push_via_api.py: 自动探测基线+重试+错误提示+--dry-run, 适配 (2 文件)
+   tree  ba82667e  与本地一致
+   commit d69b3c11  与本地不一致
+
+分支 main 已更新 -> d69b3c11
+DONE
+
+本地 HEAD: 7f29129c
+EXIT=0

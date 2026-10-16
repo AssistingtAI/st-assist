@@ -1,0 +1,12 @@
+认证成功: AssistingtAI
+远端 AssistingtAI/st-assist/main = d69b3c11
+远端提交不在本地对象库，按树哈希定位等价基线：
+  远端 main = d69b3c11 (tree ba82667e)
+  等价基线  = 7f29129c (tree ba82667e)
+  → 两者内容完全一致，从该基线继续复刻本地新提交
+待推送 1 个提交
+起点 7f29129c 在远端不存在，先补建…
+需补建 20 个对象
+  补建 5139e036 -> b1ac3bf5
+[API 错误] POST /repos/AssistingtAI/st-assist/git/commits -> 422: {"message":"Parent SHA does not exist or is not a commit object","documentation_url":"https://docs.github.com/rest/git/commits#create-a-commit","status":"422"}
+EXIT=1
