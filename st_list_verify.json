@@ -1,16 +1,17 @@
 {
  "meta": {
-  "verified_at": "2026-10-09 11:01:09",
+  "verified_at": "2026-10-16 11:01:13",
   "verdict": "FAIL",
   "sse_scanned": 2520,
-  "szse_scanned": 2942,
-  "official_hs_total": 5303,
+  "szse_scanned": 2943,
+  "official_hs_total": 5302,
   "official_hs_st": 202,
-  "eastmoney_hs": 201,
+  "eastmoney_hs": 200,
   "bj_count": 3
  },
  "missing_in_eastmoney": {
-  "900915": "ST中路"
+  "900915": "ST中路",
+  "002731": "*ST萃华"
  },
  "eastmoney_lag_unst": {},
  "official_name_lag": {},

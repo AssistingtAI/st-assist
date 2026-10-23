@@ -1,5 +1,17 @@
 # automation-1782198499699 - 保壳风云榜每周五更新
 
+## 2026-10-16 09:07 执行
+
+**结果：全链路成功，线上已更新（Git Data API方案连续第3周成功）**
+
+- weekly_update_friday.py 13步：✅ 成功（203家，V2 A19/B85/C61/D38，移除002731 *ST萃华摘帽/新增0；行情/市值203/203）
+- verify_html.js：✅ 全通过（RAW/V2各203行、row len 21、sum!=total 0、missing 0、JS语法OK；莫高63.6/B）
+- git commit：✅ 209aa9e（48文件，含积压的历史报告/pdf/memory）
+- git push origin HEAD：❌ github.com:443 挂起5分52秒无响应，TaskStop终止（老问题：HTTPS push挂起）
+- push_via_api.py：✅ 成功（远端 main e826f4c9 → 4817e180，等价基线定位056992e，复刻1提交）
+- 线上验证：✅ assistingtai.github.io/st-assist/baokeng-rank.html 已显示"覆盖公司：203 家"
+- 分布变化：B86→85/C61持平（对比10-09）；名单净减1家（萃华摘帽）
+
 ## 2026-10-09 09:06 执行
 
 **结果：全链路成功，线上已更新（连续第2周走Git Data API方案成功）**

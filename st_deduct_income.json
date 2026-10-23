@@ -2,11 +2,20 @@
  "meta": {
   "source": "东财F10经营分析zygcfx（主营构成，年报期优先）",
   "note": "other_ratio=其他/补充收入占比(扣非主营口径折减)；low_margin_ratio=毛利率0~5%项占比(贸易冲量嫌疑，负毛利不计)",
-  "generated_at": "2026-10-16 09:08:29",
-  "ok": 203,
+  "generated_at": "2026-10-23 09:11:45",
+  "ok": 201,
   "fail": 0
  },
  "data": {
+  "600439": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.074,
+   "low_margin_ratio": 0,
+   "top_item": "化纤发条",
+   "top_ratio": 0.287,
+   "top_gross": 0.2285,
+   "n_items": 6
+  },
   "002743": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0388,
@@ -14,6 +23,15 @@
    "top_item": "建造工程",
    "top_ratio": 0.4818,
    "top_gross": 0.0946,
+   "n_items": 4
+  },
+  "301117": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0037,
+   "low_margin_ratio": 0,
+   "top_item": "信息化综合解决方案",
+   "top_ratio": 0.6775,
+   "top_gross": 0.2158,
    "n_items": 4
   },
   "600363": {
@@ -32,24 +50,6 @@
    "top_item": "ARA产品",
    "top_ratio": 0.6883,
    "top_gross": 0.4674,
-   "n_items": 4
-  },
-  "600439": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.074,
-   "low_margin_ratio": 0,
-   "top_item": "化纤发条",
-   "top_ratio": 0.287,
-   "top_gross": 0.2285,
-   "n_items": 6
-  },
-  "301117": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0037,
-   "low_margin_ratio": 0,
-   "top_item": "信息化综合解决方案",
-   "top_ratio": 0.6775,
-   "top_gross": 0.2158,
    "n_items": 4
   },
   "002759": {
@@ -79,15 +79,6 @@
    "top_gross": 0.4612,
    "n_items": 3
   },
-  "688189": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0001,
-   "low_margin_ratio": 0,
-   "top_item": "抗流感病毒类药物",
-   "top_ratio": 0.6203,
-   "top_gross": 0.459,
-   "n_items": 5
-  },
   "300087": {
    "report_date": "2025-12-31",
    "other_ratio": 0.1284,
@@ -95,15 +86,6 @@
    "top_item": "水稻种子",
    "top_ratio": 0.36,
    "top_gross": 0.3946,
-   "n_items": 7
-  },
-  "301030": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0552,
-   "low_margin_ratio": 0,
-   "top_item": "电池片",
-   "top_ratio": 0.7507,
-   "top_gross": -0.5235,
    "n_items": 7
   },
   "300831": {
@@ -115,6 +97,15 @@
    "top_gross": 0.6014,
    "n_items": 3
   },
+  "688189": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0001,
+   "low_margin_ratio": 0,
+   "top_item": "抗流感病毒类药物",
+   "top_ratio": 0.6203,
+   "top_gross": 0.459,
+   "n_items": 5
+  },
   "300396": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0051,
@@ -123,6 +114,15 @@
    "top_ratio": 0.5568,
    "top_gross": 0.6167,
    "n_items": 3
+  },
+  "301030": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0552,
+   "low_margin_ratio": 0,
+   "top_item": "电池片",
+   "top_ratio": 0.7507,
+   "top_gross": -0.5235,
+   "n_items": 7
   },
   "300352": {
    "report_date": "2025-12-31",
@@ -133,14 +133,14 @@
    "top_gross": 0.8254,
    "n_items": 4
   },
-  "002667": {
+  "300430": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0219,
-   "low_margin_ratio": 0,
-   "top_item": "原矿",
-   "top_ratio": 0.4717,
-   "top_gross": 0.3891,
-   "n_items": 5
+   "other_ratio": 0.3266,
+   "low_margin_ratio": 0.1676,
+   "top_item": "康复医疗器械",
+   "top_ratio": 0.4999,
+   "top_gross": 0.3256,
+   "n_items": 4
   },
   "002883": {
    "report_date": "2025-12-31",
@@ -151,15 +151,6 @@
    "top_gross": 0.1065,
    "n_items": 5
   },
-  "300430": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.3266,
-   "low_margin_ratio": 0.1676,
-   "top_item": "康复医疗器械",
-   "top_ratio": 0.4999,
-   "top_gross": 0.3256,
-   "n_items": 4
-  },
   "000078": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0021,
@@ -167,15 +158,6 @@
    "top_item": "采购产品",
    "top_ratio": 0.9765,
    "top_gross": 0.0866,
-   "n_items": 3
-  },
-  "688022": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0082,
-   "low_margin_ratio": 0,
-   "top_item": "智能制造装备及系统",
-   "top_ratio": 0.9376,
-   "top_gross": 0.2961,
    "n_items": 3
   },
   "688066": {
@@ -196,24 +178,6 @@
    "top_gross": 0.1899,
    "n_items": 2
   },
-  "002514": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0298,
-   "low_margin_ratio": 0,
-   "top_item": "设备配件",
-   "top_ratio": 0.6785,
-   "top_gross": 0.2026,
-   "n_items": 7
-  },
-  "002109": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0221,
-   "low_margin_ratio": 0.08,
-   "top_item": "乙醇",
-   "top_ratio": 0.5406,
-   "top_gross": -0.0473,
-   "n_items": 9
-  },
   "002082": {
    "report_date": "2025-12-31",
    "other_ratio": 0.1783,
@@ -231,6 +195,42 @@
    "top_ratio": 0.5228,
    "top_gross": 0.7752,
    "n_items": 6
+  },
+  "002109": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0221,
+   "low_margin_ratio": 0.08,
+   "top_item": "乙醇",
+   "top_ratio": 0.5406,
+   "top_gross": -0.0473,
+   "n_items": 9
+  },
+  "002514": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0298,
+   "low_margin_ratio": 0,
+   "top_item": "设备配件",
+   "top_ratio": 0.6785,
+   "top_gross": 0.2026,
+   "n_items": 7
+  },
+  "002667": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0219,
+   "low_margin_ratio": 0,
+   "top_item": "原矿",
+   "top_ratio": 0.4717,
+   "top_gross": 0.3891,
+   "n_items": 5
+  },
+  "600337": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0111,
+   "low_margin_ratio": 0.0221,
+   "top_item": "批发家具商品",
+   "top_ratio": 0.6387,
+   "top_gross": 0.2835,
+   "n_items": 7
   },
   "600302": {
    "report_date": "2025-12-31",
@@ -259,15 +259,6 @@
    "top_gross": -0.0566,
    "n_items": 7
   },
-  "600337": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0111,
-   "low_margin_ratio": 0.0221,
-   "top_item": "批发家具商品",
-   "top_ratio": 0.6387,
-   "top_gross": 0.2835,
-   "n_items": 7
-  },
   "600745": {
    "report_date": "2025-12-31",
    "other_ratio": 0.002,
@@ -275,15 +266,6 @@
    "top_item": "智能终端",
    "top_ratio": 0.5623,
    "top_gross": 0.0312,
-   "n_items": 3
-  },
-  "603359": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0087,
-   "low_margin_ratio": 0,
-   "top_item": "市政景观",
-   "top_ratio": 0.8477,
-   "top_gross": 0.1286,
    "n_items": 3
   },
   "600965": {
@@ -295,6 +277,24 @@
    "top_gross": 0.088,
    "n_items": 11
   },
+  "603189": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0046,
+   "low_margin_ratio": 0,
+   "top_item": "AI视频大数据解决方案",
+   "top_ratio": 0.5151,
+   "top_gross": 0.2914,
+   "n_items": 5
+  },
+  "688022": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0082,
+   "low_margin_ratio": 0,
+   "top_item": "智能制造装备及系统",
+   "top_ratio": 0.9376,
+   "top_gross": 0.2961,
+   "n_items": 3
+  },
   "603378": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0823,
@@ -304,14 +304,23 @@
    "top_gross": 0.0075,
    "n_items": 6
   },
-  "603189": {
+  "603922": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0046,
+   "other_ratio": 0.0495,
    "low_margin_ratio": 0,
-   "top_item": "AI视频大数据解决方案",
-   "top_ratio": 0.5151,
-   "top_gross": 0.2914,
-   "n_items": 5
+   "top_item": "汽车零部件",
+   "top_ratio": 0.873,
+   "top_gross": 0.0968,
+   "n_items": 3
+  },
+  "603359": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0087,
+   "low_margin_ratio": 0,
+   "top_item": "市政景观",
+   "top_ratio": 0.8477,
+   "top_gross": 0.1286,
+   "n_items": 3
   },
   "601010": {
    "report_date": "2025-12-31",
@@ -322,6 +331,15 @@
    "top_gross": 0.6237,
    "n_items": 19
   },
+  "603718": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0,
+   "low_margin_ratio": 0,
+   "top_item": "口腔组织修复与再生材料",
+   "top_ratio": 0.6679,
+   "top_gross": 0.8225,
+   "n_items": 2
+  },
   "601718": {
    "report_date": "2025-12-31",
    "other_ratio": 0.1493,
@@ -330,15 +348,6 @@
    "top_ratio": 0.7438,
    "top_gross": 0.0913,
    "n_items": 5
-  },
-  "603922": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0495,
-   "low_margin_ratio": 0,
-   "top_item": "汽车零部件",
-   "top_ratio": 0.873,
-   "top_gross": 0.0968,
-   "n_items": 3
   },
   "600678": {
    "report_date": "2025-12-31",
@@ -358,14 +367,32 @@
    "top_gross": 0.8776,
    "n_items": 2
   },
-  "603718": {
+  "600053": {
    "report_date": "2025-12-31",
-   "other_ratio": 0,
+   "other_ratio": 0.015,
+   "low_margin_ratio": 0.1387,
+   "top_item": "私募股权投资",
+   "top_ratio": 0.4128,
+   "top_gross": null,
+   "n_items": 10
+  },
+  "688033": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0416,
    "low_margin_ratio": 0,
-   "top_item": "口腔组织修复与再生材料",
-   "top_ratio": 0.6679,
-   "top_gross": 0.8225,
-   "n_items": 2
+   "top_item": "光伏热场系统部件",
+   "top_ratio": 0.3599,
+   "top_gross": -0.428,
+   "n_items": 7
+  },
+  "600370": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0072,
+   "low_margin_ratio": 0,
+   "top_item": "瓶级聚酯切片",
+   "top_ratio": 0.8727,
+   "top_gross": -0.0204,
+   "n_items": 5
   },
   "600180": {
    "report_date": "2025-12-31",
@@ -385,24 +412,6 @@
    "top_gross": 0.1791,
    "n_items": 3
   },
-  "600370": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0072,
-   "low_margin_ratio": 0,
-   "top_item": "瓶级聚酯切片",
-   "top_ratio": 0.8727,
-   "top_gross": -0.0204,
-   "n_items": 5
-  },
-  "600053": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.015,
-   "low_margin_ratio": 0.1387,
-   "top_item": "私募股权投资",
-   "top_ratio": 0.4128,
-   "top_gross": null,
-   "n_items": 10
-  },
   "600491": {
    "report_date": "2025-12-31",
    "other_ratio": 0.045,
@@ -412,6 +421,15 @@
    "top_gross": 0.0139,
    "n_items": 6
   },
+  "002694": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0056,
+   "low_margin_ratio": 0,
+   "top_item": "PE管道",
+   "top_ratio": 0.5051,
+   "top_gross": 0.0814,
+   "n_items": 5
+  },
   "002547": {
    "report_date": "2025-12-31",
    "other_ratio": 0.121,
@@ -420,6 +438,15 @@
    "top_ratio": 0.4435,
    "top_gross": 0.0224,
    "n_items": 4
+  },
+  "000826": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0108,
+   "low_margin_ratio": 0,
+   "top_item": "环卫服务业务",
+   "top_ratio": 0.5224,
+   "top_gross": 0.1645,
+   "n_items": 5
   },
   "002691": {
    "report_date": "2025-12-31",
@@ -439,14 +466,14 @@
    "top_gross": 0.1675,
    "n_items": 3
   },
-  "000632": {
+  "000016": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.3858,
-   "low_margin_ratio": 0.5494,
-   "top_item": "其他",
-   "top_ratio": 0.3858,
-   "top_gross": 0.0248,
-   "n_items": 14
+   "other_ratio": 0.1155,
+   "low_margin_ratio": 0,
+   "top_item": "彩电业务",
+   "top_ratio": 0.4262,
+   "top_gross": -0.0211,
+   "n_items": 5
   },
   "000639": {
    "report_date": "2025-12-31",
@@ -457,15 +484,6 @@
    "top_gross": 0.1824,
    "n_items": 3
   },
-  "002694": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0056,
-   "low_margin_ratio": 0,
-   "top_item": "PE管道",
-   "top_ratio": 0.5051,
-   "top_gross": 0.0814,
-   "n_items": 5
-  },
   "688496": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0847,
@@ -475,23 +493,14 @@
    "top_gross": 0.015,
    "n_items": 8
   },
-  "000826": {
+  "000632": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0108,
-   "low_margin_ratio": 0,
-   "top_item": "环卫服务业务",
-   "top_ratio": 0.5224,
-   "top_gross": 0.1645,
-   "n_items": 5
-  },
-  "688033": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0416,
-   "low_margin_ratio": 0,
-   "top_item": "光伏热场系统部件",
-   "top_ratio": 0.3599,
-   "top_gross": -0.428,
-   "n_items": 7
+   "other_ratio": 0.3858,
+   "low_margin_ratio": 0.5494,
+   "top_item": "其他",
+   "top_ratio": 0.3858,
+   "top_gross": 0.0248,
+   "n_items": 14
   },
   "688622": {
    "report_date": "2025-12-31",
@@ -502,6 +511,15 @@
    "top_gross": 0.4661,
    "n_items": 6
   },
+  "300027": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0581,
+   "low_margin_ratio": 0,
+   "top_item": "影视娱乐",
+   "top_ratio": 0.9374,
+   "top_gross": 0.2652,
+   "n_items": 4
+  },
   "002856": {
    "report_date": "2025-12-31",
    "other_ratio": 0,
@@ -511,23 +529,23 @@
    "top_gross": 0.0167,
    "n_items": 7
   },
-  "000016": {
+  "002726": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.1155,
+   "other_ratio": 0.0064,
    "low_margin_ratio": 0,
-   "top_item": "彩电业务",
-   "top_ratio": 0.4262,
-   "top_gross": -0.0211,
-   "n_items": 5
-  },
-  "300027": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0581,
-   "low_margin_ratio": 0,
-   "top_item": "影视娱乐",
-   "top_ratio": 0.9374,
-   "top_gross": 0.2652,
+   "top_item": "鲜冻肉",
+   "top_ratio": 0.8201,
+   "top_gross": -0.0074,
    "n_items": 4
+  },
+  "300212": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0,
+   "low_margin_ratio": 0,
+   "top_item": "解决方案",
+   "top_ratio": 0.4887,
+   "top_gross": -1.2063,
+   "n_items": 3
   },
   "300068": {
    "report_date": "2025-12-31",
@@ -547,14 +565,14 @@
    "top_gross": 0.0549,
    "n_items": 3
   },
-  "002726": {
+  "300245": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0064,
+   "other_ratio": 0.0187,
    "low_margin_ratio": 0,
-   "top_item": "鲜冻肉",
-   "top_ratio": 0.8201,
-   "top_gross": -0.0074,
-   "n_items": 4
+   "top_item": "IT支持与维护",
+   "top_ratio": 0.2904,
+   "top_gross": 0.3277,
+   "n_items": 7
   },
   "300594": {
    "report_date": "2025-12-31",
@@ -565,15 +583,6 @@
    "top_gross": 0.3488,
    "n_items": 6
   },
-  "300212": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0,
-   "low_margin_ratio": 0,
-   "top_item": "解决方案",
-   "top_ratio": 0.4887,
-   "top_gross": -1.2063,
-   "n_items": 3
-  },
   "600818": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0045,
@@ -582,15 +591,6 @@
    "top_ratio": 0.649,
    "top_gross": 0.1115,
    "n_items": 4
-  },
-  "300245": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0187,
-   "low_margin_ratio": 0,
-   "top_item": "IT支持与维护",
-   "top_ratio": 0.2904,
-   "top_gross": 0.3277,
-   "n_items": 7
   },
   "603272": {
    "report_date": "2025-12-31",
@@ -619,24 +619,6 @@
    "top_gross": 0.6655,
    "n_items": 2
   },
-  "002360": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.1151,
-   "low_margin_ratio": 0.0065,
-   "top_item": "工程爆破",
-   "top_ratio": 0.6717,
-   "top_gross": 0.4081,
-   "n_items": 7
-  },
-  "002431": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0134,
-   "low_margin_ratio": 0.9268,
-   "top_item": "工程收入",
-   "top_ratio": 0.9268,
-   "top_gross": 0.0323,
-   "n_items": 4
-  },
   "600537": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0077,
@@ -646,14 +628,14 @@
    "top_gross": -0.0448,
    "n_items": 5
   },
-  "000056": {
+  "002431": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.8818,
-   "low_margin_ratio": 0,
-   "top_item": "其他(补充)",
-   "top_ratio": 0.8817,
-   "top_gross": 0.2244,
-   "n_items": 5
+   "other_ratio": 0.0134,
+   "low_margin_ratio": 0.9268,
+   "top_item": "工程收入",
+   "top_ratio": 0.9268,
+   "top_gross": 0.0323,
+   "n_items": 4
   },
   "002634": {
    "report_date": "2025-12-31",
@@ -673,6 +655,33 @@
    "top_gross": 0.0528,
    "n_items": 7
   },
+  "002360": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.1151,
+   "low_margin_ratio": 0.0065,
+   "top_item": "工程爆破",
+   "top_ratio": 0.6717,
+   "top_gross": 0.4081,
+   "n_items": 7
+  },
+  "000838": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0046,
+   "low_margin_ratio": 0,
+   "top_item": "房地产项目收入",
+   "top_ratio": 0.6995,
+   "top_gross": 0.552,
+   "n_items": 3
+  },
+  "000056": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.8818,
+   "low_margin_ratio": 0,
+   "top_item": "其他(补充)",
+   "top_ratio": 0.8817,
+   "top_gross": 0.2244,
+   "n_items": 5
+  },
   "920090": {
    "report_date": "2025-12-31",
    "other_ratio": 0,
@@ -682,13 +691,13 @@
    "top_gross": 0.143,
    "n_items": 2
   },
-  "000838": {
+  "600730": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0046,
+   "other_ratio": 0.0124,
    "low_margin_ratio": 0,
-   "top_item": "房地产项目收入",
-   "top_ratio": 0.6995,
-   "top_gross": 0.552,
+   "top_item": "教育",
+   "top_ratio": 0.6919,
+   "top_gross": 0.5981,
    "n_items": 3
   },
   "603008": {
@@ -700,15 +709,6 @@
    "top_gross": 0.4168,
    "n_items": 5
   },
-  "600730": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0124,
-   "low_margin_ratio": 0,
-   "top_item": "教育",
-   "top_ratio": 0.6919,
-   "top_gross": 0.5981,
-   "n_items": 3
-  },
   "300295": {
    "report_date": "2025-12-31",
    "other_ratio": 0.045,
@@ -717,15 +717,6 @@
    "top_ratio": 0.5131,
    "top_gross": 0.4503,
    "n_items": 3
-  },
-  "002977": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0,
-   "low_margin_ratio": 0,
-   "top_item": "固态发射机",
-   "top_ratio": 1.292,
-   "top_gross": null,
-   "n_items": 2
   },
   "600889": {
    "report_date": "2025-12-31",
@@ -736,6 +727,15 @@
    "top_gross": -0.137,
    "n_items": 6
   },
+  "002227": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0859,
+   "low_margin_ratio": 0,
+   "top_item": "电力用直流和交流一体化不间断电源设备",
+   "top_ratio": 0.6387,
+   "top_gross": 0.2898,
+   "n_items": 5
+  },
   "605336": {
    "report_date": "2025-12-31",
    "other_ratio": 0.1208,
@@ -744,6 +744,15 @@
    "top_ratio": 0.6896,
    "top_gross": 0.4508,
    "n_items": 4
+  },
+  "002932": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.1699,
+   "low_margin_ratio": 0,
+   "top_item": "体外诊断产品和解决方案",
+   "top_ratio": 0.8301,
+   "top_gross": 0.358,
+   "n_items": 2
   },
   "002542": {
    "report_date": "2025-12-31",
@@ -754,22 +763,13 @@
    "top_gross": 0.0673,
    "n_items": 5
   },
-  "002227": {
+  "002977": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0859,
+   "other_ratio": 0,
    "low_margin_ratio": 0,
-   "top_item": "电力用直流和交流一体化不间断电源设备",
-   "top_ratio": 0.6387,
-   "top_gross": 0.2898,
-   "n_items": 5
-  },
-  "002932": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.1699,
-   "low_margin_ratio": 0,
-   "top_item": "体外诊断产品和解决方案",
-   "top_ratio": 0.8301,
-   "top_gross": 0.358,
+   "top_item": "固态发射机",
+   "top_ratio": 1.292,
+   "top_gross": null,
    "n_items": 2
   },
   "300123": {
@@ -799,6 +799,24 @@
    "top_gross": -0.264,
    "n_items": 5
   },
+  "300081": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0024,
+   "low_margin_ratio": 0,
+   "top_item": "互联网视频应用产品及服务",
+   "top_ratio": 0.8798,
+   "top_gross": 0.0875,
+   "n_items": 4
+  },
+  "600581": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0326,
+   "low_margin_ratio": 0.9411,
+   "top_item": "钢材产品",
+   "top_ratio": 0.9411,
+   "top_gross": 0.0243,
+   "n_items": 4
+  },
   "002598": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0205,
@@ -808,13 +826,13 @@
    "top_gross": 0.2801,
    "n_items": 6
   },
-  "300081": {
+  "002538": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0024,
+   "other_ratio": 0.0023,
    "low_margin_ratio": 0,
-   "top_item": "互联网视频应用产品及服务",
-   "top_ratio": 0.8798,
-   "top_gross": 0.0875,
+   "top_item": "化学肥料产品",
+   "top_ratio": 0.884,
+   "top_gross": 0.0789,
    "n_items": 4
   },
   "600082": {
@@ -826,23 +844,14 @@
    "top_gross": 0.1853,
    "n_items": 3
   },
-  "600581": {
+  "603429": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0326,
-   "low_margin_ratio": 0.9411,
-   "top_item": "钢材产品",
-   "top_ratio": 0.9411,
-   "top_gross": 0.0243,
-   "n_items": 4
-  },
-  "002538": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0023,
+   "other_ratio": 0.1733,
    "low_margin_ratio": 0,
-   "top_item": "化学肥料产品",
-   "top_ratio": 0.884,
-   "top_gross": 0.0789,
-   "n_items": 4
+   "top_item": "烟标",
+   "top_ratio": 0.4355,
+   "top_gross": -0.0296,
+   "n_items": 5
   },
   "002512": {
    "report_date": "2025-12-31",
@@ -862,33 +871,6 @@
    "top_gross": 0.1917,
    "n_items": 6
   },
-  "002055": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.1617,
-   "low_margin_ratio": 0,
-   "top_item": "家电线束及连接组件",
-   "top_ratio": 0.3912,
-   "top_gross": 0.1301,
-   "n_items": 4
-  },
-  "603429": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.1733,
-   "low_margin_ratio": 0,
-   "top_item": "烟标",
-   "top_ratio": 0.4355,
-   "top_gross": -0.0296,
-   "n_items": 5
-  },
-  "300091": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.083,
-   "low_margin_ratio": 0.1485,
-   "top_item": "鼓风机",
-   "top_ratio": 0.3483,
-   "top_gross": 0.0985,
-   "n_items": 7
-  },
   "300173": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0029,
@@ -907,6 +889,15 @@
    "top_gross": 0.5411,
    "n_items": 3
   },
+  "603822": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0029,
+   "low_margin_ratio": 0,
+   "top_item": "生物质能源",
+   "top_ratio": 0.8517,
+   "top_gross": 0.1989,
+   "n_items": 4
+  },
   "300460": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0004,
@@ -916,13 +907,22 @@
    "top_gross": 0.0787,
    "n_items": 3
   },
-  "603822": {
+  "300091": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0029,
+   "other_ratio": 0.083,
+   "low_margin_ratio": 0.1485,
+   "top_item": "鼓风机",
+   "top_ratio": 0.3483,
+   "top_gross": 0.0985,
+   "n_items": 7
+  },
+  "002055": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.1617,
    "low_margin_ratio": 0,
-   "top_item": "生物质能源",
-   "top_ratio": 0.8517,
-   "top_gross": 0.1989,
+   "top_item": "家电线束及连接组件",
+   "top_ratio": 0.3912,
+   "top_gross": 0.1301,
    "n_items": 4
   },
   "002689": {
@@ -933,6 +933,15 @@
    "top_ratio": 0.6679,
    "top_gross": 0.3302,
    "n_items": 8
+  },
+  "600169": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0163,
+   "low_margin_ratio": 0,
+   "top_item": "重型装备产品",
+   "top_ratio": 0.8124,
+   "top_gross": 0.202,
+   "n_items": 3
   },
   "603595": {
    "report_date": "2025-12-31",
@@ -952,14 +961,23 @@
    "top_gross": 0.0526,
    "n_items": 4
   },
-  "600169": {
+  "600735": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0163,
+   "other_ratio": 0.0049,
    "low_margin_ratio": 0,
-   "top_item": "重型装备产品",
-   "top_ratio": 0.8124,
-   "top_gross": 0.202,
-   "n_items": 3
+   "top_item": "发制品",
+   "top_ratio": 0.6466,
+   "top_gross": 0.3034,
+   "n_items": 4
+  },
+  "688053": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.09,
+   "low_margin_ratio": 0,
+   "top_item": "可靠性检测筛选",
+   "top_ratio": 0.8949,
+   "top_gross": 0.3022,
+   "n_items": 4
   },
   "300237": {
    "report_date": "2025-12-31",
@@ -979,15 +997,6 @@
    "top_gross": 0.0703,
    "n_items": 5
   },
-  "600735": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0049,
-   "low_margin_ratio": 0,
-   "top_item": "发制品",
-   "top_ratio": 0.6466,
-   "top_gross": 0.3034,
-   "n_items": 4
-  },
   "600624": {
    "report_date": "2025-12-31",
    "other_ratio": 0,
@@ -996,60 +1005,6 @@
    "top_ratio": 0.4864,
    "top_gross": null,
    "n_items": 6
-  },
-  "603517": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0977,
-   "low_margin_ratio": 0.036,
-   "top_item": "鲜货类产品",
-   "top_ratio": 0.745,
-   "top_gross": 0.3474,
-   "n_items": 11
-  },
-  "000903": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.137,
-   "low_margin_ratio": 0,
-   "top_item": "发动机",
-   "top_ratio": 0.8402,
-   "top_gross": -0.0686,
-   "n_items": 5
-  },
-  "688053": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.09,
-   "low_margin_ratio": 0,
-   "top_item": "可靠性检测筛选",
-   "top_ratio": 0.8949,
-   "top_gross": 0.3022,
-   "n_items": 4
-  },
-  "688076": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0014,
-   "low_margin_ratio": 0,
-   "top_item": "自主选择产品",
-   "top_ratio": 0.7039,
-   "top_gross": 0.6779,
-   "n_items": 3
-  },
-  "603825": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0008,
-   "low_margin_ratio": 0,
-   "top_item": "品牌营销",
-   "top_ratio": 0.9108,
-   "top_gross": 0.0536,
-   "n_items": 7
-  },
-  "300462": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0054,
-   "low_margin_ratio": 0,
-   "top_item": "AFC设备类",
-   "top_ratio": 0.3554,
-   "top_gross": 0.4377,
-   "n_items": 5
   },
   "002581": {
    "report_date": "2025-12-31",
@@ -1060,6 +1015,42 @@
    "top_gross": 0.7931,
    "n_items": 5
   },
+  "603825": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0008,
+   "low_margin_ratio": 0,
+   "top_item": "品牌营销",
+   "top_ratio": 0.9108,
+   "top_gross": 0.0536,
+   "n_items": 7
+  },
+  "000903": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.137,
+   "low_margin_ratio": 0,
+   "top_item": "发动机",
+   "top_ratio": 0.8402,
+   "top_gross": -0.0686,
+   "n_items": 5
+  },
+  "300462": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0054,
+   "low_margin_ratio": 0,
+   "top_item": "AFC设备类",
+   "top_ratio": 0.3554,
+   "top_gross": 0.4377,
+   "n_items": 5
+  },
+  "688076": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0014,
+   "low_margin_ratio": 0,
+   "top_item": "自主选择产品",
+   "top_ratio": 0.7039,
+   "top_gross": 0.6779,
+   "n_items": 3
+  },
   "300472": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0842,
@@ -1069,14 +1060,14 @@
    "top_gross": 0.234,
    "n_items": 6
   },
-  "300326": {
+  "603843": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.1216,
-   "low_margin_ratio": 0,
-   "top_item": "椎体成形微创产品",
-   "top_ratio": 0.3269,
-   "top_gross": 0.61,
-   "n_items": 6
+   "other_ratio": 0.0079,
+   "low_margin_ratio": 0.0504,
+   "top_item": "建筑业",
+   "top_ratio": 0.9379,
+   "top_gross": 0.0843,
+   "n_items": 4
   },
   "688184": {
    "report_date": "2025-12-31",
@@ -1096,41 +1087,14 @@
    "top_gross": -0.1558,
    "n_items": 5
   },
-  "603398": {
+  "300326": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.1224,
+   "other_ratio": 0.1216,
    "low_margin_ratio": 0,
-   "top_item": "光伏硅片和硅棒",
-   "top_ratio": 0.7623,
-   "top_gross": -0.3482,
+   "top_item": "椎体成形微创产品",
+   "top_ratio": 0.3269,
+   "top_gross": 0.61,
    "n_items": 6
-  },
-  "600107": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0296,
-   "low_margin_ratio": 0.198,
-   "top_item": "品牌男装",
-   "top_ratio": 0.5493,
-   "top_gross": 0.4293,
-   "n_items": 4
-  },
-  "603843": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0079,
-   "low_margin_ratio": 0.0504,
-   "top_item": "建筑业",
-   "top_ratio": 0.9379,
-   "top_gross": 0.0843,
-   "n_items": 4
-  },
-  "002620": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0125,
-   "low_margin_ratio": 0,
-   "top_item": "建筑装饰业务",
-   "top_ratio": 0.7004,
-   "top_gross": 0.064,
-   "n_items": 5
   },
   "605199": {
    "report_date": "2025-12-31",
@@ -1141,6 +1105,24 @@
    "top_gross": 0.2757,
    "n_items": 5
   },
+  "603398": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.1224,
+   "low_margin_ratio": 0,
+   "top_item": "光伏硅片和硅棒",
+   "top_ratio": 0.7623,
+   "top_gross": -0.3482,
+   "n_items": 6
+  },
+  "002717": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0,
+   "low_margin_ratio": 0,
+   "top_item": "文化旅游业务",
+   "top_ratio": 0.4779,
+   "top_gross": 0.1621,
+   "n_items": 3
+  },
   "002630": {
    "report_date": "2025-12-31",
    "other_ratio": 0.1519,
@@ -1150,23 +1132,41 @@
    "top_gross": 0.1736,
    "n_items": 4
   },
-  "603838": {
+  "600107": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0078,
-   "low_margin_ratio": 0,
-   "top_item": "日用陶瓷",
-   "top_ratio": 0.3805,
-   "top_gross": 0.0645,
-   "n_items": 6
+   "other_ratio": 0.0296,
+   "low_margin_ratio": 0.198,
+   "top_item": "品牌男装",
+   "top_ratio": 0.5493,
+   "top_gross": 0.4293,
+   "n_items": 4
   },
-  "300716": {
+  "300152": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0656,
+   "other_ratio": 0.0337,
    "low_margin_ratio": 0,
-   "top_item": "光伏组件",
-   "top_ratio": 0.7839,
-   "top_gross": -0.3436,
+   "top_item": "洁净燃烧及锅炉节能提效经营分部",
+   "top_ratio": 0.9663,
+   "top_gross": 0.2381,
+   "n_items": 2
+  },
+  "002620": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0125,
+   "low_margin_ratio": 0,
+   "top_item": "建筑装饰业务",
+   "top_ratio": 0.7004,
+   "top_gross": 0.064,
    "n_items": 5
+  },
+  "300198": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0,
+   "low_margin_ratio": 0,
+   "top_item": "新能源产品或服务",
+   "top_ratio": 0.5233,
+   "top_gross": 0.3046,
+   "n_items": 4
   },
   "002305": {
    "report_date": "2025-12-31",
@@ -1186,15 +1186,6 @@
    "top_gross": -0.1067,
    "n_items": 4
   },
-  "002717": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0,
-   "low_margin_ratio": 0,
-   "top_item": "文化旅游业务",
-   "top_ratio": 0.4779,
-   "top_gross": 0.1621,
-   "n_items": 3
-  },
   "600753": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0021,
@@ -1202,33 +1193,6 @@
    "top_item": "贸易业务",
    "top_ratio": 0.6336,
    "top_gross": 0.0571,
-   "n_items": 4
-  },
-  "002789": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0229,
-   "low_margin_ratio": 0,
-   "top_item": "建筑工程",
-   "top_ratio": 0.7231,
-   "top_gross": 0.0916,
-   "n_items": 6
-  },
-  "300152": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0337,
-   "low_margin_ratio": 0,
-   "top_item": "洁净燃烧及锅炉节能提效经营分部",
-   "top_ratio": 0.9663,
-   "top_gross": 0.2381,
-   "n_items": 2
-  },
-  "300198": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0,
-   "low_margin_ratio": 0,
-   "top_item": "新能源产品或服务",
-   "top_ratio": 0.5233,
-   "top_gross": 0.3046,
    "n_items": 4
   },
   "603021": {
@@ -1240,14 +1204,14 @@
    "top_gross": 0.1341,
    "n_items": 3
   },
-  "300147": {
+  "300716": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.2442,
-   "low_margin_ratio": 0.0874,
-   "top_item": "中药材",
-   "top_ratio": 0.6133,
-   "top_gross": 0.3061,
-   "n_items": 4
+   "other_ratio": 0.0656,
+   "low_margin_ratio": 0,
+   "top_item": "光伏组件",
+   "top_ratio": 0.7839,
+   "top_gross": -0.3436,
+   "n_items": 5
   },
   "000793": {
    "report_date": "2025-12-31",
@@ -1258,6 +1222,24 @@
    "top_gross": 0.0263,
    "n_items": 6
   },
+  "002789": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0229,
+   "low_margin_ratio": 0,
+   "top_item": "建筑工程",
+   "top_ratio": 0.7231,
+   "top_gross": 0.0916,
+   "n_items": 6
+  },
+  "300147": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.2442,
+   "low_margin_ratio": 0.0874,
+   "top_item": "中药材",
+   "top_ratio": 0.6133,
+   "top_gross": 0.3061,
+   "n_items": 4
+  },
   "000488": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0566,
@@ -1267,15 +1249,6 @@
    "top_gross": -0.5385,
    "n_items": 14
   },
-  "300419": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0095,
-   "low_margin_ratio": 0,
-   "top_item": "IT系统解决方案",
-   "top_ratio": 0.7342,
-   "top_gross": 0.3396,
-   "n_items": 3
-  },
   "300020": {
    "report_date": "2025-12-31",
    "other_ratio": 0,
@@ -1283,24 +1256,6 @@
    "top_item": "智慧交通",
    "top_ratio": 0.3529,
    "top_gross": -0.244,
-   "n_items": 5
-  },
-  "002217": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0138,
-   "low_margin_ratio": 0,
-   "top_item": "电子纸显示类产品",
-   "top_ratio": 0.8492,
-   "top_gross": 0.1979,
-   "n_items": 4
-  },
-  "002424": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0409,
-   "low_margin_ratio": 0,
-   "top_item": "中成药",
-   "top_ratio": 0.8542,
-   "top_gross": 0.5189,
    "n_items": 5
   },
   "002528": {
@@ -1312,22 +1267,22 @@
    "top_gross": 0.2914,
    "n_items": 2
   },
-  "603377": {
+  "300419": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0424,
+   "other_ratio": 0.0095,
    "low_margin_ratio": 0,
-   "top_item": "机动车驾驶培训收入",
-   "top_ratio": 0.8653,
-   "top_gross": 0.3075,
-   "n_items": 8
+   "top_item": "IT系统解决方案",
+   "top_ratio": 0.7342,
+   "top_gross": 0.3396,
+   "n_items": 3
   },
-  "603959": {
+  "002424": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0057,
+   "other_ratio": 0.0409,
    "low_margin_ratio": 0,
-   "top_item": "工程总承包",
-   "top_ratio": 0.5402,
-   "top_gross": 0.0808,
+   "top_item": "中成药",
+   "top_ratio": 0.8542,
+   "top_gross": 0.5189,
    "n_items": 5
   },
   "603828": {
@@ -1339,13 +1294,22 @@
    "top_gross": 0.0086,
    "n_items": 7
   },
-  "600381": {
+  "603377": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0128,
+   "other_ratio": 0.0424,
    "low_margin_ratio": 0,
-   "top_item": "冬虫夏草",
-   "top_ratio": 0.4569,
-   "top_gross": 0.1168,
+   "top_item": "机动车驾驶培训收入",
+   "top_ratio": 0.8653,
+   "top_gross": 0.3075,
+   "n_items": 8
+  },
+  "002217": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0138,
+   "low_margin_ratio": 0,
+   "top_item": "电子纸显示类产品",
+   "top_ratio": 0.8492,
+   "top_gross": 0.1979,
    "n_items": 4
   },
   "603869": {
@@ -1356,6 +1320,15 @@
    "top_ratio": 0.7892,
    "top_gross": 0.3795,
    "n_items": 3
+  },
+  "603959": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0057,
+   "low_margin_ratio": 0,
+   "top_item": "工程总承包",
+   "top_ratio": 0.5402,
+   "top_gross": 0.0808,
+   "n_items": 5
   },
   "002822": {
    "report_date": "2025-12-31",
@@ -1384,14 +1357,14 @@
    "top_gross": 0.4391,
    "n_items": 3
   },
-  "600543": {
+  "600381": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0792,
+   "other_ratio": 0.0128,
    "low_margin_ratio": 0,
-   "top_item": "膜袋",
-   "top_ratio": 0.4351,
-   "top_gross": -0.0192,
-   "n_items": 5
+   "top_item": "冬虫夏草",
+   "top_ratio": 0.4569,
+   "top_gross": 0.1168,
+   "n_items": 4
   },
   "000909": {
    "report_date": "2025-12-31",
@@ -1411,6 +1384,15 @@
    "top_gross": 0.1603,
    "n_items": 1
   },
+  "600543": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0792,
+   "low_margin_ratio": 0,
+   "top_item": "膜袋",
+   "top_ratio": 0.4351,
+   "top_gross": -0.0192,
+   "n_items": 5
+  },
   "002816": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0509,
@@ -1419,33 +1401,6 @@
    "top_ratio": 0.4798,
    "top_gross": 0.0347,
    "n_items": 6
-  },
-  "300010": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0067,
-   "low_margin_ratio": 0,
-   "top_item": "教育产品及管理解决方案",
-   "top_ratio": 0.9177,
-   "top_gross": 0.538,
-   "n_items": 3
-  },
-  "600136": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0096,
-   "low_margin_ratio": 0.2216,
-   "top_item": "智慧空间服务业务",
-   "top_ratio": 0.2864,
-   "top_gross": 0.2787,
-   "n_items": 7
-  },
-  "002024": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.1209,
-   "low_margin_ratio": 0,
-   "top_item": "家用电器及消费电子",
-   "top_ratio": 0.8171,
-   "top_gross": 0.1244,
-   "n_items": 4
   },
   "300555": {
    "report_date": "2025-12-31",
@@ -1456,6 +1411,15 @@
    "top_gross": 0.3175,
    "n_items": 4
   },
+  "300010": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0067,
+   "low_margin_ratio": 0,
+   "top_item": "教育产品及管理解决方案",
+   "top_ratio": 0.9177,
+   "top_gross": 0.538,
+   "n_items": 3
+  },
   "300301": {
    "report_date": "2025-12-31",
    "other_ratio": 0.8861,
@@ -1465,14 +1429,32 @@
    "top_gross": 0.2618,
    "n_items": 3
   },
-  "300338": {
+  "002024": {
    "report_date": "2025-12-31",
-   "other_ratio": 0,
+   "other_ratio": 0.1209,
    "low_margin_ratio": 0,
-   "top_item": "教育培训产品",
-   "top_ratio": 0.7204,
-   "top_gross": 0.6137,
-   "n_items": 5
+   "top_item": "家用电器及消费电子",
+   "top_ratio": 0.8171,
+   "top_gross": 0.1244,
+   "n_items": 4
+  },
+  "600136": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0096,
+   "low_margin_ratio": 0.2216,
+   "top_item": "智慧空间服务业务",
+   "top_ratio": 0.2864,
+   "top_gross": 0.2787,
+   "n_items": 7
+  },
+  "002485": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0411,
+   "low_margin_ratio": 0.9404,
+   "top_item": "供应链业务",
+   "top_ratio": 0.9404,
+   "top_gross": 0.0096,
+   "n_items": 4
   },
   "002211": {
    "report_date": "2025-12-31",
@@ -1483,14 +1465,14 @@
    "top_gross": 0.0871,
    "n_items": 4
   },
-  "603729": {
+  "300338": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0004,
+   "other_ratio": 0,
    "low_margin_ratio": 0,
-   "top_item": "数字化营销全案服务",
-   "top_ratio": 0.9944,
-   "top_gross": 0.1028,
-   "n_items": 4
+   "top_item": "教育培训产品",
+   "top_ratio": 0.7204,
+   "top_gross": 0.6137,
+   "n_items": 5
   },
   "600759": {
    "report_date": "2025-12-31",
@@ -1510,15 +1492,6 @@
    "top_gross": -0.0097,
    "n_items": 2
   },
-  "300044": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.3895,
-   "low_margin_ratio": 0,
-   "top_item": "智慧城市领域",
-   "top_ratio": 0.5975,
-   "top_gross": 0.6398,
-   "n_items": 3
-  },
   "603557": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0075,
@@ -1528,23 +1501,23 @@
    "top_gross": 0.4933,
    "n_items": 5
   },
-  "600239": {
+  "603729": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0474,
+   "other_ratio": 0.0004,
    "low_margin_ratio": 0,
-   "top_item": "商业管理",
-   "top_ratio": 0.4046,
-   "top_gross": 0.3812,
-   "n_items": 6
-  },
-  "002485": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0411,
-   "low_margin_ratio": 0.9404,
-   "top_item": "供应链业务",
-   "top_ratio": 0.9404,
-   "top_gross": 0.0096,
+   "top_item": "数字化营销全案服务",
+   "top_ratio": 0.9944,
+   "top_gross": 0.1028,
    "n_items": 4
+  },
+  "300044": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.3895,
+   "low_margin_ratio": 0,
+   "top_item": "智慧城市领域",
+   "top_ratio": 0.5975,
+   "top_gross": 0.6398,
+   "n_items": 3
   },
   "600365": {
    "report_date": "2025-12-31",
@@ -1555,23 +1528,14 @@
    "top_gross": 0.0813,
    "n_items": 4
   },
-  "002592": {
+  "600239": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0453,
+   "other_ratio": 0.0474,
    "low_margin_ratio": 0,
-   "top_item": "热交换器",
-   "top_ratio": 0.6999,
-   "top_gross": 0.2071,
-   "n_items": 3
-  },
-  "600734": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0012,
-   "low_margin_ratio": 0,
-   "top_item": "大数据业务",
-   "top_ratio": 0.9579,
-   "top_gross": 0.2378,
-   "n_items": 3
+   "top_item": "商业管理",
+   "top_ratio": 0.4046,
+   "top_gross": 0.3812,
+   "n_items": 6
   },
   "002168": {
    "report_date": "2025-12-31",
@@ -1580,15 +1544,6 @@
    "top_item": "医药产品类",
    "top_ratio": 0.5902,
    "top_gross": 0.807,
-   "n_items": 6
-  },
-  "002650": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.1205,
-   "low_margin_ratio": 0,
-   "top_item": "酱油类",
-   "top_ratio": 0.578,
-   "top_gross": 0.3271,
    "n_items": 6
   },
   "002719": {
@@ -1609,22 +1564,31 @@
    "top_gross": 0.3419,
    "n_items": 7
   },
-  "002175": {
+  "002592": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0097,
-   "low_margin_ratio": 0.013,
-   "top_item": "量仪量具产品",
-   "top_ratio": 0.807,
-   "top_gross": 0.275,
-   "n_items": 5
-  },
-  "002323": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0011,
+   "other_ratio": 0.0453,
    "low_margin_ratio": 0,
-   "top_item": "光伏业务",
-   "top_ratio": 0.5503,
-   "top_gross": 0.0676,
+   "top_item": "热交换器",
+   "top_ratio": 0.6999,
+   "top_gross": 0.2071,
+   "n_items": 3
+  },
+  "600734": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0012,
+   "low_margin_ratio": 0,
+   "top_item": "大数据业务",
+   "top_ratio": 0.9579,
+   "top_gross": 0.2378,
+   "n_items": 3
+  },
+  "002650": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.1205,
+   "low_margin_ratio": 0,
+   "top_item": "酱油类",
+   "top_ratio": 0.578,
+   "top_gross": 0.3271,
    "n_items": 6
   },
   "002306": {
@@ -1636,15 +1600,6 @@
    "top_gross": 0.0595,
    "n_items": 3
   },
-  "002207": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.001,
-   "low_margin_ratio": 0,
-   "top_item": "工业(含石油技术、油田管理)",
-   "top_ratio": 0.7022,
-   "top_gross": -0.0089,
-   "n_items": 4
-  },
   "002501": {
    "report_date": "2025-12-31",
    "other_ratio": 0,
@@ -1654,22 +1609,40 @@
    "top_gross": -0.1365,
    "n_items": 3
   },
-  "002102": {
+  "002323": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0032,
-   "low_margin_ratio": 0.0008,
-   "top_item": "大宗贸易",
-   "top_ratio": 0.8787,
-   "top_gross": -0.0004,
+   "other_ratio": 0.0011,
+   "low_margin_ratio": 0,
+   "top_item": "光伏业务",
+   "top_ratio": 0.5503,
+   "top_gross": 0.0676,
+   "n_items": 6
+  },
+  "002207": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.001,
+   "low_margin_ratio": 0,
+   "top_item": "工业(含石油技术、油田管理)",
+   "top_ratio": 0.7022,
+   "top_gross": -0.0089,
    "n_items": 4
   },
-  "000010": {
+  "002122": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0002,
-   "low_margin_ratio": 0.0614,
-   "top_item": "工程项目",
-   "top_ratio": 0.8892,
-   "top_gross": 0.092,
+   "other_ratio": 0.0046,
+   "low_margin_ratio": 0,
+   "top_item": "机床",
+   "top_ratio": 0.8852,
+   "top_gross": 0.26,
+   "n_items": 4
+  },
+  "002175": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0097,
+   "low_margin_ratio": 0.013,
+   "top_item": "量仪量具产品",
+   "top_ratio": 0.807,
+   "top_gross": 0.275,
    "n_items": 5
   },
   "000752": {
@@ -1681,24 +1654,6 @@
    "top_gross": 0.383,
    "n_items": 8
   },
-  "000911": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0683,
-   "low_margin_ratio": 0.0855,
-   "top_item": "自产糖",
-   "top_ratio": 0.6934,
-   "top_gross": 0.1076,
-   "n_items": 12
-  },
-  "002122": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0046,
-   "low_margin_ratio": 0,
-   "top_item": "机床",
-   "top_ratio": 0.8852,
-   "top_gross": 0.26,
-   "n_items": 4
-  },
   "000669": {
    "report_date": "2025-12-31",
    "other_ratio": 0.016,
@@ -1708,6 +1663,42 @@
    "top_gross": 0.0852,
    "n_items": 6
   },
+  "002102": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0032,
+   "low_margin_ratio": 0.0008,
+   "top_item": "大宗贸易",
+   "top_ratio": 0.8787,
+   "top_gross": -0.0004,
+   "n_items": 4
+  },
+  "000911": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0683,
+   "low_margin_ratio": 0.0855,
+   "top_item": "自产糖",
+   "top_ratio": 0.6934,
+   "top_gross": 0.1076,
+   "n_items": 12
+  },
+  "000010": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0002,
+   "low_margin_ratio": 0.0614,
+   "top_item": "工程项目",
+   "top_ratio": 0.8892,
+   "top_gross": 0.092,
+   "n_items": 5
+  },
+  "600423": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0837,
+   "low_margin_ratio": 0,
+   "top_item": "27.5%双氧水",
+   "top_ratio": 0.9163,
+   "top_gross": 0.0644,
+   "n_items": 3
+  },
   "600289": {
    "report_date": "2025-12-31",
    "other_ratio": 0.0158,
@@ -1716,15 +1707,6 @@
    "top_ratio": 0.529,
    "top_gross": 0.015,
    "n_items": 5
-  },
-  "600530": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.5671,
-   "low_margin_ratio": 0,
-   "top_item": "其他",
-   "top_ratio": 0.5637,
-   "top_gross": 0.1734,
-   "n_items": 3
   },
   "600568": {
    "report_date": "2025-12-31",
@@ -1744,23 +1726,14 @@
    "top_gross": 0.1617,
    "n_items": 4
   },
-  "600423": {
+  "600080": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0837,
+   "other_ratio": 0.0019,
    "low_margin_ratio": 0,
-   "top_item": "27.5%双氧水",
-   "top_ratio": 0.9163,
-   "top_gross": 0.0644,
-   "n_items": 3
-  },
-  "600084": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.054,
-   "low_margin_ratio": 0,
-   "top_item": "成品酒",
-   "top_ratio": 0.9166,
-   "top_gross": 0.5152,
-   "n_items": 6
+   "top_item": "药品销售",
+   "top_ratio": 0.9981,
+   "top_gross": 0.7719,
+   "n_items": 2
   },
   "600119": {
    "report_date": "2025-12-31",
@@ -1771,22 +1744,13 @@
    "top_gross": 0.0353,
    "n_items": 5
   },
-  "600080": {
+  "600530": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0019,
+   "other_ratio": 0.5671,
    "low_margin_ratio": 0,
-   "top_item": "药品销售",
-   "top_ratio": 0.9981,
-   "top_gross": 0.7719,
-   "n_items": 2
-  },
-  "600238": {
-   "report_date": "2025-12-31",
-   "other_ratio": 0.0197,
-   "low_margin_ratio": 0,
-   "top_item": "酒类",
-   "top_ratio": 0.8811,
-   "top_gross": 0.4127,
+   "top_item": "其他",
+   "top_ratio": 0.5637,
+   "top_gross": 0.1734,
    "n_items": 3
   },
   "600265": {
@@ -1798,14 +1762,32 @@
    "top_gross": -0.1619,
    "n_items": 3
   },
-  "200488": {
+  "600084": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.0566,
-   "low_margin_ratio": 0.5473,
-   "top_item": "机制纸",
-   "top_ratio": 0.6804,
-   "top_gross": -0.5385,
-   "n_items": 14
+   "other_ratio": 0.054,
+   "low_margin_ratio": 0,
+   "top_item": "成品酒",
+   "top_ratio": 0.9166,
+   "top_gross": 0.5152,
+   "n_items": 6
+  },
+  "002872": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.1123,
+   "low_margin_ratio": 0,
+   "top_item": "自制口服固体制剂",
+   "top_ratio": 0.4565,
+   "top_gross": 0.553,
+   "n_items": 6
+  },
+  "600238": {
+   "report_date": "2025-12-31",
+   "other_ratio": 0.0197,
+   "low_margin_ratio": 0,
+   "top_item": "酒类",
+   "top_ratio": 0.8811,
+   "top_gross": 0.4127,
+   "n_items": 3
   },
   "200056": {
    "report_date": "2025-12-31",
@@ -1825,14 +1807,14 @@
    "top_gross": -0.0211,
    "n_items": 5
   },
-  "002872": {
+  "200488": {
    "report_date": "2025-12-31",
-   "other_ratio": 0.1123,
-   "low_margin_ratio": 0,
-   "top_item": "自制口服固体制剂",
-   "top_ratio": 0.4565,
-   "top_gross": 0.553,
-   "n_items": 6
+   "other_ratio": 0.0566,
+   "low_margin_ratio": 0.5473,
+   "top_item": "机制纸",
+   "top_ratio": 0.6804,
+   "top_gross": -0.5385,
+   "n_items": 14
   }
  }
 }
