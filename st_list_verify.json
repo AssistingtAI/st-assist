@@ -1,21 +1,23 @@
 {
  "meta": {
-  "verified_at": "2026-10-16 11:01:13",
+  "verified_at": "2026-10-23 11:02:45",
   "verdict": "FAIL",
   "sse_scanned": 2520,
-  "szse_scanned": 2943,
-  "official_hs_total": 5302,
-  "official_hs_st": 202,
-  "eastmoney_hs": 200,
+  "szse_scanned": 2942,
+  "official_hs_total": 5301,
+  "official_hs_st": 197,
+  "eastmoney_hs": 198,
   "bj_count": 3
  },
  "missing_in_eastmoney": {
-  "900915": "ST中路",
-  "002731": "*ST萃华"
+  "900915": "ST中路"
  },
  "eastmoney_lag_unst": {},
  "official_name_lag": {},
- "delisted_in_eastmoney": {},
+ "delisted_in_eastmoney": {
+  "000016": "*ST康佳A",
+  "200016": "*ST康佳B"
+ },
  "name_mismatch": {
   "300295": {
    "ours": "*ST三六",

@@ -1,39 +1,21 @@
 {
  "meta": {
   "source": "datacenter.eastmoney.com RPT_F10_BASIC_ORGINFO.ACTUAL_HOLDER",
-  "fetched_at": "2026-10-23 09:11:16",
-  "total": 201,
-  "ok": 201,
+  "fetched_at": "2026-10-30 09:09:57",
+  "total": 200,
+  "ok": 200,
   "fail": 0,
   "rule": "央企/省级:10 市县/高校:8 民企:3 无实控:1；涉造假立案封顶4(评分引擎执行)"
  },
  "data": {
-  "002743": {
-   "secucode": "002743.SZ",
-   "name": "ST富煌",
-   "controller": "杨俊斌",
-   "category": "民企(个人)",
-   "s1_base": 3,
+  "300087": {
+   "secucode": "300087.SZ",
+   "name": "ST荃银",
+   "controller": "国务院国有资产监督管理委员会",
+   "category": "央企",
+   "s1_base": 10,
    "province": "安徽",
-   "reg_capital_wan": 43526.8478
-  },
-  "688121": {
-   "secucode": "688121.SH",
-   "name": "*ST卓然",
-   "controller": "张锦红,张新宇",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "上海",
-   "reg_capital_wan": 23361.4003
-  },
-  "688089": {
-   "secucode": "688089.SH",
-   "name": "ST嘉必优",
-   "controller": "易德伟",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "湖北",
-   "reg_capital_wan": 16636.0003
+   "reg_capital_wan": 94733.1751
   },
   "301117": {
    "secucode": "301117.SZ",
@@ -44,32 +26,14 @@
    "province": "四川",
    "reg_capital_wan": 18083.6068
   },
-  "300087": {
-   "secucode": "300087.SZ",
-   "name": "ST荃银",
-   "controller": "国务院国有资产监督管理委员会",
-   "category": "央企",
-   "s1_base": 10,
-   "province": "安徽",
-   "reg_capital_wan": 94733.1751
-  },
-  "600363": {
-   "secucode": "600363.SH",
-   "name": "ST联光",
-   "controller": "伍锐",
+  "688089": {
+   "secucode": "688089.SH",
+   "name": "ST嘉必优",
+   "controller": "易德伟",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "江西",
-   "reg_capital_wan": 45088.845
-  },
-  "600439": {
-   "secucode": "600439.SH",
-   "name": "ST瑞贝卡",
-   "controller": "郑有全",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "河南",
-   "reg_capital_wan": 113198.544
+   "province": "湖北",
+   "reg_capital_wan": 16636.0003
   },
   "002759": {
    "secucode": "002759.SZ",
@@ -80,41 +44,41 @@
    "province": "广东",
    "reg_capital_wan": 50138.2605
   },
-  "688189": {
-   "secucode": "688189.SH",
-   "name": "ST南新",
-   "controller": "湖南省人民政府国有资产监督管理委员会",
-   "category": "省级国资",
-   "s1_base": 10,
-   "province": "湖南",
-   "reg_capital_wan": 27282.9414
-  },
-  "300352": {
-   "secucode": "300352.SZ",
-   "name": "ST信源",
-   "controller": "林皓",
+  "600439": {
+   "secucode": "600439.SH",
+   "name": "ST瑞贝卡",
+   "controller": "郑有全",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 144982.4087
+   "province": "河南",
+   "reg_capital_wan": 113198.544
   },
-  "301030": {
-   "secucode": "301030.SZ",
-   "name": "*ST仕净",
-   "controller": "董仕宏,叶小红,朱叶",
+  "688121": {
+   "secucode": "688121.SH",
+   "name": "*ST卓然",
+   "controller": "张锦红,张新宇",
    "category": "民企(法人)",
    "s1_base": 3,
-   "province": "江苏",
-   "reg_capital_wan": 20238.333
+   "province": "上海",
+   "reg_capital_wan": 23361.4003
   },
-  "300396": {
-   "secucode": "300396.SZ",
-   "name": "ST迪瑞",
-   "controller": "中国华润有限公司",
-   "category": "央企",
-   "s1_base": 10,
-   "province": "吉林",
-   "reg_capital_wan": 27270.0161
+  "600363": {
+   "secucode": "600363.SH",
+   "name": "ST联光",
+   "controller": "伍锐",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "江西",
+   "reg_capital_wan": 45088.845
+  },
+  "002743": {
+   "secucode": "002743.SZ",
+   "name": "ST富煌",
+   "controller": "杨俊斌",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "安徽",
+   "reg_capital_wan": 43526.8478
   },
   "300831": {
    "secucode": "300831.SZ",
@@ -125,6 +89,33 @@
    "province": "陕西",
    "reg_capital_wan": 32000
   },
+  "688189": {
+   "secucode": "688189.SH",
+   "name": "ST南新",
+   "controller": "湖南省人民政府国有资产监督管理委员会",
+   "category": "省级国资",
+   "s1_base": 10,
+   "province": "湖南",
+   "reg_capital_wan": 27282.9414
+  },
+  "301030": {
+   "secucode": "301030.SZ",
+   "name": "*ST仕净",
+   "controller": "董仕宏,叶小红,朱叶",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "江苏",
+   "reg_capital_wan": 20238.333
+  },
+  "300352": {
+   "secucode": "300352.SZ",
+   "name": "ST信源",
+   "controller": "林皓",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 144982.4087
+  },
   "300290": {
    "secucode": "300290.SZ",
    "name": "ST荣科",
@@ -133,15 +124,6 @@
    "s1_base": 10,
    "province": "辽宁",
    "reg_capital_wan": 63973.2569
-  },
-  "300430": {
-   "secucode": "300430.SZ",
-   "name": "*ST益通",
-   "controller": "梁凯,梁学贤",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 27304.6796
   },
   "002883": {
    "secucode": "002883.SZ",
@@ -152,23 +134,14 @@
    "province": "江苏",
    "reg_capital_wan": 15615.7166
   },
-  "000677": {
-   "secucode": "000677.SZ",
-   "name": "ST海龙",
-   "controller": "胡兴荣",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "山东",
-   "reg_capital_wan": 86397.7948
-  },
-  "002198": {
-   "secucode": "002198.SZ",
-   "name": "ST嘉应",
-   "controller": "无",
-   "category": "无实控人",
-   "s1_base": 1,
-   "province": "广东",
-   "reg_capital_wan": 50750.9848
+  "002109": {
+   "secucode": "002109.SZ",
+   "name": "ST兴化",
+   "controller": "陕西省人民政府国有资产监督管理委员会",
+   "category": "省级国资",
+   "s1_base": 10,
+   "province": "陕西",
+   "reg_capital_wan": 127626.9851
   },
   "002082": {
    "secucode": "002082.SZ",
@@ -179,68 +152,14 @@
    "province": "浙江",
    "reg_capital_wan": 61168.9055
   },
-  "002109": {
-   "secucode": "002109.SZ",
-   "name": "ST兴化",
-   "controller": "陕西省人民政府国有资产监督管理委员会",
-   "category": "省级国资",
-   "s1_base": 10,
-   "province": "陕西",
-   "reg_capital_wan": 127626.9851
-  },
-  "002514": {
-   "secucode": "002514.SZ",
-   "name": "*ST宝馨",
-   "controller": "马伟",
-   "category": "民企(个人)",
+  "300430": {
+   "secucode": "300430.SZ",
+   "name": "*ST益通",
+   "controller": "梁凯,梁学贤",
+   "category": "民企(法人)",
    "s1_base": 3,
-   "province": "江苏",
-   "reg_capital_wan": 72003.4264
-  },
-  "000078": {
-   "secucode": "000078.SZ",
-   "name": "ST海王",
-   "controller": "张思民",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "广东",
-   "reg_capital_wan": 263112.3257
-  },
-  "002667": {
-   "secucode": "002667.SZ",
-   "name": "*ST威领",
-   "controller": "黄达",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "湖南",
-   "reg_capital_wan": 26059.15
-  },
-  "600337": {
-   "secucode": "600337.SH",
-   "name": "ST美克",
-   "controller": "冯东明",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "江西",
-   "reg_capital_wan": 143699.8137
-  },
-  "600302": {
-   "secucode": "600302.SH",
-   "name": "ST标准",
-   "controller": "西安市人民政府国有资产监督管理委员会",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "陕西",
-   "reg_capital_wan": 34600.9804
-  },
-  "600745": {
-   "secucode": "600745.SH",
-   "name": "*ST闻泰",
-   "controller": "张学政",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "湖北",
-   "reg_capital_wan": 132062.482
+   "province": "北京",
+   "reg_capital_wan": 27304.6796
   },
   "688066": {
    "secucode": "688066.SH",
@@ -251,14 +170,32 @@
    "province": "河南",
    "reg_capital_wan": 30685.3541
   },
-  "600187": {
-   "secucode": "600187.SH",
-   "name": "*ST国中",
-   "controller": "姜照柏",
+  "000677": {
+   "secucode": "000677.SZ",
+   "name": "ST海龙",
+   "controller": "胡兴荣",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "黑龙江",
-   "reg_capital_wan": 161378.1103
+   "province": "山东",
+   "reg_capital_wan": 86397.7948
+  },
+  "000078": {
+   "secucode": "000078.SZ",
+   "name": "ST海王",
+   "controller": "张思民",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "广东",
+   "reg_capital_wan": 263112.3257
+  },
+  "300396": {
+   "secucode": "300396.SZ",
+   "name": "ST迪瑞",
+   "controller": "中国华润有限公司",
+   "category": "央企",
+   "s1_base": 10,
+   "province": "吉林",
+   "reg_capital_wan": 27270.0161
   },
   "600340": {
    "secucode": "600340.SH",
@@ -269,14 +206,68 @@
    "province": "河北",
    "reg_capital_wan": 389335.5062
   },
-  "600965": {
-   "secucode": "600965.SH",
-   "name": "*ST福成",
-   "controller": "李福成,李高生",
-   "category": "民企(法人)",
+  "002198": {
+   "secucode": "002198.SZ",
+   "name": "ST嘉应",
+   "controller": "无",
+   "category": "无实控人",
+   "s1_base": 1,
+   "province": "广东",
+   "reg_capital_wan": 50750.9848
+  },
+  "002667": {
+   "secucode": "002667.SZ",
+   "name": "*ST威领",
+   "controller": "黄达",
+   "category": "民企(个人)",
    "s1_base": 3,
-   "province": "河北",
-   "reg_capital_wan": 81870.0955
+   "province": "湖南",
+   "reg_capital_wan": 26059.15
+  },
+  "600302": {
+   "secucode": "600302.SH",
+   "name": "ST标准",
+   "controller": "西安市人民政府国有资产监督管理委员会",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "陕西",
+   "reg_capital_wan": 34600.9804
+  },
+  "600337": {
+   "secucode": "600337.SH",
+   "name": "ST美克",
+   "controller": "冯东明",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "江西",
+   "reg_capital_wan": 143699.8137
+  },
+  "002514": {
+   "secucode": "002514.SZ",
+   "name": "*ST宝馨",
+   "controller": "马伟",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "江苏",
+   "reg_capital_wan": 72003.4264
+  },
+  "600745": {
+   "secucode": "600745.SH",
+   "name": "*ST闻泰",
+   "controller": "张学政",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "湖北",
+   "reg_capital_wan": 132062.482
+  },
+  "600187": {
+   "secucode": "600187.SH",
+   "name": "*ST国中",
+   "controller": "姜照柏",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "黑龙江",
+   "reg_capital_wan": 161378.1103
   },
   "603189": {
    "secucode": "603189.SH",
@@ -287,14 +278,14 @@
    "province": "上海",
    "reg_capital_wan": 26954.8349
   },
-  "603378": {
-   "secucode": "603378.SH",
-   "name": "*ST亚士",
-   "controller": "李金钟",
+  "688033": {
+   "secucode": "688033.SH",
+   "name": "*ST天宜",
+   "controller": "吴佩芳",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "上海",
-   "reg_capital_wan": 42859.6642
+   "province": "北京",
+   "reg_capital_wan": 56219.8596
   },
   "603922": {
    "secucode": "603922.SH",
@@ -305,50 +296,23 @@
    "province": "江苏",
    "reg_capital_wan": 17920
   },
-  "603718": {
-   "secucode": "603718.SH",
-   "name": "*ST海利",
-   "controller": "张海明",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "上海",
-   "reg_capital_wan": 64897.97
-  },
-  "688033": {
-   "secucode": "688033.SH",
-   "name": "*ST天宜",
-   "controller": "吴佩芳",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 56219.8596
-  },
-  "601010": {
-   "secucode": "601010.SH",
-   "name": "ST文峰",
-   "controller": "薛健",
-   "category": "民企(个人)",
+  "603359": {
+   "secucode": "603359.SH",
+   "name": "*ST东珠",
+   "controller": "浦建芬,席惠明",
+   "category": "民企(法人)",
    "s1_base": 3,
    "province": "江苏",
-   "reg_capital_wan": 180869.62
+   "reg_capital_wan": 44609.6
   },
-  "601718": {
-   "secucode": "601718.SH",
-   "name": "ST际华",
-   "controller": "国务院国有资产监督管理委员会",
-   "category": "央企",
-   "s1_base": 10,
-   "province": "北京",
-   "reg_capital_wan": 436106.9503
-  },
-  "600678": {
-   "secucode": "600678.SH",
-   "name": "ST金顶",
-   "controller": "洛阳市人民政府",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "四川",
-   "reg_capital_wan": 34899
+  "600965": {
+   "secucode": "600965.SH",
+   "name": "*ST福成",
+   "controller": "李福成,李高生",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "河北",
+   "reg_capital_wan": 81870.0955
   },
   "688022": {
    "secucode": "688022.SH",
@@ -359,23 +323,41 @@
    "province": "江苏",
    "reg_capital_wan": 17045.898
   },
-  "603359": {
-   "secucode": "603359.SH",
-   "name": "*ST东珠",
-   "controller": "浦建芬,席惠明",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "江苏",
-   "reg_capital_wan": 44609.6
-  },
-  "920575": {
-   "secucode": "920575.BJ",
-   "name": "*ST康乐",
-   "controller": "陶涛",
+  "603718": {
+   "secucode": "603718.SH",
+   "name": "*ST海利",
+   "controller": "张海明",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 28094
+   "province": "上海",
+   "reg_capital_wan": 64897.97
+  },
+  "603378": {
+   "secucode": "603378.SH",
+   "name": "*ST亚士",
+   "controller": "李金钟",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "上海",
+   "reg_capital_wan": 42859.6642
+  },
+  "600678": {
+   "secucode": "600678.SH",
+   "name": "ST金顶",
+   "controller": "洛阳市人民政府",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "四川",
+   "reg_capital_wan": 34899
+  },
+  "601010": {
+   "secucode": "601010.SH",
+   "name": "ST文峰",
+   "controller": "薛健",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "江苏",
+   "reg_capital_wan": 180869.62
   },
   "600053": {
    "secucode": "600053.SH",
@@ -385,6 +367,24 @@
    "s1_base": 3,
    "province": "江西",
    "reg_capital_wan": 43354.08
+  },
+  "601718": {
+   "secucode": "601718.SH",
+   "name": "ST际华",
+   "controller": "国务院国有资产监督管理委员会",
+   "category": "央企",
+   "s1_base": 10,
+   "province": "北京",
+   "reg_capital_wan": 436106.9503
+  },
+  "920023": {
+   "secucode": "920023.BJ",
+   "name": "*ST田野",
+   "controller": "姚久壮,姚玖志",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "广西",
+   "reg_capital_wan": 32730.4
   },
   "600180": {
    "secucode": "600180.SH",
@@ -404,15 +404,6 @@
    "province": "江苏",
    "reg_capital_wan": 402266.312
   },
-  "920023": {
-   "secucode": "920023.BJ",
-   "name": "*ST田野",
-   "controller": "姚久壮,姚玖志",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "广西",
-   "reg_capital_wan": 32730.4
-  },
   "600491": {
    "secucode": "600491.SH",
    "name": "ST龙元",
@@ -431,14 +422,14 @@
    "province": "江苏",
    "reg_capital_wan": 112805.7168
   },
-  "002193": {
-   "secucode": "002193.SZ",
-   "name": "ST如意",
-   "controller": "邱亚夫",
+  "002691": {
+   "secucode": "002691.SZ",
+   "name": "*ST冀凯",
+   "controller": "冯春保",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "山东",
-   "reg_capital_wan": 26171.555
+   "province": "河北",
+   "reg_capital_wan": 34000
   },
   "002694": {
    "secucode": "002694.SZ",
@@ -449,23 +440,14 @@
    "province": "湖北",
    "reg_capital_wan": 76308.48
   },
-  "000016": {
-   "secucode": "000016.SZ",
-   "name": "*ST康佳A",
-   "controller": "中国华润有限公司",
-   "category": "央企",
-   "s1_base": 10,
-   "province": "广东",
-   "reg_capital_wan": 240794.5408
-  },
-  "000826": {
-   "secucode": "000826.SZ",
-   "name": "*ST启环",
-   "controller": "无",
-   "category": "无实控人",
-   "s1_base": 1,
-   "province": "湖北",
-   "reg_capital_wan": 142535.3248
+  "002193": {
+   "secucode": "002193.SZ",
+   "name": "ST如意",
+   "controller": "邱亚夫",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "山东",
+   "reg_capital_wan": 26171.555
   },
   "000632": {
    "secucode": "000632.SZ",
@@ -476,6 +458,15 @@
    "province": "福建",
    "reg_capital_wan": 46551.957
   },
+  "920575": {
+   "secucode": "920575.BJ",
+   "name": "*ST康乐",
+   "controller": "陶涛",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 28094
+  },
   "000639": {
    "secucode": "000639.SZ",
    "name": "ST西王",
@@ -484,24 +475,6 @@
    "s1_base": 3,
    "province": "山东",
    "reg_capital_wan": 107942.8095
-  },
-  "688496": {
-   "secucode": "688496.SH",
-   "name": "*ST清越",
-   "controller": "高裕弟",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "江苏",
-   "reg_capital_wan": 45000
-  },
-  "002691": {
-   "secucode": "002691.SZ",
-   "name": "*ST冀凯",
-   "controller": "冯春保",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "河北",
-   "reg_capital_wan": 34000
   },
   "300027": {
    "secucode": "300027.SZ",
@@ -521,32 +494,14 @@
    "province": "广东",
    "reg_capital_wan": 7046.5521
   },
-  "002726": {
-   "secucode": "002726.SZ",
-   "name": "ST龙大",
-   "controller": "戴学斌,董翔",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "山东",
-   "reg_capital_wan": 136113.4605
-  },
-  "002856": {
-   "secucode": "002856.SZ",
-   "name": "*ST美芝",
-   "controller": "佛山市南海区国有资产监督管理局",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "广东",
-   "reg_capital_wan": 13531.2808
-  },
-  "300212": {
-   "secucode": "300212.SZ",
-   "name": "*ST易录",
-   "controller": "中国电子科技集团有限公司",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 71989.2422
+  "000826": {
+   "secucode": "000826.SZ",
+   "name": "*ST启环",
+   "controller": "无",
+   "category": "无实控人",
+   "s1_base": 1,
+   "province": "湖北",
+   "reg_capital_wan": 142535.3248
   },
   "300068": {
    "secucode": "300068.SZ",
@@ -557,15 +512,6 @@
    "province": "浙江",
    "reg_capital_wan": 89836.7299
   },
-  "300594": {
-   "secucode": "300594.SZ",
-   "name": "ST朗进",
-   "controller": "李敬恩,李敬茂,马筠",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "山东",
-   "reg_capital_wan": 9187.345
-  },
   "300076": {
    "secucode": "300076.SZ",
    "name": "*ST宁视",
@@ -574,6 +520,51 @@
    "s1_base": 8,
    "province": "浙江",
    "reg_capital_wan": 42400
+  },
+  "688496": {
+   "secucode": "688496.SH",
+   "name": "*ST清越",
+   "controller": "高裕弟",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "江苏",
+   "reg_capital_wan": 45000
+  },
+  "002726": {
+   "secucode": "002726.SZ",
+   "name": "ST龙大",
+   "controller": "戴学斌,董翔",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "山东",
+   "reg_capital_wan": 136113.4605
+  },
+  "300212": {
+   "secucode": "300212.SZ",
+   "name": "*ST易录",
+   "controller": "中国电子科技集团有限公司",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 71989.2422
+  },
+  "002856": {
+   "secucode": "002856.SZ",
+   "name": "*ST美芝",
+   "controller": "佛山市南海区国有资产监督管理局",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "广东",
+   "reg_capital_wan": 13531.2808
+  },
+  "300594": {
+   "secucode": "300594.SZ",
+   "name": "ST朗进",
+   "controller": "李敬恩,李敬茂,马筠",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "山东",
+   "reg_capital_wan": 9187.345
   },
   "300245": {
    "secucode": "300245.SZ",
@@ -584,15 +575,6 @@
    "province": "上海",
    "reg_capital_wan": 30504.9969
   },
-  "600818": {
-   "secucode": "600818.SH",
-   "name": "ST中路",
-   "controller": "陈荣",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "上海",
-   "reg_capital_wan": 32144.791
-  },
   "603272": {
    "secucode": "603272.SH",
    "name": "*ST联翔",
@@ -601,24 +583,6 @@
    "s1_base": 3,
    "province": "浙江",
    "reg_capital_wan": 10362.7
-  },
-  "600476": {
-   "secucode": "600476.SH",
-   "name": "*ST湘邮",
-   "controller": "中国邮政集团有限公司",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "湖南",
-   "reg_capital_wan": 16107
-  },
-  "688201": {
-   "secucode": "688201.SH",
-   "name": "ST信安",
-   "controller": "丁纯,李伟,王翊心",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 31715.3816
   },
   "600537": {
    "secucode": "600537.SH",
@@ -629,14 +593,14 @@
    "province": "浙江",
    "reg_capital_wan": 118371.5018
   },
-  "002431": {
-   "secucode": "002431.SZ",
-   "name": "ST棕榈",
-   "controller": "河南省人民政府国有资产监督管理委员会",
-   "category": "省级国资",
-   "s1_base": 10,
-   "province": "河南",
-   "reg_capital_wan": 180240.4765
+  "600476": {
+   "secucode": "600476.SH",
+   "name": "*ST湘邮",
+   "controller": "中国邮政集团有限公司",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "湖南",
+   "reg_capital_wan": 16107
   },
   "002360": {
    "secucode": "002360.SZ",
@@ -647,6 +611,24 @@
    "province": "山西",
    "reg_capital_wan": 40177.4248
   },
+  "002431": {
+   "secucode": "002431.SZ",
+   "name": "ST棕榈",
+   "controller": "河南省人民政府国有资产监督管理委员会",
+   "category": "省级国资",
+   "s1_base": 10,
+   "province": "河南",
+   "reg_capital_wan": 180240.4765
+  },
+  "600818": {
+   "secucode": "600818.SH",
+   "name": "ST中路",
+   "controller": "陈荣",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "上海",
+   "reg_capital_wan": 32144.791
+  },
   "000610": {
    "secucode": "000610.SZ",
    "name": "*ST西旅",
@@ -655,42 +637,6 @@
    "s1_base": 8,
    "province": "陕西",
    "reg_capital_wan": 23674.7901
-  },
-  "000838": {
-   "secucode": "000838.SZ",
-   "name": "*ST发展",
-   "controller": "卢生举",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "重庆",
-   "reg_capital_wan": 110046.217
-  },
-  "600730": {
-   "secucode": "600730.SH",
-   "name": "*ST高科",
-   "controller": "曹龙,东阳市人民政府国有资产监督管理办公室,贺怡帆,梁猛,孙维佳",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "北京",
-   "reg_capital_wan": 58665.6002
-  },
-  "603008": {
-   "secucode": "603008.SH",
-   "name": "ST喜临门",
-   "controller": "陈阿裕",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "浙江",
-   "reg_capital_wan": 36829.2435
-  },
-  "000056": {
-   "secucode": "000056.SZ",
-   "name": "*ST皇庭",
-   "controller": "郑康豪",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "广东",
-   "reg_capital_wan": 118252.822
   },
   "002634": {
    "secucode": "002634.SZ",
@@ -701,14 +647,50 @@
    "province": "浙江",
    "reg_capital_wan": 45935.2513
   },
-  "002977": {
-   "secucode": "002977.SZ",
-   "name": "*ST天箭",
-   "controller": "楼继勇",
+  "688201": {
+   "secucode": "688201.SH",
+   "name": "ST信安",
+   "controller": "丁纯,李伟,王翊心",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 31715.3816
+  },
+  "000056": {
+   "secucode": "000056.SZ",
+   "name": "*ST皇庭",
+   "controller": "郑康豪",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "四川",
-   "reg_capital_wan": 12012
+   "province": "广东",
+   "reg_capital_wan": 118252.822
+  },
+  "000838": {
+   "secucode": "000838.SZ",
+   "name": "*ST发展",
+   "controller": "卢生举",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "重庆",
+   "reg_capital_wan": 110046.217
+  },
+  "603008": {
+   "secucode": "603008.SH",
+   "name": "ST喜临门",
+   "controller": "陈阿裕",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "浙江",
+   "reg_capital_wan": 36829.2435
+  },
+  "600730": {
+   "secucode": "600730.SH",
+   "name": "*ST高科",
+   "controller": "曹龙,东阳市人民政府国有资产监督管理办公室,贺怡帆,梁猛,孙维佳",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "北京",
+   "reg_capital_wan": 58665.6002
   },
   "300295": {
    "secucode": "300295.SZ",
@@ -719,6 +701,15 @@
    "province": "江苏",
    "reg_capital_wan": 18961.3714
   },
+  "002977": {
+   "secucode": "002977.SZ",
+   "name": "*ST天箭",
+   "controller": "楼继勇",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "四川",
+   "reg_capital_wan": 12012
+  },
   "920090": {
    "secucode": "920090.BJ",
    "name": "*ST同辉",
@@ -727,6 +718,15 @@
    "s1_base": 3,
    "province": "北京",
    "reg_capital_wan": 19933.3546
+  },
+  "002227": {
+   "secucode": "002227.SZ",
+   "name": "*ST特迅",
+   "controller": "廖晓霞",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "广东",
+   "reg_capital_wan": 24780.617
   },
   "600889": {
    "secucode": "600889.SH",
@@ -746,14 +746,14 @@
    "province": "湖北",
    "reg_capital_wan": 23252.0957
   },
-  "605336": {
-   "secucode": "605336.SH",
-   "name": "*ST帅电",
-   "controller": "商若云,邵贤庆,邵于佶",
-   "category": "民企(法人)",
+  "300123": {
+   "secucode": "300123.SZ",
+   "name": "ST亚光",
+   "controller": "李跃先",
+   "category": "民企(个人)",
    "s1_base": 3,
-   "province": "浙江",
-   "reg_capital_wan": 18341.245
+   "province": "湖南",
+   "reg_capital_wan": 102183.4123
   },
   "002542": {
    "secucode": "002542.SZ",
@@ -764,33 +764,6 @@
    "province": "北京",
    "reg_capital_wan": 180611.6738
   },
-  "002227": {
-   "secucode": "002227.SZ",
-   "name": "*ST特迅",
-   "controller": "廖晓霞",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "广东",
-   "reg_capital_wan": 24780.617
-  },
-  "300123": {
-   "secucode": "300123.SZ",
-   "name": "ST亚光",
-   "controller": "李跃先",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "湖南",
-   "reg_capital_wan": 102183.4123
-  },
-  "300385": {
-   "secucode": "300385.SZ",
-   "name": "ST雪浪",
-   "controller": "常州市新北区人民政府",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "江苏",
-   "reg_capital_wan": 33314.5932
-  },
   "688270": {
    "secucode": "688270.SH",
    "name": "ST臻镭",
@@ -799,15 +772,6 @@
    "s1_base": 3,
    "province": "浙江",
    "reg_capital_wan": 29951.4643
-  },
-  "002598": {
-   "secucode": "002598.SZ",
-   "name": "ST章鼓",
-   "controller": "济南市章丘区财政局",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "山东",
-   "reg_capital_wan": 31205.3255
   },
   "600082": {
    "secucode": "600082.SH",
@@ -818,14 +782,32 @@
    "province": "天津",
    "reg_capital_wan": 64611.5826
   },
-  "600581": {
-   "secucode": "600581.SH",
-   "name": "*ST八钢",
-   "controller": "中国宝武钢铁集团有限公司",
-   "category": "央企",
-   "s1_base": 10,
-   "province": "新疆",
-   "reg_capital_wan": 153289.787
+  "300081": {
+   "secucode": "300081.SZ",
+   "name": "ST恒信",
+   "controller": "孟宪民",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 60479.5417
+  },
+  "300385": {
+   "secucode": "300385.SZ",
+   "name": "ST雪浪",
+   "controller": "常州市新北区人民政府",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "江苏",
+   "reg_capital_wan": 33314.5932
+  },
+  "002598": {
+   "secucode": "002598.SZ",
+   "name": "ST章鼓",
+   "controller": "济南市章丘区财政局",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "山东",
+   "reg_capital_wan": 31205.3255
   },
   "002538": {
    "secucode": "002538.SZ",
@@ -845,14 +827,23 @@
    "province": "安徽",
    "reg_capital_wan": 52448.5465
   },
-  "002512": {
-   "secucode": "002512.SZ",
-   "name": "ST达华",
-   "controller": "无",
-   "category": "无实控人",
-   "s1_base": 1,
-   "province": "福建",
-   "reg_capital_wan": 110241.6632
+  "605336": {
+   "secucode": "605336.SH",
+   "name": "*ST帅电",
+   "controller": "商若云,邵贤庆,邵于佶",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "浙江",
+   "reg_capital_wan": 18341.245
+  },
+  "300091": {
+   "secucode": "300091.SZ",
+   "name": "*ST金灵",
+   "controller": "汪建国",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "江苏",
+   "reg_capital_wan": 284204.5067
   },
   "000821": {
    "secucode": "000821.SZ",
@@ -872,6 +863,15 @@
    "province": "广东",
    "reg_capital_wan": 60449.0017
   },
+  "002512": {
+   "secucode": "002512.SZ",
+   "name": "ST达华",
+   "controller": "无",
+   "category": "无实控人",
+   "s1_base": 1,
+   "province": "福建",
+   "reg_capital_wan": 110241.6632
+  },
   "300173": {
    "secucode": "300173.SZ",
    "name": "ST福能",
@@ -881,32 +881,14 @@
    "province": "广东",
    "reg_capital_wan": 73472.5698
   },
-  "300091": {
-   "secucode": "300091.SZ",
-   "name": "*ST金灵",
-   "controller": "汪建国",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "江苏",
-   "reg_capital_wan": 284204.5067
-  },
-  "300081": {
-   "secucode": "300081.SZ",
-   "name": "ST恒信",
-   "controller": "孟宪民",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 60479.5417
-  },
-  "600079": {
-   "secucode": "600079.SH",
-   "name": "ST人福",
-   "controller": "招商局集团有限公司",
+  "600581": {
+   "secucode": "600581.SH",
+   "name": "*ST八钢",
+   "controller": "中国宝武钢铁集团有限公司",
    "category": "央企",
    "s1_base": 10,
-   "province": "湖北",
-   "reg_capital_wan": 163222.5965
+   "province": "新疆",
+   "reg_capital_wan": 153289.787
   },
   "603822": {
    "secucode": "603822.SH",
@@ -916,6 +898,15 @@
    "s1_base": 3,
    "province": "浙江",
    "reg_capital_wan": 7682.5886
+  },
+  "600079": {
+   "secucode": "600079.SH",
+   "name": "ST人福",
+   "controller": "招商局集团有限公司",
+   "category": "央企",
+   "s1_base": 10,
+   "province": "湖北",
+   "reg_capital_wan": 163222.5965
   },
   "300460": {
    "secucode": "300460.SZ",
@@ -944,15 +935,6 @@
    "province": "山西",
    "reg_capital_wan": 333314.15
   },
-  "300237": {
-   "secucode": "300237.SZ",
-   "name": "ST美晨",
-   "controller": "潍坊市国有资产监督管理委员会",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "山东",
-   "reg_capital_wan": 144191.493
-  },
   "603595": {
    "secucode": "603595.SH",
    "name": "ST东尼",
@@ -961,24 +943,6 @@
    "s1_base": 3,
    "province": "浙江",
    "reg_capital_wan": 23244.2326
-  },
-  "600735": {
-   "secucode": "600735.SH",
-   "name": "ST新华锦",
-   "controller": "张建华",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "山东",
-   "reg_capital_wan": 42877.8219
-  },
-  "300366": {
-   "secucode": "300366.SZ",
-   "name": "ST创意",
-   "controller": "陆文斌",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "四川",
-   "reg_capital_wan": 60757.615
   },
   "000698": {
    "secucode": "000698.SZ",
@@ -989,6 +953,15 @@
    "province": "辽宁",
    "reg_capital_wan": 81951.4395
   },
+  "600735": {
+   "secucode": "600735.SH",
+   "name": "ST新华锦",
+   "controller": "张建华",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "山东",
+   "reg_capital_wan": 42877.8219
+  },
   "688053": {
    "secucode": "688053.SH",
    "name": "ST思科瑞",
@@ -997,15 +970,6 @@
    "s1_base": 3,
    "province": "四川",
    "reg_capital_wan": 10000
-  },
-  "600624": {
-   "secucode": "600624.SH",
-   "name": "ST复华",
-   "controller": "上海市奉贤区国有资产监督管理委员会",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "上海",
-   "reg_capital_wan": 67934.6942
   },
   "603825": {
    "secucode": "603825.SH",
@@ -1016,41 +980,32 @@
    "province": "湖南",
    "reg_capital_wan": 25333.6552
   },
-  "300462": {
-   "secucode": "300462.SZ",
-   "name": "ST华铭",
-   "controller": "张亮",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "上海",
-   "reg_capital_wan": 18122.1938
-  },
-  "300472": {
-   "secucode": "300472.SZ",
-   "name": "ST新元",
-   "controller": "曾维斌,姜承法,朱业胜",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "江西",
-   "reg_capital_wan": 27525.8621
-  },
-  "000903": {
-   "secucode": "000903.SZ",
-   "name": "ST云动",
-   "controller": "昆明市人民政府国有资产监督管理委员会",
+  "600624": {
+   "secucode": "600624.SH",
+   "name": "ST复华",
+   "controller": "上海市奉贤区国有资产监督管理委员会",
    "category": "市县国资",
    "s1_base": 8,
-   "province": "云南",
-   "reg_capital_wan": 192026.1648
+   "province": "上海",
+   "reg_capital_wan": 67934.6942
   },
-  "002581": {
-   "secucode": "002581.SZ",
-   "name": "*ST未名",
-   "controller": "刘祥",
+  "300366": {
+   "secucode": "300366.SZ",
+   "name": "ST创意",
+   "controller": "陆文斌",
    "category": "民企(个人)",
    "s1_base": 3,
+   "province": "四川",
+   "reg_capital_wan": 60757.615
+  },
+  "300237": {
+   "secucode": "300237.SZ",
+   "name": "ST美晨",
+   "controller": "潍坊市国有资产监督管理委员会",
+   "category": "市县国资",
+   "s1_base": 8,
    "province": "山东",
-   "reg_capital_wan": 65973.5586
+   "reg_capital_wan": 144191.493
   },
   "688076": {
    "secucode": "688076.SH",
@@ -1061,14 +1016,50 @@
    "province": "江苏",
    "reg_capital_wan": 31681.5961
   },
-  "300326": {
-   "secucode": "300326.SZ",
-   "name": "ST凯利",
-   "controller": "无",
-   "category": "无实控人",
-   "s1_base": 1,
+  "002581": {
+   "secucode": "002581.SZ",
+   "name": "*ST未名",
+   "controller": "刘祥",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "山东",
+   "reg_capital_wan": 65973.5586
+  },
+  "000903": {
+   "secucode": "000903.SZ",
+   "name": "ST云动",
+   "controller": "昆明市人民政府国有资产监督管理委员会",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "云南",
+   "reg_capital_wan": 192026.1648
+  },
+  "300462": {
+   "secucode": "300462.SZ",
+   "name": "ST华铭",
+   "controller": "张亮",
+   "category": "民企(个人)",
+   "s1_base": 3,
    "province": "上海",
-   "reg_capital_wan": 71701.2682
+   "reg_capital_wan": 18122.1938
+  },
+  "603789": {
+   "secucode": "603789.SH",
+   "name": "ST星农",
+   "controller": "叶进",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "浙江",
+   "reg_capital_wan": 26521.46
+  },
+  "300472": {
+   "secucode": "300472.SZ",
+   "name": "ST新元",
+   "controller": "曾维斌,姜承法,朱业胜",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "江西",
+   "reg_capital_wan": 27525.8621
   },
   "688184": {
    "secucode": "688184.SH",
@@ -1079,14 +1070,14 @@
    "province": "浙江",
    "reg_capital_wan": 15672.7934
   },
-  "603789": {
-   "secucode": "603789.SH",
-   "name": "ST星农",
-   "controller": "叶进",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "浙江",
-   "reg_capital_wan": 26521.46
+  "300326": {
+   "secucode": "300326.SZ",
+   "name": "ST凯利",
+   "controller": "无",
+   "category": "无实控人",
+   "s1_base": 1,
+   "province": "上海",
+   "reg_capital_wan": 71701.2682
   },
   "603843": {
    "secucode": "603843.SH",
@@ -1115,15 +1106,6 @@
    "province": "湖北",
    "reg_capital_wan": 36000
   },
-  "002630": {
-   "secucode": "002630.SZ",
-   "name": "*ST华西",
-   "controller": "黎仁超",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "四川",
-   "reg_capital_wan": 118080
-  },
   "605199": {
    "secucode": "605199.SH",
    "name": "ST葫芦娃",
@@ -1132,6 +1114,24 @@
    "s1_base": 3,
    "province": "海南",
    "reg_capital_wan": 40010.8752
+  },
+  "002305": {
+   "secucode": "002305.SZ",
+   "name": "*ST南置",
+   "controller": "中国电力建设集团有限公司",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "湖北",
+   "reg_capital_wan": 173421.577
+  },
+  "002630": {
+   "secucode": "002630.SZ",
+   "name": "*ST华西",
+   "controller": "黎仁超",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "四川",
+   "reg_capital_wan": 118080
   },
   "002620": {
    "secucode": "002620.SZ",
@@ -1160,15 +1160,6 @@
    "province": "福建",
    "reg_capital_wan": 103154.854
   },
-  "300477": {
-   "secucode": "300477.SZ",
-   "name": "ST合纵",
-   "controller": "刘泽刚",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 107201.8687
-  },
   "300152": {
    "secucode": "300152.SZ",
    "name": "*ST动力",
@@ -1187,14 +1178,14 @@
    "province": "广东",
    "reg_capital_wan": 16002
   },
-  "002305": {
-   "secucode": "002305.SZ",
-   "name": "*ST南置",
-   "controller": "中国电力建设集团有限公司",
-   "category": "民企(法人)",
+  "600753": {
+   "secucode": "600753.SH",
+   "name": "ST海钦",
+   "controller": "钟仁海",
+   "category": "民企(个人)",
    "s1_base": 3,
-   "province": "湖北",
-   "reg_capital_wan": 173421.577
+   "province": "福建",
+   "reg_capital_wan": 23030.7175
   },
   "002789": {
    "secucode": "002789.SZ",
@@ -1205,15 +1196,6 @@
    "province": "广东",
    "reg_capital_wan": 15962.3514
   },
-  "600753": {
-   "secucode": "600753.SH",
-   "name": "ST海钦",
-   "controller": "钟仁海",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "福建",
-   "reg_capital_wan": 23030.7175
-  },
   "000488": {
    "secucode": "000488.SZ",
    "name": "ST晨鸣",
@@ -1222,33 +1204,6 @@
    "s1_base": 8,
    "province": "山东",
    "reg_capital_wan": 294145.62
-  },
-  "300419": {
-   "secucode": "300419.SZ",
-   "name": "ST浩丰",
-   "controller": "薛杰",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 36775.377
-  },
-  "300147": {
-   "secucode": "300147.SZ",
-   "name": "*ST香雪",
-   "controller": "陈淑梅,王永辉",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "广东",
-   "reg_capital_wan": 66127.9045
-  },
-  "000793": {
-   "secucode": "000793.SZ",
-   "name": "ST华闻",
-   "controller": "海南省国有资产监督管理委员会",
-   "category": "省级国资",
-   "s1_base": 10,
-   "province": "海南",
-   "reg_capital_wan": 439394.0005
   },
   "603021": {
    "secucode": "603021.SH",
@@ -1259,6 +1214,33 @@
    "province": "山东",
    "reg_capital_wan": 31994.807
   },
+  "000793": {
+   "secucode": "000793.SZ",
+   "name": "ST华闻",
+   "controller": "海南省国有资产监督管理委员会",
+   "category": "省级国资",
+   "s1_base": 10,
+   "province": "海南",
+   "reg_capital_wan": 439394.0005
+  },
+  "300147": {
+   "secucode": "300147.SZ",
+   "name": "*ST香雪",
+   "controller": "陈淑梅,王永辉",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "广东",
+   "reg_capital_wan": 66127.9045
+  },
+  "300419": {
+   "secucode": "300419.SZ",
+   "name": "ST浩丰",
+   "controller": "薛杰",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 36775.377
+  },
   "300020": {
    "secucode": "300020.SZ",
    "name": "ST银江",
@@ -1267,15 +1249,6 @@
    "s1_base": 3,
    "province": "浙江",
    "reg_capital_wan": 79467.7974
-  },
-  "002424": {
-   "secucode": "002424.SZ",
-   "name": "ST百灵",
-   "controller": "姜伟",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "贵州",
-   "reg_capital_wan": 138550.15
   },
   "002528": {
    "secucode": "002528.SZ",
@@ -1295,14 +1268,14 @@
    "province": "福建",
    "reg_capital_wan": 747939.8928
   },
-  "603828": {
-   "secucode": "603828.SH",
-   "name": "*ST利达",
-   "controller": "顾佳,顾龙棣,顾益明",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "江苏",
-   "reg_capital_wan": 59596.0158
+  "603377": {
+   "secucode": "603377.SH",
+   "name": "ST东时",
+   "controller": "无",
+   "category": "无实控人",
+   "s1_base": 1,
+   "province": "北京",
+   "reg_capital_wan": 72283.1422
   },
   "603959": {
    "secucode": "603959.SH",
@@ -1313,24 +1286,6 @@
    "province": "湖南",
    "reg_capital_wan": 49029.8992
   },
-  "600381": {
-   "secucode": "600381.SH",
-   "name": "*ST春天",
-   "controller": "肖融",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "青海",
-   "reg_capital_wan": 58706.0741
-  },
-  "603377": {
-   "secucode": "603377.SH",
-   "name": "ST东时",
-   "controller": "无",
-   "category": "无实控人",
-   "s1_base": 1,
-   "province": "北京",
-   "reg_capital_wan": 72283.1422
-  },
   "603869": {
    "secucode": "603869.SH",
    "name": "ST智知",
@@ -1340,14 +1295,14 @@
    "province": "广西",
    "reg_capital_wan": 48862.1988
   },
-  "300205": {
-   "secucode": "300205.SZ",
-   "name": "*ST天喻",
-   "controller": "无",
-   "category": "无实控人",
-   "s1_base": 1,
-   "province": "湖北",
-   "reg_capital_wan": 43005.6
+  "600381": {
+   "secucode": "600381.SH",
+   "name": "*ST春天",
+   "controller": "肖融",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "青海",
+   "reg_capital_wan": 58706.0741
   },
   "002822": {
    "secucode": "002822.SZ",
@@ -1358,6 +1313,33 @@
    "province": "广东",
    "reg_capital_wan": 195000
   },
+  "300205": {
+   "secucode": "300205.SZ",
+   "name": "*ST天喻",
+   "controller": "无",
+   "category": "无实控人",
+   "s1_base": 1,
+   "province": "湖北",
+   "reg_capital_wan": 43005.6
+  },
+  "603828": {
+   "secucode": "603828.SH",
+   "name": "*ST利达",
+   "controller": "顾佳,顾龙棣,顾益明",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "江苏",
+   "reg_capital_wan": 59596.0158
+  },
+  "002424": {
+   "secucode": "002424.SZ",
+   "name": "ST百灵",
+   "controller": "姜伟",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "贵州",
+   "reg_capital_wan": 138550.15
+  },
   "000615": {
    "secucode": "000615.SZ",
    "name": "*ST美谷",
@@ -1367,50 +1349,14 @@
    "province": "湖北",
    "reg_capital_wan": 178749.2693
   },
-  "600543": {
-   "secucode": "600543.SH",
-   "name": "*ST莫高",
-   "controller": "甘肃省人民政府国有资产监督管理委员会",
-   "category": "省级国资",
-   "s1_base": 10,
-   "province": "甘肃",
-   "reg_capital_wan": 32112
-  },
-  "000909": {
-   "secucode": "000909.SZ",
-   "name": "*ST数源",
-   "controller": "杭州市人民政府",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "浙江",
-   "reg_capital_wan": 43771.4245
-  },
-  "300167": {
-   "secucode": "300167.SZ",
-   "name": "ST迪威迅",
-   "controller": "无",
-   "category": "无实控人",
-   "s1_base": 1,
-   "province": "广东",
-   "reg_capital_wan": 41632.89
-  },
-  "002816": {
-   "secucode": "002816.SZ",
-   "name": "*ST和科",
-   "controller": "阜阳市颍泉区人民政府国有资产监督管理委员会",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "广东",
-   "reg_capital_wan": 10000
-  },
-  "300010": {
-   "secucode": "300010.SZ",
-   "name": "ST豆神",
-   "controller": "窦昕",
+  "300477": {
+   "secucode": "300477.SZ",
+   "name": "ST合纵",
+   "controller": "刘泽刚",
    "category": "民企(个人)",
    "s1_base": 3,
    "province": "北京",
-   "reg_capital_wan": 206661.2659
+   "reg_capital_wan": 107201.8687
   },
   "300555": {
    "secucode": "300555.SZ",
@@ -1421,6 +1367,33 @@
    "province": "江苏",
    "reg_capital_wan": 20000
   },
+  "300010": {
+   "secucode": "300010.SZ",
+   "name": "ST豆神",
+   "controller": "窦昕",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 206661.2659
+  },
+  "002816": {
+   "secucode": "002816.SZ",
+   "name": "*ST和科",
+   "controller": "阜阳市颍泉区人民政府国有资产监督管理委员会",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "广东",
+   "reg_capital_wan": 10000
+  },
+  "300167": {
+   "secucode": "300167.SZ",
+   "name": "ST迪威迅",
+   "controller": "无",
+   "category": "无实控人",
+   "s1_base": 1,
+   "province": "广东",
+   "reg_capital_wan": 41632.89
+  },
   "300301": {
    "secucode": "300301.SZ",
    "name": "ST长方",
@@ -1430,32 +1403,23 @@
    "province": "广东",
    "reg_capital_wan": 81098.8769
   },
-  "600136": {
-   "secucode": "600136.SH",
-   "name": "ST明诚",
-   "controller": "湖北省人民政府国有资产监督管理委员会",
+  "000909": {
+   "secucode": "000909.SZ",
+   "name": "*ST数源",
+   "controller": "杭州市人民政府",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "浙江",
+   "reg_capital_wan": 43771.4245
+  },
+  "600543": {
+   "secucode": "600543.SH",
+   "name": "*ST莫高",
+   "controller": "甘肃省人民政府国有资产监督管理委员会",
    "category": "省级国资",
    "s1_base": 10,
-   "province": "湖北",
-   "reg_capital_wan": 204082.5931
-  },
-  "002211": {
-   "secucode": "002211.SZ",
-   "name": "ST宏达",
-   "controller": "朱恩伟",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "上海",
-   "reg_capital_wan": 43247.5779
-  },
-  "300338": {
-   "secucode": "300338.SZ",
-   "name": "*ST开元",
-   "controller": "无",
-   "category": "无实控人",
-   "s1_base": 1,
-   "province": "湖南",
-   "reg_capital_wan": 40262.4692
+   "province": "甘肃",
+   "reg_capital_wan": 32112
   },
   "002485": {
    "secucode": "002485.SZ",
@@ -1466,6 +1430,24 @@
    "province": "山东",
    "reg_capital_wan": 54400
   },
+  "002211": {
+   "secucode": "002211.SZ",
+   "name": "ST宏达",
+   "controller": "朱恩伟",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "上海",
+   "reg_capital_wan": 43247.5779
+  },
+  "600136": {
+   "secucode": "600136.SH",
+   "name": "ST明诚",
+   "controller": "湖北省人民政府国有资产监督管理委员会",
+   "category": "省级国资",
+   "s1_base": 10,
+   "province": "湖北",
+   "reg_capital_wan": 204082.5931
+  },
   "002024": {
    "secucode": "002024.SZ",
    "name": "ST易购",
@@ -1475,14 +1457,14 @@
    "province": "江苏",
    "reg_capital_wan": 926476.7618
   },
-  "600759": {
-   "secucode": "600759.SH",
-   "name": "ST洲际",
-   "controller": "许玲",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "海南",
-   "reg_capital_wan": 414900.928
+  "300338": {
+   "secucode": "300338.SZ",
+   "name": "*ST开元",
+   "controller": "无",
+   "category": "无实控人",
+   "s1_base": 1,
+   "province": "湖南",
+   "reg_capital_wan": 40262.4692
   },
   "603729": {
    "secucode": "603729.SH",
@@ -1493,14 +1475,23 @@
    "province": "上海",
    "reg_capital_wan": 9216.51
   },
-  "000609": {
-   "secucode": "000609.SZ",
-   "name": "*ST中迪",
-   "controller": "门洪达,张伟",
-   "category": "民企(法人)",
+  "600759": {
+   "secucode": "600759.SH",
+   "name": "ST洲际",
+   "controller": "许玲",
+   "category": "民企(个人)",
    "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 29926.5522
+   "province": "海南",
+   "reg_capital_wan": 414900.928
+  },
+  "603557": {
+   "secucode": "603557.SH",
+   "name": "*ST起步",
+   "controller": "陈丽红",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "浙江",
+   "reg_capital_wan": 62343.6888
   },
   "300044": {
    "secucode": "300044.SZ",
@@ -1520,24 +1511,6 @@
    "province": "云南",
    "reg_capital_wan": 160568.6909
   },
-  "603557": {
-   "secucode": "603557.SH",
-   "name": "*ST起步",
-   "controller": "陈丽红",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "浙江",
-   "reg_capital_wan": 62343.6888
-  },
-  "600365": {
-   "secucode": "600365.SH",
-   "name": "ST通葡",
-   "controller": "陈晓琦,吴玉华",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "吉林",
-   "reg_capital_wan": 45393
-  },
   "002592": {
    "secucode": "002592.SZ",
    "name": "ST八菱",
@@ -1545,7 +1518,7 @@
    "category": "民企(个人)",
    "s1_base": 3,
    "province": "广西",
-   "reg_capital_wan": 28408.1157
+   "reg_capital_wan": 28409.5157
   },
   "002168": {
    "secucode": "002168.SZ",
@@ -1565,6 +1538,24 @@
    "province": "福建",
    "reg_capital_wan": 217830.3106
   },
+  "600365": {
+   "secucode": "600365.SH",
+   "name": "ST通葡",
+   "controller": "陈晓琦,吴玉华",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "吉林",
+   "reg_capital_wan": 45393
+  },
+  "000609": {
+   "secucode": "000609.SZ",
+   "name": "*ST中迪",
+   "controller": "门洪达,张伟",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 29926.5522
+  },
   "002719": {
    "secucode": "002719.SZ",
    "name": "ST麦趣",
@@ -1582,15 +1573,6 @@
    "s1_base": 1,
    "province": "湖南",
    "reg_capital_wan": 110708.3824
-  },
-  "002501": {
-   "secucode": "002501.SZ",
-   "name": "*ST利源",
-   "controller": "张源",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "吉林",
-   "reg_capital_wan": 355000
   },
   "002569": {
    "secucode": "002569.SZ",
@@ -1610,14 +1592,14 @@
    "province": "山东",
    "reg_capital_wan": 212085.5142
   },
-  "002306": {
-   "secucode": "002306.SZ",
-   "name": "ST云网",
-   "controller": "陈继",
+  "002501": {
+   "secucode": "002501.SZ",
+   "name": "*ST利源",
+   "controller": "张源",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "北京",
-   "reg_capital_wan": 86976.25
+   "province": "吉林",
+   "reg_capital_wan": 355000
   },
   "002207": {
    "secucode": "002207.SZ",
@@ -1627,6 +1609,24 @@
    "s1_base": 8,
    "province": "新疆",
    "reg_capital_wan": 26205.5378
+  },
+  "002306": {
+   "secucode": "002306.SZ",
+   "name": "ST云网",
+   "controller": "陈继",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "北京",
+   "reg_capital_wan": 86976.25
+  },
+  "002175": {
+   "secucode": "002175.SZ",
+   "name": "*ST东智",
+   "controller": "王建英",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "广西",
+   "reg_capital_wan": 127678.0727
   },
   "002122": {
    "secucode": "002122.SZ",
@@ -1646,23 +1646,14 @@
    "province": "湖北",
    "reg_capital_wan": 241624.4645
   },
-  "000669": {
-   "secucode": "000669.SZ",
-   "name": "ST金鸿",
-   "controller": "李文浩",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "湖南",
-   "reg_capital_wan": 68040.8797
-  },
-  "002175": {
-   "secucode": "002175.SZ",
-   "name": "*ST东智",
-   "controller": "王建英",
-   "category": "民企(个人)",
-   "s1_base": 3,
+  "000911": {
+   "secucode": "000911.SZ",
+   "name": "*ST广糖",
+   "controller": "广西壮族自治区人民政府国有资产监督管理委员会",
+   "category": "市县国资",
+   "s1_base": 8,
    "province": "广西",
-   "reg_capital_wan": 127678.0727
+   "reg_capital_wan": 40031.9818
   },
   "000752": {
    "secucode": "000752.SZ",
@@ -1691,6 +1682,15 @@
    "province": "广西",
    "reg_capital_wan": 79869.5026
   },
+  "000669": {
+   "secucode": "000669.SZ",
+   "name": "ST金鸿",
+   "controller": "李文浩",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "湖南",
+   "reg_capital_wan": 68040.8797
+  },
   "600289": {
    "secucode": "600289.SH",
    "name": "ST信通",
@@ -1700,23 +1700,23 @@
    "province": "黑龙江",
    "reg_capital_wan": 63105.2069
   },
-  "000911": {
-   "secucode": "000911.SZ",
-   "name": "*ST广糖",
-   "controller": "广西壮族自治区人民政府国有资产监督管理委员会",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "广西",
-   "reg_capital_wan": 40031.9818
+  "600243": {
+   "secucode": "600243.SH",
+   "name": "*ST海华",
+   "controller": "占舜迪,张栋,祝镓阳",
+   "category": "民企(法人)",
+   "s1_base": 3,
+   "province": "青海",
+   "reg_capital_wan": 43885
   },
-  "600080": {
-   "secucode": "600080.SH",
-   "name": "ST金花",
-   "controller": "邢博越",
+  "600530": {
+   "secucode": "600530.SH",
+   "name": "ST交昂",
+   "controller": "嵇霖",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "陕西",
-   "reg_capital_wan": 37327.0285
+   "province": "上海",
+   "reg_capital_wan": 77492
   },
   "600568": {
    "secucode": "600568.SH",
@@ -1736,50 +1736,14 @@
    "province": "新疆",
    "reg_capital_wan": 112372.683
   },
-  "002872": {
-   "secucode": "002872.SZ",
-   "name": "ST天圣",
-   "controller": "刘群",
+  "600080": {
+   "secucode": "600080.SH",
+   "name": "ST金花",
+   "controller": "邢博越",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "重庆",
-   "reg_capital_wan": 31800
-  },
-  "600265": {
-   "secucode": "600265.SH",
-   "name": "*ST景谷",
-   "controller": "郑家纯",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "云南",
-   "reg_capital_wan": 12980
-  },
-  "600238": {
-   "secucode": "600238.SH",
-   "name": "ST椰岛",
-   "controller": "海口市国有资产监督管理委员会",
-   "category": "市县国资",
-   "s1_base": 8,
-   "province": "海南",
-   "reg_capital_wan": 44820
-  },
-  "200056": {
-   "secucode": "200056.SZ",
-   "name": "*ST皇庭B",
-   "controller": "郑康豪",
-   "category": "民企(个人)",
-   "s1_base": 3,
-   "province": "广东",
-   "reg_capital_wan": 118252.822
-  },
-  "600243": {
-   "secucode": "600243.SH",
-   "name": "*ST海华",
-   "controller": "占舜迪,张栋,祝镓阳",
-   "category": "民企(法人)",
-   "s1_base": 3,
-   "province": "青海",
-   "reg_capital_wan": 43885
+   "province": "陕西",
+   "reg_capital_wan": 37327.0285
   },
   "600119": {
    "secucode": "600119.SH",
@@ -1790,14 +1754,32 @@
    "province": "上海",
    "reg_capital_wan": 36527.037
   },
-  "200488": {
-   "secucode": "200488.SZ",
-   "name": "ST晨鸣B",
-   "controller": "寿光市国有资产监督管理局",
+  "600238": {
+   "secucode": "600238.SH",
+   "name": "ST椰岛",
+   "controller": "海口市国有资产监督管理委员会",
    "category": "市县国资",
    "s1_base": 8,
-   "province": "山东",
-   "reg_capital_wan": 294145.62
+   "province": "海南",
+   "reg_capital_wan": 44820
+  },
+  "600265": {
+   "secucode": "600265.SH",
+   "name": "*ST景谷",
+   "controller": "郑家纯",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "云南",
+   "reg_capital_wan": 12980
+  },
+  "200056": {
+   "secucode": "200056.SZ",
+   "name": "*ST皇庭B",
+   "controller": "郑康豪",
+   "category": "民企(个人)",
+   "s1_base": 3,
+   "province": "广东",
+   "reg_capital_wan": 118252.822
   },
   "200016": {
    "secucode": "200016.SZ",
@@ -1808,14 +1790,23 @@
    "province": "广东",
    "reg_capital_wan": 240794.5408
   },
-  "600530": {
-   "secucode": "600530.SH",
-   "name": "ST交昂",
-   "controller": "嵇霖",
+  "200488": {
+   "secucode": "200488.SZ",
+   "name": "ST晨鸣B",
+   "controller": "寿光市国有资产监督管理局",
+   "category": "市县国资",
+   "s1_base": 8,
+   "province": "山东",
+   "reg_capital_wan": 294145.62
+  },
+  "002872": {
+   "secucode": "002872.SZ",
+   "name": "ST天圣",
+   "controller": "刘群",
    "category": "民企(个人)",
    "s1_base": 3,
-   "province": "上海",
-   "reg_capital_wan": 77492
+   "province": "重庆",
+   "reg_capital_wan": 31800
   }
  }
 }
