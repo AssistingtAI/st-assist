@@ -1,5 +1,18 @@
 # automation-1782198499699 - 保壳风云榜每周五更新
 
+## 2026-11-13 09:05 执行
+
+**结果：全链路成功，线上已更新（首次常规 git push 成功，历史分叉已拉直）**
+
+- 环境：给 3.13.12 python 装 requests 2.34.2 → S1/S2/F1/A2 四采集全量 199/199 成功，无需 venv 补跑
+- weekly_update_friday.py 13步：⚠️ 首跑 step2 国证页 DNS 瞬时失败(getaddrinfo 11001)，单测解析正常后重跑通过 → 199家（移除688053 ST思科瑞摘帽，新增0；行情/市值 199/199）
+- 最终分布：A19/B83/C61/D36，均分52.2；国资壳50家55.0、民企130家51.9；莫高63.6/B
+- verify_html.js：✅ 全通过（各199行、row len 21、sum!=total 0、missing 0、JS语法OK），rebase 后二次验证同样通过
+- git commit：✅ 3c02208 → rebase 后 f388915（17文件）
+- 推送：push 首拒 non-fast-forward → `git pull --rebase origin main` **成功**（跳过17个已应用提交）→ 常规 push ✅ fd62a83..f388915
+- 线上验证：✅ assistingtai.github.io/st-assist/baokeng-rank.html 200、"覆盖公司：199 家"、688053 仅存排除码数组；index.html 200
+- **重要：github.com:443 + 凭据恢复正常，本地/远端历史已线性对齐，push_via_api.py 后续可暂停使用**
+
 ## 2026-11-06 13:07 执行
 
 **结果：全链路成功，线上已更新**
