@@ -1,5 +1,18 @@
 # automation-1782198499699 - 保壳风云榜每周五更新
 
+## 2026-11-06 13:07 执行
+
+**结果：全链路成功，线上已更新**
+
+- weekly_update_friday.py 13步：⚠️ 首跑 3.13.12 python **缺 requests**，7-10步四采集器全失败走降级 → venv(envs/default) 补跑 S1/S2/F1/A2 全成功，重建 V2+HTML（200家，新增000972 *ST中基/国证名单源称中基健康·新疆六师国资，移除300237 ST美晨摘帽）
+- 最终分布：A19/B82/C62/D37（降级版C61/D38，补采后修正）；行情/市值200/200；莫高63.6/B
+- verify_html.js：✅ 全通过（RAW/V2各200行、row len 21、sum!=total 0、missing 0、JS语法OK）
+- git commit：✅ 1cdce02（17文件）
+- git push origin HEAD：连通但被拒 non-fast-forward（前几周API复刻分叉）；git pull --rebase 失败（fetch-pack invalid index-pack，网络中断）→ push_via_api.py ✅ 远端 main 8f646935 → fd62a83e，等价基线 eb5bddb tree一致
+- 线上验证：✅ assistingtai.github.io/st-assist/baokeng-rank.html 200、"覆盖公司：200 家"、含*ST中基；300237仅存历史摘帽数组
+- **重要：github.com:443 本周恢复连通**（首次常规push可达远端），下次可先 git pull --rebase 对齐后恢复常规push
+- 下次环境建议：weekly_update_friday.py 内 fetch 步骤改用 venv python（带requests），或给 3.13.12 装 requests
+
 ## 2026-10-30 09:07 执行
 
 **结果：全链路成功，线上已更新（Git Data API方案连续第5周成功）**
